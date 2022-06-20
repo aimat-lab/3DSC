@@ -94,8 +94,8 @@ def check_if_same_as_old(new_csv_path, compare_overlap=True):
         except Exception as e:
             print('EXCEPTION RAISED when checking refactoring:')
             print(e)
-    else:
-        print('Check of refactoring not possible because of missing old data.')
+    # else:
+    #     print('Check of refactoring not possible because of missing old data.')
         
     return
       
