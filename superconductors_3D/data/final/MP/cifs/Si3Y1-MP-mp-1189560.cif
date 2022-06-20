@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_YSi3
+_symmetry_space_group_name_H-M   I4/mmm
+_cell_length_a   7.23353600
+_cell_length_b   7.45692518
+_cell_length_c   7.23353600
+_cell_angle_alpha   119.01387195
+_cell_angle_beta   89.99999999
+_cell_angle_gamma   119.01387196
+_symmetry_Int_Tables_number   139
+_chemical_formula_structural   YSi3
+_chemical_formula_sum   'Y4 Si12'
+_cell_volume   283.92103654
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'y-z, y, x'
+  4  '-y+z, -y, -x'
+  5  '-x+y, y, y-z'
+  6  'x-y, -y, -y+z'
+  7  'z, y, -x+y'
+  8  '-z, -y, x-y'
+  9  'x-y, -y, -z'
+  10  '-x+y, y, z'
+  11  '-z, -y, -x'
+  12  'z, y, x'
+  13  '-x, -y, -y+z'
+  14  'x, y, y-z'
+  15  '-y+z, -y, x-y'
+  16  'y-z, y, -x+y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  2  0.17097700  0.34195400  0.17097700  1.0
+  Y  Y1  2  0.25000000  0.50000000  0.75000000  1.0
+  Si  Si2  8  0.20158700  0.77571800  0.57413100  1.0
+  Si  Si3  4  0.00000000  0.00000000  0.32827500  1.0

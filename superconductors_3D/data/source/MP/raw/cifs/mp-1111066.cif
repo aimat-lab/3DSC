@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na2CuMoF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.97603700
+_cell_length_b   5.97603737
+_cell_length_c   5.97603735
+_cell_angle_alpha   60.00000075
+_cell_angle_beta   59.99999640
+_cell_angle_gamma   59.99999654
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CuMoF6
+_chemical_formula_sum   'Na2 Cu1 Mo1 F6'
+_cell_volume   150.91237959
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.25000000  0.25000000  0.25000000  1
+  Na  Na1  1  0.75000000  0.75000000  0.75000000  1
+  Cu  Cu2  1  0.50000000  0.50000000  0.50000000  1
+  Mo  Mo3  1  0.00000000  0.00000000  0.00000000  1
+  F  F4  1  0.24518500  0.75481500  0.24518500  1
+  F  F5  1  0.75481500  0.75481500  0.24518500  1
+  F  F6  1  0.75481500  0.24518500  0.75481500  1
+  F  F7  1  0.75481500  0.24518500  0.24518500  1
+  F  F8  1  0.24518500  0.75481500  0.75481500  1
+  F  F9  1  0.24518500  0.24518500  0.75481500  1

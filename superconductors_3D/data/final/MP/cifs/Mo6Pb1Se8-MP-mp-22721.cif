@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Mo6PbSe8
+_symmetry_space_group_name_H-M   R-3
+_cell_length_a   6.89929053
+_cell_length_b   6.89929053
+_cell_length_c   6.89929066
+_cell_angle_alpha   89.15505924
+_cell_angle_beta   89.15505924
+_cell_angle_gamma   89.15506038
+_symmetry_Int_Tables_number   148
+_chemical_formula_structural   Mo6PbSe8
+_chemical_formula_sum   'Mo6 Pb1 Se8'
+_cell_volume   328.30159667
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  6  0.24035700  0.56049900  0.42207100  1.0
+  Pb  Pb1  1  0.00000000  0.00000000  0.00000000  1.0
+  Se  Se2  6  0.12213000  0.38138800  0.74584100  1.0
+  Se  Se3  2  0.24322200  0.24322200  0.24322200  1.0

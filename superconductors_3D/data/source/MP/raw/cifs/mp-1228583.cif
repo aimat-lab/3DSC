@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2Na(FeAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.80283647
+_cell_length_b   8.80283647
+_cell_length_c   6.99761027
+_cell_angle_alpha   67.79618364
+_cell_angle_beta   67.79618364
+_cell_angle_gamma   36.42256687
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2Na(FeAs)6
+_chemical_formula_sum   'Ba2 Na1 Fe6 As6'
+_cell_volume   295.37595060
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.66199900  0.66199900  0.99967200  1
+  Ba  Ba1  1  0.33800100  0.33800100  0.00032800  1
+  Na  Na2  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe3  1  0.74873600  0.25126400  0.50000000  1
+  Fe  Fe4  1  0.08336100  0.58325700  0.50099400  1
+  Fe  Fe5  1  0.41674300  0.91663900  0.49900600  1
+  Fe  Fe6  1  0.58325700  0.08336100  0.50099400  1
+  Fe  Fe7  1  0.91663900  0.41674300  0.49900600  1
+  Fe  Fe8  1  0.25126400  0.74873600  0.50000000  1
+  As  As9  1  0.88341900  0.88341900  0.69876100  1
+  As  As10  1  0.21687400  0.21687400  0.69556500  1
+  As  As11  1  0.55093600  0.55093600  0.69891300  1
+  As  As12  1  0.44906400  0.44906400  0.30108700  1
+  As  As13  1  0.78312600  0.78312600  0.30443500  1
+  As  As14  1  0.11658100  0.11658100  0.30123900  1

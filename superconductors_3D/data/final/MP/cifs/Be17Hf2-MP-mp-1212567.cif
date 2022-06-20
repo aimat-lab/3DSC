@@ -1,0 +1,63 @@
+# generated using pymatgen
+data_Hf2Be17
+_symmetry_space_group_name_H-M   P6_3/mmc
+_cell_length_a   7.47671200
+_cell_length_b   7.47671241
+_cell_length_c   21.76655700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999819
+_symmetry_Int_Tables_number   194
+_chemical_formula_structural   Hf2Be17
+_chemical_formula_sum   'Hf12 Be102'
+_cell_volume   1053.75999292
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, x, z+1/2'
+  4  '-x+y, -x, -z+1/2'
+  5  '-y, x-y, z'
+  6  'y, -x+y, -z'
+  7  '-x, -y, z+1/2'
+  8  'x, y, -z+1/2'
+  9  '-x+y, -x, z'
+  10  'x-y, x, -z'
+  11  'y, -x+y, z+1/2'
+  12  '-y, x-y, -z+1/2'
+  13  '-y, -x, -z+1/2'
+  14  'y, x, z+1/2'
+  15  '-x, -x+y, -z'
+  16  'x, x-y, z'
+  17  '-x+y, y, -z+1/2'
+  18  'x-y, -y, z+1/2'
+  19  'y, x, -z'
+  20  '-y, -x, z'
+  21  'x, x-y, -z+1/2'
+  22  '-x, -x+y, z+1/2'
+  23  'x-y, -y, -z'
+  24  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  4  0.00000000  0.00000000  0.08050500  1.0
+  Hf  Hf1  4  0.33333333  0.66666667  0.58582000  1.0
+  Hf  Hf2  2  0.33333333  0.66666667  0.25000000  1.0
+  Hf  Hf3  2  0.33333333  0.66666667  0.75000000  1.0
+  Be  Be4  24  0.04467500  0.37805300  0.08324700  1.0
+  Be  Be5  12  0.00122000  0.28878000  0.75000000  1.0
+  Be  Be6  12  0.00367100  0.50183600  0.67106000  1.0
+  Be  Be7  12  0.16534600  0.33069200  0.50444700  1.0
+  Be  Be8  12  0.16657600  0.33315200  0.16633500  1.0
+  Be  Be9  12  0.16770600  0.33541200  0.66265600  1.0
+  Be  Be10  6  0.00000000  0.50000000  0.00000000  1.0
+  Be  Be11  4  0.00000000  0.00000000  0.20143300  1.0
+  Be  Be12  4  0.33333333  0.66666667  0.03480200  1.0
+  Be  Be13  4  0.33333333  0.66666667  0.13124000  1.0

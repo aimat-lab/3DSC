@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_NiAsS
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.69590400
+_cell_length_b   5.69590400
+_cell_length_c   5.69590400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiAsS
+_chemical_formula_sum   'Ni4 As4 S4'
+_cell_volume   184.79404970
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.49306400  0.50693600  0.00693600  1
+  Ni  Ni1  1  0.50693600  0.00693600  0.49306400  1
+  Ni  Ni2  1  0.99306400  0.99306400  0.99306400  1
+  Ni  Ni3  1  0.00693600  0.49306400  0.50693600  1
+  As  As4  1  0.37919000  0.12081000  0.87919000  1
+  As  As5  1  0.87919000  0.37919000  0.12081000  1
+  As  As6  1  0.62081000  0.62081000  0.62081000  1
+  As  As7  1  0.12081000  0.87919000  0.37919000  1
+  S  S8  1  0.61587000  0.88413000  0.11587000  1
+  S  S9  1  0.11587000  0.61587000  0.88413000  1
+  S  S10  1  0.88413000  0.11587000  0.61587000  1
+  S  S11  1  0.38413000  0.38413000  0.38413000  1

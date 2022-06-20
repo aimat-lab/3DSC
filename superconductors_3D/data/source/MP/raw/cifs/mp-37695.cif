@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ag7NO11
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.21653318
+_cell_length_b   7.08496826
+_cell_length_c   7.05652611
+_cell_angle_alpha   61.36845046
+_cell_angle_beta   59.50997610
+_cell_angle_gamma   59.12157344
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ag7NO11
+_chemical_formula_sum   'Ag7 N1 O11'
+_cell_volume   254.89181420
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  1  0.50210400  0.99693800  0.49789600  1
+  Ag  Ag1  1  0.48939600  0.99829200  0.00170800  1
+  Ag  Ag2  1  0.99829200  0.48939600  0.51060400  1
+  Ag  Ag3  1  0.99693800  0.50210400  0.00306200  1
+  Ag  Ag4  1  0.99804400  0.99804400  0.50195600  1
+  Ag  Ag5  1  0.49781700  0.49781700  0.50218300  1
+  Ag  Ag6  1  0.49804400  0.49804400  0.00195600  1
+  N  N7  1  0.01024400  0.01024400  0.98975600  1
+  O  O8  1  0.84139000  0.05806000  0.94194000  1
+  O  O9  1  0.91499700  0.35606200  0.36146000  1
+  O  O10  1  0.63252000  0.63854000  0.64393800  1
+  O  O11  1  0.63854000  0.63252000  0.08500300  1
+  O  O12  1  0.64077200  0.08082700  0.63362200  1
+  O  O13  1  0.35606200  0.91499700  0.36748000  1
+  O  O14  1  0.35522100  0.36637800  0.91917300  1
+  O  O15  1  0.36637800  0.35522100  0.35922800  1
+  O  O16  1  0.08082700  0.64077200  0.64477900  1
+  O  O17  1  0.13435400  0.13435400  0.86564600  1
+  O  O18  1  0.05806000  0.84139000  0.15861000  1

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_K(NiS)2
+_symmetry_space_group_name_H-M   Fddd
+_cell_length_a   5.75771600
+_cell_length_b   5.81409734
+_cell_length_c   13.44704172
+_cell_angle_alpha   83.91485656
+_cell_angle_beta   77.63793857
+_cell_angle_gamma   60.32027066
+_symmetry_Int_Tables_number   70
+_chemical_formula_structural   K(NiS)2
+_chemical_formula_sum   'K3 Ni6 S6'
+_cell_volume   382.02735638
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-z, -y, z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y, y, -z'
+  5  '-x+3/4, -y+1/2, -z+1/2'
+  6  'x+z+3/4, y+1/2, -z+1/2'
+  7  '-x-y-z+3/4, y+1/2, z+1/2'
+  8  'x+y+3/4, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  4  0.07817000  0.00000000  0.84366000  0.75
+  Ni  Ni1  4  0.00072900  0.50000000  0.99854200  1.0
+  Ni  Ni2  2  0.25000000  0.50000000  0.50000000  1.0
+  S  S3  8  0.03332200  0.83216500  0.60996800  0.75

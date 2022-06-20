@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Er(BRh)4
+_symmetry_space_group_name_H-M   Ccce
+_cell_length_a   7.53016300
+_cell_length_b   7.53746200
+_cell_length_c   11.81607245
+_cell_angle_alpha   71.40058994
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   68
+_chemical_formula_structural   Er(BRh)4
+_chemical_formula_sum   'Er6 B24 Rh24'
+_cell_volume   635.63293524
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y+1/2, -z'
+  3  '-x+1/2, y+z+1/2, -z'
+  4  '-x+1/2, -y-z, z'
+  5  '-x, -y, -z'
+  6  '-x, y+1/2, z'
+  7  'x+1/2, -y-z+1/2, z'
+  8  'x+1/2, y+z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  4  0.25000000  0.08317200  0.83365700  1.0
+  Er  Er1  2  0.25000000  0.75000000  0.50000000  1.0
+  B  B2  8  0.07674300  0.50463500  0.72067600  1.0
+  B  B3  8  0.08796400  0.05265400  0.60924000  1.0
+  B  B4  8  0.10867400  0.69935600  0.94210600  1.0
+  Rh  Rh5  8  0.09672200  0.07395400  0.08217900  1.0
+  Rh  Rh6  8  0.12297600  0.14052300  0.41618100  1.0
+  Rh  Rh7  8  0.13705100  0.72132900  0.25008600  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Sr2HoCu2RuO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.83601705
+_cell_length_b   3.83601705
+_cell_length_c   11.86972500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.08047892
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2HoCu2RuO8
+_chemical_formula_sum   'Sr2 Ho1 Cu2 Ru1 O8'
+_cell_volume   174.66314929
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50499000  0.49501000  0.69410700  1
+  Sr  Sr1  1  0.50499000  0.49501000  0.30589300  1
+  Ho  Ho2  1  0.50061000  0.49939000  0.00000000  1
+  Cu  Cu3  1  0.00118200  0.99881800  0.85849100  1
+  Cu  Cu4  1  0.00118200  0.99881800  0.14150900  1
+  Ru  Ru5  1  0.01353400  0.98646600  0.50000000  1
+  O  O6  1  0.99989100  0.49843000  0.87887900  1
+  O  O7  1  0.50157000  0.00010900  0.87887900  1
+  O  O8  1  0.99989100  0.49843000  0.12112100  1
+  O  O9  1  0.50157000  0.00010900  0.12112100  1
+  O  O10  1  0.01510900  0.98489100  0.67244200  1
+  O  O11  1  0.01510900  0.98489100  0.32755800  1
+  O  O12  1  0.01472300  0.48615600  0.50000000  1
+  O  O13  1  0.51384400  0.98527700  0.50000000  1

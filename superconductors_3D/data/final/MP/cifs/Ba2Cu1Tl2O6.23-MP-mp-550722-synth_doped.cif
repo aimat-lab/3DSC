@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Ba1.92616372Tl1.92616372Cu0.96308186O6
+_symmetry_space_group_name_H-M   I4/mmm
+_cell_length_a   3.90707400
+_cell_length_b   3.90707400
+_cell_length_c   12.30049119
+_cell_angle_alpha   99.13828401
+_cell_angle_beta   99.13828402
+_cell_angle_gamma   89.99999998
+_symmetry_Int_Tables_number   139
+_chemical_formula_structural   Ba1.92616372Tl1.92616372Cu0.96308186O6
+_chemical_formula_sum   'Ba1.92616372 Tl1.92616372 Cu0.96308186 O6'
+_cell_volume   182.97237207
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y+z, x, z'
+  4  'y-z, -x, -z'
+  5  '-x+z, -y+z, z'
+  6  'x-z, y-z, -z'
+  7  'y, -x+z, z'
+  8  '-y, x-z, -z'
+  9  'x-z, -y, -z'
+  10  '-x+z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+  13  '-x, y-z, -z'
+  14  'x, -y+z, z'
+  15  'y-z, x-z, -z'
+  16  '-y+z, -x+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.08124900  0.08124900  0.16249800  0.96308186195
+  Tl  Tl1  2  0.29772800  0.29772800  0.59545600  0.96308186195
+  Cu  Cu2  1  0.50000000  0.50000000  0.00000000  0.963081862
+  O  O3  2  0.00000000  0.50000000  0.00000000  1.0
+  O  O4  2  0.21118700  0.21118700  0.42237400  1.0
+  O  O5  2  0.38216100  0.38216100  0.76432200  1.0

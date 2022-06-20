@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr2Ca0.15Y0.85Cu3Pb2O8
+_symmetry_space_group_name_H-M   P2/m
+_cell_length_a   3.83424800
+_cell_length_b   3.86303600
+_cell_length_c   15.97075804
+_cell_angle_alpha   91.33129911
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   10
+_chemical_formula_structural   Sr2Ca0.15Y0.85Cu3Pb2O8
+_chemical_formula_sum   'Sr2 Ca0.15 Y0.85 Cu3 Pb2 O8'
+_cell_volume   236.49242731
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x, -y, -z'
+  4  '-x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.00000000  0.00951100  0.22129500  1.0
+  Y  Y1  1  0.00000000  0.00000000  0.00000000  0.85
+  Ca  Ca2  1  0.00000000  0.00000000  0.00000000  0.15
+  Cu  Cu3  2  0.50000000  0.49841000  0.89559400  1.0
+  Cu  Cu4  1  0.00000000  0.00000000  0.50000000  1.0
+  Pb  Pb5  2  0.50000000  0.49597200  0.61106000  1.0
+  O  O6  2  0.00000000  0.10044000  0.38562300  1.0
+  O  O7  2  0.00000000  0.49734800  0.90833000  1.0
+  O  O8  2  0.50000000  0.00018200  0.09228800  1.0
+  O  O9  2  0.50000000  0.48837900  0.74850800  1.0

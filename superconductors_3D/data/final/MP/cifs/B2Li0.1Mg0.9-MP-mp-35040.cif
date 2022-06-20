@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_LiMg9B20
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   6.13970700
+_cell_length_b   7.07529439
+_cell_length_c   7.66146836
+_cell_angle_alpha   96.39405566
+_cell_angle_beta   101.40842660
+_cell_angle_gamma   115.67982864
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   LiMg9B20
+_chemical_formula_sum   'Li1 Mg9 B20'
+_cell_volume   286.60760579
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00000000  0.00000000  1.0
+  Mg  Mg1  2  0.00023900  0.60297700  0.80173600  1.0
+  Mg  Mg2  2  0.00029900  0.19956100  0.60153300  1.0
+  Mg  Mg3  2  0.49630300  0.39706400  0.19821000  1.0
+  Mg  Mg4  2  0.49989600  0.19989000  0.60025800  1.0
+  Mg  Mg5  1  0.50000000  0.00000000  0.00000000  1.0
+  B  B6  2  0.16464200  0.16466200  0.33229500  1.0
+  B  B7  2  0.16504200  0.96647000  0.73338000  1.0
+  B  B8  2  0.16507500  0.76641800  0.13335400  1.0
+  B  B9  2  0.16520900  0.36544200  0.93197800  1.0
+  B  B10  2  0.16526700  0.56548200  0.53311900  1.0
+  B  B11  2  0.33315400  0.23358200  0.86667200  1.0
+  B  B12  2  0.33325000  0.03365200  0.26636200  1.0
+  B  B13  2  0.33423100  0.63400400  0.06679100  1.0
+  B  B14  2  0.33432900  0.43372100  0.46737200  1.0
+  B  B15  2  0.33489200  0.83466800  0.66747800  1.0

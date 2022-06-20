@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MgHg2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.51289400
+_cell_length_b   6.15438101
+_cell_length_c   7.10627005
+_cell_angle_alpha   108.35484331
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   106.58263041
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   MgHg2
+_chemical_formula_sum   'Mg2 Hg4'
+_cell_volume   139.07057049
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  2  0.02908200  0.05816400  0.28040300  1.0
+  Hg  Hg1  2  0.33342900  0.66685800  0.38127100  1.0
+  Hg  Hg2  2  0.35703900  0.71407800  0.95252800  1.0

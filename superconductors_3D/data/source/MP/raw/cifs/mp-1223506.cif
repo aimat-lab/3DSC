@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_KBa2Bi2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.57884223
+_cell_length_b   11.57884223
+_cell_length_c   11.57884223
+_cell_angle_alpha   158.23587119
+_cell_angle_beta   158.23587119
+_cell_angle_gamma   30.97006256
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa2Bi2O7
+_chemical_formula_sum   'K1 Ba2 Bi2 O7'
+_cell_volume   213.27814232
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.68613900  0.68613900  0.00000000  1
+  Ba  Ba1  1  0.50503100  0.50503100  0.00000000  1
+  Ba  Ba2  1  0.31113900  0.31113900  0.00000000  1
+  Bi  Bi3  1  0.90279400  0.90279400  0.00000000  1
+  Bi  Bi4  1  0.10332900  0.10332900  0.00000000  1
+  O  O5  1  0.80785200  0.80785200  0.00000000  1
+  O  O6  1  0.19713100  0.19713100  0.00000000  1
+  O  O7  1  0.90354900  0.40354900  0.50000000  1
+  O  O8  1  0.40354900  0.90354900  0.50000000  1
+  O  O9  1  0.08980300  0.58980300  0.50000000  1
+  O  O10  1  0.58980300  0.08980300  0.50000000  1
+  O  O11  1  0.99988100  0.99988100  0.00000000  1

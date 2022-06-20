@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca0.08Y7.92Cu8O20
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   6.26558900
+_cell_length_b   7.19304300
+_cell_length_c   11.24612500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   Ca0.08Y7.92Cu8O20
+_chemical_formula_sum   'Ca0.08 Y7.92 Cu8 O20'
+_cell_volume   506.84768382
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, y+1/2, -z'
+  4  'x+1/2, -y+1/2, z'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-x+1/2, y+1/2, z+1/2'
+  7  '-x, -y, z+1/2'
+  8  'x, y, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  8  0.24999800  0.88016500  0.02135400  0.99
+  Ca  Ca1  8  0.24999800  0.88016500  0.02135400  0.01
+  Cu  Cu2  4  0.07142000  0.15117800  0.75000000  1.0
+  Cu  Cu3  4  0.08834000  0.62739700  0.75000000  1.0
+  O  O4  8  0.07020500  0.64327300  0.58594800  1.0
+  O  O5  8  0.09614900  0.11390100  0.58833100  1.0
+  O  O6  4  0.24549100  0.88063300  0.25000000  1.0

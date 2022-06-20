@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_KHg
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.72968600
+_cell_length_b   7.11472273
+_cell_length_c   7.24289677
+_cell_angle_alpha   108.65198466
+_cell_angle_beta   101.90786111
+_cell_angle_gamma   90.36418910
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KHg
+_chemical_formula_sum   'K4 Hg4'
+_cell_volume   320.52383957
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.31729700  0.20358600  0.86133000  1
+  K  K1  1  0.68270300  0.79641400  0.13867000  1
+  K  K2  1  0.76099900  0.34713900  0.55706900  1
+  K  K3  1  0.23900100  0.65286100  0.44293100  1
+  Hg  Hg4  1  0.13976600  0.72288200  0.93704900  1
+  Hg  Hg5  1  0.86023400  0.27711800  0.06295100  1
+  Hg  Hg6  1  0.79649900  0.89582000  0.69601100  1
+  Hg  Hg7  1  0.20350100  0.10418000  0.30398900  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TiAsRu
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   6.55732200
+_cell_length_b   7.49711664
+_cell_length_c   7.35776200
+_cell_angle_alpha   119.38700319
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.93319774
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   TiAsRu
+_chemical_formula_sum   'Ti6 As6 Ru6'
+_cell_volume   272.59878896
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, -y, -z'
+  3  'x, y, y-z+1/2'
+  4  'x-y, -y, -y+z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  2  0.23630800  0.39020600  0.44510300  1.0
+  Ti  Ti1  2  0.24742600  0.43356000  0.96678000  1.0
+  Ti  Ti2  2  0.66461700  0.99895600  0.24947800  1.0
+  As  As3  4  0.57934800  0.66666667  0.33552867  1.0
+  As  As4  2  0.21819500  0.93442000  0.21721000  1.0
+  Ru  Ru5  4  0.24660000  0.75064700  0.41453900  1.0
+  Ru  Ru6  2  0.99764300  0.00000000  0.00000000  1.0

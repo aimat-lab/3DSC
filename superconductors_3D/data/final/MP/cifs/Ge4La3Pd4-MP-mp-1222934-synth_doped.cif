@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_La1.5Ge2Pd2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   4.56885400
+_cell_length_b   5.74694579
+_cell_length_c   6.02783396
+_cell_angle_alpha   81.31530018
+_cell_angle_beta   67.72949974
+_cell_angle_gamma   66.57784149
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   La1.5Ge2Pd2
+_chemical_formula_sum   'La1.5 Ge2 Pd2'
+_cell_volume   134.39753746
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.46648500  0.77304000  0.29399000  0.75
+  Ge  Ge1  2  0.16075300  0.78922900  0.88926500  1.0
+  Pd  Pd2  2  0.18561900  0.35064900  0.27811300  1.0

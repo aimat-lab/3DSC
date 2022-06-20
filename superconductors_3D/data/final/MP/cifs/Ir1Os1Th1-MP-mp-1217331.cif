@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ThIrOs
+_symmetry_space_group_name_H-M   Imma
+_cell_length_a   5.22997600
+_cell_length_b   5.51065975
+_cell_length_c   5.51065975
+_cell_angle_alpha   60.31261454
+_cell_angle_beta   61.67107442
+_cell_angle_gamma   61.67107442
+_symmetry_Int_Tables_number   74
+_chemical_formula_structural   ThIrOs
+_chemical_formula_sum   'Th2 Ir2 Os2'
+_cell_volume   115.33893883
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, z+1/2, y+1/2'
+  4  'x+y+z, -z+1/2, -y+1/2'
+  5  'x+y+z, -y, -z'
+  6  '-x-y-z, y, z'
+  7  '-x, -z+1/2, -y+1/2'
+  8  'x, z+1/2, y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  2  0.12234900  0.62765100  0.12765100  1.0
+  Os  Os1  2  0.00000000  0.00000000  0.50000000  1.0
+  Ir  Ir2  2  0.50000000  0.00000000  0.00000000  1.0

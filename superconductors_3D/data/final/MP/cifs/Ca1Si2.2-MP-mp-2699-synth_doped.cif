@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca1.81818182Si4
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   3.87491826
+_cell_length_b   3.87491826
+_cell_length_c   10.37733386
+_cell_angle_alpha   79.23966353
+_cell_angle_beta   79.23966353
+_cell_angle_gamma   59.99999553
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Ca1.81818182Si4
+_chemical_formula_sum   'Ca1.81818182 Si4'
+_cell_volume   131.76716329
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  2  0.07995500  0.07995500  0.76013500  0.9090909091
+  Si  Si1  2  0.18260500  0.18260500  0.45218500  1.0
+  Si  Si2  2  0.34706600  0.34706600  0.95880200  1.0

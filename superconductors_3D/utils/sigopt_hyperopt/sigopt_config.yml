@@ -1,0 +1,126 @@
+sigopt_options:
+  dev_run: false # If the dev api of sigopt should be used to get the suggestions
+  client_id: 11896
+  project_name: "superconductors_3d"
+  observation_budget: 100 # Max number of trials
+  parallel_bandwidth: 5 # Number of parallel evaluations
+
+model:
+  dataset_path: "/home/kit/stud/uoeci/superconductors_3D/data/final/ICSD/SC_ICSD_matches.csv"
+  entry_point: "train.py"  # The python file name that includes the function for evaluating the suggestions.
+  function_name: "train"   # The name of the function in that file. 
+  copy_data: false
+
+git_options:
+  git_uri: "git@github.com:TimoSommer/superconductors_3D"
+  branch: "main" 
+
+experiment:
+  use_local_workspace: false # If a local experiment folder should be created in root folder or a dedicated workspace
+                            # directory (https://wiki.bwhpc.de/e/Workspace)
+  experiment_name: "211224_HPO_500_epochs"
+  cluster: "bwunicluster"  # Either "bwunicluster" or "horeka"
+  number_chain_jobs: 3 # How many times should a job - the suggestion evaluation - be chained together. It is used to
+                       # cirumvent the problem of time outs in the cluster
+  multimetric_experiment: true
+
+modules:
+  - devel/cuda/11.0
+sbatch_options:
+  partition: "gpu_8"
+  time: "48:00:00"
+  ntasks: 1
+  gres: "gpu:1"
+  cpus-per-gpu: 10
+#  cpus-per-task: 1
+  mem: 50gb
+
+parameters:
+  - name: add_params__act
+    type: categorical
+    categorical_values: 
+      - "relu"
+      - "softplus"
+      - "swish"
+  - name: add_params__npass
+    type: int
+    bounds:
+      max: 12
+      min: 1
+  - name: add_params__nblocks
+    type: int
+    bounds:
+      max: 25
+      min: 1
+  - name: add_params__n1
+    type: int
+    bounds:
+      max: 200
+      min: 8
+  - name: add_params__n2
+    type: int
+    bounds:
+      max: 150
+      min: 8
+  - name: add_params__n3
+    type: int
+    bounds:
+      max: 100
+      min: 8
+  - name: add_params__dropout
+    type: double
+    bounds:
+      max: 0.9
+      min: 0.0
+  - name: add_params__lr
+    type: double
+    bounds: 
+      max: 0.01
+      min: 0.000001
+    transformation: log
+  - name: add_params__lr_exp_decay
+    type: double
+    bounds:
+      max: 1.0
+      min: 0.98
+  - name: add_params__l2
+    type: double
+    bounds: 
+      max: 0.1
+      min: 0.00000001
+    transformation: log
+  - name: add_params__n_feat_bond
+    type: int
+    bounds:
+      max: 100
+      min: 1
+  - name: add_params__batch_size
+    type: int
+    bounds:
+      max: 64
+      min: 32
+  - name: add_params__clipnorm
+    type: double
+    bounds:
+      max: 20.0
+      min: 0.1
+    transformation: log
+
+metrics:
+  - name: MSLE
+    objective: minimize
+    strategy: optimize
+  - name: MSLE_sem
+    objective: minimize
+    strategy: store
+  - name: r2
+    objective: maximize
+    strategy: store
+  - name: r2_sem
+    objective: minimize
+    strategy: store
+  - name: train_time
+    objective: minimize
+    strategy: store
+
+

@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_In2TeAs
+_symmetry_space_group_name_H-M   R3m
+_cell_length_a   4.65804410
+_cell_length_b   4.65804410
+_cell_length_c   8.17137561
+_cell_angle_alpha   73.43983635
+_cell_angle_beta   73.43983635
+_cell_angle_gamma   59.99999858
+_symmetry_Int_Tables_number   160
+_chemical_formula_structural   In2TeAs
+_chemical_formula_sum   'In2 Te1 As1'
+_cell_volume   144.99008453
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-y-z, x, z'
+  3  'y, -x-y-z, z'
+  4  'x, -x-y-z, z'
+  5  '-x-y-z, y, z'
+  6  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.51032700  0.51032700  0.46901900  1.0
+  In  In1  1  0.98968600  0.98968600  0.03094200  1.0
+  Te  Te2  1  0.37717500  0.37717500  0.86847500  1.0
+  As  As3  1  0.87281300  0.87281300  0.38156100  1.0

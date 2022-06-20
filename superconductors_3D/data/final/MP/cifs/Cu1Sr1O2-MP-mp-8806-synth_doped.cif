@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sr1.5Cu1.5O3
+_symmetry_space_group_name_H-M   Fmmm
+_cell_length_a   4.16004800
+_cell_length_b   6.15035205
+_cell_length_c   7.60616626
+_cell_angle_alpha   84.69342133
+_cell_angle_beta   74.12941160
+_cell_angle_gamma   70.23300187
+_symmetry_Int_Tables_number   69
+_chemical_formula_structural   Sr1.5Cu1.5O3
+_chemical_formula_sum   'Sr1.5 Cu1.5 O3'
+_cell_volume   176.16126307
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-z, -y, z'
+  4  'x+z, y, -z'
+  5  'x+y+z, -y, -z'
+  6  '-x-y-z, y, z'
+  7  '-x-y, y, -z'
+  8  'x+y, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.39037800  0.00000000  0.21924400  0.75
+  Cu  Cu1  2  0.17007700  0.65984600  0.00000000  0.75
+  O  O2  2  0.33800200  0.32399600  0.00000000  1.0
+  O  O3  1  0.00000000  0.00000000  0.00000000  1.0

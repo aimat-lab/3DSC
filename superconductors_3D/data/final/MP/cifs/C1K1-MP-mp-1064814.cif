@@ -1,0 +1,75 @@
+# generated using pymatgen
+data_KC
+_symmetry_space_group_name_H-M   Fm-3m
+_cell_length_a   4.36460600
+_cell_length_b   4.36491753
+_cell_length_c   4.36623624
+_cell_angle_alpha   119.97719541
+_cell_angle_beta   119.98764962
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   225
+_chemical_formula_structural   KC
+_chemical_formula_sum   'K1 C1'
+_cell_volume   58.84965524
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, x, x-y'
+  4  '-x+z, -x, -x+y'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  'y, y-z, -x+y'
+  8  '-y, -y+z, x-y'
+  9  '-y, -x, -z'
+  10  'y, x, z'
+  11  '-x, -x+z, -x+y'
+  12  'x, x-z, x-y'
+  13  '-x+z, -y+z, z'
+  14  'x-z, y-z, -z'
+  15  '-y+z, -y, x-y'
+  16  'y-z, y, -x+y'
+  17  '-y, x-z, x-y'
+  18  'y, -x+z, -x+y'
+  19  '-x, y-z, -z'
+  20  'x, -y+z, z'
+  21  '-x+z, y, -x+y'
+  22  'x-z, -y, x-y'
+  23  '-y+z, x, z'
+  24  'y-z, -x, -z'
+  25  'x, -y+z, x-y'
+  26  '-x, y-z, -x+y'
+  27  'x-z, -y, -z'
+  28  '-x+z, y, z'
+  29  'y-z, -x, -x+y'
+  30  '-y+z, x, x-y'
+  31  'y, -x+z, z'
+  32  '-y, x-z, -z'
+  33  '-x+z, -x, -x-y+z'
+  34  'x-z, x, x+y-z'
+  35  '-y+z, -x+z, -x-y+z'
+  36  'y-z, x-z, x+y-z'
+  37  '-y, -y+z, -x-y+z'
+  38  'y, y-z, x+y-z'
+  39  '-x, -y, -x-y+z'
+  40  'x, y, x+y-z'
+  41  'y-z, y, x+y-z'
+  42  '-y+z, -y, -x-y+z'
+  43  'y, x, x+y-z'
+  44  '-y, -x, -x-y+z'
+  45  'x, x-z, x+y-z'
+  46  '-x, -x+z, -x-y+z'
+  47  'x-z, y-z, x+y-z'
+  48  '-x+z, -y+z, -x-y+z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.50000000  0.50000000  0.00000000  1.0
+  C  C1  1  0.00000000  0.00000000  0.00000000  1.0

@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_W3.33333333O10
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.86901600
+_cell_length_b   6.15292742
+_cell_length_c   12.06615700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   108.32486709
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   W3.33333333O10
+_chemical_formula_sum   'W3.33333333 O10'
+_cell_volume   272.67780494
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+1/2, -y, -z+1/2'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x, y, -z'
+  5  'x-y+1/2, -y, -z+1/2'
+  6  '-x+y, y, z'
+  7  '-x+y, y, -z'
+  8  'x-y+1/2, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  4  0.05123400  0.10246800  0.15031800  0.833333333325
+  O  O1  4  0.19879200  0.39758400  0.13871300  1.0
+  O  O2  4  0.50087200  0.00174400  0.18203200  1.0
+  O  O3  2  0.51259800  0.02519500  0.50000000  1.0

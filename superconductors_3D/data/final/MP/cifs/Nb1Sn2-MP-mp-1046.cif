@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_NbSn2
+_symmetry_space_group_name_H-M   Fddd
+_cell_length_a   5.72502200
+_cell_length_b   5.73621339
+_cell_length_c   10.07323503
+_cell_angle_alpha   81.84753175
+_cell_angle_beta   73.49075929
+_cell_angle_gamma   60.06451791
+_symmetry_Int_Tables_number   70
+_chemical_formula_structural   NbSn2
+_chemical_formula_sum   'Nb4 Sn8'
+_cell_volume   274.85285141
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-z, -y, z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y, y, -z'
+  5  '-x+3/4, -y+1/2, -z+1/2'
+  6  'x+z+3/4, y+1/2, -z+1/2'
+  7  '-x-y-z+3/4, y+1/2, z+1/2'
+  8  'x+y+3/4, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  4  0.12302500  0.50000000  0.75395000  1.0
+  Sn  Sn1  4  0.08118800  0.83762400  0.50000000  1.0
+  Sn  Sn2  4  0.08283200  0.00000000  0.83433600  1.0

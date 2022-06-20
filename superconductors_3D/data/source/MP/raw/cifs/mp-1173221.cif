@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sr4Ca2TlCu4PbO14
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.82905816
+_cell_length_b   12.82905816
+_cell_length_c   12.82905816
+_cell_angle_alpha   155.81683338
+_cell_angle_beta   155.81683338
+_cell_angle_gamma   34.46408979
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4Ca2TlCu4PbO14
+_chemical_formula_sum   'Sr4 Ca2 Tl1 Cu4 Pb1 O14'
+_cell_volume   353.96724789
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.39240900  0.89240900  0.50000000  1
+  Sr  Sr1  1  0.89240900  0.39240900  0.50000000  1
+  Sr  Sr2  1  0.10759100  0.60759100  0.50000000  1
+  Sr  Sr3  1  0.60759100  0.10759100  0.50000000  1
+  Ca  Ca4  1  0.25000000  0.75000000  0.50000000  1
+  Ca  Ca5  1  0.75000000  0.25000000  0.50000000  1
+  Tl  Tl6  1  0.50000000  0.50000000  0.00000000  1
+  Cu  Cu7  1  0.82226200  0.82226200  0.00000000  1
+  Cu  Cu8  1  0.32043500  0.32043500  0.00000000  1
+  Cu  Cu9  1  0.67956500  0.67956500  0.00000000  1
+  Cu  Cu10  1  0.17773800  0.17773800  0.00000000  1
+  Pb  Pb11  1  0.00000000  0.00000000  0.00000000  1
+  O  O12  1  0.06530200  0.06530200  0.50064000  1
+  O  O13  1  0.56466200  0.56466200  0.49936000  1
+  O  O14  1  0.06530200  0.56466200  0.00000000  1
+  O  O15  1  0.56466200  0.06530200  0.00000000  1
+  O  O16  1  0.93469800  0.93469800  0.49936000  1
+  O  O17  1  0.43533800  0.43533800  0.50064000  1
+  O  O18  1  0.93469800  0.43533800  0.00000000  1
+  O  O19  1  0.43533800  0.93469800  0.00000000  1
+  O  O20  1  0.91288000  0.91288000  0.00000000  1
+  O  O21  1  0.41506000  0.41506000  0.00000000  1
+  O  O22  1  0.58494000  0.58494000  0.00000000  1
+  O  O23  1  0.08712000  0.08712000  0.00000000  1
+  O  O24  1  0.00000000  0.50000000  0.50000000  1
+  O  O25  1  0.50000000  0.00000000  0.50000000  1

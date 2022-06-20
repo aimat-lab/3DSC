@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ba2YCu3O6F
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.82592800
+_cell_length_b   3.99600600
+_cell_length_c   11.97934800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2YCu3O6F
+_chemical_formula_sum   'Ba2 Y1 Cu3 O6 F1'
+_cell_volume   183.14543824
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.50000000  0.50000000  0.19334100  1
+  Ba  Ba1  1  0.50000000  0.50000000  0.80665900  1
+  Y  Y2  1  0.50000000  0.50000000  0.50000000  1
+  Cu  Cu3  1  0.00000000  0.00000000  0.35765200  1
+  Cu  Cu4  1  0.00000000  0.00000000  0.64234800  1
+  Cu  Cu5  1  0.00000000  0.00000000  0.00000000  1
+  O  O6  1  0.50000000  0.00000000  0.38181800  1
+  O  O7  1  0.50000000  0.00000000  0.61818200  1
+  O  O8  1  0.00000000  0.50000000  0.37724100  1
+  O  O9  1  0.00000000  0.50000000  0.62275900  1
+  O  O10  1  0.00000000  0.00000000  0.15685300  1
+  O  O11  1  0.00000000  0.00000000  0.84314700  1
+  F  F12  1  0.00000000  0.50000000  0.00000000  1

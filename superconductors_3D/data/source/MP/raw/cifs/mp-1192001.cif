@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_AlH6BrO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24594196
+_cell_length_b   7.54184915
+_cell_length_c   8.17337578
+_cell_angle_alpha   117.11499515
+_cell_angle_beta   108.23296623
+_cell_angle_gamma   90.99790437
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AlH6BrO4
+_chemical_formula_sum   'Al2 H12 Br2 O8'
+_cell_volume   268.43819716
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.20068100  0.95068100  0.90136200  1
+  Al  Al1  1  0.79931900  0.04931900  0.09863800  1
+  H  H2  1  0.48491100  0.31515600  0.14420500  1
+  H  H3  1  0.15929500  0.82904900  0.14420500  1
+  H  H4  1  0.51508900  0.68484400  0.85579500  1
+  H  H5  1  0.84070500  0.17095100  0.85579500  1
+  H  H6  1  0.87469800  0.59885700  0.70913800  1
+  H  H7  1  0.33443900  0.11028000  0.70913800  1
+  H  H8  1  0.12530200  0.40114300  0.29086200  1
+  H  H9  1  0.66556100  0.88972000  0.29086200  1
+  H  H10  1  0.81836600  0.68944600  0.56473200  1
+  H  H11  1  0.24636600  0.87528700  0.56473200  1
+  H  H12  1  0.18163400  0.31055400  0.43526800  1
+  H  H13  1  0.75363400  0.12471300  0.43526800  1
+  Br  Br14  1  0.40877400  0.65877400  0.31754900  1
+  Br  Br15  1  0.59122600  0.34122600  0.68245100  1
+  O  O16  1  0.49432400  0.17252800  0.07530500  1
+  O  O17  1  0.08098100  0.90277800  0.07530500  1
+  O  O18  1  0.50567600  0.82747200  0.92469500  1
+  O  O19  1  0.91901900  0.09722200  0.92469500  1
+  O  O20  1  0.96333300  0.69029500  0.67730100  1
+  O  O21  1  0.21396800  0.98700600  0.67730100  1
+  O  O22  1  0.03666700  0.30970500  0.32269900  1
+  O  O23  1  0.78603200  0.01299400  0.32269900  1

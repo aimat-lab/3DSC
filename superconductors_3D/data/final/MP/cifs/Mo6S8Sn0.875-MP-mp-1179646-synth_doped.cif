@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sn0.875Mo6S8
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   6.21202238
+_cell_length_b   6.73905064
+_cell_length_c   7.75060242
+_cell_angle_alpha   113.86170794
+_cell_angle_beta   105.75541204
+_cell_angle_gamma   94.44047310
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Sn0.875Mo6S8
+_chemical_formula_sum   'Sn0.875 Mo6 S8'
+_cell_volume   279.04374862
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  1  0.00000000  0.00000000  0.00000000  0.875
+  Mo  Mo1  2  0.03373800  0.59478400  0.68468500  1.0
+  Mo  Mo2  2  0.19811300  0.64295000  0.13572200  1.0
+  Mo  Mo3  2  0.47739600  0.29928200  0.03955400  1.0
+  S  S4  2  0.15715300  0.33996000  0.79658100  1.0
+  S  S5  2  0.33363400  0.90682000  0.79839400  1.0
+  S  S6  2  0.33821400  0.99522100  0.41810500  1.0
+  S  S7  2  0.34087400  0.44339900  0.31741300  1.0

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr4Ca0.78Y1.22Cu6Pb4O16
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.40918200
+_cell_length_b   5.43484807
+_cell_length_c   15.91871111
+_cell_angle_alpha   89.83830574
+_cell_angle_beta   89.87802056
+_cell_angle_gamma   89.17890622
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Sr4Ca0.78Y1.22Cu6Pb4O16
+_chemical_formula_sum   'Sr4 Ca0.78 Y1.22 Cu6 Pb4 O16'
+_cell_volume   467.92864205
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.00077300  0.00133800  0.78258300  1.0
+  Sr  Sr1  2  0.49871800  0.49852900  0.21975400  1.0
+  Ca  Ca2  1  0.00000000  0.00000000  0.00000000  0.78
+  Y  Y3  1  0.00000000  0.00000000  0.00000000  0.22
+  Y  Y4  1  0.50000000  0.50000000  0.00000000  1.0
+  Cu  Cu5  2  0.00011200  0.49939900  0.10516300  1.0
+  Cu  Cu6  2  0.49984100  0.00030500  0.10537700  1.0
+  Cu  Cu7  1  0.00000000  0.00000000  0.50000000  1.0
+  Cu  Cu8  1  0.50000000  0.50000000  0.50000000  1.0
+  Pb  Pb9  2  0.01158000  0.49688800  0.61216600  1.0
+  Pb  Pb10  2  0.49343600  0.01283300  0.61209100  1.0
+  O  O11  2  0.00375900  0.49089800  0.25130000  1.0
+  O  O12  2  0.04603000  0.05928200  0.61399200  1.0
+  O  O13  2  0.25421500  0.74572300  0.09631800  1.0
+  O  O14  2  0.25426800  0.74589400  0.90411300  1.0
+  O  O15  2  0.25512600  0.25488400  0.09298700  1.0
+  O  O16  2  0.25564500  0.25554300  0.90521100  1.0
+  O  O17  2  0.46794400  0.45128000  0.61497100  1.0
+  O  O18  2  0.49460100  0.00674000  0.25118900  1.0

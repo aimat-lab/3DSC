@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ce3(SiPd)4
+_symmetry_space_group_name_H-M   Immm
+_cell_length_a   4.09862400
+_cell_length_b   4.22306600
+_cell_length_c   12.69671955
+_cell_angle_alpha   99.57307609
+_cell_angle_beta   99.28844762
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   71
+_chemical_formula_structural   Ce3(SiPd)4
+_chemical_formula_sum   'Ce3 Si4 Pd4'
+_cell_volume   213.78135598
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+z, -y+z, z'
+  4  'x-z, y-z, -z'
+  5  'x-z, -y, -z'
+  6  '-x+z, y, z'
+  7  '-x, y-z, -z'
+  8  'x, -y+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  2  0.14620900  0.64620900  0.29241800  1.0
+  Ce  Ce1  1  0.00000000  0.00000000  0.00000000  1.0
+  Si  Si2  2  0.30376500  0.80376500  0.60753000  1.0
+  Si  Si3  2  0.45156800  0.45156800  0.90313600  1.0
+  Pd  Pd4  2  0.24947200  0.24947200  0.49894400  1.0
+  Pd  Pd5  2  0.40264900  0.90264900  0.80529800  1.0

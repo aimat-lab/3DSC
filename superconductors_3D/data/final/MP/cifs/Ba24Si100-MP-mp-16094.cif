@@ -1,0 +1,58 @@
+# generated using pymatgen
+data_Ba6Si25
+_symmetry_space_group_name_H-M   P4_132
+_cell_length_a   14.16619100
+_cell_length_b   14.16619100
+_cell_length_c   14.16619100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   213
+_chemical_formula_structural   Ba6Si25
+_chemical_formula_sum   'Ba24 Si100'
+_cell_volume   2842.88491494
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+1/4, x+3/4, z+1/4'
+  3  '-x+1/2, -y, z+1/2'
+  4  'y+1/4, -x+1/4, z+3/4'
+  5  'x+1/2, -y+1/2, -z'
+  6  '-y+3/4, -x+3/4, -z+3/4'
+  7  '-x, y+1/2, -z+1/2'
+  8  'y+3/4, x+1/4, -z+1/4'
+  9  'z, x, y'
+  10  'z+1/4, -y+1/4, x+3/4'
+  11  'z+1/2, -x+1/2, -y'
+  12  'z+3/4, y+1/4, -x+1/4'
+  13  '-z, x+1/2, -y+1/2'
+  14  '-z+3/4, -y+3/4, -x+3/4'
+  15  '-z+1/2, -x, y+1/2'
+  16  '-z+1/4, y+3/4, x+1/4'
+  17  'y, z, x'
+  18  'x+3/4, z+1/4, -y+1/4'
+  19  '-y, z+1/2, -x+1/2'
+  20  '-x+1/4, z+3/4, y+1/4'
+  21  '-y+1/2, -z, x+1/2'
+  22  '-x+3/4, -z+3/4, -y+3/4'
+  23  'y+1/2, -z+1/2, -x'
+  24  'x+1/4, -z+1/4, y+3/4'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  12  0.05766300  0.12500000  0.80766300  1.0
+  Ba  Ba1  8  0.06126300  0.93873700  0.43873700  1.0
+  Ba  Ba2  4  0.12500000  0.37500000  0.62500000  1.0
+  Si  Si3  24  0.00100400  0.70553200  0.45766800  1.0
+  Si  Si4  24  0.00966200  0.62333000  0.18671500  1.0
+  Si  Si5  24  0.07684900  0.41436400  0.86079000  1.0
+  Si  Si6  12  0.08344100  0.87500000  0.66655900  1.0
+  Si  Si7  8  0.04004400  0.04004400  0.04004400  1.0
+  Si  Si8  8  0.07539800  0.57539800  0.92460200  1.0

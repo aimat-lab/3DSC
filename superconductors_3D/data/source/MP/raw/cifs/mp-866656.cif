@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_GdFeB4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.40220700
+_cell_length_b   5.93202900
+_cell_length_c   11.47785800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GdFeB4
+_chemical_formula_sum   'Gd4 Fe4 B16'
+_cell_volume   231.64602213
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Gd  Gd0  1  0.50000000  0.62603200  0.65044200  1
+  Gd  Gd1  1  0.50000000  0.37396800  0.34955800  1
+  Gd  Gd2  1  0.50000000  0.12603200  0.84955800  1
+  Gd  Gd3  1  0.50000000  0.87396800  0.15044200  1
+  Fe  Fe4  1  0.50000000  0.63177200  0.91232800  1
+  Fe  Fe5  1  0.50000000  0.36822800  0.08767200  1
+  Fe  Fe6  1  0.50000000  0.13177200  0.58767200  1
+  Fe  Fe7  1  0.50000000  0.86822800  0.41232800  1
+  B  B8  1  0.00000000  0.86005400  0.96773600  1
+  B  B9  1  0.00000000  0.13994600  0.03226400  1
+  B  B10  1  0.00000000  0.36005400  0.53226400  1
+  B  B11  1  0.00000000  0.63994600  0.46773600  1
+  B  B12  1  0.00000000  0.97571300  0.68975600  1
+  B  B13  1  0.00000000  0.02428700  0.31024400  1
+  B  B14  1  0.00000000  0.47571300  0.81024400  1
+  B  B15  1  0.00000000  0.52428700  0.18975600  1
+  B  B16  1  0.00000000  0.78052700  0.81678800  1
+  B  B17  1  0.00000000  0.21947300  0.18321200  1
+  B  B18  1  0.00000000  0.28052700  0.68321200  1
+  B  B19  1  0.00000000  0.71947300  0.31678800  1
+  B  B20  1  0.00000000  0.88881900  0.54573500  1
+  B  B21  1  0.00000000  0.11118100  0.45426500  1
+  B  B22  1  0.00000000  0.38881900  0.95426500  1
+  B  B23  1  0.00000000  0.61118100  0.04573500  1

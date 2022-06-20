@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_BaSr4Cl10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   20.76512313
+_cell_length_b   20.76512313
+_cell_length_c   20.76512304
+_cell_angle_alpha   13.96695576
+_cell_angle_beta   13.96695576
+_cell_angle_gamma   13.96695294
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaSr4Cl10
+_chemical_formula_sum   'Ba1 Sr4 Cl10'
+_cell_volume   453.96040971
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00000000  0.00000000  0.00000000  1
+  Sr  Sr1  1  0.59849700  0.59849700  0.59849700  1
+  Sr  Sr2  1  0.19995000  0.19995000  0.19995000  1
+  Sr  Sr3  1  0.80005000  0.80005000  0.80005000  1
+  Sr  Sr4  1  0.40150300  0.40150300  0.40150300  1
+  Cl  Cl5  1  0.05221600  0.05221600  0.05221600  1
+  Cl  Cl6  1  0.85003500  0.85003500  0.85003500  1
+  Cl  Cl7  1  0.45047800  0.45047800  0.45047800  1
+  Cl  Cl8  1  0.64789800  0.64789800  0.64789800  1
+  Cl  Cl9  1  0.24934200  0.24934200  0.24934200  1
+  Cl  Cl10  1  0.35210200  0.35210200  0.35210200  1
+  Cl  Cl11  1  0.14996500  0.14996500  0.14996500  1
+  Cl  Cl12  1  0.75065800  0.75065800  0.75065800  1
+  Cl  Cl13  1  0.94778400  0.94778400  0.94778400  1
+  Cl  Cl14  1  0.54952200  0.54952200  0.54952200  1

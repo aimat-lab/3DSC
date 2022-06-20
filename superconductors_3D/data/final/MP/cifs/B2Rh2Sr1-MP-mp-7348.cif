@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr(BRh)2
+_symmetry_space_group_name_H-M   Fddd
+_cell_length_a   5.62313118
+_cell_length_b   5.62313119
+_cell_length_c   6.16374610
+_cell_angle_alpha   105.41203206
+_cell_angle_beta   105.41203204
+_cell_angle_gamma   114.66942044
+_symmetry_Int_Tables_number   70
+_chemical_formula_structural   Sr(BRh)2
+_chemical_formula_sum   'Sr2 B4 Rh4'
+_cell_volume   154.14960973
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+z, -y+z, z'
+  3  'y-z, x-z, -z'
+  4  '-y, -x, -z'
+  5  '-x+1/4, -y+3/4, -z+1/2'
+  6  'x-z+1/4, y-z+3/4, -z+1/2'
+  7  '-y+z+1/4, -x+z+3/4, z+1/2'
+  8  'y+1/4, x+3/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.00000000  0.00000000  0.00000000  1.0
+  B  B1  4  0.32836300  0.67163700  0.00000000  1.0
+  Rh  Rh2  4  0.36928100  0.36928100  0.73856200  1.0

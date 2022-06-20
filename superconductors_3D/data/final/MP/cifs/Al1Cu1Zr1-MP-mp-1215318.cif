@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ZrAlCu
+_symmetry_space_group_name_H-M   Imma
+_cell_length_a   5.16511600
+_cell_length_b   5.17484418
+_cell_length_c   5.17484418
+_cell_angle_alpha   61.27225363
+_cell_angle_beta   60.06216704
+_cell_angle_gamma   60.06216704
+_symmetry_Int_Tables_number   74
+_chemical_formula_structural   ZrAlCu
+_chemical_formula_sum   'Zr2 Al2 Cu2'
+_cell_volume   98.80468796
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, z+1/2, y+1/2'
+  4  'x+y+z, -z+1/2, -y+1/2'
+  5  'x+y+z, -y, -z'
+  6  '-x-y-z, y, z'
+  7  '-x, -z+1/2, -y+1/2'
+  8  'x, z+1/2, y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  2  0.37503600  0.37496400  0.87496400  1.0
+  Al  Al1  2  0.00000000  0.00000000  0.00000000  1.0
+  Cu  Cu2  2  0.00000000  0.00000000  0.50000000  1.0

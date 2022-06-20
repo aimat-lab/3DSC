@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Bi2Ir
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.89695100
+_cell_length_b   7.01564200
+_cell_length_c   7.08323759
+_cell_angle_alpha   64.05275358
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Bi2Ir
+_chemical_formula_sum   'Bi8 Ir4'
+_cell_volume   308.18489971
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.35810300  0.65321600  0.17081500  1
+  Bi  Bi1  1  0.85810300  0.34678400  0.32918500  1
+  Bi  Bi2  1  0.64189700  0.34678400  0.82918500  1
+  Bi  Bi3  1  0.14189700  0.65321600  0.67081500  1
+  Bi  Bi4  1  0.63630100  0.85460000  0.37425100  1
+  Bi  Bi5  1  0.13630100  0.14540000  0.12574900  1
+  Bi  Bi6  1  0.36369900  0.14540000  0.62574900  1
+  Bi  Bi7  1  0.86369900  0.85460000  0.87425100  1
+  Ir  Ir8  1  0.99699400  0.72914000  0.28605100  1
+  Ir  Ir9  1  0.49699400  0.27086000  0.21394900  1
+  Ir  Ir10  1  0.00300600  0.27086000  0.71394900  1
+  Ir  Ir11  1  0.50300600  0.72914000  0.78605100  1

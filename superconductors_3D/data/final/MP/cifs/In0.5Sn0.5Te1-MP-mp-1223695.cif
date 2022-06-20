@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_InSnTe2
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   4.49141199
+_cell_length_b   4.49141199
+_cell_length_c   7.74007114
+_cell_angle_alpha   73.13364422
+_cell_angle_beta   73.13364422
+_cell_angle_gamma   60.00000009
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   InSnTe2
+_chemical_formula_sum   'In1 Sn1 Te2'
+_cell_volume   127.40565485
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.00000000  0.00000000  0.00000000  1.0
+  Sn  Sn1  1  0.50000000  0.50000000  0.50000000  1.0
+  Te  Te2  2  0.25054700  0.25054700  0.24835900  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Mo3Ru2
+_symmetry_space_group_name_H-M   Cmm2
+_cell_length_a   4.96730500
+_cell_length_b   9.61140189
+_cell_length_c   9.61140189
+_cell_angle_alpha   90.33425858
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   35
+_chemical_formula_structural   Mo3Ru2
+_chemical_formula_sum   'Mo18 Ru12'
+_cell_volume   458.86708976
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, -z'
+  3  'x, -z, -y'
+  4  'x, z, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  4  0.00112100  0.13247800  0.46478100  1.0
+  Mo  Mo1  4  0.49925100  0.04109600  0.62873600  1.0
+  Mo  Mo2  2  0.24889500  0.18216900  0.18216900  1.0
+  Mo  Mo3  2  0.49826900  0.10502700  0.89497300  1.0
+  Mo  Mo4  2  0.74887200  0.17818900  0.17818900  1.0
+  Mo  Mo5  2  0.74951200  0.32093400  0.67906600  1.0
+  Mo  Mo6  2  0.99674800  0.39585900  0.39585900  1.0
+  Ru  Ru7  4  0.00229300  0.06914200  0.73523800  1.0
+  Ru  Ru8  4  0.49715900  0.23448700  0.43235600  1.0
+  Ru  Ru9  2  0.25199900  0.31887800  0.68112200  1.0
+  Ru  Ru10  1  0.00366100  0.00000000  0.00000000  1.0
+  Ru  Ru11  1  0.50845400  0.50000000  0.50000000  1.0

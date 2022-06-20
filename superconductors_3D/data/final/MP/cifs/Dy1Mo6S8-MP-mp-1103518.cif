@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Dy(Mo3S4)2
+_symmetry_space_group_name_H-M   R-3
+_cell_length_a   6.50568082
+_cell_length_b   6.50568082
+_cell_length_c   6.50568094
+_cell_angle_alpha   89.40735169
+_cell_angle_beta   89.40735169
+_cell_angle_gamma   89.40734953
+_symmetry_Int_Tables_number   148
+_chemical_formula_structural   Dy(Mo3S4)2
+_chemical_formula_sum   'Dy1 Mo6 S8'
+_cell_volume   275.30179175
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.00000000  0.00000000  0.00000000  1.0
+  Mo  Mo1  6  0.22357000  0.56039300  0.42005300  1.0
+  S  S2  6  0.12810300  0.36830400  0.75144800  1.0
+  S  S3  2  0.23844000  0.23844000  0.23844000  1.0

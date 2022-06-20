@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr2PrTlCu2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86703800
+_cell_length_b   3.86703800
+_cell_length_c   12.33872600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2PrTlCu2O7
+_chemical_formula_sum   'Sr2 Pr1 Tl1 Cu2 O7'
+_cell_volume   184.51309753
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50000000  0.50000000  0.20308900  1
+  Sr  Sr1  1  0.50000000  0.50000000  0.79691100  1
+  Pr  Pr2  1  0.50000000  0.50000000  0.50000000  1
+  Tl  Tl3  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu4  1  0.00000000  0.00000000  0.35489900  1
+  Cu  Cu5  1  0.00000000  0.00000000  0.64510100  1
+  O  O6  1  0.00000000  0.00000000  0.17150200  1
+  O  O7  1  0.00000000  0.00000000  0.82849800  1
+  O  O8  1  0.00000000  0.50000000  0.37199300  1
+  O  O9  1  0.00000000  0.50000000  0.62800700  1
+  O  O10  1  0.50000000  0.00000000  0.37199300  1
+  O  O11  1  0.50000000  0.00000000  0.62800700  1
+  O  O12  1  0.50000000  0.50000000  0.00000000  1

@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_AsPd3
+_symmetry_space_group_name_H-M   I-4
+_cell_length_a   4.92270200
+_cell_length_b   7.57046835
+_cell_length_c   7.57046835
+_cell_angle_alpha   83.93212868
+_cell_angle_beta   71.02683193
+_cell_angle_gamma   71.02683193
+_symmetry_Int_Tables_number   82
+_chemical_formula_structural   AsPd3
+_chemical_formula_sum   'As4 Pd12'
+_cell_volume   252.30689971
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-y, -z, y'
+  3  'x+y+z, -y, -z'
+  4  '-x-z, z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  As  As0  4  0.20007000  0.32516800  0.24045100  1.0
+  Pd  Pd1  4  0.02794200  0.04673900  0.39383700  1.0
+  Pd  Pd2  4  0.05028600  0.33404800  0.60598000  1.0
+  Pd  Pd3  4  0.15879000  0.18929900  0.96804100  1.0

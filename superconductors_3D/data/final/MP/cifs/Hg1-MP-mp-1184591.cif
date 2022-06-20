@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hg
+_symmetry_space_group_name_H-M   I4_1/amd
+_cell_length_a   3.27539400
+_cell_length_b   4.68321265
+_cell_length_c   4.68321265
+_cell_angle_alpha   82.97590498
+_cell_angle_beta   69.53132646
+_cell_angle_gamma   69.53132647
+_symmetry_Int_Tables_number   141
+_chemical_formula_structural   Hg
+_chemical_formula_sum   Hg2
+_cell_volume   63.05274049
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+z+1/4, -z+1/2, y+1/2'
+  3  'x+y+z, -y, -z'
+  4  'x+y+1/4, z+1/2, -y+1/2'
+  5  '-x-y-z+1/4, z+1/2, y+1/2'
+  6  '-x-y, y, -z'
+  7  '-x+1/4, -z+1/2, -y+1/2'
+  8  '-x-z, -y, z'
+  9  '-x+1/4, -y+1/2, -z+1/2'
+  10  '-x-z, z, -y'
+  11  '-x-y-z+1/4, y+1/2, z+1/2'
+  12  '-x-y, -z, y'
+  13  'x+y+z, -z, -y'
+  14  'x+y+1/4, -y+1/2, z+1/2'
+  15  'x, z, y'
+  16  'x+z+1/4, y+1/2, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  2  0.00000000  0.00000000  0.00000000  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_UCoSi
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.96626836
+_cell_length_b   4.08243887
+_cell_length_c   7.01301070
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.06305909
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   UCoSi
+_chemical_formula_sum   'U2 Co2 Si2'
+_cell_volume   99.25679637
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x-y+1/2, -y, -z'
+  6  '-x+y+1/2, y, z'
+  7  '-x+y+1/2, y, -z+1/2'
+  8  'x-y+1/2, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.50000000  0.50000000  0.00000000  1.0
+  Co  Co1  2  0.15243118  0.80486236  0.75000000  1.0
+  Si  Si2  2  0.17339562  0.84679124  0.25000000  1.0

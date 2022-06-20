@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Al6Ge5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.72088186
+_cell_length_b   7.72088186
+_cell_length_c   7.72088186
+_cell_angle_alpha   96.57153999
+_cell_angle_beta   96.57153999
+_cell_angle_gamma   96.57153099
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Al6Ge5
+_chemical_formula_sum   'Al12 Ge10'
+_cell_volume   450.42010052
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Al  Al0  1  0.01612900  0.92843900  0.33135000  1
+  Al  Al1  1  0.33135000  0.01612900  0.92843900  1
+  Al  Al2  1  0.92843900  0.33135000  0.01612900  1
+  Al  Al3  1  0.83135000  0.42843900  0.51612900  1
+  Al  Al4  1  0.51612900  0.83135000  0.42843900  1
+  Al  Al5  1  0.42843900  0.51612900  0.83135000  1
+  Al  Al6  1  0.98387100  0.07156100  0.66865000  1
+  Al  Al7  1  0.66865000  0.98387100  0.07156100  1
+  Al  Al8  1  0.07156100  0.66865000  0.98387100  1
+  Al  Al9  1  0.16865000  0.57156100  0.48387100  1
+  Al  Al10  1  0.48387100  0.16865000  0.57156100  1
+  Al  Al11  1  0.57156100  0.48387100  0.16865000  1
+  Ge  Ge12  1  0.89753100  0.60246900  0.25000000  1
+  Ge  Ge13  1  0.25000000  0.89753100  0.60246900  1
+  Ge  Ge14  1  0.60246900  0.25000000  0.89753100  1
+  Ge  Ge15  1  0.75000000  0.10246900  0.39753100  1
+  Ge  Ge16  1  0.39753100  0.75000000  0.10246900  1
+  Ge  Ge17  1  0.10246900  0.39753100  0.75000000  1
+  Ge  Ge18  1  0.35703100  0.35703100  0.35703100  1
+  Ge  Ge19  1  0.85703100  0.85703100  0.85703100  1
+  Ge  Ge20  1  0.64296900  0.64296900  0.64296900  1
+  Ge  Ge21  1  0.14296900  0.14296900  0.14296900  1

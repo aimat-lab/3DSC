@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_LaGa
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   4.24850100
+_cell_length_b   4.56916000
+_cell_length_c   6.24558698
+_cell_angle_alpha   111.45627516
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   LaGa
+_chemical_formula_sum   'La2 Ga2'
+_cell_volume   112.83755345
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y, -z'
+  4  '-x+1/2, y, z'
+  5  '-x, y-z, -z'
+  6  'x, -y+z, z'
+  7  '-x+1/2, -y+z, z'
+  8  'x+1/2, y-z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.25000000  0.13956500  0.27913000  1.0
+  Ga  Ga1  2  0.25000000  0.43256200  0.86512400  1.0

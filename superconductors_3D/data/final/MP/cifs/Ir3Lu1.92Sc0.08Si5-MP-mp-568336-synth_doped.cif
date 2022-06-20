@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Lu3.84Sc0.16Si10Ir6
+_symmetry_space_group_name_H-M   Ibam
+_cell_length_a   5.76894600
+_cell_length_b   8.10316065
+_cell_length_c   8.10316065
+_cell_angle_alpha   76.45616320
+_cell_angle_beta   69.14716368
+_cell_angle_gamma   69.14716369
+_symmetry_Int_Tables_number   72
+_chemical_formula_structural   Lu3.84Sc0.16Si10Ir6
+_chemical_formula_sum   'Lu3.84 Sc0.16 Si10 Ir6'
+_cell_volume   328.28256684
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+  5  '-x+1/2, -z, -y'
+  6  'x+1/2, z, y'
+  7  '-x-y-z+1/2, z, y'
+  8  'x+y+z+1/2, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  4  0.13133500  0.64078900  0.09654100  0.96
+  Sc  Sc1  4  0.13133500  0.64078900  0.09654100  0.04
+  Si  Si2  4  0.02451500  0.72548500  0.72548500  1.0
+  Si  Si3  4  0.10610100  0.23798500  0.54981300  1.0
+  Si  Si4  2  0.25000000  0.00000000  0.00000000  1.0
+  Ir  Ir5  4  0.14007900  0.97603900  0.74380300  1.0
+  Ir  Ir6  2  0.25000000  0.50000000  0.50000000  1.0

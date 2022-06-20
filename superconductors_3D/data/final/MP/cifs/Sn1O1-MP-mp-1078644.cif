@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_SnO
+_symmetry_space_group_name_H-M   Cmc2_1
+_cell_length_a   3.58148969
+_cell_length_b   3.58148969
+_cell_length_c   12.17361800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   101.97502758
+_symmetry_Int_Tables_number   36
+_chemical_formula_structural   SnO
+_chemical_formula_sum   'Sn4 O4'
+_cell_volume   152.75367434
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  '-y, -x, z'
+  4  'y, x, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  2  0.02778600  0.97221400  0.49982900  1.0
+  Sn  Sn1  2  0.37643600  0.62356400  0.27072200  1.0
+  O  O2  2  0.00474800  0.99525200  0.82153600  1.0
+  O  O3  2  0.40729300  0.59270700  0.44945400  1.0

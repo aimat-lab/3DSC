@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Nb1Se1.5
+_symmetry_space_group_name_H-M   Fmm2
+_cell_length_a   3.48290800
+_cell_length_b   3.48479368
+_cell_length_c   12.46126158
+_cell_angle_alpha   85.99538081
+_cell_angle_beta   81.96665382
+_cell_angle_gamma   60.01789824
+_symmetry_Int_Tables_number   42
+_chemical_formula_structural   Nb1Se1.5
+_chemical_formula_sum   'Nb1 Se1.5'
+_cell_volume   129.72007577
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-y, y, -z'
+  3  '-x-y-z, y, z'
+  4  'x+z, y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.07524500  0.84951000  0.00000000  1.0
+  Se  Se1  2  0.67367300  0.51624500  0.13640900  0.75

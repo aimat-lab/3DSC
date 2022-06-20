@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2MgPtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.76395700
+_cell_length_b   5.51087700
+_cell_length_c   9.60708382
+_cell_angle_alpha   55.26446254
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2MgPtO6
+_chemical_formula_sum   'Nd4 Mg2 Pt2 O12'
+_cell_volume   250.78080932
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.43774300  0.23365400  0.74953500  1
+  Nd  Nd1  1  0.56225700  0.76634600  0.25046500  1
+  Nd  Nd2  1  0.93774300  0.76634600  0.75046500  1
+  Nd  Nd3  1  0.06225700  0.23365400  0.24953500  1
+  Mg  Mg4  1  0.00000000  0.50000000  0.50000000  1
+  Mg  Mg5  1  0.50000000  0.50000000  0.00000000  1
+  Pt  Pt6  1  0.00000000  0.00000000  0.00000000  1
+  Pt  Pt7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.03225500  0.34851800  0.75172800  1
+  O  O9  1  0.96774500  0.65148200  0.24827200  1
+  O  O10  1  0.53225500  0.65148200  0.74827200  1
+  O  O11  1  0.46774500  0.34851800  0.25172800  1
+  O  O12  1  0.70451300  0.85793400  0.94663400  1
+  O  O13  1  0.29548700  0.14206600  0.05336600  1
+  O  O14  1  0.20451300  0.14206600  0.55336600  1
+  O  O15  1  0.79548700  0.85793400  0.44663400  1
+  O  O16  1  0.20055600  0.75218600  0.94831700  1
+  O  O17  1  0.79944400  0.24781400  0.05168300  1
+  O  O18  1  0.70055600  0.24781400  0.55168300  1
+  O  O19  1  0.29944400  0.75218600  0.44831700  1

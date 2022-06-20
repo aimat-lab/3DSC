@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ba2TaCu2Pb2ClO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.98710927
+_cell_length_b   3.98710927
+_cell_length_c   16.03831500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00475549
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2TaCu2Pb2ClO8
+_chemical_formula_sum   'Ba2 Ta1 Cu2 Pb2 Cl1 O8'
+_cell_volume   254.96173957
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.49201300  0.49201300  0.34935700  1
+  Ba  Ba1  1  0.49201300  0.49201300  0.65064300  1
+  Ta  Ta2  1  0.98638000  0.98638000  0.50000000  1
+  Cu  Cu3  1  0.99832300  0.99832300  0.22150600  1
+  Cu  Cu4  1  0.99832300  0.99832300  0.77849400  1
+  Pb  Pb5  1  0.49973600  0.49973600  0.11919000  1
+  Pb  Pb6  1  0.49973600  0.49973600  0.88081000  1
+  Cl  Cl7  1  0.99943200  0.99943200  0.00000000  1
+  O  O8  1  0.98724500  0.98724500  0.37623200  1
+  O  O9  1  0.98724500  0.98724500  0.62376800  1
+  O  O10  1  0.99926600  0.49875100  0.21065000  1
+  O  O11  1  0.49875100  0.99926600  0.21065000  1
+  O  O12  1  0.99926600  0.49875100  0.78935000  1
+  O  O13  1  0.49875100  0.99926600  0.78935000  1
+  O  O14  1  0.97687100  0.48365000  0.50000000  1
+  O  O15  1  0.48365000  0.97687100  0.50000000  1

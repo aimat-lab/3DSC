@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_BaTmCo4O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.36302229
+_cell_length_b   6.36302229
+_cell_length_c   10.23533963
+_cell_angle_alpha   89.74877675
+_cell_angle_beta   89.74877675
+_cell_angle_gamma   119.58124852
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaTmCo4O7
+_chemical_formula_sum   'Ba2 Tm2 Co8 O14'
+_cell_volume   360.37978654
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.33193800  0.66451100  0.99830300  1
+  Ba  Ba1  1  0.66451100  0.33193800  0.49830300  1
+  Tm  Tm2  1  0.33212100  0.66687900  0.37216800  1
+  Tm  Tm3  1  0.66687900  0.33212100  0.87216800  1
+  Co  Co4  1  0.33583600  0.15467400  0.19197000  1
+  Co  Co5  1  0.81798300  0.66342100  0.18979000  1
+  Co  Co6  1  0.84461100  0.18464300  0.19002900  1
+  Co  Co7  1  0.15467400  0.33583600  0.69197000  1
+  Co  Co8  1  0.66342100  0.81798300  0.68979000  1
+  Co  Co9  1  0.18464300  0.84461100  0.69002900  1
+  Co  Co10  1  0.99833600  0.99611100  0.94904200  1
+  Co  Co11  1  0.99611100  0.99833600  0.44904200  1
+  O  O12  1  0.99792700  0.99545800  0.75916500  1
+  O  O13  1  0.99545800  0.99792700  0.25916500  1
+  O  O14  1  0.32355600  0.12200900  0.99879900  1
+  O  O15  1  0.78626200  0.67499400  0.99577800  1
+  O  O16  1  0.89153600  0.21621600  0.99825300  1
+  O  O17  1  0.12200900  0.32355600  0.49879900  1
+  O  O18  1  0.67499400  0.78626200  0.49577800  1
+  O  O19  1  0.21621600  0.89153600  0.49825300  1
+  O  O20  1  0.00297300  0.51747300  0.25373700  1
+  O  O21  1  0.51369300  0.99679700  0.25219400  1
+  O  O22  1  0.48392200  0.48632100  0.25177200  1
+  O  O23  1  0.51747300  0.00297300  0.75373700  1
+  O  O24  1  0.99679700  0.51369300  0.75219400  1
+  O  O25  1  0.48632100  0.48392200  0.75177200  1

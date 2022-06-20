@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Y2C2I0.25Br1.75
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.84677400
+_cell_length_b   4.02928774
+_cell_length_c   10.04420137
+_cell_angle_alpha   98.48909419
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.51257404
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Y2C2I0.25Br1.75
+_chemical_formula_sum   'Y2 C2 I0.25 Br1.75'
+_cell_volume   134.85604171
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  2  0.40708400  0.81416800  0.14436200  1.0
+  C  C1  2  0.08766700  0.17533400  0.03697300  1.0
+  Br  Br2  2  0.20322600  0.40645200  0.66589700  0.875
+  I  I3  2  0.20322600  0.40645200  0.66589700  0.125

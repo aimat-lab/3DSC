@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaVS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.75630834
+_cell_length_b   6.75630834
+_cell_length_c   5.65607500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.24689640
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaVS3
+_chemical_formula_sum   'Ba2 V2 S6'
+_cell_volume   225.27381032
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.33645200  0.66354800  0.74865600  1
+  Ba  Ba1  1  0.66354800  0.33645200  0.24865600  1
+  V  V2  1  0.02447400  0.97552600  0.48605800  1
+  V  V3  1  0.97552600  0.02447400  0.98605800  1
+  S  S4  1  0.31978600  0.15990100  0.75779600  1
+  S  S5  1  0.68021400  0.84009900  0.25779600  1
+  S  S6  1  0.84009900  0.68021400  0.75779600  1
+  S  S7  1  0.15990100  0.31978600  0.25779600  1
+  S  S8  1  0.17090700  0.82909300  0.24079400  1
+  S  S9  1  0.82909300  0.17090700  0.74079500  1

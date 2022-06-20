@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Pr2S3
+_symmetry_space_group_name_H-M   I-42d
+_cell_length_a   8.66299800
+_cell_length_b   8.66299800
+_cell_length_c   14.32549268
+_cell_angle_alpha   107.59958605
+_cell_angle_beta   107.59958604
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   122
+_chemical_formula_structural   Pr2S3
+_chemical_formula_sum   'Pr16 S24'
+_cell_volume   971.84665801
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, -x, -z'
+  3  '-x+z, -y+z, z'
+  4  '-y, x-z, -z'
+  5  '-x+3/4, y-z+1/4, -z+1/2'
+  6  '-y+z+3/4, -x+z+1/4, z+1/2'
+  7  'x-z+3/4, -y+1/4, -z+1/2'
+  8  'y+3/4, x+1/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  8  0.04710800  0.15148100  0.57848400  1.0
+  Pr  Pr1  4  0.16582000  0.16582000  0.33164000  1.0
+  Pr  Pr2  4  0.25504000  0.62500000  0.75000000  1.0
+  S  S3  8  0.00513700  0.75770500  0.86588600  1.0
+  S  S4  8  0.07155000  0.46415600  0.29061400  1.0
+  S  S5  8  0.18438800  0.43531300  0.03238100  1.0

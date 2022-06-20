@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Yb(Mo3S4)2
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   6.60277100
+_cell_length_b   6.71656599
+_cell_length_c   7.67427929
+_cell_angle_alpha   69.55315329
+_cell_angle_beta   71.55247262
+_cell_angle_gamma   71.79042356
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Yb(Mo3S4)2
+_chemical_formula_sum   'Yb1 Mo6 S8'
+_cell_volume   294.59771261
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1.0
+  Mo  Mo1  2  0.05436200  0.63107500  0.36052400  1.0
+  Mo  Mo2  2  0.35113100  0.81415600  0.39330200  1.0
+  Mo  Mo3  2  0.48471700  0.61521600  0.11652300  1.0
+  S  S4  2  0.10473600  0.02083300  0.61609000  1.0
+  S  S5  2  0.16444200  0.55102400  0.06206200  1.0
+  S  S6  2  0.30197300  0.43792500  0.61672900  1.0
+  S  S7  2  0.48462300  0.91105800  0.85224900  1.0

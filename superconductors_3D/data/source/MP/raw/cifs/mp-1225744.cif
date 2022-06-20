@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_CuTeSe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40034300
+_cell_length_b   6.40034300
+_cell_length_c   6.40034300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CuTeSe
+_chemical_formula_sum   'Cu4 Te4 Se4'
+_cell_volume   262.18615010
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.51016000  0.48984000  0.98984000  1
+  Cu  Cu1  1  0.48984000  0.98984000  0.51016000  1
+  Cu  Cu2  1  0.98984000  0.51016000  0.48984000  1
+  Cu  Cu3  1  0.01016000  0.01016000  0.01016000  1
+  Te  Te4  1  0.87990100  0.12009900  0.62009900  1
+  Te  Te5  1  0.12009900  0.62009900  0.87990100  1
+  Te  Te6  1  0.62009900  0.87990100  0.12009900  1
+  Te  Te7  1  0.37990100  0.37990100  0.37990100  1
+  Se  Se8  1  0.11642900  0.88357100  0.38357100  1
+  Se  Se9  1  0.88357100  0.38357100  0.11642900  1
+  Se  Se10  1  0.38357100  0.11642900  0.88357100  1
+  Se  Se11  1  0.61642900  0.61642900  0.61642900  1

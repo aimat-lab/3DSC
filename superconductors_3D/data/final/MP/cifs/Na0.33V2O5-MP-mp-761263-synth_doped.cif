@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Na0.66V4O10
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.68001600
+_cell_length_b   6.17130727
+_cell_length_c   9.57330227
+_cell_angle_alpha   100.59273318
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   107.34684009
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Na0.66V4O10
+_chemical_formula_sum   'Na0.66 V4 O10'
+_cell_volume   203.64112013
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50000000  0.00000000  0.50000000  0.6599999999999999
+  V  V1  2  0.08860600  0.17721200  0.16246900  1.0
+  V  V2  2  0.20311000  0.40622000  0.83202100  1.0
+  O  O3  2  0.06496600  0.12993200  0.90406200  1.0
+  O  O4  2  0.09366300  0.18732600  0.33437200  1.0
+  O  O5  2  0.15023200  0.30046400  0.66166200  1.0
+  O  O6  2  0.25841900  0.51683800  0.12288000  1.0
+  O  O7  2  0.37617000  0.75234000  0.86214000  1.0

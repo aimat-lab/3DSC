@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_LaB2Pt2C
+_symmetry_space_group_name_H-M   I4/mmm
+_cell_length_a   3.89880000
+_cell_length_b   3.89880000
+_cell_length_c   6.05759849
+_cell_angle_alpha   108.77246363
+_cell_angle_beta   108.77246363
+_cell_angle_gamma   89.99999999
+_symmetry_Int_Tables_number   139
+_chemical_formula_structural   LaB2Pt2C
+_chemical_formula_sum   'La1 B2 Pt2 C1'
+_cell_volume   81.99077022
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y+z, x, z'
+  4  'y-z, -x, -z'
+  5  '-x+z, -y+z, z'
+  6  'x-z, y-z, -z'
+  7  'y, -x+z, z'
+  8  '-y, x-z, -z'
+  9  'x-z, -y, -z'
+  10  '-x+z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+  13  '-x, y-z, -z'
+  14  'x, -y+z, z'
+  15  'y-z, x-z, -z'
+  16  '-y+z, -x+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00000000  0.00000000  0.00000000  1.0
+  B  B1  2  0.36218500  0.36218500  0.72437000  1.0
+  Pt  Pt2  2  0.25000000  0.75000000  0.50000000  1.0
+  C  C3  1  0.50000000  0.50000000  0.00000000  1.0

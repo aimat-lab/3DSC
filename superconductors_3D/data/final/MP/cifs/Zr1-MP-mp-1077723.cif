@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zr
+_symmetry_space_group_name_H-M   Ibam
+_cell_length_a   5.49986600
+_cell_length_b   5.87197829
+_cell_length_c   5.87197829
+_cell_angle_alpha   63.73676481
+_cell_angle_beta   62.07505273
+_cell_angle_gamma   62.07505274
+_symmetry_Int_Tables_number   72
+_chemical_formula_structural   Zr
+_chemical_formula_sum   Zr6
+_cell_volume   141.86698919
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -z, -y'
+  4  'x, z, y'
+  5  'x+y+z, -y+1/2, -z+1/2'
+  6  '-x-y-z, y+1/2, z+1/2'
+  7  '-x-y-z, z+1/2, y+1/2'
+  8  'x+y+z, -z+1/2, -y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  4  0.09466400  0.32289300  0.32289300  1.0
+  Zr  Zr1  2  0.50000000  0.25000000  0.75000000  1.0

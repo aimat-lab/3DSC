@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Sn4Ir
+_symmetry_space_group_name_H-M   Ccce
+_cell_length_a   6.42626600
+_cell_length_b   6.44697600
+_cell_length_c   6.58500833
+_cell_angle_alpha   60.69101519
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   68
+_chemical_formula_structural   Sn4Ir
+_chemical_formula_sum   'Sn8 Ir2'
+_cell_volume   237.89419221
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, -z'
+  3  '-x, y+z, -z'
+  4  '-x, -y-z, z'
+  5  '-x+1/2, -y+1/2, -z'
+  6  '-x+1/2, y+1/2, z'
+  7  'x+1/2, -y-z+1/2, z'
+  8  'x+1/2, y+z+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  8  0.17269200  0.20185500  0.25080500  1.0
+  Ir  Ir1  2  0.00000000  0.00000000  0.00000000  1.0

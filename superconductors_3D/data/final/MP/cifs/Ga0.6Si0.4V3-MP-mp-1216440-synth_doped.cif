@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_V6Ga1.2Si0.8
+_symmetry_space_group_name_H-M   Pm-3
+_cell_length_a   4.74701900
+_cell_length_b   4.74701900
+_cell_length_c   4.74701900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   200
+_chemical_formula_structural   V6Ga1.2Si0.8
+_chemical_formula_sum   'V6 Ga1.2 Si0.8'
+_cell_volume   106.97022517
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z'
+  4  'x, y, -z'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  '-x, y, -z'
+  8  'x, -y, z'
+  9  'z, x, y'
+  10  '-z, -x, -y'
+  11  'z, -x, -y'
+  12  '-z, x, y'
+  13  '-z, x, -y'
+  14  'z, -x, y'
+  15  '-z, -x, y'
+  16  'z, x, -y'
+  17  'y, z, x'
+  18  '-y, -z, -x'
+  19  '-y, z, -x'
+  20  'y, -z, x'
+  21  '-y, -z, x'
+  22  'y, z, -x'
+  23  'y, -z, -x'
+  24  '-y, z, x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  V  V0  6  0.00000000  0.50000000  0.24455700  1.0
+  Ga  Ga1  1  0.50000000  0.50000000  0.50000000  1.0
+  Si  Si2  1  0.00000000  0.00000000  0.00000000  0.8
+  Ga  Ga3  1  0.00000000  0.00000000  0.00000000  0.2

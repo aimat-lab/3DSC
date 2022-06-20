@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_LaFeAsO
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.14459300
+_cell_length_b   10.11502346
+_cell_length_c   8.24135832
+_cell_angle_alpha   65.55564015
+_cell_angle_beta   90.00027006
+_cell_angle_gamma   89.99992706
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaFeAsO
+_chemical_formula_sum   'La4 Fe4 As4 O4'
+_cell_volume   314.53026605
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.74918400  0.86956400  0.69096700  1
+  La  La1  1  0.75081100  0.86951500  0.19097600  1
+  La  La2  1  0.24916300  0.13045800  0.30901700  1
+  La  La3  1  0.25080300  0.13049000  0.80903800  1
+  Fe  Fe4  1  0.75917600  0.49858800  0.12366100  1
+  Fe  Fe5  1  0.25924000  0.50141200  0.87633300  1
+  Fe  Fe6  1  0.74076000  0.49873100  0.62356900  1
+  Fe  Fe7  1  0.24080200  0.50127900  0.37645000  1
+  As  As8  1  0.75082800  0.32827300  0.95619300  1
+  As  As9  1  0.74924400  0.32815100  0.45630900  1
+  As  As10  1  0.25082900  0.67169000  0.04379900  1
+  As  As11  1  0.24920500  0.67185100  0.54368100  1
+  O  O12  1  0.74950400  0.00026400  0.37472200  1
+  O  O13  1  0.75047300  0.00026100  0.87474600  1
+  O  O14  1  0.25047100  0.99972300  0.12526700  1
+  O  O15  1  0.24950800  0.99975000  0.62527200  1

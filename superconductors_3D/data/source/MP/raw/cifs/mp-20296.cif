@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_In2Co
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.12738111
+_cell_length_b   9.32171626
+_cell_length_c   5.43062179
+_cell_angle_alpha   82.15337806
+_cell_angle_beta   65.75931439
+_cell_angle_gamma   32.08730755
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   In2Co
+_chemical_formula_sum   'In8 Co4'
+_cell_volume   223.44492940
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  1  0.09100800  0.40899200  0.09100800  1
+  In  In1  1  0.40899200  0.09100800  0.40899200  1
+  In  In2  1  0.15899200  0.84100800  0.15899200  1
+  In  In3  1  0.84100800  0.15899200  0.84100800  1
+  In  In4  1  0.83927300  0.83927300  0.66072700  1
+  In  In5  1  0.66072700  0.66072700  0.83927300  1
+  In  In6  1  0.41072700  0.41072700  0.58927300  1
+  In  In7  1  0.58927300  0.58927300  0.41072700  1
+  Co  Co8  1  0.37834200  0.37834200  0.12165800  1
+  Co  Co9  1  0.12165800  0.12165800  0.37834200  1
+  Co  Co10  1  0.87165800  0.87165800  0.12834200  1
+  Co  Co11  1  0.12834200  0.12834200  0.87165800  1

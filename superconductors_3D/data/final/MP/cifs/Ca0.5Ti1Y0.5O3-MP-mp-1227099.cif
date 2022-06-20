@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaYTi2O6
+_symmetry_space_group_name_H-M   Pmn2_1
+_cell_length_a   5.37310000
+_cell_length_b   5.58663600
+_cell_length_c   7.71739400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   31
+_chemical_formula_structural   CaYTi2O6
+_chemical_formula_sum   'Ca2 Y2 Ti4 O12'
+_cell_volume   231.65729030
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+1/2, -y, -z+1/2'
+  3  'x, y, -z'
+  4  'x+1/2, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  2  0.48807500  0.19556900  0.00000000  1.0
+  Y  Y1  2  0.01552500  0.68665500  0.00000000  1.0
+  Ti  Ti2  4  0.00033900  0.24705200  0.24951000  1.0
+  O  O3  4  0.19322200  0.94671900  0.19781600  1.0
+  O  O4  4  0.29541800  0.45818300  0.20301900  1.0
+  O  O5  2  0.10385100  0.22187800  0.50000000  1.0
+  O  O6  2  0.41459300  0.71873000  0.50000000  1.0

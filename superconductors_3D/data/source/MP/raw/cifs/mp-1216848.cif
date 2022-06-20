@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_TiNbFe4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.73575960
+_cell_length_b   4.73575960
+_cell_length_c   7.84504200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999436
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiNbFe4
+_chemical_formula_sum   'Ti2 Nb2 Fe8'
+_cell_volume   152.37202010
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.66666700  0.33333300  0.93874000  1
+  Ti  Ti1  1  0.33333300  0.66666700  0.06126000  1
+  Nb  Nb2  1  0.33333300  0.66666700  0.42904400  1
+  Nb  Nb3  1  0.66666700  0.33333300  0.57095600  1
+  Fe  Fe4  1  0.00000000  0.00000000  0.50000000  1
+  Fe  Fe5  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe6  1  0.82971200  0.17028800  0.24719600  1
+  Fe  Fe7  1  0.82971200  0.65942300  0.24719600  1
+  Fe  Fe8  1  0.34057700  0.17028800  0.24719600  1
+  Fe  Fe9  1  0.17028800  0.82971200  0.75280400  1
+  Fe  Fe10  1  0.17028800  0.34057700  0.75280400  1
+  Fe  Fe11  1  0.65942300  0.82971200  0.75280400  1

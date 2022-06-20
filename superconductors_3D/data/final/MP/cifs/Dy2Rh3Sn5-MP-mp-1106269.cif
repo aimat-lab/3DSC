@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Dy2Sn5Rh3
+_symmetry_space_group_name_H-M   Cmc2_1
+_cell_length_a   4.39801200
+_cell_length_b   7.33453500
+_cell_length_c   13.45591607
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   99.40563484
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   36
+_chemical_formula_structural   Dy2Sn5Rh3
+_chemical_formula_sum   'Dy4 Sn10 Rh6'
+_cell_volume   428.21714206
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+  3  '-x+z, y, z'
+  4  'x-z, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  2  0.17294800  0.75529800  0.34589600  1.0
+  Dy  Dy1  2  0.47592600  0.73668700  0.95185200  1.0
+  Sn  Sn2  2  0.04769500  0.89733400  0.09539000  1.0
+  Sn  Sn3  2  0.11945600  0.23057500  0.23891200  1.0
+  Sn  Sn4  2  0.29061800  0.97731300  0.58123600  1.0
+  Sn  Sn5  2  0.29536000  0.55007500  0.59072000  1.0
+  Sn  Sn6  2  0.40368100  0.11450100  0.80736200  1.0
+  Rh  Rh7  2  0.05016200  0.51889800  0.10032400  1.0
+  Rh  Rh8  2  0.22345500  0.26494800  0.44691000  1.0
+  Rh  Rh9  2  0.39414300  0.48237000  0.78828600  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sn2Rh
+_symmetry_space_group_name_H-M   Cmce
+_cell_length_a   6.41029500
+_cell_length_b   6.41609600
+_cell_length_c   6.99808580
+_cell_angle_alpha   62.71493363
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   64
+_chemical_formula_structural   Sn2Rh
+_chemical_formula_sum   'Sn8 Rh4'
+_cell_volume   255.80042932
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z'
+  4  '-x+1/2, y+1/2, z'
+  5  '-x, -y-z, z'
+  6  'x, y+z, -z'
+  7  '-x+1/2, y+z+1/2, -z'
+  8  'x+1/2, -y-z+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  4  0.16339300  0.33586400  0.00000000  1.0
+  Sn  Sn1  4  0.25000000  0.49705000  0.50000000  1.0
+  Rh  Rh2  4  0.00000000  0.11764600  0.76470800  1.0

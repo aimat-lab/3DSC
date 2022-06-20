@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Hf2Be17
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   5.64684617
+_cell_length_b   5.64684617
+_cell_length_c   5.64684614
+_cell_angle_alpha   82.80314644
+_cell_angle_beta   82.80314644
+_cell_angle_gamma   82.80315514
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Hf2Be17
+_chemical_formula_sum   'Hf2 Be17'
+_cell_volume   176.13245386
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+  7  '-z, -y, -x'
+  8  'z, y, x'
+  9  '-y, -x, -z'
+  10  'y, x, z'
+  11  '-x, -z, -y'
+  12  'x, z, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  2  0.16253400  0.16253400  0.16253400  1.0
+  Be  Be1  6  0.15685700  0.15685700  0.66025300  1.0
+  Be  Be2  6  0.21111400  0.50000000  0.78888600  1.0
+  Be  Be3  3  0.00000000  0.50000000  0.50000000  1.0
+  Be  Be4  2  0.40356400  0.40356400  0.40356400  1.0

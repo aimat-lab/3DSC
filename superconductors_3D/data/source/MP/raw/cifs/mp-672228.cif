@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_TiAs2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.53591100
+_cell_length_b   8.57492100
+_cell_length_c   15.35702100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiAs2
+_chemical_formula_sum   'Ti8 As16'
+_cell_volume   465.62729527
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.50000000  0.41609400  0.28382200  1
+  Ti  Ti1  1  0.00000000  0.65838700  0.01826700  1
+  Ti  Ti2  1  0.50000000  0.58390600  0.71617800  1
+  Ti  Ti3  1  0.50000000  0.84161300  0.51826700  1
+  Ti  Ti4  1  0.00000000  0.08390600  0.78382200  1
+  Ti  Ti5  1  0.50000000  0.15838700  0.48173300  1
+  Ti  Ti6  1  0.00000000  0.91609400  0.21617800  1
+  Ti  Ti7  1  0.00000000  0.34161300  0.98173300  1
+  As  As8  1  0.50000000  0.53688500  0.89975800  1
+  As  As9  1  0.50000000  0.71755600  0.26661200  1
+  As  As10  1  0.00000000  0.96311500  0.39975800  1
+  As  As11  1  0.00000000  0.78244400  0.76661200  1
+  As  As12  1  0.00000000  0.10235000  0.08103800  1
+  As  As13  1  0.00000000  0.32758400  0.39871600  1
+  As  As14  1  0.00000000  0.67241600  0.60128400  1
+  As  As15  1  0.50000000  0.17241600  0.89871600  1
+  As  As16  1  0.50000000  0.60235000  0.41896200  1
+  As  As17  1  0.50000000  0.39765000  0.58103800  1
+  As  As18  1  0.00000000  0.21755600  0.23338800  1
+  As  As19  1  0.00000000  0.03688500  0.60024200  1
+  As  As20  1  0.50000000  0.28244400  0.73338800  1
+  As  As21  1  0.50000000  0.46311500  0.10024200  1
+  As  As22  1  0.50000000  0.82758400  0.10128400  1
+  As  As23  1  0.00000000  0.89765000  0.91896200  1

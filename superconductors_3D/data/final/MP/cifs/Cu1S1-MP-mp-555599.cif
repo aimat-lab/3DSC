@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CuS
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.78892000
+_cell_length_b   3.80299815
+_cell_length_c   16.42138800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.87761899
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   CuS
+_chemical_formula_sum   'Cu6 S6'
+_cell_volume   205.17115003
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x-y, -y, -z'
+  6  '-x+y, y, z'
+  7  '-x+y, y, -z+1/2'
+  8  'x-y, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  4  0.33645900  0.67291800  0.10719900  1.0
+  Cu  Cu1  2  0.36202400  0.72404800  0.75000000  1.0
+  S  S2  4  0.00235000  0.00470000  0.06416700  1.0
+  S  S3  2  0.30614300  0.61228600  0.25000000  1.0

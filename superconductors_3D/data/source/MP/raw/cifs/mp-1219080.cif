@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_SmBeCu4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.12329421
+_cell_length_b   5.12329421
+_cell_length_c   3.86219700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000274
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SmBeCu4
+_chemical_formula_sum   'Sm1 Be1 Cu4'
+_cell_volume   87.79375712
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.33333300  0.66666700  0.00000000  1
+  Be  Be1  1  0.66666700  0.33333300  0.00000000  1
+  Cu  Cu2  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu3  1  0.34349800  0.17174900  0.50000000  1
+  Cu  Cu4  1  0.82825100  0.17174900  0.50000000  1
+  Cu  Cu5  1  0.82825100  0.65650200  0.50000000  1

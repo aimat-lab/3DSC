@@ -1,0 +1,77 @@
+# generated using pymatgen
+data_Th0.034U1.966Be26
+_symmetry_space_group_name_H-M   Fm-3c
+_cell_length_a   7.17467593
+_cell_length_b   7.17467593
+_cell_length_c   7.17467593
+_cell_angle_alpha   60.00000000
+_cell_angle_beta   60.00000000
+_cell_angle_gamma   60.00000000
+_symmetry_Int_Tables_number   226
+_chemical_formula_structural   Th0.034U1.966Be26
+_chemical_formula_sum   'Th0.034 U1.966 Be26'
+_cell_volume   261.15110651
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y+1/2, -z+1/2, x+y+z+1/2'
+  4  'y+1/2, z+1/2, -x-y-z+1/2'
+  5  'z, -x-y-z, x'
+  6  '-z, x+y+z, -x'
+  7  'x+y+z+1/2, -x+1/2, -y+1/2'
+  8  '-x-y-z+1/2, x+1/2, y+1/2'
+  9  'y, x, -x-y-z'
+  10  '-y, -x, x+y+z'
+  11  '-z+1/2, -y+1/2, -x+1/2'
+  12  'z+1/2, y+1/2, x+1/2'
+  13  '-x-y-z, z, y'
+  14  'x+y+z, -z, -y'
+  15  '-x+1/2, x+y+z+1/2, -z+1/2'
+  16  'x+1/2, -x-y-z+1/2, z+1/2'
+  17  'z, x, y'
+  18  '-z, -x, -y'
+  19  'x+y+z+1/2, -y+1/2, -z+1/2'
+  20  '-x-y-z+1/2, y+1/2, z+1/2'
+  21  'x, z, -x-y-z'
+  22  '-x, -z, x+y+z'
+  23  '-y+1/2, x+y+z+1/2, -x+1/2'
+  24  'y+1/2, -x-y-z+1/2, x+1/2'
+  25  '-x-y-z, y, x'
+  26  'x+y+z, -y, -x'
+  27  '-x+1/2, -z+1/2, -y+1/2'
+  28  'x+1/2, z+1/2, y+1/2'
+  29  'y, -x-y-z, z'
+  30  '-y, x+y+z, -z'
+  31  '-z+1/2, -x+1/2, x+y+z+1/2'
+  32  'z+1/2, x+1/2, -x-y-z+1/2'
+  33  'y, z, x'
+  34  '-y, -z, -x'
+  35  '-z+1/2, x+y+z+1/2, -y+1/2'
+  36  'z+1/2, -x-y-z+1/2, y+1/2'
+  37  '-x-y-z, x, z'
+  38  'x+y+z, -x, -z'
+  39  '-x+1/2, -y+1/2, x+y+z+1/2'
+  40  'x+1/2, y+1/2, -x-y-z+1/2'
+  41  'x, -x-y-z, y'
+  42  '-x, x+y+z, -y'
+  43  '-y+1/2, -x+1/2, -z+1/2'
+  44  'y+1/2, x+1/2, z+1/2'
+  45  'z, y, -x-y-z'
+  46  '-z, -y, x+y+z'
+  47  'x+y+z+1/2, -z+1/2, -x+1/2'
+  48  '-x-y-z+1/2, z+1/2, x+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.25000000  0.25000000  0.25000000  0.983
+  Th  Th1  2  0.25000000  0.25000000  0.25000000  0.017
+  Be  Be2  24  0.05966400  0.29241900  0.94033600  1.0
+  Be  Be3  2  0.00000000  0.00000000  0.00000000  1.0

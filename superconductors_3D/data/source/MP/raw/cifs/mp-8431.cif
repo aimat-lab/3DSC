@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ca(BRh)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.06586591
+_cell_length_b   6.09204725
+_cell_length_c   5.51846996
+_cell_angle_alpha   74.79017268
+_cell_angle_beta   56.30256872
+_cell_angle_gamma   48.90725860
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca(BRh)2
+_chemical_formula_sum   'Ca2 B4 Rh4'
+_cell_volume   146.94942902
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.50000000  0.50000000  0.50000000  1
+  Ca  Ca1  1  0.75000000  0.75000000  0.75000000  1
+  B  B2  1  0.82430400  0.17569600  0.82430400  1
+  B  B3  1  0.07430400  0.42569600  0.07430400  1
+  B  B4  1  0.17569600  0.82430400  0.17569600  1
+  B  B5  1  0.42569600  0.07430400  0.42569600  1
+  Rh  Rh6  1  0.13015600  0.13015600  0.86984400  1
+  Rh  Rh7  1  0.38015600  0.38015600  0.11984400  1
+  Rh  Rh8  1  0.11984400  0.11984400  0.38015600  1
+  Rh  Rh9  1  0.86984400  0.86984400  0.13015600  1

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Er2Si5Rh3
+_symmetry_space_group_name_H-M   Ibam
+_cell_length_a   5.74514000
+_cell_length_b   8.12852914
+_cell_length_c   8.12852914
+_cell_angle_alpha   75.13644262
+_cell_angle_beta   69.30497741
+_cell_angle_gamma   69.30497741
+_symmetry_Int_Tables_number   72
+_chemical_formula_structural   Er2Si5Rh3
+_chemical_formula_sum   'Er4 Si10 Rh6'
+_cell_volume   328.41220512
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+  5  '-x+1/2, -z, -y'
+  6  'x+1/2, z, y'
+  7  '-x-y-z+1/2, z, y'
+  8  'x+y+z+1/2, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  4  0.13154900  0.10053300  0.63636800  1.0
+  Si  Si1  4  0.02663300  0.72336700  0.72336700  1.0
+  Si  Si2  4  0.10638700  0.54995500  0.23727100  1.0
+  Si  Si3  2  0.25000000  0.00000000  0.00000000  1.0
+  Rh  Rh4  4  0.13946400  0.74975900  0.97131300  1.0
+  Rh  Rh5  2  0.25000000  0.50000000  0.50000000  1.0

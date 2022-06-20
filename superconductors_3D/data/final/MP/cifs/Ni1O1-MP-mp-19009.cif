@@ -1,0 +1,75 @@
+# generated using pymatgen
+data_NiO
+_symmetry_space_group_name_H-M   Fm-3m
+_cell_length_a   2.98011397
+_cell_length_b   2.98004923
+_cell_length_c   2.98011043
+_cell_angle_alpha   60.06666053
+_cell_angle_beta   60.06782546
+_cell_angle_gamma   60.06651150
+_symmetry_Int_Tables_number   225
+_chemical_formula_structural   NiO
+_chemical_formula_sum   'Ni1 O1'
+_cell_volume   18.74271935
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y, x+y+z, -x'
+  4  'y, -x-y-z, x'
+  5  '-x-y-z, z, y'
+  6  'x+y+z, -z, -y'
+  7  '-z, -x, x+y+z'
+  8  'z, x, -x-y-z'
+  9  'y, x, -x-y-z'
+  10  '-y, -x, x+y+z'
+  11  'x+y+z, -y, -z'
+  12  '-x-y-z, y, z'
+  13  'z, -x-y-z, x'
+  14  '-z, x+y+z, -x'
+  15  '-x, -z, -y'
+  16  'x, z, y'
+  17  'z, y, -x-y-z'
+  18  '-z, -y, x+y+z'
+  19  '-x, x+y+z, -z'
+  20  'x, -x-y-z, z'
+  21  'y, z, x'
+  22  '-y, -z, -x'
+  23  'x+y+z, -x, -y'
+  24  '-x-y-z, x, y'
+  25  '-x-y-z, x, z'
+  26  'x+y+z, -x, -z'
+  27  '-z, -y, -x'
+  28  'z, y, x'
+  29  'x, -x-y-z, y'
+  30  '-x, x+y+z, -y'
+  31  '-y, -z, x+y+z'
+  32  'y, z, -x-y-z'
+  33  '-x-y-z, y, x'
+  34  'x+y+z, -y, -x'
+  35  '-z, x+y+z, -y'
+  36  'z, -x-y-z, y'
+  37  'x, z, -x-y-z'
+  38  '-x, -z, x+y+z'
+  39  '-y, -x, -z'
+  40  'y, x, z'
+  41  'z, x, y'
+  42  '-z, -x, -y'
+  43  '-x, -y, x+y+z'
+  44  'x, y, -x-y-z'
+  45  'y, -x-y-z, z'
+  46  '-y, x+y+z, -z'
+  47  'x+y+z, -z, -x'
+  48  '-x-y-z, z, x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O1  1  0.50000000  0.50000000  0.50000000  1.0

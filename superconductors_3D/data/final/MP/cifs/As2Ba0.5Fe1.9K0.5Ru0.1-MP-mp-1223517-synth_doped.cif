@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_K1Ba1Fe3.8As4Ru0.2
+_symmetry_space_group_name_H-M   Cmmm
+_cell_length_a   5.47902700
+_cell_length_b   5.48002400
+_cell_length_c   7.13170472
+_cell_angle_alpha   67.40581960
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   65
+_chemical_formula_structural   K1Ba1Fe3.8As4Ru0.2
+_chemical_formula_sum   'K1 Ba1 Fe3.8 As4 Ru0.2'
+_cell_volume   197.69615191
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x, -y, -z'
+  4  '-x, y, z'
+  5  '-x, y+z, -z'
+  6  'x, -y-z, z'
+  7  '-x, -y-z, z'
+  8  'x, y+z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  0.00000000  0.00000000  1.0
+  Ba  Ba1  1  0.50000000  0.50000000  0.00000000  1.0
+  Fe  Fe2  4  0.24995800  0.00000000  0.50000000  0.95
+  Ru  Ru3  4  0.24995800  0.00000000  0.50000000  0.05
+  As  As4  2  0.00000000  0.34567800  0.30864400  1.0
+  As  As5  2  0.50000000  0.15429300  0.69141400  1.0

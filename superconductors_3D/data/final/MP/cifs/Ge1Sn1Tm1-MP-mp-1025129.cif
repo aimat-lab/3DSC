@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TmSnGe
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   4.06049600
+_cell_length_b   4.25296600
+_cell_length_c   8.32384764
+_cell_angle_alpha   75.19863710
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   TmSnGe
+_chemical_formula_sum   'Tm2 Sn2 Ge2'
+_cell_volume   138.97591384
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y, -z'
+  4  '-x+1/2, y, z'
+  5  '-x, y+z, -z'
+  6  'x, -y-z, z'
+  7  '-x+1/2, -y-z, z'
+  8  'x+1/2, y+z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  2  0.25000000  0.59383200  0.81233600  1.0
+  Sn  Sn1  2  0.25000000  0.24593900  0.50812200  1.0
+  Ge  Ge2  2  0.25000000  0.94474700  0.11050600  1.0

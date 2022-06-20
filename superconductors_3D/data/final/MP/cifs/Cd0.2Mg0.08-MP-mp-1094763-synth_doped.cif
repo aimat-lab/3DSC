@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mg1.6Cd4
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.21906000
+_cell_length_b   5.09418100
+_cell_length_c   8.19989128
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   101.31990168
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   Mg1.6Cd4
+_chemical_formula_sum   'Mg1.6 Cd4'
+_cell_volume   131.84988276
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z'
+  4  'x, -y+1/2, z'
+  5  'x-z, -y, -z'
+  6  '-x+z, y, z'
+  7  '-x+z, -y+1/2, z'
+  8  'x-z, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  2  0.11087400  0.25000000  0.22174800  0.8
+  Cd  Cd1  2  0.22221500  0.75000000  0.44443000  1.0
+  Cd  Cd2  2  0.44485300  0.25000000  0.88970600  1.0

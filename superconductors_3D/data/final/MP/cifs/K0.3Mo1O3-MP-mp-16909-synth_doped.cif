@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_K1.8Mo6O18
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   6.52112780
+_cell_length_b   7.81409200
+_cell_length_c   8.59770913
+_cell_angle_alpha   62.97181656
+_cell_angle_beta   87.98644894
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   K1.8Mo6O18
+_chemical_formula_sum   'K1.8 Mo6 O18'
+_cell_volume   389.95801058
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+z, -z'
+  4  'x, -y-z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  2  0.15796000  0.29881300  0.40237400  0.9
+  Mo  Mo1  4  0.26652800  0.31665700  0.88745100  1.0
+  Mo  Mo2  2  0.36644400  0.88149300  0.23701400  1.0
+  O  O3  4  0.19878900  0.42712100  0.67268300  1.0
+  O  O4  4  0.41411800  0.15787900  0.15978900  1.0
+  O  O5  2  0.00000000  0.25802800  0.00000000  1.0
+  O  O6  2  0.10739900  0.85213500  0.29573000  1.0
+  O  O7  2  0.29365400  0.53668300  0.92663400  1.0
+  O  O8  2  0.30717400  0.03734100  0.92531800  1.0
+  O  O9  2  0.48909200  0.78327300  0.43345400  1.0

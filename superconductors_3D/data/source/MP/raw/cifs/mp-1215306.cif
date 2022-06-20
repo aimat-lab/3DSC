@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ZrAlV
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24193487
+_cell_length_b   5.24206147
+_cell_length_c   8.76665000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   60.14892391
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ZrAlV
+_chemical_formula_sum   'Zr4 Al4 V4'
+_cell_volume   208.93336673
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.33338800  0.33336600  0.56264500  1
+  Zr  Zr1  1  0.66935500  0.66936700  0.43553400  1
+  Zr  Zr2  1  0.66935500  0.66936700  0.06446600  1
+  Zr  Zr3  1  0.33338800  0.33336600  0.93735500  1
+  Al  Al4  1  0.99688100  0.99690300  0.49547000  1
+  Al  Al5  1  0.99688100  0.99690300  0.00453000  1
+  Al  Al6  1  0.83153100  0.34043000  0.75000000  1
+  Al  Al7  1  0.34042700  0.83152600  0.75000000  1
+  V  V8  1  0.83114200  0.83115100  0.75000000  1
+  V  V9  1  0.17816900  0.64627100  0.25000000  1
+  V  V10  1  0.64628900  0.17815600  0.25000000  1
+  V  V11  1  0.17319500  0.17319400  0.25000000  1

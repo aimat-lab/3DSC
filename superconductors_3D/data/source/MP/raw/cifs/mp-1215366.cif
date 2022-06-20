@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_Zr4FeNi
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27706243
+_cell_length_b   5.27706243
+_cell_length_c   5.27706243
+_cell_angle_alpha   105.72931046
+_cell_angle_beta   105.72931046
+_cell_angle_gamma   117.24615294
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr4FeNi
+_chemical_formula_sum   'Zr4 Fe1 Ni1'
+_cell_volume   111.54187522
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.91997500  0.41997500  0.83995000  1
+  Zr  Zr1  1  0.58002500  0.08002500  0.16005000  1
+  Zr  Zr2  1  0.08002500  0.91997500  0.50000000  1
+  Zr  Zr3  1  0.41997500  0.58002500  0.50000000  1
+  Fe  Fe4  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni5  1  0.50000000  0.50000000  0.00000000  1

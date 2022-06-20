@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr2PrCu3(PbO4)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   3.86580500
+_cell_length_b   3.90250611
+_cell_length_c   16.03698769
+_cell_angle_alpha   88.98069051
+_cell_angle_beta   89.44168111
+_cell_angle_gamma   89.50931386
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2PrCu3(PbO4)2
+_chemical_formula_sum   'Sr2 Pr1 Cu3 Pb2 O8'
+_cell_volume   241.88096198
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00213000  0.00783700  0.77593900  1
+  Sr  Sr1  1  0.99787000  0.99216300  0.22406100  1
+  Pr  Pr2  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu3  1  0.50041500  0.50125400  0.88948100  1
+  Cu  Cu4  1  0.49958500  0.49874600  0.11051900  1
+  Cu  Cu5  1  0.00000000  0.00000000  0.50000000  1
+  Pb  Pb6  1  0.50502300  0.49606600  0.61056300  1
+  Pb  Pb7  1  0.49497700  0.50393400  0.38943700  1
+  O  O8  1  0.99970300  0.50325200  0.90171200  1
+  O  O9  1  0.49915500  0.00014200  0.90122100  1
+  O  O10  1  0.00029700  0.49674800  0.09828800  1
+  O  O11  1  0.50084500  0.99985800  0.09877900  1
+  O  O12  1  0.50161400  0.51026800  0.74652400  1
+  O  O13  1  0.49838600  0.48973200  0.25347600  1
+  O  O14  1  0.02901900  0.09721800  0.61249300  1
+  O  O15  1  0.97098100  0.90278200  0.38750700  1

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_NaTe
+_symmetry_space_group_name_H-M   Pbcn
+_cell_length_a   9.22361400
+_cell_length_b   10.02884700
+_cell_length_c   16.02680400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   60
+_chemical_formula_structural   NaTe
+_chemical_formula_sum   'Na24 Te24'
+_cell_volume   1482.51484682
+_cell_formula_units_Z   24
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z+1/2'
+  4  '-x+1/2, y+1/2, z+1/2'
+  5  '-x, -y+1/2, z+1/2'
+  6  'x, y+1/2, -z+1/2'
+  7  '-x+1/2, y, -z'
+  8  'x+1/2, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  8  0.05916000  0.31946200  0.97117700  1.0
+  Na  Na1  8  0.22597000  0.48843300  0.18937000  1.0
+  Na  Na2  8  0.24213300  0.33000000  0.61307700  1.0
+  Te  Te3  8  0.01094500  0.25290000  0.75276500  1.0
+  Te  Te4  8  0.19135100  0.14092400  0.13260800  1.0
+  Te  Te5  4  0.00000000  0.00000000  0.00000000  1.0
+  Te  Te6  4  0.25000000  0.07258400  0.50000000  1.0

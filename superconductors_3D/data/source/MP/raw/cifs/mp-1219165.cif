@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sm4Fe3Co(AsO)4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.01216900
+_cell_length_b   4.01216900
+_cell_length_c   18.33828900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm4Fe3Co(AsO)4
+_chemical_formula_sum   'Sm4 Fe3 Co1 As4 O4'
+_cell_volume   295.20060873
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.50000000  0.00000000  0.18641400  1
+  Sm  Sm1  1  0.50000000  0.00000000  0.68851500  1
+  Sm  Sm2  1  0.00000000  0.50000000  0.81358600  1
+  Sm  Sm3  1  0.00000000  0.50000000  0.31148500  1
+  Fe  Fe4  1  0.50000000  0.50000000  0.50000000  1
+  Fe  Fe5  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.50000000  1
+  Co  Co7  1  0.50000000  0.50000000  0.00000000  1
+  As  As8  1  0.50000000  0.00000000  0.91205600  1
+  As  As9  1  0.50000000  0.00000000  0.40904800  1
+  As  As10  1  0.00000000  0.50000000  0.08794400  1
+  As  As11  1  0.00000000  0.50000000  0.59095200  1
+  O  O12  1  0.50000000  0.50000000  0.75103000  1
+  O  O13  1  0.50000000  0.50000000  0.24897000  1
+  O  O14  1  0.00000000  0.00000000  0.75078500  1
+  O  O15  1  0.00000000  0.00000000  0.24921500  1

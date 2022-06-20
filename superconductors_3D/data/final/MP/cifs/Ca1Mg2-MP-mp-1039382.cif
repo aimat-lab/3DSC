@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_CaMg2
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.46562400
+_cell_length_b   5.61844700
+_cell_length_c   8.94161513
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   101.17415458
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   CaMg2
+_chemical_formula_sum   'Ca2 Mg4'
+_cell_volume   170.80540205
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z'
+  4  'x, -y+1/2, z'
+  5  'x-z, -y, -z'
+  6  '-x+z, y, z'
+  7  '-x+z, -y+1/2, z'
+  8  'x-z, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  2  0.10818400  0.25000000  0.21636800  1.0
+  Mg  Mg1  2  0.21970600  0.75000000  0.43941200  1.0
+  Mg  Mg2  2  0.44200300  0.25000000  0.88400600  1.0

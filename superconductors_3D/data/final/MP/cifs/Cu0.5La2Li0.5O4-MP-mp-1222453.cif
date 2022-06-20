@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_LiLa4CuO8
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.81620000
+_cell_length_b   7.03221085
+_cell_length_c   7.56149593
+_cell_angle_alpha   105.56751706
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   105.74385015
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   LiLa4CuO8
+_chemical_formula_sum   'Li1 La4 Cu1 O8'
+_cell_volume   187.56382342
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00000000  0.00000000  1.0
+  La  La1  2  0.36150700  0.72301400  0.69020300  1.0
+  La  La2  2  0.36429000  0.72858000  0.17318500  1.0
+  Cu  Cu3  1  0.00000000  0.00000000  0.50000000  1.0
+  O  O4  2  0.00106700  0.00213400  0.25932400  1.0
+  O  O5  2  0.18063300  0.36126600  0.59154700  1.0
+  O  O6  2  0.18162700  0.36325400  0.08989800  1.0
+  O  O7  1  0.50000000  0.00000000  0.00000000  1.0
+  O  O8  1  0.50000000  0.00000000  0.50000000  1.0

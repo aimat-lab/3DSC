@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_GaAs
+_symmetry_space_group_name_H-M   Imm2
+_cell_length_a   2.96966600
+_cell_length_b   3.90785450
+_cell_length_c   3.90785450
+_cell_angle_alpha   78.70954355
+_cell_angle_beta   67.66872203
+_cell_angle_gamma   67.66872202
+_symmetry_Int_Tables_number   44
+_chemical_formula_structural   GaAs
+_chemical_formula_sum   'Ga1 As1'
+_cell_volume   38.73331860
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+y+z, -y, -z'
+  3  'x, z, y'
+  4  'x+y+z, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.39793700  0.50000000  0.50000000  1.0
+  As  As1  1  0.04758400  0.00000000  0.00000000  1.0

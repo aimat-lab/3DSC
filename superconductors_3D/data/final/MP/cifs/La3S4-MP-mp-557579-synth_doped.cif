@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_La3S4
+_symmetry_space_group_name_H-M   Cmce
+_cell_length_a   4.07959224
+_cell_length_b   4.07959224
+_cell_length_c   18.01561700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   89.94450584
+_symmetry_Int_Tables_number   64
+_chemical_formula_structural   La3S4
+_chemical_formula_sum   'La3 S4'
+_cell_volume   299.83508543
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y+1/2, z+1/2'
+  4  'x+1/2, y+1/2, -z+1/2'
+  5  '-y, -x, -z'
+  6  'y, x, z'
+  7  'y+1/2, x+1/2, -z+1/2'
+  8  '-y+1/2, -x+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  4  0.17557300  0.17557300  0.82142400  0.75
+  S  S1  4  0.17548000  0.17548000  0.65889200  1.0

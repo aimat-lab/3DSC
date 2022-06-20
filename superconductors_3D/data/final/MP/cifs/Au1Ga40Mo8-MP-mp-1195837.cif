@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ga40Mo8Au
+_symmetry_space_group_name_H-M   R-3
+_cell_length_a   9.59798076
+_cell_length_b   9.59798076
+_cell_length_c   9.59798017
+_cell_angle_alpha   94.76219048
+_cell_angle_beta   94.76219048
+_cell_angle_gamma   94.76219528
+_symmetry_Int_Tables_number   148
+_chemical_formula_structural   Ga40Mo8Au
+_chemical_formula_sum   'Ga40 Mo8 Au1'
+_cell_volume   874.47752776
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  6  0.03165000  0.40047800  0.21323500  1.0
+  Ga  Ga1  6  0.05526100  0.87422600  0.74148200  1.0
+  Ga  Ga2  6  0.07438300  0.77867200  0.44955200  1.0
+  Ga  Ga3  6  0.12517000  0.67904800  0.17663100  1.0
+  Ga  Ga4  6  0.22097100  0.32492000  0.46237500  1.0
+  Ga  Ga5  6  0.26596500  0.61135700  0.63446700  1.0
+  Ga  Ga6  3  0.00000000  0.50000000  0.50000000  1.0
+  Ga  Ga7  1  0.50000000  0.50000000  0.50000000  1.0
+  Mo  Mo8  6  0.11218600  0.38743700  0.70886000  1.0
+  Mo  Mo9  2  0.20040900  0.20040900  0.20040900  1.0
+  Au  Au10  1  0.00000000  0.00000000  0.00000000  1.0

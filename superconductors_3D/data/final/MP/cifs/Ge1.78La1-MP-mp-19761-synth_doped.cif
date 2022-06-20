@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_La2Ge3.56
+_symmetry_space_group_name_H-M   I4_1/amd
+_cell_length_a   4.32098400
+_cell_length_b   4.32098400
+_cell_length_c   8.41484573
+_cell_angle_alpha   104.87716728
+_cell_angle_beta   104.87716728
+_cell_angle_gamma   89.99999999
+_symmetry_Int_Tables_number   141
+_chemical_formula_structural   La2Ge3.56
+_chemical_formula_sum   'La2 Ge3.56'
+_cell_volume   146.39009041
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+z+3/4, x+1/4, z+1/2'
+  3  '-x+z, -y+z, z'
+  4  'y+3/4, -x+z+1/4, z+1/2'
+  5  'x-z+3/4, -y+1/4, -z+1/2'
+  6  '-y, -x, -z'
+  7  '-x+3/4, y-z+1/4, -z+1/2'
+  8  'y-z, x-z, -z'
+  9  '-x+3/4, -y+1/4, -z+1/2'
+  10  'y-z, -x, -z'
+  11  'x-z+3/4, y-z+1/4, -z+1/2'
+  12  '-y, x-z, -z'
+  13  '-x+z, y, z'
+  14  'y+3/4, x+1/4, z+1/2'
+  15  'x, -y+z, z'
+  16  '-y+z+3/4, -x+z+1/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.25000000  0.75000000  0.50000000  1.0
+  Ge  Ge1  4  0.08212400  0.08212400  0.16424800  0.89

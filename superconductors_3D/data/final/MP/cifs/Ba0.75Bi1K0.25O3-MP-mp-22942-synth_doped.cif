@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_K0.5Ba1.5Bi2O6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   6.23479437
+_cell_length_b   6.23479437
+_cell_length_c   6.25557870
+_cell_angle_alpha   90.33107619
+_cell_angle_beta   119.54996563
+_cell_angle_gamma   119.95872151
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   K0.5Ba1.5Bi2O6
+_chemical_formula_sum   'K0.5 Ba1.5 Bi2 O6'
+_cell_volume   172.72248924
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'y-z, x-z, -z'
+  4  '-y+z, -x+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.49218500  0.24962900  0.74181400  0.75
+  K  K1  2  0.49218500  0.24962900  0.74181400  0.25
+  Bi  Bi2  1  0.00000000  0.00000000  0.00000000  1.0
+  Bi  Bi3  1  0.00000000  0.50000000  0.50000000  1.0
+  O  O4  4  0.00271600  0.78529200  0.30043800  1.0
+  O  O5  2  0.07441100  0.74160800  0.81601900  1.0

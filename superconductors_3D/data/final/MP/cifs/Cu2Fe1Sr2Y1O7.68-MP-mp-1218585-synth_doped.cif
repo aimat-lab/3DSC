@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Sr3.90625Y1.953125Fe1.953125Cu3.90625O15
+_symmetry_space_group_name_H-M   Fmmm
+_cell_length_a   5.47528729
+_cell_length_b   5.47528729
+_cell_length_c   11.96590983
+_cell_angle_alpha   103.06993321
+_cell_angle_beta   103.06993318
+_cell_angle_gamma   90.66284839
+_symmetry_Int_Tables_number   69
+_chemical_formula_structural
+Sr3.90625Y1.953125Fe1.953125Cu3.90625O15
+_chemical_formula_sum
+'Sr3.90625 Y1.953125 Fe1.953125 Cu3.90625 O15'
+_cell_volume   339.63425676
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+z, -y+z, z'
+  4  'x-z, y-z, -z'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  '-y, -x, -z'
+  8  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.15384200  0.66666667  0.82050867  0.9765625
+  Y  Y1  2  0.00000000  0.50000000  0.50000000  0.9765625
+  Fe  Fe2  2  0.24313200  0.24313200  0.00000000  0.9765625
+  Cu  Cu3  4  0.07785700  0.07785700  0.64993400  0.9765625
+  O  O4  4  0.18585000  0.68585000  0.37170000  1.0
+  O  O5  4  0.21108800  0.21108800  0.83659100  1.0
+  O  O6  2  0.00000000  0.50000000  0.00000000  1.0
+  O  O7  2  0.18027500  0.18027500  0.36055000  1.0
+  O  O8  2  0.30704400  0.30704400  0.61408800  1.0
+  O  O9  1  0.00000000  0.00000000  0.00000000  1.0

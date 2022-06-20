@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_HfSiOs
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   6.66321800
+_cell_length_b   7.60427818
+_cell_length_c   7.40048600
+_cell_angle_alpha   119.11736403
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.98418095
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   HfSiOs
+_chemical_formula_sum   'Hf6 Si6 Os6'
+_cell_volume   283.41472629
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, -y, -z'
+  3  'x, y, y-z+1/2'
+  4  'x-y, -y, -y+z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  2  0.05134500  0.55847900  0.52924000  1.0
+  Hf  Hf1  2  0.09549200  0.60157700  0.05078800  1.0
+  Hf  Hf2  2  0.91407300  0.99433100  0.74716500  1.0
+  Si  Si3  4  0.16285800  0.33429600  0.16119500  1.0
+  Si  Si4  2  0.47894300  0.94745900  0.72373000  1.0
+  Os  Os5  4  0.49678000  0.75095200  0.34721600  1.0
+  Os  Os6  2  0.24904200  0.00000000  0.00000000  1.0

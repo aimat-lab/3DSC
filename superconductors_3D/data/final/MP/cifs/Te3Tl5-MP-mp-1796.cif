@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Tl5Te3
+_symmetry_space_group_name_H-M   I-4
+_cell_length_a   9.25458800
+_cell_length_b   9.35922365
+_cell_length_c   9.25458800
+_cell_angle_alpha   119.63085423
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.63085424
+_symmetry_Int_Tables_number   82
+_chemical_formula_structural   Tl5Te3
+_chemical_formula_sum   'Tl10 Te6'
+_cell_volume   573.07882309
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+z, -y, -x'
+  3  '-x+y, y, y-z'
+  4  '-z, -y, x-y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  4  0.01583300  0.27507900  0.44530600  1.0
+  Tl  Tl1  4  0.44754100  0.27083500  0.24926000  1.0
+  Tl  Tl2  2  0.25824200  0.51648400  0.25824200  1.0
+  Te  Te3  4  0.19158800  0.01105600  0.40011500  1.0
+  Te  Te4  1  0.00000000  0.00000000  0.00000000  1.0
+  Te  Te5  1  0.50000000  0.00000000  0.50000000  1.0

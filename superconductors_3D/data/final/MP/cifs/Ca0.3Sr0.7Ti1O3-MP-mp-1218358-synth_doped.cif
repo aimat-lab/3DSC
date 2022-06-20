@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sr2.8Ca1.2Ti4O12
+_symmetry_space_group_name_H-M   Pmc2_1
+_cell_length_a   5.52465300
+_cell_length_b   5.52903200
+_cell_length_c   7.81389500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   26
+_chemical_formula_structural   Sr2.8Ca1.2Ti4O12
+_chemical_formula_sum   'Sr2.8 Ca1.2 Ti4 O12'
+_cell_volume   238.68310560
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+  3  'x, y, -z'
+  4  '-x, y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.25435900  0.98527800  0.50000000  1.0
+  Ca  Ca1  2  0.24840800  0.01740200  0.00000000  0.6
+  Sr  Sr2  2  0.24840800  0.01740200  0.00000000  0.4
+  Ti  Ti3  4  0.25137000  0.49869200  0.24513800  1.0
+  O  O4  4  0.02515000  0.77639200  0.21419800  1.0
+  O  O5  4  0.47654600  0.22690500  0.27008200  1.0
+  O  O6  2  0.20684200  0.50324000  0.50000000  1.0
+  O  O7  2  0.31398700  0.49010100  0.00000000  1.0

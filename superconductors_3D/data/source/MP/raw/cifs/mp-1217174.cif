@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ti8GaCo4Si3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27791259
+_cell_length_b   4.27791259
+_cell_length_c   14.11544709
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   81.28422527
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti8GaCo4Si3
+_chemical_formula_sum   'Ti8 Ga1 Co4 Si3'
+_cell_volume   220.26065915
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00006500  0.50003200  0.49990300  1
+  Ti  Ti1  1  0.50079000  0.75039500  0.74881600  1
+  Ti  Ti2  1  0.00109700  0.00054900  0.99835400  1
+  Ti  Ti3  1  0.49872600  0.24936300  0.25191200  1
+  Ti  Ti4  1  0.87484700  0.43742300  0.68773000  1
+  Ti  Ti5  1  0.37536600  0.68768300  0.93695100  1
+  Ti  Ti6  1  0.87453700  0.93726800  0.18819500  1
+  Ti  Ti7  1  0.37453700  0.18726800  0.43819500  1
+  Ga  Ga8  1  0.62447400  0.31223700  0.06328900  1
+  Co  Co9  1  0.24620700  0.62310300  0.13069000  1
+  Co  Co10  1  0.74931000  0.87465500  0.37603500  1
+  Co  Co11  1  0.24968200  0.12484100  0.62547700  1
+  Co  Co12  1  0.75335900  0.37668000  0.86996100  1
+  Si  Si13  1  0.12494600  0.56247300  0.31258000  1
+  Si  Si14  1  0.62570700  0.81285300  0.56144000  1
+  Si  Si15  1  0.12635200  0.06317600  0.81047200  1

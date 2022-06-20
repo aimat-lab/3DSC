@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Li0.66V4O10
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   5.76555857
+_cell_length_b   6.53559370
+_cell_length_c   6.65229134
+_cell_angle_alpha   102.71644231
+_cell_angle_beta   97.88413306
+_cell_angle_gamma   88.58947364
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   Li0.66V4O10
+_chemical_formula_sum   'Li0.66 V4 O10'
+_cell_volume   242.20343809
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.50000000  0.50000000  0.6599999999999999
+  V  V1  2  0.40620100  0.19005100  0.65671300  1.0
+  V  V2  2  0.43788000  0.70936400  0.79784400  1.0
+  O  O3  2  0.12876600  0.23152900  0.59157100  1.0
+  O  O4  2  0.15433500  0.67652000  0.78282100  1.0
+  O  O5  2  0.43517400  0.19834600  0.94286100  1.0
+  O  O6  2  0.44858800  0.54303800  0.29385200  1.0
+  O  O7  2  0.47889900  0.88450800  0.61880700  1.0

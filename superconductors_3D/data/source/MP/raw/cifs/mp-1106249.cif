@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Ba4Co(ReO6)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.98464263
+_cell_length_b   9.98464263
+_cell_length_c   9.98464264
+_cell_angle_alpha   33.72932630
+_cell_angle_beta   33.72932630
+_cell_angle_gamma   33.72932711
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Co(ReO6)2
+_chemical_formula_sum   'Ba4 Co1 Re2 O12'
+_cell_volume   273.44649469
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.70797700  0.70797700  0.70797700  1
+  Ba  Ba1  1  0.29202300  0.29202300  0.29202300  1
+  Ba  Ba2  1  0.86993400  0.86993400  0.86993400  1
+  Ba  Ba3  1  0.13006600  0.13006600  0.13006600  1
+  Co  Co4  1  0.00000000  0.00000000  0.00000000  1
+  Re  Re5  1  0.58088400  0.58088400  0.58088400  1
+  Re  Re6  1  0.41911600  0.41911600  0.41911600  1
+  O  O7  1  0.21969500  0.69193000  0.21969500  1
+  O  O8  1  0.21969500  0.21969500  0.69193000  1
+  O  O9  1  0.69193000  0.21969500  0.21969500  1
+  O  O10  1  0.78030500  0.30807000  0.78030500  1
+  O  O11  1  0.78030500  0.78030500  0.30807000  1
+  O  O12  1  0.30807000  0.78030500  0.78030500  1
+  O  O13  1  0.38957800  0.85805400  0.38957800  1
+  O  O14  1  0.38957800  0.38957800  0.85805400  1
+  O  O15  1  0.85805400  0.38957800  0.38957800  1
+  O  O16  1  0.61042200  0.14194600  0.61042200  1
+  O  O17  1  0.61042200  0.61042200  0.14194600  1
+  O  O18  1  0.14194600  0.61042200  0.61042200  1

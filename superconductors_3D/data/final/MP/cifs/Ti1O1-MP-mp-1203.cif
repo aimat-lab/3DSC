@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_TiO
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   4.17372200
+_cell_length_b   5.11554513
+_cell_length_c   5.84589509
+_cell_angle_alpha   105.76314935
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   114.07580743
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   TiO
+_chemical_formula_sum   'Ti5 O5'
+_cell_volume   108.79543515
+_cell_formula_units_Z   5
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  2  0.33741600  0.67483200  0.17236600  1.0
+  Ti  Ti1  2  0.35046900  0.70093800  0.67448000  1.0
+  Ti  Ti2  1  0.00000000  0.00000000  0.50000000  1.0
+  O  O3  2  0.17101900  0.34203800  0.34342500  1.0
+  O  O4  2  0.17180100  0.34360200  0.83137400  1.0
+  O  O5  1  0.50000000  0.00000000  0.00000000  1.0

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_LaMg
+_symmetry_space_group_name_H-M   C2
+_cell_length_a   6.06964400
+_cell_length_b   6.07489729
+_cell_length_c   6.73028727
+_cell_angle_alpha   63.36983072
+_cell_angle_beta   63.19726623
+_cell_angle_gamma   60.02860171
+_symmetry_Int_Tables_number   5
+_chemical_formula_structural   LaMg
+_chemical_formula_sum   'La3 Mg3'
+_cell_volume   183.72965316
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+y+z, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.00262200  0.32400700  0.99244000  1.0
+  La  La1  1  0.51450100  0.50000000  0.50000000  1.0
+  Mg  Mg2  2  0.16802200  0.16134300  0.50114300  1.0
+  Mg  Mg3  1  0.66527900  0.00000000  0.00000000  1.0

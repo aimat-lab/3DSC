@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_NbTe4
+_symmetry_space_group_name_H-M   P4/ncc
+_cell_length_a   9.34080300
+_cell_length_b   9.34080300
+_cell_length_c   20.98185200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   130
+_chemical_formula_structural   NbTe4
+_chemical_formula_sum   'Nb12 Te48'
+_cell_volume   1830.67919048
+_cell_formula_units_Z   12
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+1/2, x+1/2, z'
+  3  '-x, -y, z'
+  4  'y+1/2, -x+1/2, z'
+  5  'x+1/2, -y+1/2, -z+1/2'
+  6  '-y, -x, -z+1/2'
+  7  '-x+1/2, y+1/2, -z+1/2'
+  8  'y, x, -z+1/2'
+  9  '-x+1/2, -y+1/2, -z'
+  10  'y, -x, -z'
+  11  'x+1/2, y+1/2, -z'
+  12  '-y, x, -z'
+  13  '-x, y, z+1/2'
+  14  'y+1/2, x+1/2, z+1/2'
+  15  'x, -y, z+1/2'
+  16  '-y+1/2, -x+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  4  0.00000000  0.50000000  0.06907800  1.0
+  Nb  Nb1  4  0.00000000  0.50000000  0.26206300  1.0
+  Nb  Nb2  4  0.00000000  0.50000000  0.41499500  1.0
+  Te  Te3  16  0.08288700  0.25853200  0.83491300  1.0
+  Te  Te4  16  0.09027000  0.26200600  0.49695600  1.0
+  Te  Te5  16  0.09554700  0.28455700  0.16560200  1.0

@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_DySbO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40366642
+_cell_length_b   7.67526671
+_cell_length_c   7.57109504
+_cell_angle_alpha   81.02715156
+_cell_angle_beta   90.47261453
+_cell_angle_gamma   91.94707670
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   DySbO4
+_chemical_formula_sum   'Dy4 Sb4 O16'
+_cell_volume   309.98481686
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.26225700  0.13639200  0.61478600  1
+  Dy  Dy1  1  0.73774300  0.86360800  0.38521400  1
+  Dy  Dy2  1  0.21316600  0.15821000  0.10873000  1
+  Dy  Dy3  1  0.78683400  0.84179000  0.89127000  1
+  Sb  Sb4  1  0.23988000  0.66247400  0.19584600  1
+  Sb  Sb5  1  0.76012000  0.33752600  0.80415400  1
+  Sb  Sb6  1  0.72721400  0.33411700  0.30710300  1
+  Sb  Sb7  1  0.27278600  0.66588300  0.69289700  1
+  O  O8  1  0.08699600  0.43590500  0.68944700  1
+  O  O9  1  0.91300400  0.56409500  0.31055300  1
+  O  O10  1  0.61148300  0.32278500  0.55922900  1
+  O  O11  1  0.38851700  0.67721500  0.44077100  1
+  O  O12  1  0.87242200  0.33262500  0.06000600  1
+  O  O13  1  0.12757800  0.66737500  0.93999400  1
+  O  O14  1  0.39922600  0.42896700  0.20018700  1
+  O  O15  1  0.60077400  0.57103300  0.79981300  1
+  O  O16  1  0.04240600  0.88480000  0.17329900  1
+  O  O17  1  0.95759400  0.11520000  0.82670100  1
+  O  O18  1  0.51713400  0.10971800  0.31742500  1
+  O  O19  1  0.48286600  0.89028200  0.68257500  1
+  O  O20  1  0.46416300  0.19296800  0.87735100  1
+  O  O21  1  0.53583700  0.80703200  0.12264900  1
+  O  O22  1  0.99732100  0.17018600  0.38030100  1
+  O  O23  1  0.00267900  0.82981400  0.61969900  1

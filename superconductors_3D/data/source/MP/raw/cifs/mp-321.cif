@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_RhPb2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66148026
+_cell_length_b   5.66148026
+_cell_length_c   5.66148026
+_cell_angle_alpha   106.02011851
+_cell_angle_beta   106.02011851
+_cell_angle_gamma   116.61865921
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RhPb2
+_chemical_formula_sum   'Rh2 Pb4'
+_cell_volume   138.04109523
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rh  Rh0  1  0.75000000  0.75000000  0.00000000  1
+  Rh  Rh1  1  0.25000000  0.25000000  0.00000000  1
+  Pb  Pb2  1  0.66724900  0.16724900  0.83449800  1
+  Pb  Pb3  1  0.33275100  0.83275100  0.16550200  1
+  Pb  Pb4  1  0.83275100  0.66724900  0.50000000  1
+  Pb  Pb5  1  0.16724900  0.33275100  0.50000000  1

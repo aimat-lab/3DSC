@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sb
+_symmetry_space_group_name_H-M   I4/mcm
+_cell_length_a   4.05737000
+_cell_length_b   6.15227282
+_cell_length_c   6.15227282
+_cell_angle_alpha   83.75776397
+_cell_angle_beta   70.74666376
+_cell_angle_gamma   70.74666375
+_symmetry_Int_Tables_number   140
+_chemical_formula_structural   Sb
+_chemical_formula_sum   Sb4
+_cell_volume   136.87496318
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+z, -z, y'
+  4  '-x-z, z, -y'
+  5  'x+y+z, -y, -z'
+  6  '-x-y-z, y, z'
+  7  'x+y, z, -y'
+  8  '-x-y, -z, y'
+  9  '-x+1/2, -z, -y'
+  10  'x+1/2, z, y'
+  11  '-x-z+1/2, -y, z'
+  12  'x+z+1/2, y, -z'
+  13  '-x-y-z+1/2, z, y'
+  14  'x+y+z+1/2, -z, -y'
+  15  '-x-y+1/2, y, -z'
+  16  'x+y+1/2, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  4  0.15012100  0.19975700  0.50000000  1.0

@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Na(TeMo)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.34342936
+_cell_length_b   9.34342936
+_cell_length_c   4.62638100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999547
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na(TeMo)3
+_chemical_formula_sum   'Na2 Te6 Mo6'
+_cell_volume   349.77169391
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.33333300  0.66666700  0.25000000  1
+  Na  Na1  1  0.66666700  0.33333300  0.75000000  1
+  Te  Te2  1  0.38454400  0.08421500  0.25000000  1
+  Te  Te3  1  0.91578500  0.30032900  0.25000000  1
+  Te  Te4  1  0.69967100  0.61545600  0.25000000  1
+  Te  Te5  1  0.30032900  0.38454400  0.75000000  1
+  Te  Te6  1  0.08421500  0.69967100  0.75000000  1
+  Te  Te7  1  0.61545600  0.91578500  0.75000000  1
+  Mo  Mo8  1  0.13995100  0.18149600  0.25000000  1
+  Mo  Mo9  1  0.04154500  0.86004900  0.25000000  1
+  Mo  Mo10  1  0.81850400  0.95845500  0.25000000  1
+  Mo  Mo11  1  0.18149600  0.04154500  0.75000000  1
+  Mo  Mo12  1  0.95845500  0.13995100  0.75000000  1
+  Mo  Mo13  1  0.86004900  0.81850400  0.75000000  1

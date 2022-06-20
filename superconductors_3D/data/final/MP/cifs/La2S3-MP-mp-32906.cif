@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_La2S3
+_symmetry_space_group_name_H-M   I-42d
+_cell_length_a   8.76579000
+_cell_length_b   8.76579000
+_cell_length_c   14.47662522
+_cell_angle_alpha   107.62325124
+_cell_angle_beta   107.62325123
+_cell_angle_gamma   90.00000001
+_symmetry_Int_Tables_number   122
+_chemical_formula_structural   La2S3
+_chemical_formula_sum   'La16 S24'
+_cell_volume   1005.25110843
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, -x, -z'
+  3  '-x+z, -y+z, z'
+  4  '-y, x-z, -z'
+  5  '-x+3/4, y-z+1/4, -z+1/2'
+  6  '-y+z+3/4, -x+z+1/4, z+1/2'
+  7  'x-z+3/4, -y+1/4, -z+1/2'
+  8  'y+3/4, x+1/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  8  0.04739700  0.14843700  0.57750900  1.0
+  La  La1  4  0.16500700  0.16500700  0.33001400  1.0
+  La  La2  4  0.25435900  0.62500000  0.75000000  1.0
+  S  S3  8  0.00423100  0.75670200  0.86636400  1.0
+  S  S4  8  0.07183100  0.46226000  0.28928300  1.0
+  S  S5  8  0.18370900  0.43583100  0.03322000  1.0

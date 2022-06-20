@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Na3(CoO2)5
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   4.91452569
+_cell_length_b   5.76899512
+_cell_length_c   7.55801012
+_cell_angle_alpha   84.62779423
+_cell_angle_beta   71.02661305
+_cell_angle_gamma   73.26477696
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   Na3(CoO2)5
+_chemical_formula_sum   'Na3 Co5 O10'
+_cell_volume   194.05890010
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+z+1/5, y, -z+3/5'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.56903250  0.49681000  0.19704000  1.0
+  Na  Na1  1  0.76399000  0.49749850  0.79999950  1.0
+  Co  Co2  2  0.00165650  0.99483650  0.00066450  1.0
+  Co  Co3  2  0.39776750  0.00608950  0.19978450  1.0
+  Co  Co4  1  0.59772250  0.00849500  0.80000100  1.0
+  O  O5  2  0.00165850  0.18246700  0.19703000  1.0
+  O  O6  2  0.19376400  0.82269150  0.39853050  1.0
+  O  O7  2  0.39538200  0.82444100  0.99963700  1.0
+  O  O8  2  0.61405100  0.18220350  0.00093350  1.0
+  O  O9  1  0.19954950  0.17338300  0.80000200  1.0
+  O  O10  1  0.99049450  0.82554600  0.80000100  1.0

@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CaHg3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.75676017
+_cell_length_b   6.75676017
+_cell_length_c   5.21089900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000163
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CaHg3
+_chemical_formula_sum   'Ca2 Hg6'
+_cell_volume   206.02517309
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.33333300  0.66666700  0.75000000  1
+  Ca  Ca1  1  0.66666700  0.33333300  0.25000000  1
+  Hg  Hg2  1  0.16344400  0.32688900  0.25000000  1
+  Hg  Hg3  1  0.67311100  0.83655600  0.25000000  1
+  Hg  Hg4  1  0.16344400  0.83655600  0.25000000  1
+  Hg  Hg5  1  0.83655600  0.67311100  0.75000000  1
+  Hg  Hg6  1  0.32688900  0.16344400  0.75000000  1
+  Hg  Hg7  1  0.83655600  0.16344400  0.75000000  1

@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Pd34Se11
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.61071475
+_cell_length_b   12.27848081
+_cell_length_c   21.82762234
+_cell_angle_alpha   99.67531977
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Pd34Se11
+_chemical_formula_sum   'Pd68 Se22'
+_cell_volume   1482.33880218
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z+1/2'
+  4  '-x+1/2, y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pd  Pd0  4  0.07189426  0.43968593  0.05038334  1.0
+  Pd  Pd1  4  0.07395944  0.84272860  0.14452126  1.0
+  Pd  Pd2  4  0.07949746  0.99667361  0.43379112  1.0
+  Pd  Pd3  4  0.07960963  0.28065271  0.75686049  1.0
+  Pd  Pd4  4  0.08698789  0.72631797  0.37071041  1.0
+  Pd  Pd5  4  0.09111798  0.87635693  0.66549901  1.0
+  Pd  Pd6  4  0.10945861  0.54815516  0.82544058  1.0
+  Pd  Pd7  4  0.11069378  0.40778419  0.52141515  1.0
+  Pd  Pd8  4  0.12462784  0.18469239  0.97838163  1.0
+  Pd  Pd9  4  0.14710866  0.30786630  0.29218072  1.0
+  Pd  Pd10  4  0.14800854  0.08654806  0.21384792  1.0
+  Pd  Pd11  4  0.18539550  0.63706473  0.59535950  1.0
+  Pd  Pd12  4  0.18558132  0.97197653  0.89576135  1.0
+  Pd  Pd13  4  0.20243109  0.75102244  0.91537572  1.0
+  Pd  Pd14  4  0.20465335  0.53509883  0.27493479  1.0
+  Pd  Pd15  4  0.22099714  0.17559002  0.53314687  1.0
+  Pd  Pd16  4  0.24817782  0.10868730  0.65561558  1.0
+  Se  Se17  4  0.04977235  0.26442635  0.17859164  1.0
+  Se  Se18  4  0.07778766  0.46354219  0.63877610  1.0
+  Se  Se19  4  0.08472737  0.91433542  0.27299177  1.0
+  Se  Se20  4  0.08683841  0.81094853  0.54509081  1.0
+  Se  Se21  4  0.08874472  0.35996015  0.91102392  1.0
+  Se  Se22  2  0.00000000  0.00000000  0.00000000  1.0

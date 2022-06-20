@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ca(BIr)2
+_symmetry_space_group_name_H-M   Fddd
+_cell_length_a   5.52560460
+_cell_length_b   5.52560460
+_cell_length_c   6.15789370
+_cell_angle_alpha   105.12531598
+_cell_angle_beta   105.12531604
+_cell_angle_gamma   114.73498385
+_symmetry_Int_Tables_number   70
+_chemical_formula_structural   Ca(BIr)2
+_chemical_formula_sum   'Ca2 B4 Ir4'
+_cell_volume   149.44232044
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+z, -y+z, z'
+  3  'y-z, x-z, -z'
+  4  '-y, -x, -z'
+  5  '-x+1/4, -y+3/4, -z+1/2'
+  6  'x-z+1/4, y-z+3/4, -z+1/2'
+  7  '-y+z+1/4, -x+z+3/4, z+1/2'
+  8  'y+1/4, x+3/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  2  0.00000000  0.00000000  0.00000000  1.0
+  B  B1  4  0.32260100  0.67739900  0.00000000  1.0
+  Ir  Ir2  4  0.37017600  0.37017600  0.74035200  1.0

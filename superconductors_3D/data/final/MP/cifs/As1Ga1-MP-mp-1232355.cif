@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_GaAs
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   9.18930883
+_cell_length_b   9.18930883
+_cell_length_c   9.29552328
+_cell_angle_alpha   71.35524773
+_cell_angle_beta   71.35524773
+_cell_angle_gamma   73.87318544
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   GaAs
+_chemical_formula_sum   'Ga8 As8'
+_cell_volume   691.11361452
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  2  0.29204000  0.57390300  0.57329800  1.0
+  Ga  Ga1  2  0.53246300  0.86152000  0.52076100  1.0
+  Ga  Ga2  1  0.28412300  0.28412300  0.31618700  1.0
+  Ga  Ga3  1  0.52490000  0.52490000  0.86394200  1.0
+  Ga  Ga4  1  0.57416700  0.57416700  0.27993100  1.0
+  Ga  Ga5  1  0.86330400  0.86330400  0.78146000  1.0
+  As  As6  2  0.13312600  0.46697600  0.48372500  1.0
+  As  As7  2  0.39170900  0.79958800  0.37360700  1.0
+  As  As8  1  0.15033100  0.15033100  0.22411600  1.0
+  As  As9  1  0.38090600  0.38090600  0.79783700  1.0
+  As  As10  1  0.46579900  0.46579900  0.13921200  1.0
+  As  As11  1  0.70514300  0.70514300  0.69452700  1.0

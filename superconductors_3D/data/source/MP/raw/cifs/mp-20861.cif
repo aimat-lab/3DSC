@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_CrGe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.76754300
+_cell_length_b   4.76754300
+_cell_length_c   4.76754300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrGe
+_chemical_formula_sum   'Cr4 Ge4'
+_cell_volume   108.36370775
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.13713000  0.13713000  0.13713000  1
+  Cr  Cr1  1  0.36287000  0.86287000  0.63713000  1
+  Cr  Cr2  1  0.63713000  0.36287000  0.86287000  1
+  Cr  Cr3  1  0.86287000  0.63713000  0.36287000  1
+  Ge  Ge4  1  0.84487500  0.84487500  0.84487500  1
+  Ge  Ge5  1  0.65512500  0.15512500  0.34487500  1
+  Ge  Ge6  1  0.34487500  0.65512500  0.15512500  1
+  Ge  Ge7  1  0.15512500  0.34487500  0.65512500  1

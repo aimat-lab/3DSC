@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_KC8
+_symmetry_space_group_name_H-M   Fddd
+_cell_length_a   4.97615600
+_cell_length_b   4.98163677
+_cell_length_c   11.00547636
+_cell_angle_alpha   83.51668842
+_cell_angle_beta   76.93382019
+_cell_angle_gamma   60.03638746
+_symmetry_Int_Tables_number   70
+_chemical_formula_structural   KC8
+_chemical_formula_sum   'K2 C16'
+_cell_volume   230.23559196
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-z, -y, z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y, y, -z'
+  5  '-x+3/4, -y+1/2, -z+1/2'
+  6  'x+z+3/4, y+1/2, -z+1/2'
+  7  '-x-y-z+3/4, y+1/2, z+1/2'
+  8  'x+y+3/4, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  2  0.00000000  0.00000000  0.00000000  1.0
+  C  C1  8  0.04136700  0.66736800  0.25010100  1.0
+  C  C2  8  0.20789700  0.83259800  0.25174000  1.0

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2NiO4
+_symmetry_space_group_name_H-M   P4_2/ncm
+_cell_length_a   5.57569500
+_cell_length_b   5.57569500
+_cell_length_c   12.14209100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   138
+_chemical_formula_structural   Nd2NiO4
+_chemical_formula_sum   'Nd8 Ni4 O16'
+_cell_volume   377.47787505
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+1/2, x+1/2, z+1/2'
+  3  '-x, -y, z'
+  4  'y+1/2, -x+1/2, z+1/2'
+  5  'x+1/2, -y+1/2, -z'
+  6  '-y, -x, -z+1/2'
+  7  '-x+1/2, y+1/2, -z'
+  8  'y, x, -z+1/2'
+  9  '-x+1/2, -y+1/2, -z+1/2'
+  10  'y, -x, -z'
+  11  'x+1/2, y+1/2, -z+1/2'
+  12  '-y, x, -z'
+  13  '-x, y, z+1/2'
+  14  'y+1/2, x+1/2, z'
+  15  'x, -y, z+1/2'
+  16  '-y+1/2, -x+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  8  0.23322900  0.26677100  0.61317500  1.0
+  Ni  Ni1  4  0.25000000  0.25000000  0.25000000  1.0
+  O  O2  8  0.19619900  0.30380100  0.07001900  1.0
+  O  O3  4  0.00000000  0.00000000  0.25000000  1.0
+  O  O4  4  0.00000000  0.50000000  0.27999500  1.0

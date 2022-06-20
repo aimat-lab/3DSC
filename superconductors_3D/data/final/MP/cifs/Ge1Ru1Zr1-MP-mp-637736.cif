@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_ZrGeRu
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   6.82708000
+_cell_length_b   7.77004430
+_cell_length_c   7.53579400
+_cell_angle_alpha   119.00762844
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.06053648
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   ZrGeRu
+_chemical_formula_sum   'Zr6 Ge6 Ru6'
+_cell_volume   302.29179422
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, -y, -z'
+  3  'x, y, y-z+1/2'
+  4  'x-y, -y, -y+z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  2  0.08413400  0.99652300  0.24826200  1.0
+  Zr  Zr1  2  0.50574600  0.60624600  0.55312300  1.0
+  Zr  Zr2  2  0.50838800  0.56059200  0.03029600  1.0
+  Ge  Ge3  4  0.17190500  0.33455100  0.17210000  1.0
+  Ge  Ge4  2  0.47178600  0.94935800  0.22467900  1.0
+  Ru  Ru5  4  0.25712200  0.75428100  0.40536000  1.0
+  Ru  Ru6  2  0.74708200  0.00000000  0.00000000  1.0

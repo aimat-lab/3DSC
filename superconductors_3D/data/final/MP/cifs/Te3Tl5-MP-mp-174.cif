@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Tl5Te3
+_symmetry_space_group_name_H-M   I4/mcm
+_cell_length_a   9.07418800
+_cell_length_b   9.15781773
+_cell_length_c   9.07418800
+_cell_angle_alpha   119.69837094
+_cell_angle_beta   89.99999999
+_cell_angle_gamma   119.69837094
+_symmetry_Int_Tables_number   140
+_chemical_formula_structural   Tl5Te3
+_chemical_formula_sum   'Tl10 Te6'
+_cell_volume   538.02812436
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'y-z, y, x'
+  4  '-y+z, -y, -x'
+  5  '-x+y, y, y-z'
+  6  'x-y, -y, -y+z'
+  7  'z, y, -x+y'
+  8  '-z, -y, x-y'
+  9  'x-y+1/2, -y, -z+1/2'
+  10  '-x+y+1/2, y, z+1/2'
+  11  '-z+1/2, -y, -x+1/2'
+  12  'z+1/2, y, x+1/2'
+  13  '-x+1/2, -y, -y+z+1/2'
+  14  'x+1/2, y, y-z+1/2'
+  15  '-y+z+1/2, -y, x-y+1/2'
+  16  'y-z+1/2, y, -x+y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  8  0.00744700  0.31230500  0.80485800  1.0
+  Tl  Tl1  2  0.00000000  0.00000000  0.00000000  1.0
+  Te  Te2  4  0.15749400  0.00000000  0.65749400  1.0
+  Te  Te3  2  0.25000000  0.50000000  0.25000000  1.0

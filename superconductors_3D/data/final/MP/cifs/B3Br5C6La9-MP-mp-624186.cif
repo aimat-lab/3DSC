@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_La9B3C6Br5
+_symmetry_space_group_name_H-M   Pmmn
+_cell_length_a   3.88929600
+_cell_length_b   7.98151100
+_cell_length_c   33.32192100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   59
+_chemical_formula_structural   La9B3C6Br5
+_chemical_formula_sum   'La18 B6 C12 Br10'
+_cell_volume   1034.39435999
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, -z'
+  3  'x+1/2, -y, -z+1/2'
+  4  '-x+1/2, -y, z+1/2'
+  5  '-x+1/2, -y, -z+1/2'
+  6  'x+1/2, -y, z+1/2'
+  7  '-x, y, z'
+  8  'x, y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  4  0.00000000  0.04997900  0.05550000  1.0
+  La  La1  4  0.00000000  0.08474900  0.34559700  1.0
+  La  La2  4  0.00000000  0.65028900  0.38305200  1.0
+  La  La3  4  0.00000000  0.80474200  0.25920900  1.0
+  La  La4  2  0.00000000  0.45129100  0.00000000  1.0
+  B  B5  4  0.00000000  0.13700500  0.17014300  1.0
+  B  B6  2  0.00000000  0.77318700  0.50000000  1.0
+  C  C7  4  0.00000000  0.02707100  0.20643500  1.0
+  C  C8  4  0.00000000  0.13510200  0.12541300  1.0
+  C  C9  4  0.00000000  0.72807400  0.45658700  1.0
+  Br  Br10  4  0.00000000  0.42573200  0.29802800  1.0
+  Br  Br11  4  0.00000000  0.67323700  0.09797900  1.0
+  Br  Br12  2  0.00000000  0.21439200  0.50000000  1.0

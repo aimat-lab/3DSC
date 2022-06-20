@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Tl(TeMo)3
+_symmetry_space_group_name_H-M   P6_3/m
+_cell_length_a   4.62013800
+_cell_length_b   9.73871800
+_cell_length_c   9.73871870
+_cell_angle_alpha   119.99999761
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   176
+_chemical_formula_structural   Tl(TeMo)3
+_chemical_formula_sum   'Tl2 Te6 Mo6'
+_cell_volume   379.48027080
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, y-z, y'
+  4  '-x+1/2, -y+z, -y'
+  5  'x, -z, y-z'
+  6  '-x, z, -y+z'
+  7  'x+1/2, -y, -z'
+  8  '-x+1/2, y, z'
+  9  'x, -y+z, -y'
+  10  '-x, y-z, y'
+  11  'x+1/2, z, -y+z'
+  12  '-x+1/2, -z, y-z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  2  0.25000000  0.66666667  0.33333333  1.0
+  Te  Te1  6  0.25000000  0.05679700  0.69551600  1.0
+  Mo  Mo2  6  0.25000000  0.16967800  0.02664600  1.0

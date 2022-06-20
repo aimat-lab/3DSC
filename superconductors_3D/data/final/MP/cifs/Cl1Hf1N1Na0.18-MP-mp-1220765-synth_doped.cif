@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Na1.08Hf6N6Cl6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   6.32742599
+_cell_length_b   6.32844823
+_cell_length_c   10.40157369
+_cell_angle_alpha   84.17588732
+_cell_angle_beta   78.28856361
+_cell_angle_gamma   60.00534323
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Na1.08Hf6N6Cl6
+_chemical_formula_sum   'Na1.08 Hf6 N6 Cl6'
+_cell_volume   353.21645631
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y, y, -z'
+  4  'x+y, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  2  0.33333333  0.33333333  0.00000000  0.54
+  Hf  Hf1  4  0.12780500  0.33384800  0.61652000  1.0
+  Hf  Hf2  2  0.20600800  0.00000000  0.38386600  1.0
+  N  N3  4  0.19673800  0.33339900  0.40957000  1.0
+  N  N4  2  0.13619700  0.00000000  0.59143900  1.0
+  Cl  Cl5  4  0.06057100  0.66360000  0.81821100  1.0
+  Cl  Cl6  2  0.39709700  0.00000000  0.81819800  1.0

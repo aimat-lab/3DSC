@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_La3(GeRh)2
+_symmetry_space_group_name_H-M   Pbcm
+_cell_length_a   5.77565200
+_cell_length_b   8.29216600
+_cell_length_c   13.54288100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   57
+_chemical_formula_structural   La3(GeRh)2
+_chemical_formula_sum   'La12 Ge8 Rh8'
+_cell_volume   648.60466479
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x, -y+1/2, -z'
+  6  '-x, y+1/2, z'
+  7  '-x, y+1/2, -z+1/2'
+  8  'x, -y+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  8  0.15370000  0.10643100  0.59804600  1.0
+  La  La1  4  0.34895700  0.74864300  0.25000000  1.0
+  Ge  Ge2  4  0.15618100  0.10350200  0.25000000  1.0
+  Ge  Ge3  4  0.35676800  0.75000000  0.00000000  1.0
+  Rh  Rh4  8  0.38198800  0.03633700  0.09112900  1.0

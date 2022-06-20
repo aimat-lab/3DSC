@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ca0.84La3.16Mn4O12
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   4.13700800
+_cell_length_b   5.80749800
+_cell_length_c   12.90489000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   Ca0.84La3.16Mn4O12
+_chemical_formula_sum   'Ca0.84 La3.16 Mn4 O12'
+_cell_volume   310.04857285
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z'
+  4  '-x+1/2, y+1/2, z'
+  5  '-x+1/2, y+1/2, -z+1/2'
+  6  'x+1/2, -y+1/2, z+1/2'
+  7  '-x, -y, z+1/2'
+  8  'x, y, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  4  0.10132700  0.86070400  0.75000000  0.79
+  Ca  Ca1  4  0.10132700  0.86070400  0.75000000  0.21
+  Mn  Mn2  4  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  8  0.24468300  0.74422200  0.57106700  1.0
+  O  O4  4  0.12966300  0.48449500  0.25000000  1.0

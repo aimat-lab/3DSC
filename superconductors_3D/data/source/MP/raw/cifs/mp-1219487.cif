@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_SbTePt
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.65008000
+_cell_length_b   6.65008000
+_cell_length_c   6.65008000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SbTePt
+_chemical_formula_sum   'Sb4 Te4 Pt4'
+_cell_volume   294.09023853
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  1  0.12868500  0.87131500  0.37131500  1
+  Sb  Sb1  1  0.87131500  0.37131500  0.12868500  1
+  Sb  Sb2  1  0.37131500  0.12868500  0.87131500  1
+  Sb  Sb3  1  0.62868500  0.62868500  0.62868500  1
+  Te  Te4  1  0.87252300  0.12747700  0.62747700  1
+  Te  Te5  1  0.12747700  0.62747700  0.87252300  1
+  Te  Te6  1  0.62747700  0.87252300  0.12747700  1
+  Te  Te7  1  0.37252300  0.37252300  0.37252300  1
+  Pt  Pt8  1  0.50470100  0.49529900  0.99529900  1
+  Pt  Pt9  1  0.49529900  0.99529900  0.50470100  1
+  Pt  Pt10  1  0.99529900  0.50470100  0.49529900  1
+  Pt  Pt11  1  0.00470100  0.00470100  0.00470100  1

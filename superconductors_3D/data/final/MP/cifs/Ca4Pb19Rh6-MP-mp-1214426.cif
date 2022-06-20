@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Ca4Rh6Pb19
+_symmetry_space_group_name_H-M   I23
+_cell_length_a   10.43146305
+_cell_length_b   10.43146305
+_cell_length_c   10.43146305
+_cell_angle_alpha   109.47122063
+_cell_angle_beta   109.47122064
+_cell_angle_gamma   109.47122064
+_symmetry_Int_Tables_number   197
+_chemical_formula_structural   Ca4Rh6Pb19
+_chemical_formula_sum   'Ca4 Rh6 Pb19'
+_cell_volume   873.80350289
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, x-z, -z'
+  3  '-y+z, -y, x-y'
+  4  '-x, -x+z, -x+y'
+  5  '-y, x-y, -y+z'
+  6  '-x+z, -x+y, -x'
+  7  'y, z, x'
+  8  'x-z, -z, y-z'
+  9  '-x+y, -x, -x+z'
+  10  'x-y, -y+z, -y'
+  11  '-z, y-z, x-z'
+  12  'z, x, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  4  0.00000000  0.00000000  0.34078000  1.0
+  Rh  Rh1  6  0.11668500  0.50000000  0.61668500  1.0
+  Pb  Pb2  12  0.05012400  0.68102500  0.29730000  1.0
+  Pb  Pb3  6  0.00000000  0.30797200  0.30797200  1.0
+  Pb  Pb4  1  0.00000000  0.00000000  0.00000000  1.0

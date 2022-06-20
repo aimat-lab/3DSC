@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_W
+_symmetry_space_group_name_H-M   I4_1/amd
+_cell_length_a   2.66914100
+_cell_length_b   2.66914100
+_cell_length_c   9.84633229
+_cell_angle_alpha   97.78984147
+_cell_angle_beta   97.78983559
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   141
+_chemical_formula_structural   W
+_chemical_formula_sum   W4
+_cell_volume   68.84760055
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+z+1/2, x, z+1/2'
+  3  '-x+z, -y+z+1/2, z'
+  4  'y, -x+z, z+1/2'
+  5  'x-z, -y, -z'
+  6  '-y, -x, -z+1/2'
+  7  '-x, y-z+1/2, -z'
+  8  'y-z+1/2, x-z, -z+1/2'
+  9  '-x, -y, -z'
+  10  'y-z+1/2, -x, -z+1/2'
+  11  'x-z, y-z+1/2, -z'
+  12  '-y, x-z, -z+1/2'
+  13  '-x+z, y, z'
+  14  'y, x, z+1/2'
+  15  'x, -y+z+1/2, z'
+  16  '-y+z+1/2, -x+z, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  W  W0  4  0.18530500  0.43530500  0.37061000  1.0

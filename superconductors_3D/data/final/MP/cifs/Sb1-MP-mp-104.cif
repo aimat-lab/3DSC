@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Sb
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   4.38595362
+_cell_length_b   4.38595362
+_cell_length_c   4.61454262
+_cell_angle_alpha   61.62556975
+_cell_angle_beta   61.62556975
+_cell_angle_gamma   60.00000573
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Sb
+_chemical_formula_sum   Sb2
+_cell_volume   64.26678709
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sb  Sb0  2  0.26817000  0.26817000  0.19549000  1.0

@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Ce(CuSi)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.70132195
+_cell_length_b   5.70132195
+_cell_length_c   5.70132195
+_cell_angle_alpha   138.11419117
+_cell_angle_beta   138.11419117
+_cell_angle_gamma   60.72815449
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce(CuSi)2
+_chemical_formula_sum   'Ce1 Cu2 Si2'
+_cell_volume   81.71700258
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu1  1  0.75000000  0.25000000  0.50000000  1
+  Cu  Cu2  1  0.25000000  0.75000000  0.50000000  1
+  Si  Si3  1  0.62029700  0.62029700  0.00000000  1
+  Si  Si4  1  0.37970300  0.37970300  0.00000000  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_NbSiRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.45680374
+_cell_length_b   7.45680374
+_cell_length_c   7.45680374
+_cell_angle_alpha   127.88347717
+_cell_angle_beta   121.55770480
+_cell_angle_gamma   82.10172952
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbSiRu
+_chemical_formula_sum   'Nb6 Si6 Ru6'
+_cell_volume   268.21951744
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.55336500  0.09550100  0.04213700  1
+  Nb  Nb1  1  0.44663500  0.48877200  0.54213700  1
+  Nb  Nb2  1  0.96864600  0.49744700  0.02880100  1
+  Nb  Nb3  1  0.03135400  0.06015500  0.52880100  1
+  Nb  Nb4  1  0.75167000  0.91716700  0.66549700  1
+  Nb  Nb5  1  0.24833000  0.91382700  0.16549700  1
+  Si  Si6  1  0.77868800  0.52996500  0.25127700  1
+  Si  Si7  1  0.22131200  0.47258900  0.75127700  1
+  Si  Si8  1  0.33669900  0.82941100  0.49936700  1
+  Si  Si9  1  0.66330100  0.16266700  0.49271100  1
+  Si  Si10  1  0.83004400  0.82941100  0.99271100  1
+  Si  Si11  1  0.16995600  0.16266700  0.99936700  1
+  Ru  Ru12  1  0.50000000  0.25087400  0.75087400  1
+  Ru  Ru13  1  0.00000000  0.25087400  0.25087400  1
+  Ru  Ru14  1  0.15687800  0.74440000  0.65291400  1
+  Ru  Ru15  1  0.84312200  0.49603600  0.58752200  1
+  Ru  Ru16  1  0.59148600  0.74440000  0.08752200  1
+  Ru  Ru17  1  0.40851400  0.49603600  0.15291400  1

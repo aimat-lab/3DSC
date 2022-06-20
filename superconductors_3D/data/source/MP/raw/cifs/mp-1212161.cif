@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_HfSiRu
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.60752565
+_cell_length_b   7.60752565
+_cell_length_c   7.60752565
+_cell_angle_alpha   127.96769884
+_cell_angle_beta   122.08081896
+_cell_angle_gamma   81.58557516
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HfSiRu
+_chemical_formula_sum   'Hf6 Si6 Ru6'
+_cell_volume   283.16629226
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.47081400  0.69968300  0.72886900  1
+  Hf  Hf1  1  0.52918600  0.25805500  0.22886900  1
+  Hf  Hf2  1  0.74744200  0.83149600  0.58405400  1
+  Hf  Hf3  1  0.25255800  0.83661100  0.08405400  1
+  Hf  Hf4  1  0.05220900  0.25651800  0.70430800  1
+  Hf  Hf5  1  0.94779100  0.65209900  0.20430800  1
+  Si  Si6  1  0.27554500  0.26959600  0.49405100  1
+  Si  Si7  1  0.72445500  0.21850500  0.99405100  1
+  Si  Si8  1  0.32687100  0.58741800  0.24920300  1
+  Si  Si9  1  0.67312900  0.92233200  0.26054700  1
+  Si  Si10  1  0.16178500  0.92233200  0.74920300  1
+  Si  Si11  1  0.83821500  0.58741800  0.76054700  1
+  Ru  Ru12  1  0.50000000  0.49958200  0.99958200  1
+  Ru  Ru13  1  0.00000000  0.49958200  0.49958200  1
+  Ru  Ru14  1  0.09632100  0.25346400  0.10204400  1
+  Ru  Ru15  1  0.90367900  0.00572300  0.15714400  1
+  Ru  Ru16  1  0.34857900  0.00572300  0.60204400  1
+  Ru  Ru17  1  0.65142100  0.25346400  0.65714400  1

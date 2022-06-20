@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr0.15Bi1.85Se3
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   4.18976613
+_cell_length_b   4.18976613
+_cell_length_c   10.42166891
+_cell_angle_alpha   78.40383581
+_cell_angle_beta   78.40383581
+_cell_angle_gamma   59.99999797
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Sr0.15Bi1.85Se3
+_chemical_formula_sum   'Sr0.15 Bi1.85 Se3'
+_cell_volume   154.10680111
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  2  0.39734000  0.39734000  0.80798000  0.925
+  Sr  Sr1  2  0.39734000  0.39734000  0.80798000  0.075
+  Se  Se2  2  0.21785300  0.21785300  0.34644100  1.0
+  Se  Se3  1  0.00000000  0.00000000  0.00000000  1.0

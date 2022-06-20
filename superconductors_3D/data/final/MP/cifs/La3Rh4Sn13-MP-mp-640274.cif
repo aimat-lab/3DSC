@@ -1,0 +1,60 @@
+# generated using pymatgen
+data_La3Sn13Rh4
+_symmetry_space_group_name_H-M   I4_132
+_cell_length_a   17.10275515
+_cell_length_b   17.10275515
+_cell_length_c   17.10275508
+_cell_angle_alpha   109.47122042
+_cell_angle_beta   109.47122047
+_cell_angle_gamma   109.47122089
+_symmetry_Int_Tables_number   214
+_chemical_formula_structural   La3Sn13Rh4
+_chemical_formula_sum   'La24 Sn104 Rh32'
+_cell_volume   3851.02504303
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-z, x, x-y+1/2'
+  3  'y-z+1/2, x-z, -z+1/2'
+  4  'y, y-z+1/2, -x+y'
+  5  '-y+z, -y+1/2, x-y+1/2'
+  6  '-y+1/2, -x+1/2, -z+1/2'
+  7  '-x+1/2, -x+z+1/2, -x+y'
+  8  '-x+z+1/2, -y+z, z'
+  9  '-y+1/2, x-y, -y+z+1/2'
+  10  '-x+1/2, -z, -y'
+  11  '-x+z+1/2, -x+y+1/2, -x'
+  12  '-y+z, z+1/2, -x+z'
+  13  'y, z+1/2, x+1/2'
+  14  'x, x-y, x-z+1/2'
+  15  'x-z, -z, y-z'
+  16  'y-z+1/2, -x+y+1/2, y+1/2'
+  17  '-x+y+1/2, -x+1/2, -x+z'
+  18  'z+1/2, -x+z+1/2, -y+z+1/2'
+  19  'x-y, -y+z, -y'
+  20  '-z, -y+1/2, -x'
+  21  '-z, y-z+1/2, x-z+1/2'
+  22  '-x+y+1/2, y, y-z'
+  23  'z+1/2, x, y+1/2'
+  24  'x-y, x-z, x+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  12  0.12441387  0.25000000  0.87558612  1.0
+  La  La1  12  0.12489493  0.37510507  0.25000000  1.0
+  Sn  Sn2  24  0.06931656  0.14346415  0.42589436  1.0
+  Sn  Sn3  24  0.07679065  0.42284804  0.65434484  1.0
+  Sn  Sn4  24  0.07871214  0.15848856  0.23743429  1.0
+  Sn  Sn5  24  0.15304514  0.57643502  0.22997697  1.0
+  Sn  Sn6  8  0.00000000  0.50000000  0.00177008  1.0
+  Rh  Rh7  12  0.00024783  0.25024783  0.50049567  1.0
+  Rh  Rh8  12  0.25000000  0.50017225  0.49982775  1.0
+  Rh  Rh9  4  0.00000000  0.50000000  0.25000000  1.0
+  Rh  Rh10  4  0.00000000  0.50000000  0.75000000  1.0

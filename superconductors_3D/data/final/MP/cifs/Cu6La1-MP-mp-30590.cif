@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaCu6
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.10746500
+_cell_length_b   8.16383981
+_cell_length_c   10.21730200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   92.04604799
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   LaCu6
+_chemical_formula_sum   'La4 Cu24'
+_cell_volume   425.75438911
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y+1/2, z+1/2'
+  4  'x, y+1/2, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  4  0.26180400  0.26209200  0.56346300  1.0
+  Cu  Cu1  4  0.00692400  0.43956100  0.81173400  1.0
+  Cu  Cu2  4  0.22017700  0.06165700  0.09878400  1.0
+  Cu  Cu3  4  0.23952100  0.15017200  0.85875900  1.0
+  Cu  Cu4  4  0.24961800  0.31684800  0.25474700  1.0
+  Cu  Cu5  4  0.25060800  0.40176400  0.01562400  1.0
+  Cu  Cu6  4  0.49811300  0.43368300  0.80725200  1.0

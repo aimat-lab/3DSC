@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_SrLa2(CuO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.33212123
+_cell_length_b   10.33212123
+_cell_length_c   10.33212123
+_cell_angle_alpha   158.36431390
+_cell_angle_beta   158.36431390
+_cell_angle_gamma   30.78498592
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrLa2(CuO3)2
+_chemical_formula_sum   'Sr1 La2 Cu2 O6'
+_cell_volume   149.84198131
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.00000000  0.00000000  1
+  La  La1  1  0.82262800  0.82262800  0.00000000  1
+  La  La2  1  0.17737200  0.17737200  0.00000000  1
+  Cu  Cu3  1  0.58883000  0.58883000  0.00000000  1
+  Cu  Cu4  1  0.41117000  0.41117000  0.00000000  1
+  O  O5  1  0.91120700  0.41120700  0.50000000  1
+  O  O6  1  0.41120700  0.91120700  0.50000000  1
+  O  O7  1  0.08879300  0.58879300  0.50000000  1
+  O  O8  1  0.58879300  0.08879300  0.50000000  1
+  O  O9  1  0.70724200  0.70724200  0.00000000  1
+  O  O10  1  0.29275800  0.29275800  0.00000000  1

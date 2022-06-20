@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr0.85La1.15Co0.7Cu0.3O4
+_symmetry_space_group_name_H-M   I4mm
+_cell_length_a   3.85762600
+_cell_length_b   3.85763900
+_cell_length_c   6.86590186
+_cell_angle_alpha   73.68764784
+_cell_angle_beta   73.68128179
+_cell_angle_gamma   90.00056445
+_symmetry_Int_Tables_number   107
+_chemical_formula_structural   Sr0.85La1.15Co0.7Cu0.3O4
+_chemical_formula_sum   'Sr0.85 La1.15 Co0.7 Cu0.3 O4'
+_cell_volume   93.76402151
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y-z, x, z'
+  3  '-x-z, -y-z, z'
+  4  'y, -x-z, z'
+  5  '-x-z, y, z'
+  6  'y, x, z'
+  7  'x, -y-z, z'
+  8  '-y-z, -x-z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.64140900  0.64142000  0.71717000  0.85
+  La  La1  1  0.64140900  0.64142000  0.71717000  0.15
+  La  La2  1  0.35854100  0.35853900  0.28292200  1.0
+  Co  Co3  1  0.00287400  0.00286700  0.99426000  0.7
+  Cu  Cu4  1  0.00287400  0.00286700  0.99426000  0.3
+  O  O5  2  0.49429700  0.99426800  0.01143800  1.0
+  O  O6  1  0.17212600  0.17216500  0.65570900  1.0
+  O  O7  1  0.83646000  0.83647700  0.32706300  1.0

@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Lu7.76Sc0.24Fe12Si20
+_symmetry_space_group_name_H-M   P4/mnc
+_cell_length_a   5.38591700
+_cell_length_b   10.27081400
+_cell_length_c   10.27081400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   128
+_chemical_formula_structural   Lu7.76Sc0.24Fe12Si20
+_chemical_formula_sum   'Lu7.76 Sc0.24 Fe12 Si20'
+_cell_volume   568.15833888
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x, -z, y'
+  4  '-x, z, -y'
+  5  'x, -y, -z'
+  6  '-x, y, z'
+  7  'x, z, -y'
+  8  '-x, -z, y'
+  9  '-x+1/2, y+1/2, -z+1/2'
+  10  'x+1/2, -y+1/2, z+1/2'
+  11  '-x+1/2, -z+1/2, -y+1/2'
+  12  'x+1/2, z+1/2, y+1/2'
+  13  '-x+1/2, -y+1/2, z+1/2'
+  14  'x+1/2, y+1/2, -z+1/2'
+  15  '-x+1/2, z+1/2, y+1/2'
+  16  'x+1/2, -z+1/2, -y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  8  0.00000000  0.26300200  0.56902500  0.97
+  Sc  Sc1  8  0.00000000  0.26300200  0.56902500  0.03
+  Fe  Fe2  8  0.00000000  0.12336200  0.14356900  1.0
+  Fe  Fe3  4  0.25000000  0.00000000  0.50000000  1.0
+  Si  Si4  8  0.00000000  0.02333000  0.68088000  1.0
+  Si  Si5  8  0.25000000  0.17841700  0.32158300  1.0
+  Si  Si6  4  0.24120800  0.00000000  0.00000000  1.0

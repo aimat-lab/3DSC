@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaHf3(NCl)3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.32844823
+_cell_length_b   6.32844823
+_cell_length_c   10.40157369
+_cell_angle_alpha   84.17588732
+_cell_angle_beta   84.17588732
+_cell_angle_gamma   120.01068646
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaHf3(NCl)3
+_chemical_formula_sum   'Na2 Hf6 N6 Cl6'
+_cell_volume   353.21645723
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.66667500  0.33332500  0.00000000  1
+  Na  Na1  1  0.33332500  0.66667500  0.00000000  1
+  Hf  Hf2  1  0.20600800  0.20600800  0.38386600  1
+  Hf  Hf3  1  0.53834700  0.87219500  0.38348000  1
+  Hf  Hf4  1  0.87219500  0.53834700  0.38348000  1
+  Hf  Hf5  1  0.12780500  0.46165300  0.61652000  1
+  Hf  Hf6  1  0.46165300  0.12780500  0.61652000  1
+  Hf  Hf7  1  0.79399200  0.79399200  0.61613400  1
+  N  N8  1  0.13619700  0.13619700  0.59143900  1
+  N  N9  1  0.46986300  0.80326200  0.59043000  1
+  N  N10  1  0.80326200  0.46986300  0.59043000  1
+  N  N11  1  0.19673800  0.53013700  0.40957000  1
+  N  N12  1  0.53013700  0.19673800  0.40957000  1
+  N  N13  1  0.86380300  0.86380300  0.40856100  1
+  Cl  Cl14  1  0.06057100  0.72417100  0.81821100  1
+  Cl  Cl15  1  0.39709700  0.39709700  0.81819800  1
+  Cl  Cl16  1  0.72417100  0.06057100  0.81821100  1
+  Cl  Cl17  1  0.27582900  0.93942900  0.18178900  1
+  Cl  Cl18  1  0.60290300  0.60290300  0.18180200  1
+  Cl  Cl19  1  0.93942900  0.27582900  0.18178900  1

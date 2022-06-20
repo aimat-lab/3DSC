@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ce0.34Pr3.66Cu2O8
+_symmetry_space_group_name_H-M   Cmce
+_cell_length_a   5.28090600
+_cell_length_b   5.58346500
+_cell_length_c   6.99267570
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   112.18526522
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   64
+_chemical_formula_structural   Ce0.34Pr3.66Cu2O8
+_chemical_formula_sum   'Ce0.34 Pr3.66 Cu2 O8'
+_cell_volume   190.92002010
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, y+1/2, -z'
+  4  'x+1/2, -y+1/2, z'
+  5  'x-z, -y, -z'
+  6  '-x+z, y, z'
+  7  '-x+z+1/2, -y+1/2, z'
+  8  'x-z+1/2, y+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  4  0.13867000  0.51660400  0.27734000  0.915
+  Ce  Ce1  4  0.13867000  0.51660400  0.27734000  0.085
+  Cu  Cu2  2  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  4  0.18596500  0.93146800  0.37193000  1.0
+  O  O4  4  0.23489200  0.75000000  0.96978400  1.0

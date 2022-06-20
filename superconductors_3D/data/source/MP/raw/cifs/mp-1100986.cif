@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Tm2CuO4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.70190003
+_cell_length_b   5.48364013
+_cell_length_c   6.13602021
+_cell_angle_alpha   109.14952386
+_cell_angle_beta   103.47914112
+_cell_angle_gamma   44.62017525
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tm2CuO4
+_chemical_formula_sum   'Tm4 Cu2 O8'
+_cell_volume   171.95646012
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.01986100  0.65724000  0.31117100  1
+  Tm  Tm1  1  0.51952600  0.30333700  0.68879000  1
+  Tm  Tm2  1  0.48045300  0.69669500  0.31120700  1
+  Tm  Tm3  1  0.98012100  0.34277000  0.68883000  1
+  Cu  Cu4  1  0.00000800  0.99998600  0.99999600  1
+  Cu  Cu5  1  0.50000700  0.99999300  0.00000800  1
+  O  O6  1  0.19491800  0.12197000  0.03300500  1
+  O  O7  1  0.25204900  0.25153500  0.52621900  1
+  O  O8  1  0.30515900  0.51167200  0.03315400  1
+  O  O9  1  0.24783000  0.75574700  0.52638900  1
+  O  O10  1  0.75214800  0.24427700  0.47360400  1
+  O  O11  1  0.69487500  0.48828800  0.96683600  1
+  O  O12  1  0.74792900  0.74849000  0.47378800  1
+  O  O13  1  0.80511600  0.87800000  0.96700300  1

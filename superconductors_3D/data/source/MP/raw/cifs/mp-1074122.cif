@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Mg4Si7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.06099200
+_cell_length_b   8.14068965
+_cell_length_c   12.75816364
+_cell_angle_alpha   83.14022166
+_cell_angle_beta   85.02532234
+_cell_angle_gamma   87.41285089
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mg4Si7
+_chemical_formula_sum   'Mg8 Si14'
+_cell_volume   416.92091809
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.13750900  0.13137800  0.08390300  1
+  Mg  Mg1  1  0.49248400  0.39081900  0.53919400  1
+  Mg  Mg2  1  0.94137700  0.16303100  0.68895800  1
+  Mg  Mg3  1  0.02645400  0.64221300  0.38657000  1
+  Mg  Mg4  1  0.07502400  0.50039300  0.17424200  1
+  Mg  Mg5  1  0.43167800  0.41229300  0.78325700  1
+  Mg  Mg6  1  0.96656600  0.82706800  0.56895300  1
+  Mg  Mg7  1  0.05768500  0.17628100  0.38479000  1
+  Si  Si8  1  0.62503400  0.38173800  0.01095700  1
+  Si  Si9  1  0.40503100  0.74701200  0.01511700  1
+  Si  Si10  1  0.09967200  0.54446200  0.94902900  1
+  Si  Si11  1  0.74902500  0.15480200  0.90423000  1
+  Si  Si12  1  0.49583300  0.87764200  0.42472800  1
+  Si  Si13  1  0.47391400  0.05360400  0.56994000  1
+  Si  Si14  1  0.27523800  0.98804300  0.89503000  1
+  Si  Si15  1  0.20233500  0.82513800  0.18633900  1
+  Si  Si16  1  0.56042300  0.43232100  0.33112200  1
+  Si  Si17  1  0.88074500  0.68559600  0.78029900  1
+  Si  Si18  1  0.96159400  0.50118300  0.64201100  1
+  Si  Si19  1  0.59002500  0.25403200  0.20204300  1
+  Si  Si20  1  0.67291300  0.95654100  0.24008100  1
+  Si  Si21  1  0.38668800  0.85800000  0.73562200  1

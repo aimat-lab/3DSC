@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Dy2Fe17C2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.45558205
+_cell_length_b   6.45558205
+_cell_length_c   6.47618471
+_cell_angle_alpha   83.66788938
+_cell_angle_beta   83.66788938
+_cell_angle_gamma   83.37710416
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy2Fe17C2
+_chemical_formula_sum   'Dy2 Fe17 C2'
+_cell_volume   265.15095692
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.34675700  0.34675700  0.33676000  1
+  Dy  Dy1  1  0.65324300  0.65324300  0.66324000  1
+  Fe  Fe2  1  0.09648600  0.09648600  0.09635800  1
+  Fe  Fe3  1  0.90351400  0.90351400  0.90364200  1
+  Fe  Fe4  1  0.65497800  0.65497800  0.14540400  1
+  Fe  Fe5  1  0.65641000  0.14740300  0.65798800  1
+  Fe  Fe6  1  0.14740300  0.65641000  0.65798800  1
+  Fe  Fe7  1  0.34502200  0.34502200  0.85459600  1
+  Fe  Fe8  1  0.34359000  0.85259700  0.34201200  1
+  Fe  Fe9  1  0.85259700  0.34359000  0.34201200  1
+  Fe  Fe10  1  0.71426000  0.28574000  0.00000000  1
+  Fe  Fe11  1  0.28508600  0.00148900  0.71458400  1
+  Fe  Fe12  1  0.99851100  0.71491500  0.28541600  1
+  Fe  Fe13  1  0.71491500  0.99851100  0.28541600  1
+  Fe  Fe14  1  0.00148900  0.28508500  0.71458400  1
+  Fe  Fe15  1  0.28574000  0.71426000  0.00000000  1
+  Fe  Fe16  1  0.00000000  0.00000000  0.50000000  1
+  Fe  Fe17  1  0.00000000  0.50000000  0.00000000  1
+  Fe  Fe18  1  0.50000000  0.00000000  0.00000000  1
+  C  C19  1  0.50000000  0.00000000  0.50000000  1
+  C  C20  1  0.00000000  0.50000000  0.50000000  1

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_K2Ni3Se4
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   14.34483703
+_cell_length_b   13.67595478
+_cell_length_c   6.09980022
+_cell_angle_alpha   83.64583980
+_cell_angle_beta   71.35443462
+_cell_angle_gamma   24.99972557
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2Ni3Se4
+_chemical_formula_sum   'K4 Ni6 Se8'
+_cell_volume   428.58778675
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.92386800  0.92386800  0.07613200  1
+  K  K1  1  0.07613200  0.07613200  0.92386800  1
+  K  K2  1  0.32613200  0.32613200  0.17386800  1
+  K  K3  1  0.17386800  0.17386800  0.32613200  1
+  Ni  Ni4  1  0.50000000  0.50000000  0.50000000  1
+  Ni  Ni5  1  0.75000000  0.75000000  0.75000000  1
+  Ni  Ni6  1  0.25036200  0.25036200  0.74963800  1
+  Ni  Ni7  1  0.74963800  0.74963800  0.25036200  1
+  Ni  Ni8  1  0.99963800  0.99963800  0.50036200  1
+  Ni  Ni9  1  0.50036200  0.50036200  0.99963800  1
+  Se  Se10  1  0.38948100  0.72703600  0.27742000  1
+  Se  Se11  1  0.27742000  0.60606200  0.38948100  1
+  Se  Se12  1  0.72703600  0.38948100  0.60606200  1
+  Se  Se13  1  0.60606200  0.27742000  0.72703600  1
+  Se  Se14  1  0.86051900  0.52296400  0.97258000  1
+  Se  Se15  1  0.97258000  0.64393800  0.86051900  1
+  Se  Se16  1  0.52296400  0.86051900  0.64393800  1
+  Se  Se17  1  0.64393800  0.97258000  0.52296400  1

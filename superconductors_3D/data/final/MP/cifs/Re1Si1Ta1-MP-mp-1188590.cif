@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaReSi
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   6.71581000
+_cell_length_b   7.55859750
+_cell_length_c   7.03530800
+_cell_angle_alpha   117.73510807
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.37534757
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   TaReSi
+_chemical_formula_sum   'Ta6 Re6 Si6'
+_cell_volume   273.39689061
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, -y, -z'
+  3  'x, y, y-z+1/2'
+  4  'x-y, -y, -y+z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  2  0.06824900  0.56866200  0.53433100  1.0
+  Ta  Ta1  2  0.09554000  0.60934200  0.05467100  1.0
+  Ta  Ta2  2  0.90401200  0.99302000  0.74651000  1.0
+  Si  Si3  4  0.16144600  0.33473900  0.16265300  1.0
+  Re  Re4  4  0.49550000  0.74586800  0.33841700  1.0
+  Re  Re5  2  0.24591100  0.00000000  0.00000000  1.0
+  Si  Si6  2  0.48159700  0.94396600  0.72198300  1.0

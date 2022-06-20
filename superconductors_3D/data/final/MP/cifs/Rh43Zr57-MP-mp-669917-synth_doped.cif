@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Zr4Rh3.01754386
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   4.49217600
+_cell_length_b   5.35964100
+_cell_length_c   6.15426500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   Zr4Rh3.01754386
+_chemical_formula_sum   'Zr4 Rh3.01754386'
+_cell_volume   148.17285768
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z+1/2'
+  4  'x, -y+1/2, z+1/2'
+  5  '-x+1/2, -y+1/2, z+1/2'
+  6  'x+1/2, y+1/2, -z+1/2'
+  7  'x+1/2, -y, -z'
+  8  '-x+1/2, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  4  0.25000000  0.13792400  0.17406200  1.0
+  Rh  Rh1  4  0.25000000  0.66568100  0.04936600  0.7543859649

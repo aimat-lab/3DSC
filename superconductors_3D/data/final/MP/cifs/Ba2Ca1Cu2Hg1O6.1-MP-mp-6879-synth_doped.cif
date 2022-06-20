@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Ba1.96721311Ca0.98360656Cu1.96721311Hg0.98360656O6
+_symmetry_space_group_name_H-M   P4/mmm
+_cell_length_a   3.90483400
+_cell_length_b   3.90483400
+_cell_length_c   13.05860400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   123
+_chemical_formula_structural
+Ba1.96721311Ca0.98360656Cu1.96721311Hg0.98360656O6
+_chemical_formula_sum
+'Ba1.96721311 Ca0.98360656 Cu1.96721311 Hg0.98360656 O6'
+_cell_volume   199.11404926
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y, x, z'
+  4  'y, -x, -z'
+  5  '-x, -y, z'
+  6  'x, y, -z'
+  7  'y, -x, z'
+  8  '-y, x, -z'
+  9  'x, -y, -z'
+  10  '-x, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+  13  '-x, y, -z'
+  14  'x, -y, z'
+  15  'y, x, -z'
+  16  '-y, -x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.50000000  0.50000000  0.22990600  0.9836065574
+  Ca  Ca1  1  0.50000000  0.50000000  0.50000000  0.9836065574
+  Cu  Cu2  2  0.00000000  0.00000000  0.38508800  0.9836065574
+  Hg  Hg3  1  0.00000000  0.00000000  0.00000000  0.9836065574
+  O  O4  4  0.00000000  0.50000000  0.37893100  1.0
+  O  O5  2  0.00000000  0.00000000  0.15414800  1.0

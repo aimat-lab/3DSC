@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ce2Si5Pd3
+_symmetry_space_group_name_H-M   Ibam
+_cell_length_a   6.03303200
+_cell_length_b   8.30934063
+_cell_length_c   8.30934063
+_cell_angle_alpha   73.70152435
+_cell_angle_beta   68.71378137
+_cell_angle_gamma   68.71378137
+_symmetry_Int_Tables_number   72
+_chemical_formula_structural   Ce2Si5Pd3
+_chemical_formula_sum   'Ce4 Si10 Pd6'
+_cell_volume   356.29985012
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+  5  '-x+1/2, -z, -y'
+  6  'x+1/2, z, y'
+  7  '-x-y-z+1/2, z, y'
+  8  'x+y+z+1/2, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  4  0.12780700  0.63848800  0.10589900  1.0
+  Si  Si1  4  0.02399000  0.72601000  0.72601000  1.0
+  Si  Si2  4  0.11447700  0.23614200  0.53490400  1.0
+  Si  Si3  2  0.25000000  0.00000000  0.00000000  1.0
+  Pd  Pd4  4  0.13789700  0.97145600  0.75274900  1.0
+  Pd  Pd5  2  0.25000000  0.50000000  0.50000000  1.0

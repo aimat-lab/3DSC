@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sr2YGaCu2O7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.24141736
+_cell_length_b   12.24141736
+_cell_length_c   12.24141736
+_cell_angle_alpha   154.41446268
+_cell_angle_beta   153.89218336
+_cell_angle_gamma   36.87857578
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2YGaCu2O7
+_chemical_formula_sum   'Sr4 Y2 Ga2 Cu4 O14'
+_cell_volume   348.13448119
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.86686400  0.84518400  0.01464600  1
+  Sr  Sr1  1  0.13313600  0.14778200  0.97831900  1
+  Sr  Sr2  1  0.33053800  0.34518400  0.97831900  1
+  Sr  Sr3  1  0.66946200  0.64778200  0.01464600  1
+  Y  Y4  1  0.50000000  0.49996800  0.99996800  1
+  Y  Y5  1  0.00000000  0.99996800  0.99996800  1
+  Ga  Ga6  1  0.31955100  0.71038100  0.52993200  1
+  Ga  Ga7  1  0.68044900  0.21038100  0.39083000  1
+  Cu  Cu8  1  0.07204300  0.57109400  0.50085500  1
+  Cu  Cu9  1  0.42976100  0.92881200  0.50085500  1
+  Cu  Cu10  1  0.57023900  0.07109400  0.49905100  1
+  Cu  Cu11  1  0.92795700  0.42881200  0.49905100  1
+  O  O12  1  0.18990900  0.68712600  0.99988400  1
+  O  O13  1  0.36566900  0.35740200  0.22307100  1
+  O  O14  1  0.18724200  0.18712600  0.49721700  1
+  O  O15  1  0.72147200  0.20269700  0.57032500  1
+  O  O16  1  0.31306200  0.81385800  0.99913200  1
+  O  O17  1  0.31472600  0.31385800  0.50079600  1
+  O  O18  1  0.63433100  0.85740200  0.99173300  1
+  O  O19  1  0.81275800  0.30997500  0.99988400  1
+  O  O20  1  0.81009100  0.80997500  0.49721700  1
+  O  O21  1  0.13237300  0.70269700  0.48122500  1
+  O  O22  1  0.27852800  0.84885200  0.48122500  1
+  O  O23  1  0.86762700  0.34885200  0.57032500  1
+  O  O24  1  0.68693800  0.68607000  0.50079600  1
+  O  O25  1  0.68527400  0.18607000  0.99913200  1

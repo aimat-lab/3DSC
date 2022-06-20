@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Zr3Ir
+_symmetry_space_group_name_H-M   I-42m
+_cell_length_a   5.72767600
+_cell_length_b   8.17484465
+_cell_length_c   8.17484465
+_cell_angle_alpha   82.95052477
+_cell_angle_beta   69.49291328
+_cell_angle_gamma   69.49291328
+_symmetry_Int_Tables_number   121
+_chemical_formula_structural   Zr3Ir
+_chemical_formula_sum   'Zr12 Ir4'
+_cell_volume   335.79369410
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-y, -z, y'
+  3  'x+y+z, -y, -z'
+  4  '-x-z, z, -y'
+  5  '-x-y-z, z, y'
+  6  'x+z, y, -z'
+  7  '-x, -z, -y'
+  8  'x+y, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  4  0.04173900  0.41197200  0.00000000  1.0
+  Zr  Zr1  4  0.14573600  0.35426400  0.35426400  1.0
+  Zr  Zr2  4  0.16697000  0.00000000  0.19136400  1.0
+  Ir  Ir3  4  0.00000000  0.29208400  0.70791600  1.0

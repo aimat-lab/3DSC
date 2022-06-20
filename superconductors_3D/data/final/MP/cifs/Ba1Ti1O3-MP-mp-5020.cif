@@ -1,0 +1,34 @@
+# generated using pymatgen
+data_BaTiO3
+_symmetry_space_group_name_H-M   R3m
+_cell_length_a   4.08113094
+_cell_length_b   4.08113094
+_cell_length_c   4.08113105
+_cell_angle_alpha   89.66458290
+_cell_angle_beta   89.66458290
+_cell_angle_gamma   89.66457903
+_symmetry_Int_Tables_number   160
+_chemical_formula_structural   BaTiO3
+_chemical_formula_sum   'Ba1 Ti1 O3'
+_cell_volume   67.97032701
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'z, x, y'
+  3  'y, z, x'
+  4  'z, y, x'
+  5  'y, x, z'
+  6  'x, z, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.99793100  0.99793100  0.99793100  1.0
+  Ti  Ti1  1  0.48356000  0.48356000  0.48356000  1.0
+  O  O2  3  0.02624700  0.51538100  0.51538100  1.0

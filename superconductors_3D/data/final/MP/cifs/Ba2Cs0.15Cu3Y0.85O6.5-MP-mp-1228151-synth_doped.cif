@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Cs0.3Ba4Y1.7Cu6O13
+_symmetry_space_group_name_H-M   Fmmm
+_cell_length_a   5.51144181
+_cell_length_b   5.51144181
+_cell_length_c   12.64076388
+_cell_angle_alpha   102.29492273
+_cell_angle_beta   102.29492278
+_cell_angle_gamma   91.32971051
+_symmetry_Int_Tables_number   69
+_chemical_formula_structural   Cs0.3Ba4Y1.7Cu6O13
+_chemical_formula_sum   'Cs0.3 Ba4 Y1.7 Cu6 O13'
+_cell_volume   365.61805728
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+z, -y+z, z'
+  4  'x-z, y-z, -z'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  '-y, -x, -z'
+  8  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  4  0.16244700  0.16244700  0.80992100  1.0
+  Y  Y1  2  0.00000000  0.00000000  0.50000000  0.85
+  Cs  Cs2  2  0.00000000  0.00000000  0.50000000  0.15
+  Cu  Cu3  4  0.06708000  0.56944900  0.63652900  1.0
+  Cu  Cu4  2  0.25917500  0.74082500  0.00000000  1.0
+  O  O5  4  0.15321100  0.69594000  0.84915100  1.0
+  O  O6  4  0.19048900  0.69048900  0.38097800  1.0
+  O  O7  2  0.19032800  0.19032800  0.38065600  1.0
+  O  O8  2  0.31135300  0.31135300  0.62270600  1.0
+  O  O9  1  0.50000000  0.50000000  0.00000000  1.0

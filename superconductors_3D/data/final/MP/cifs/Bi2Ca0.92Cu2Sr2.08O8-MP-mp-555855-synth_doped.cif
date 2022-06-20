@@ -1,0 +1,49 @@
+# generated using pymatgen
+data_Sr2.08Ca0.92Cu2Bi2O8
+_symmetry_space_group_name_H-M   I4/mmm
+_cell_length_a   3.75245600
+_cell_length_b   3.75245600
+_cell_length_c   16.12815350
+_cell_angle_alpha   96.68048608
+_cell_angle_beta   96.68048608
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   139
+_chemical_formula_structural   Sr2.08Ca0.92Cu2Bi2O8
+_chemical_formula_sum   'Sr2.08 Ca0.92 Cu2 Bi2 O8'
+_cell_volume   224.00486284
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y+z, x, z'
+  4  'y-z, -x, -z'
+  5  '-x+z, -y+z, z'
+  6  'x-z, y-z, -z'
+  7  'y, -x+z, z'
+  8  '-y, x-z, -z'
+  9  'x-z, -y, -z'
+  10  '-x+z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+  13  '-x, y-z, -z'
+  14  'x, -y+z, z'
+  15  'y-z, x-z, -z'
+  16  '-y+z, -x+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.10787700  0.10787700  0.21575400  1.0
+  Ca  Ca1  1  0.00000000  0.00000000  0.00000000  0.92
+  Sr  Sr2  1  0.00000000  0.00000000  0.00000000  0.08
+  Cu  Cu3  2  0.45195800  0.45195800  0.90391600  1.0
+  Bi  Bi4  2  0.30193400  0.30193400  0.60386800  1.0
+  O  O5  4  0.05033700  0.55033700  0.10067400  1.0
+  O  O6  2  0.19704700  0.19704700  0.39409400  1.0
+  O  O7  2  0.36692800  0.36692800  0.73385600  1.0

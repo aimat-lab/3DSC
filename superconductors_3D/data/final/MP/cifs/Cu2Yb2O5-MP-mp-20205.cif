@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Yb2Cu2O5
+_symmetry_space_group_name_H-M   Pna2_1
+_cell_length_a   3.49334800
+_cell_length_b   10.48215300
+_cell_length_c   12.57077600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   33
+_chemical_formula_structural   Yb2Cu2O5
+_chemical_formula_sum   'Yb8 Cu8 O20'
+_cell_volume   460.31426472
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  'x+1/2, -y+1/2, z+1/2'
+  4  '-x+1/2, y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  4  0.17692000  0.20392100  0.50010000  1.0
+  Yb  Yb1  4  0.18166200  0.04645500  0.83245800  1.0
+  Cu  Cu2  4  0.13934800  0.23821100  0.21363600  1.0
+  Cu  Cu3  4  0.14328500  0.51170500  0.11573800  1.0
+  O  O4  4  0.14059100  0.62412000  0.66569600  1.0
+  O  O5  4  0.15884400  0.16857700  0.07543000  1.0
+  O  O6  4  0.16689600  0.58074000  0.25344100  1.0
+  O  O7  4  0.17656300  0.43891500  0.98320200  1.0
+  O  O8  4  0.17907200  0.31076400  0.34569900  1.0

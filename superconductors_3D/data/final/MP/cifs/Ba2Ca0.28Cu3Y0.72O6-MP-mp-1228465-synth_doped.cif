@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ba2Ca0.28Y0.72Cu3O6
+_symmetry_space_group_name_H-M   P-4m2
+_cell_length_a   3.82391200
+_cell_length_b   3.82391200
+_cell_length_c   13.36657500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   115
+_chemical_formula_structural   Ba2Ca0.28Y0.72Cu3O6
+_chemical_formula_sum   'Ba2 Ca0.28 Y0.72 Cu3 O6'
+_cell_volume   195.45010950
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, -x, -z'
+  3  '-x, -y, z'
+  4  '-y, x, -z'
+  5  '-x, y, z'
+  6  '-y, -x, -z'
+  7  'x, -y, z'
+  8  'y, x, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.00000000  0.00000000  0.34714100  1.0
+  Y  Y1  1  0.00000000  0.00000000  0.00000000  0.72
+  Ca  Ca2  1  0.00000000  0.00000000  0.00000000  0.28
+  Cu  Cu3  2  0.50000000  0.50000000  0.15336800  1.0
+  Cu  Cu4  1  0.50000000  0.50000000  0.50000000  1.0
+  O  O5  2  0.00000000  0.50000000  0.49986500  1.0
+  O  O6  2  0.00000000  0.50000000  0.91912600  1.0
+  O  O7  2  0.50000000  0.50000000  0.29097800  1.0

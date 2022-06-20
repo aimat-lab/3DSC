@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ag7NO11
+_symmetry_space_group_name_H-M   Fmm2
+_cell_length_a   7.05652611
+_cell_length_b   7.05652611
+_cell_length_c   7.08496826
+_cell_angle_alpha   118.63154954
+_cell_angle_beta   118.63154950
+_cell_angle_gamma   92.16553825
+_symmetry_Int_Tables_number   42
+_chemical_formula_structural   Ag7NO11
+_chemical_formula_sum   'Ag7 N1 O11'
+_cell_volume   254.89181430
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+z, -y+z, z'
+  3  '-y+z, -x+z, z'
+  4  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  2  0.48939600  0.99829200  0.48768800  1.0
+  Ag  Ag1  2  0.49804400  0.99804400  0.99608800  1.0
+  Ag  Ag2  2  0.50210400  0.50210400  0.49904200  1.0
+  Ag  Ag3  1  0.49781700  0.49781700  0.99563400  1.0
+  N  N4  1  0.01024400  0.01024400  0.02048800  1.0
+  O  O5  4  0.08082700  0.35522100  0.72159900  1.0
+  O  O6  4  0.35606200  0.63252000  0.27105900  1.0
+  O  O7  2  0.05806000  0.84139000  0.89945000  1.0
+  O  O8  1  0.13435400  0.13435400  0.26870800  1.0

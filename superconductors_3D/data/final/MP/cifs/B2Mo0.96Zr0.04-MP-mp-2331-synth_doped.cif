@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Zr0.08B4Mo1.92
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   3.02795885
+_cell_length_b   3.02795885
+_cell_length_c   7.20393392
+_cell_angle_alpha   77.86825721
+_cell_angle_beta   77.86825721
+_cell_angle_gamma   59.99998152
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Zr0.08B4Mo1.92
+_chemical_formula_sum   'Zr0.08 B4 Mo1.92'
+_cell_volume   55.49073268
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  B  B0  2  0.18156300  0.18156300  0.45531100  1.0
+  B  B1  2  0.33219600  0.33219600  0.00341200  1.0
+  Mo  Mo2  2  0.07558100  0.07558100  0.77325700  0.96
+  Zr  Zr3  2  0.07558100  0.07558100  0.77325700  0.04

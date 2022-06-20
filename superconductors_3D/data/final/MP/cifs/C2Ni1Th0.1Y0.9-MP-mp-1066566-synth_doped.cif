@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Y0.9Th0.1Ni1C2
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   3.60274500
+_cell_length_b   3.76432531
+_cell_length_c   3.76432531
+_cell_angle_alpha   106.23300222
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Y0.9Th0.1Ni1C2
+_chemical_formula_sum   'Y0.9 Th0.1 Ni1 C2'
+_cell_volume   49.01614349
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -z, -y'
+  3  '-x, y, z'
+  4  'x, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  1  0.00000000  0.99821900  0.00178100  0.9
+  Th  Th1  1  0.00000000  0.99821900  0.00178100  0.1
+  Ni  Ni2  1  0.50000000  0.38544500  0.61455500  1.0
+  C  C3  2  0.50000000  0.54512600  0.15178900  1.0

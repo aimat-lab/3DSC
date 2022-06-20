@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sr
+_symmetry_space_group_name_H-M   I4/mcm
+_cell_length_a   6.73228142
+_cell_length_b   6.73228142
+_cell_length_c   6.73228142
+_cell_angle_alpha   106.34092465
+_cell_angle_beta   106.34092466
+_cell_angle_gamma   115.93145702
+_symmetry_Int_Tables_number   140
+_chemical_formula_structural   Sr
+_chemical_formula_sum   Sr4
+_cell_volume   232.62588529
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, x, x-y'
+  4  '-x+z, -x, -x+y'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  'y, y-z, -x+y'
+  8  '-y, -y+z, x-y'
+  9  '-y+z+1/2, -y+1/2, x-y'
+  10  'y-z+1/2, y+1/2, -x+y'
+  11  '-y+1/2, -x+1/2, -z'
+  12  'y+1/2, x+1/2, z'
+  13  '-x+1/2, -x+z+1/2, -x+y'
+  14  'x+1/2, x-z+1/2, x-y'
+  15  '-x+z+1/2, -y+z+1/2, z'
+  16  'x-z+1/2, y-z+1/2, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.17024400  0.67024400  0.84048800  1.0

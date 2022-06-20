@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pt2.28N3.72
+_symmetry_space_group_name_H-M   Pnnm
+_cell_length_a   3.20025600
+_cell_length_b   3.76441500
+_cell_length_c   4.87588000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   58
+_chemical_formula_structural   Pt2.28N3.72
+_chemical_formula_sum   'Pt2.28 N3.72'
+_cell_volume   58.74017343
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x, -y, -z'
+  4  '-x, y, z'
+  5  '-x+1/2, y+1/2, -z+1/2'
+  6  'x+1/2, -y+1/2, z+1/2'
+  7  '-x+1/2, -y+1/2, z+1/2'
+  8  'x+1/2, y+1/2, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  2  0.00000000  0.00000000  0.00000000  1.0
+  N  N1  4  0.00000000  0.14905800  0.41489000  0.9299999999999999
+  Pt  Pt2  4  0.00000000  0.14905800  0.41489000  0.07

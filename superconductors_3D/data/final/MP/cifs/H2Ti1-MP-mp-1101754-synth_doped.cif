@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_Ti3.5H7
+_symmetry_space_group_name_H-M   P-43m
+_cell_length_a   4.40586600
+_cell_length_b   4.40586600
+_cell_length_c   4.40586600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   215
+_chemical_formula_structural   Ti3.5H7
+_chemical_formula_sum   'Ti3.5 H7'
+_cell_volume   85.52515169
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, -x, -z'
+  3  '-x, -y, z'
+  4  '-y, x, -z'
+  5  'x, -y, -z'
+  6  'y, x, z'
+  7  '-x, y, -z'
+  8  '-y, -x, z'
+  9  'z, x, y'
+  10  '-z, y, -x'
+  11  'z, -x, -y'
+  12  '-z, -y, x'
+  13  '-z, x, -y'
+  14  'z, y, x'
+  15  '-z, -x, y'
+  16  'z, -y, -x'
+  17  'y, z, x'
+  18  '-x, -z, y'
+  19  '-y, z, -x'
+  20  'x, -z, -y'
+  21  '-y, -z, x'
+  22  'x, z, y'
+  23  'y, -z, -x'
+  24  '-x, z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  4  0.25427000  0.25427000  0.25427000  0.875
+  H  H1  3  0.00000000  0.00000000  0.50000000  1.0
+  H  H2  3  0.00000000  0.50000000  0.50000000  1.0
+  H  H3  1  0.00000000  0.00000000  0.00000000  1.0

@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr4Ca0.3Y1.7Cu6Pb4O16
+_symmetry_space_group_name_H-M   P222_1
+_cell_length_a   5.43727800
+_cell_length_b   5.48290400
+_cell_length_c   15.96440200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   17
+_chemical_formula_structural   Sr4Ca0.3Y1.7Cu6Pb4O16
+_chemical_formula_sum   'Sr4 Ca0.3 Y1.7 Cu6 Pb4 O16'
+_cell_volume   475.93192254
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y+1/2, -z'
+  3  'x, -y, -z'
+  4  '-x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.24972900  0.49893100  0.22110200  1.0
+  Y  Y1  2  0.25013700  0.50000000  0.00000000  0.85
+  Ca  Ca2  2  0.25013700  0.50000000  0.00000000  0.15
+  Cu  Cu3  4  0.25014300  0.00041700  0.89496300  1.0
+  Cu  Cu4  2  0.23500900  0.50000000  0.50000000  1.0
+  Pb  Pb5  4  0.24294900  0.00886500  0.38848700  1.0
+  O  O6  4  0.22353000  0.44361500  0.38446600  1.0
+  O  O7  4  0.25332900  0.00783100  0.74847500  1.0
+  O  O8  2  0.00000000  0.25000000  0.09264500  1.0
+  O  O9  2  0.00000000  0.25000000  0.90822700  1.0
+  O  O10  2  0.50000000  0.25000000  0.09243100  1.0
+  O  O11  2  0.50000000  0.25000000  0.90870700  1.0

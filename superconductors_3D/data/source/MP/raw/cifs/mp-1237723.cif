@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_MnCdTe
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.31140965
+_cell_length_b   5.31140971
+_cell_length_c   5.36684078
+_cell_angle_alpha   103.31960293
+_cell_angle_beta   119.17765001
+_cell_angle_gamma   105.93853730
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MnCdTe
+_chemical_formula_sum   'Mn2 Cd2 Te2'
+_cell_volume   114.52366316
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.74947000  0.91469400  0.91099700  1
+  Mn  Mn1  1  0.24630300  0.91152800  0.41099800  1
+  Cd  Cd2  1  0.65041600  0.41947400  0.00611900  1
+  Cd  Cd3  1  0.83664600  0.10570400  0.50612000  1
+  Te  Te4  1  0.32092600  0.41005800  0.33288400  1
+  Te  Te5  1  0.17282700  0.76195700  0.83288300  1

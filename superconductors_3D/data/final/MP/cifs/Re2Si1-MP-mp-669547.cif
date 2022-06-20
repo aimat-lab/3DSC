@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Re2Si
+_symmetry_space_group_name_H-M   P2_1/c
+_cell_length_a   5.85851100
+_cell_length_b   5.97292905
+_cell_length_c   10.02759400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   93.88493843
+_symmetry_Int_Tables_number   14
+_chemical_formula_structural   Re2Si
+_chemical_formula_sum   'Re16 Si8'
+_cell_volume   350.08398521
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y+1/2, z+1/2'
+  4  'x, y+1/2, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Si  Si0  4  0.05824000  0.23420800  0.20316200  1.0
+  Re  Re1  4  0.11639300  0.32515100  0.46829800  1.0
+  Si  Si2  4  0.21468700  0.47240000  0.93479700  1.0
+  Re  Re3  4  0.26245700  0.08329900  0.80954100  1.0
+  Re  Re4  4  0.38815200  0.09807400  0.33061100  1.0
+  Re  Re5  4  0.42405200  0.19033700  0.06958600  1.0

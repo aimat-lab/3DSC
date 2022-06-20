@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Fe4Te3S
+_symmetry_space_group_name_H-M   Amm2
+_cell_length_a   3.60455500
+_cell_length_b   7.24245800
+_cell_length_c   7.32485086
+_cell_angle_alpha   119.62859826
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   38
+_chemical_formula_structural   Fe4Te3S
+_chemical_formula_sum   'Fe4 Te3 S1'
+_cell_volume   166.21884780
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+1/2, -y+z+3/4, z'
+  3  '-x+1/2, y, z'
+  4  'x, -y+z+3/4, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  2  0.75000000  0.11607700  0.99044700  1.0
+  Fe  Fe1  1  0.25000000  0.37073800  0.99147600  1.0
+  Fe  Fe2  1  0.25000000  0.87089600  0.99179200  1.0
+  Te  Te3  2  0.25000000  0.26494200  0.27992000  1.0
+  Te  Te4  1  0.75000000  0.22684300  0.70368600  1.0
+  S  S5  1  0.75000000  0.76115600  0.77231200  1.0

@@ -1,0 +1,44 @@
+# generated using pymatgen
+data_ErMnGa
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.09899578
+_cell_length_b   8.09899578
+_cell_length_c   8.09899578
+_cell_angle_alpha   128.03546520
+_cell_angle_beta   120.73874247
+_cell_angle_gamma   82.68794250
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ErMnGa
+_chemical_formula_sum   'Er6 Mn6 Ga6'
+_cell_volume   345.54424422
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Er  Er0  1  0.95786200  0.51998700  0.06212500  1
+  Er  Er1  1  0.04213800  0.10426200  0.56212500  1
+  Er  Er2  1  0.75003000  0.95682400  0.70679400  1
+  Er  Er3  1  0.24997000  0.95676500  0.20679400  1
+  Er  Er4  1  0.54774200  0.11854800  0.07080600  1
+  Er  Er5  1  0.45225800  0.52306400  0.57080600  1
+  Mn  Mn6  1  0.33496900  0.85871300  0.52790400  1
+  Mn  Mn7  1  0.66503100  0.19293500  0.52374400  1
+  Mn  Mn8  1  0.83080900  0.85871300  0.02374400  1
+  Mn  Mn9  1  0.16919100  0.19293500  0.02790400  1
+  Mn  Mn10  1  0.50000000  0.28880300  0.78880300  1
+  Mn  Mn11  1  0.00000000  0.28880300  0.28880300  1
+  Ga  Ga12  1  0.75557000  0.53710300  0.28153300  1
+  Ga  Ga13  1  0.24443000  0.52596300  0.78153300  1
+  Ga  Ga14  1  0.13006400  0.78151900  0.66083600  1
+  Ga  Ga15  1  0.86993600  0.53077200  0.65145500  1
+  Ga  Ga16  1  0.62068300  0.78151900  0.15145500  1
+  Ga  Ga17  1  0.37931700  0.53077200  0.16083600  1

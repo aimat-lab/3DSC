@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_KBa2(FeAs)6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48060788
+_cell_length_b   7.10279964
+_cell_length_c   8.78494229
+_cell_angle_alpha   111.86043409
+_cell_angle_beta   108.17569578
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KBa2(FeAs)6
+_chemical_formula_sum   'K1 Ba2 Fe6 As6'
+_cell_volume   298.92336487
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  0.00000000  0.00000000  1
+  Ba  Ba1  1  0.66223100  0.99980500  0.32446000  1
+  Ba  Ba2  1  0.33776900  0.00019500  0.67554000  1
+  Fe  Fe3  1  0.41709000  0.50080300  0.33410700  1
+  Fe  Fe4  1  0.08298100  0.49919700  0.66589300  1
+  Fe  Fe5  1  0.74959400  0.50000000  0.00000000  1
+  Fe  Fe6  1  0.58291000  0.49919700  0.66589300  1
+  Fe  Fe7  1  0.25040600  0.50000000  0.00000000  1
+  Fe  Fe8  1  0.91701900  0.50080300  0.33410700  1
+  As  As9  1  0.21780900  0.30674800  0.43561700  1
+  As  As10  1  0.88306600  0.30429300  0.76613100  1
+  As  As11  1  0.55182100  0.30539300  0.10364400  1
+  As  As12  1  0.78219100  0.69325200  0.56438300  1
+  As  As13  1  0.44817900  0.69460700  0.89635600  1
+  As  As14  1  0.11693400  0.69570700  0.23386900  1

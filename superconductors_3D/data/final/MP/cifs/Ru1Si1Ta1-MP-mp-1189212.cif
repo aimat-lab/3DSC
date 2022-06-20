@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_TaSiRu
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   6.51340600
+_cell_length_b   7.44236331
+_cell_length_c   7.33353600
+_cell_angle_alpha   119.51745305
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   115.95020796
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   TaSiRu
+_chemical_formula_sum   'Ta6 Si6 Ru6'
+_cell_volume   267.39515953
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, -y, -z'
+  3  'x, y, y-z+1/2'
+  4  'x-y, -y, -y+z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  2  0.08152433  0.99636233  0.24817133  1.0
+  Ta  Ta1  2  0.50495200  0.56195200  0.03097600  1.0
+  Ta  Ta2  2  0.51037700  0.60671700  0.55335900  1.0
+  Si  Si3  4  0.17010700  0.33277800  0.17039900  1.0
+  Si  Si4  2  0.47177100  0.94421400  0.22210700  1.0
+  Ru  Ru5  4  0.25418000  0.75099000  0.40670300  1.0
+  Ru  Ru6  2  0.75008200  0.00000000  0.00000000  1.0

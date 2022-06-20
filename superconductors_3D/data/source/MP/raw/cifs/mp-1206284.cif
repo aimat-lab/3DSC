@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_LaCBr
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.27266811
+_cell_length_b   4.27266811
+_cell_length_c   10.19668288
+_cell_angle_alpha   86.35296712
+_cell_angle_beta   86.35296712
+_cell_angle_gamma   57.62630508
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaCBr
+_chemical_formula_sum   'La2 C2 Br2'
+_cell_volume   156.80047514
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.85546700  0.85546700  0.15037800  1
+  La  La1  1  0.14453300  0.14453300  0.84962200  1
+  C  C2  1  0.57317000  0.57317000  0.03234400  1
+  C  C3  1  0.42683000  0.42683000  0.96765600  1
+  Br  Br4  1  0.82467300  0.82467300  0.66037600  1
+  Br  Br5  1  0.17532700  0.17532700  0.33962400  1

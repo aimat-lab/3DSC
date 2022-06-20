@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Th7Ni3
+_symmetry_space_group_name_H-M   P6_3mc
+_cell_length_a   6.21455900
+_cell_length_b   9.82636800
+_cell_length_c   9.82636859
+_cell_angle_alpha   119.99999800
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   186
+_chemical_formula_structural   Th7Ni3
+_chemical_formula_sum   'Th14 Ni6'
+_cell_volume   519.66926400
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+1/2, y-z, y'
+  3  'x, -z, y-z'
+  4  'x+1/2, -y, -z'
+  5  'x, -y+z, -y'
+  6  'x+1/2, z, -y+z'
+  7  'x+1/2, z, y'
+  8  'x, y, y-z'
+  9  'x+1/2, y-z, -z'
+  10  'x, -z, -y'
+  11  'x+1/2, -y, -y+z'
+  12  'x, -y+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  6  0.25898600  0.12695900  0.87304000  1.0
+  Th  Th1  6  0.46138600  0.54433500  0.08867000  1.0
+  Th  Th2  2  0.42965300  0.33333333  0.66666667  1.0
+  Ni  Ni3  6  0.19307600  0.37288500  0.18644300  1.0

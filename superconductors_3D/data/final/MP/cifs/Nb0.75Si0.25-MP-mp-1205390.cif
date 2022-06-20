@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Nb3Si
+_symmetry_space_group_name_H-M   I-4
+_cell_length_a   5.16617600
+_cell_length_b   7.76297485
+_cell_length_c   7.76297485
+_cell_angle_alpha   83.64323719
+_cell_angle_beta   70.56455324
+_cell_angle_gamma   70.56455323
+_symmetry_Int_Tables_number   82
+_chemical_formula_structural   Nb3Si
+_chemical_formula_sum   'Nb12 Si4'
+_cell_volume   276.86278481
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x-z, z, -y'
+  3  'x+y+z, -y, -z'
+  4  '-x-y, -z, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  4  0.03078200  0.02895500  0.40497900  1.0
+  Nb  Nb1  4  0.03328600  0.33912100  0.62416800  1.0
+  Nb  Nb2  4  0.15781500  0.18101100  0.98235100  1.0
+  Si  Si3  4  0.18808600  0.32375700  0.26075900  1.0

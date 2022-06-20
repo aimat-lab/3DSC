@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_Ba4Eu2Cu6O13
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.70034975
+_cell_length_b   12.67794195
+_cell_length_c   5.54239969
+_cell_angle_alpha   77.61158689
+_cell_angle_beta   77.15947768
+_cell_angle_gamma   25.22893543
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Eu2Cu6O13
+_chemical_formula_sum   'Ba4 Eu2 Cu6 O13'
+_cell_volume   370.66759706
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.83815100  0.35220300  0.16184900  1
+  Ba  Ba1  1  0.35220300  0.83815100  0.64779700  1
+  Ba  Ba2  1  0.16184900  0.64779700  0.83815100  1
+  Ba  Ba3  1  0.64779700  0.16184900  0.35220300  1
+  Eu  Eu4  1  0.50000000  0.00000000  0.50000000  1
+  Eu  Eu5  1  0.00000000  0.50000000  0.00000000  1
+  Cu  Cu6  1  0.92945900  0.42725600  0.57274400  1
+  Cu  Cu7  1  0.42725600  0.92945900  0.07054100  1
+  Cu  Cu8  1  0.07054100  0.57274400  0.42725600  1
+  Cu  Cu9  1  0.57274400  0.07054100  0.92945900  1
+  Cu  Cu10  1  0.26123700  0.73876300  0.26123700  1
+  Cu  Cu11  1  0.73876300  0.26123700  0.73876300  1
+  O  O12  1  0.84619600  0.30369000  0.69631000  1
+  O  O13  1  0.30369000  0.84619600  0.15380400  1
+  O  O14  1  0.15380400  0.69631000  0.30369000  1
+  O  O15  1  0.69631000  0.15380400  0.84619600  1
+  O  O16  1  0.18666600  0.18666600  0.31333400  1
+  O  O17  1  0.68666600  0.68666600  0.81333400  1
+  O  O18  1  0.31333400  0.31333400  0.18666600  1
+  O  O19  1  0.81333400  0.81333400  0.68666600  1
+  O  O20  1  0.68484400  0.68484400  0.31515600  1
+  O  O21  1  0.18677300  0.18677300  0.81322700  1
+  O  O22  1  0.81322700  0.81322700  0.18677300  1
+  O  O23  1  0.31515600  0.31515600  0.68484400  1
+  O  O24  1  0.50000000  0.50000000  0.50000000  1

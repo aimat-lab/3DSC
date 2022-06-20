@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Sr4CaYGa2(Cu2O7)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.23851722
+_cell_length_b   12.23851722
+_cell_length_c   5.50183153
+_cell_angle_alpha   77.06818351
+_cell_angle_beta   77.06818351
+_cell_angle_gamma   25.46827948
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr4CaYGa2(Cu2O7)2
+_chemical_formula_sum   'Sr4 Ca1 Y1 Ga2 Cu4 O14'
+_cell_volume   344.90719678
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.14825600  0.15238600  0.86407600  1
+  Sr  Sr1  1  0.84761400  0.85174400  0.13592400  1
+  Sr  Sr2  1  0.34632200  0.35101400  0.66568200  1
+  Sr  Sr3  1  0.64898600  0.65367800  0.33431800  1
+  Ca  Ca4  1  0.00002100  0.99997900  0.00000000  1
+  Y  Y5  1  0.49996400  0.50003600  0.50000000  1
+  Ga  Ga6  1  0.70435800  0.79559400  0.68160100  1
+  Ga  Ga7  1  0.20440600  0.29564200  0.31839900  1
+  Cu  Cu8  1  0.57338800  0.57313500  0.92638600  1
+  Cu  Cu9  1  0.42686500  0.42661200  0.07361400  1
+  Cu  Cu10  1  0.92673600  0.92656300  0.57264100  1
+  Cu  Cu11  1  0.07343700  0.07326400  0.42735900  1
+  O  O12  1  0.85216400  0.64874700  0.36505700  1
+  O  O13  1  0.35125300  0.14783600  0.63494300  1
+  O  O14  1  0.31661000  0.80910800  0.19130800  1
+  O  O15  1  0.19089200  0.68339000  0.80869200  1
+  O  O16  1  0.68214900  0.19203600  0.80727200  1
+  O  O17  1  0.80796400  0.31785100  0.19272800  1
+  O  O18  1  0.19216200  0.16028100  0.27966700  1
+  O  O19  1  0.83971900  0.80783800  0.72033300  1
+  O  O20  1  0.34035200  0.30717600  0.13332500  1
+  O  O21  1  0.69282400  0.65964800  0.86667500  1
+  O  O22  1  0.81168300  0.32214200  0.67736800  1
+  O  O23  1  0.67785800  0.18831700  0.32263200  1
+  O  O24  1  0.18810500  0.67809100  0.32226800  1
+  O  O25  1  0.32190900  0.81189500  0.67773200  1

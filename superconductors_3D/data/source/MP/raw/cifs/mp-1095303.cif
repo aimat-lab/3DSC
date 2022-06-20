@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_FeBi4S7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.57386773
+_cell_length_b   6.57386773
+_cell_length_c   11.92052762
+_cell_angle_alpha   76.07640721
+_cell_angle_beta   76.07640721
+_cell_angle_gamma   34.52425656
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   FeBi4S7
+_chemical_formula_sum   'Fe1 Bi4 S7'
+_cell_volume   282.54551455
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Fe  Fe0  1  0.00000000  0.00000000  0.50000000  1
+  Bi  Bi1  1  0.11887400  0.11887400  0.08274500  1
+  Bi  Bi2  1  0.88112600  0.88112600  0.91725500  1
+  Bi  Bi3  1  0.31797000  0.31797000  0.33735300  1
+  Bi  Bi4  1  0.68203000  0.68203000  0.66264700  1
+  S  S5  1  0.97105900  0.97105900  0.31974000  1
+  S  S6  1  0.02894100  0.02894100  0.68026000  1
+  S  S7  1  0.25104800  0.25104800  0.85666500  1
+  S  S8  1  0.74895200  0.74895200  0.14333500  1
+  S  S9  1  0.37480200  0.37480200  0.53876900  1
+  S  S10  1  0.62519800  0.62519800  0.46123100  1
+  S  S11  1  0.50000000  0.50000000  0.00000000  1

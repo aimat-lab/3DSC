@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Nb2.07Tc0.93
+_symmetry_space_group_name_H-M   Fmmm
+_cell_length_a   2.84748164
+_cell_length_b   2.84748165
+_cell_length_c   6.93688475
+_cell_angle_alpha   97.57869759
+_cell_angle_beta   97.57869759
+_cell_angle_gamma   110.94082375
+_symmetry_Int_Tables_number   69
+_chemical_formula_structural   Nb2.07Tc0.93
+_chemical_formula_sum   'Nb2.07 Tc0.93'
+_cell_volume   51.08858990
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+z, -y+z, z'
+  4  'x-z, y-z, -z'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  '-y, -x, -z'
+  8  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  2  0.33895900  0.33895900  0.67791800  1.0
+  Tc  Tc1  1  0.00000000  0.00000000  0.00000000  0.9299999999999999
+  Nb  Nb2  1  0.00000000  0.00000000  0.00000000  0.07

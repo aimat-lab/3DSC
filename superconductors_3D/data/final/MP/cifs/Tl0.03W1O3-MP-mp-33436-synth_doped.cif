@@ -1,0 +1,55 @@
+# generated using pymatgen
+data_Tl0.18W6O18
+_symmetry_space_group_name_H-M   P6/mmm
+_cell_length_a   7.52089800
+_cell_length_b   7.52089824
+_cell_length_c   7.73007600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999896
+_symmetry_Int_Tables_number   191
+_chemical_formula_structural   Tl0.18W6O18
+_chemical_formula_sum   'Tl0.18 W6 O18'
+_cell_volume   378.66381963
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, x, z'
+  4  '-x+y, -x, -z'
+  5  '-y, x-y, z'
+  6  'y, -x+y, -z'
+  7  '-x, -y, z'
+  8  'x, y, -z'
+  9  '-x+y, -x, z'
+  10  'x-y, x, -z'
+  11  'y, -x+y, z'
+  12  '-y, x-y, -z'
+  13  '-y, -x, -z'
+  14  'y, x, z'
+  15  '-x, -x+y, -z'
+  16  'x, x-y, z'
+  17  '-x+y, y, -z'
+  18  'x-y, -y, z'
+  19  'y, x, -z'
+  20  '-y, -x, z'
+  21  'x, x-y, -z'
+  22  '-x, -x+y, z'
+  23  'x-y, -y, -z'
+  24  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.00000000  0.00000000  0.50000000
+  0.18000000000000005
+  W  W1  6  0.00000000  0.50000000  0.24995300  1.0
+  O  O2  12  0.21213100  0.42426300  0.25117500  1.0
+  O  O3  3  0.00000000  0.50000000  0.00000000  1.0
+  O  O4  3  0.00000000  0.50000000  0.50000000  1.0

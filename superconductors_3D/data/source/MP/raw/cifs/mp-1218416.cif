@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_SrCe2(SF2)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.35041689
+_cell_length_b   10.35041689
+_cell_length_c   10.35041689
+_cell_angle_alpha   157.65005765
+_cell_angle_beta   157.65005765
+_cell_angle_gamma   31.81472672
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrCe2(SF2)2
+_chemical_formula_sum   'Sr1 Ce2 S2 F4'
+_cell_volume   160.21733454
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50000000  0.50000000  0.00000000  1
+  Ce  Ce1  1  0.84227600  0.84227600  0.00000000  1
+  Ce  Ce2  1  0.15772400  0.15772400  0.00000000  1
+  S  S3  1  0.30171000  0.30171000  0.00000000  1
+  S  S4  1  0.69829000  0.69829000  0.00000000  1
+  F  F5  1  0.92535200  0.42535200  0.50000000  1
+  F  F6  1  0.42535200  0.92535200  0.50000000  1
+  F  F7  1  0.07464800  0.57464800  0.50000000  1
+  F  F8  1  0.57464800  0.07464800  0.50000000  1

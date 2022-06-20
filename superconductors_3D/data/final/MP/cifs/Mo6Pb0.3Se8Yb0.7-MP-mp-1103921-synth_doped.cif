@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Yb0.7Mo6Pb0.3Se8
+_symmetry_space_group_name_H-M   R-3
+_cell_length_a   6.82637283
+_cell_length_b   6.82637283
+_cell_length_c   6.82637258
+_cell_angle_alpha   89.16867806
+_cell_angle_beta   89.16867806
+_cell_angle_gamma   89.16868318
+_symmetry_Int_Tables_number   148
+_chemical_formula_structural   Yb0.7Mo6Pb0.3Se8
+_chemical_formula_sum   'Yb0.7 Mo6 Pb0.3 Se8'
+_cell_volume   318.00514680
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  0.7
+  Pb  Pb1  1  0.00000000  0.00000000  0.00000000  0.3
+  Mo  Mo2  6  0.23599700  0.55879500  0.42316600  1.0
+  Se  Se3  6  0.12309900  0.37528300  0.75221700  1.0
+  Se  Se4  2  0.23917100  0.23917100  0.23917100  1.0

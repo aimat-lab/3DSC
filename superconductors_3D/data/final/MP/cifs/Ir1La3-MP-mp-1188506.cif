@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La3Ir
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   6.66673800
+_cell_length_b   7.45171000
+_cell_length_c   10.07042500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   La3Ir
+_chemical_formula_sum   'La12 Ir4'
+_cell_volume   500.28459750
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z'
+  4  '-x+1/2, y+1/2, z'
+  5  '-x+1/2, y+1/2, -z+1/2'
+  6  'x+1/2, -y+1/2, z+1/2'
+  7  '-x, -y, z+1/2'
+  8  'x, y, -z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  8  0.17032500  0.17401600  0.06711300  1.0
+  La  La1  4  0.14110800  0.46190800  0.75000000  1.0
+  Ir  Ir2  4  0.06346800  0.88093700  0.25000000  1.0

@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Bi1Te0.75
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   4.33940582
+_cell_length_b   4.33940582
+_cell_length_c   4.33940576
+_cell_angle_alpha   67.87717597
+_cell_angle_beta   67.87717597
+_cell_angle_gamma   67.87718988
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Bi1Te0.75
+_chemical_formula_sum   'Bi1 Te0.75'
+_cell_volume   67.44913071
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+  7  '-z, -y, -x'
+  8  'z, y, x'
+  9  '-y, -x, -z'
+  10  'y, x, z'
+  11  '-x, -z, -y'
+  12  'x, z, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Bi  Bi0  1  0.50000000  0.50000000  0.50000000  1.0
+  Te  Te1  1  0.00000000  0.00000000  0.00000000  0.75

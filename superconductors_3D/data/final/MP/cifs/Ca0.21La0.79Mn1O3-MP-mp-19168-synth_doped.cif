@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Ca0.42La1.58Mn2O6
+_symmetry_space_group_name_H-M   R-3c
+_cell_length_a   5.56396943
+_cell_length_b   5.56396961
+_cell_length_c   5.56396970
+_cell_angle_alpha   61.04401257
+_cell_angle_beta   61.04400996
+_cell_angle_gamma   61.04400385
+_symmetry_Int_Tables_number   167
+_chemical_formula_structural   Ca0.42La1.58Mn2O6
+_chemical_formula_sum   'Ca0.42 La1.58 Mn2 O6'
+_cell_volume   124.66110537
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'z, x, y'
+  4  '-z, -x, -y'
+  5  'y, z, x'
+  6  '-y, -z, -x'
+  7  '-z+1/2, -y+1/2, -x+1/2'
+  8  'z+1/2, y+1/2, x+1/2'
+  9  '-y+1/2, -x+1/2, -z+1/2'
+  10  'y+1/2, x+1/2, z+1/2'
+  11  '-x+1/2, -z+1/2, -y+1/2'
+  12  'x+1/2, z+1/2, y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.25000000  0.25000000  0.25000000  0.79
+  Ca  Ca1  2  0.25000000  0.25000000  0.25000000  0.21
+  Mn  Mn2  2  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  6  0.17641900  0.75000000  0.32358100  1.0

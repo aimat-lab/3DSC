@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Nb2C1N0.94
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   3.17683007
+_cell_length_b   3.17683007
+_cell_length_c   5.50452744
+_cell_angle_alpha   73.22792023
+_cell_angle_beta   73.22792023
+_cell_angle_gamma   59.99999866
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Nb2C1N0.94
+_chemical_formula_sum   'Nb2 C1 N0.94'
+_cell_volume   45.36104313
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  2  0.25659600  0.25659600  0.23021200  1.0
+  C  C1  1  0.00000000  0.00000000  0.00000000  1.0
+  N  N2  1  0.50000000  0.50000000  0.50000000  0.94

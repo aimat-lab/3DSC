@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Nb1.53Mo1.47C3
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   3.13521955
+_cell_length_b   3.13521955
+_cell_length_c   10.21894946
+_cell_angle_alpha   81.17585329
+_cell_angle_beta   81.17585329
+_cell_angle_gamma   60.00000942
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Nb1.53Mo1.47C3
+_chemical_formula_sum   'Nb1.53 Mo1.47 C3'
+_cell_volume   85.61510111
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  2  0.37745100  0.37745100  0.86764700  0.765
+  Mo  Mo1  2  0.12296000  0.12296000  0.63112000  0.735
+  C  C2  2  0.25149300  0.25149300  0.24552100  1.0
+  C  C3  1  0.50000000  0.50000000  0.50000000  1.0

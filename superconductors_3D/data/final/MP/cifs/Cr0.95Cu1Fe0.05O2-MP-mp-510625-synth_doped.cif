@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Cr0.95Fe0.05Cu1O2
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   3.05812444
+_cell_length_b   3.05812444
+_cell_length_c   5.97884685
+_cell_angle_alpha   75.18224778
+_cell_angle_beta   75.18224778
+_cell_angle_gamma   60.00003380
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Cr0.95Fe0.05Cu1O2
+_chemical_formula_sum   'Cr0.95 Fe0.05 Cu1 O2'
+_cell_volume   46.26414382
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.50000000  0.50000000  0.50000000  0.95
+  Fe  Fe1  1  0.50000000  0.50000000  0.50000000  0.05
+  Cu  Cu2  1  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  2  0.10808900  0.10808900  0.67573400  1.0

@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_K2.7Ba0.3Fe6As6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   5.43774000
+_cell_length_b   7.18634711
+_cell_length_c   8.61210276
+_cell_angle_alpha   111.06281843
+_cell_angle_beta   108.40328177
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   K2.7Ba0.3Fe6As6
+_chemical_formula_sum   'K2.7 Ba0.3 Fe6 As6'
+_cell_volume   295.53620227
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, -y, -z'
+  4  '-x+z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  2  0.33003900  0.00022600  0.66007800  1.0
+  Ba  Ba1  1  0.00000000  0.00000000  0.00000000
+  0.30000000000000004
+  K  K2  1  0.00000000  0.00000000  0.00000000  0.7
+  Fe  Fe3  4  0.08353300  0.50054100  0.66751600  1.0
+  Fe  Fe4  2  0.24903200  0.50000000  0.00000000  1.0
+  As  As5  2  0.11791300  0.69737700  0.23582600  1.0
+  As  As6  2  0.21781600  0.30570800  0.43563200  1.0
+  As  As7  2  0.44815700  0.69697800  0.89631400  1.0

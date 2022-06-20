@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_CaC12
+_symmetry_space_group_name_H-M   Cmmm
+_cell_length_a   5.24556341
+_cell_length_b   5.79453129
+_cell_length_c   26.51297100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   116.91257660
+_symmetry_Int_Tables_number   65
+_chemical_formula_structural   CaC12
+_chemical_formula_sum   'Ca1 C12'
+_cell_volume   718.59921607
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z'
+  4  'x, y, -z'
+  5  'x-y, -y, -z'
+  6  '-x+y, y, z'
+  7  '-x+y, y, -z'
+  8  'x-y, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000000  1.0
+  C  C1  4  0.00000000  0.50000000  0.33376800  1.0
+  C  C2  4  0.11883100  0.50010200  0.50000000  1.0
+  C  C3  4  0.28633500  0.81346300  0.00000000  1.0

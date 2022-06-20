@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Dy3GaFeS7
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.49825961
+_cell_length_b   9.49825961
+_cell_length_c   6.16016400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.99999727
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Dy3GaFeS7
+_chemical_formula_sum   'Dy6 Ga2 Fe2 S14'
+_cell_volume   481.29460032
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  1  0.78151500  0.62665500  0.17378500  1
+  Dy  Dy1  1  0.37334500  0.15486100  0.17378500  1
+  Dy  Dy2  1  0.84513900  0.21848500  0.17378500  1
+  Dy  Dy3  1  0.21848500  0.37334500  0.67378500  1
+  Dy  Dy4  1  0.62665500  0.84513900  0.67378500  1
+  Dy  Dy5  1  0.15486100  0.78151500  0.67378500  1
+  Ga  Ga6  1  0.33333300  0.66666700  0.10544000  1
+  Ga  Ga7  1  0.66666700  0.33333300  0.60544000  1
+  Fe  Fe8  1  0.00000000  0.00000000  0.50923400  1
+  Fe  Fe9  1  0.00000000  0.00000000  0.00923400  1
+  S  S10  1  0.91439000  0.48041500  0.44736500  1
+  S  S11  1  0.51958500  0.43397500  0.44736500  1
+  S  S12  1  0.56602500  0.08561000  0.44736500  1
+  S  S13  1  0.08561000  0.51958500  0.94736500  1
+  S  S14  1  0.48041500  0.56602500  0.94736500  1
+  S  S15  1  0.43397500  0.91439000  0.94736500  1
+  S  S16  1  0.33333300  0.66666700  0.47027800  1
+  S  S17  1  0.66666700  0.33333300  0.97027800  1
+  S  S18  1  0.78233100  0.90691700  0.26544100  1
+  S  S19  1  0.09308300  0.87541400  0.26544100  1
+  S  S20  1  0.12458600  0.21766900  0.26544100  1
+  S  S21  1  0.21766900  0.09308300  0.76544100  1
+  S  S22  1  0.90691700  0.12458600  0.76544100  1
+  S  S23  1  0.87541400  0.78233100  0.76544100  1

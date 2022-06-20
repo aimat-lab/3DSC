@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Ce2S3
+_symmetry_space_group_name_H-M   I-42d
+_cell_length_a   8.52744600
+_cell_length_b   8.52744600
+_cell_length_c   14.11942993
+_cell_angle_alpha   107.57629957
+_cell_angle_beta   107.57629956
+_cell_angle_gamma   90.00000001
+_symmetry_Int_Tables_number   122
+_chemical_formula_structural   Ce2S3
+_chemical_formula_sum   'Ce16 S24'
+_cell_volume   928.39174534
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, -x, -z'
+  3  '-x+z, -y+z, z'
+  4  '-y, x-z, -z'
+  5  '-x+3/4, y-z+1/4, -z+1/2'
+  6  '-y+z+3/4, -x+z+1/4, z+1/2'
+  7  'x-z+3/4, -y+1/4, -z+1/2'
+  8  'y+3/4, x+1/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  8  0.04536800  0.15182700  0.57851800  1.0
+  Ce  Ce1  4  0.16553100  0.16553100  0.33106200  1.0
+  Ce  Ce2  4  0.25534500  0.62500000  0.75000000  1.0
+  S  S3  8  0.00647500  0.75839500  0.86615000  1.0
+  S  S4  8  0.07150900  0.46491800  0.29133200  1.0
+  S  S5  8  0.18479400  0.43703200  0.03238400  1.0

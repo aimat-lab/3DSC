@@ -1,0 +1,47 @@
+# generated using pymatgen
+data_Sr0.4La1.6Bi2S4O2
+_symmetry_space_group_name_H-M   P4/nmm
+_cell_length_a   4.04759600
+_cell_length_b   4.04759600
+_cell_length_c   14.36078000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   129
+_chemical_formula_structural   Sr0.4La1.6Bi2S4O2
+_chemical_formula_sum   'Sr0.4 La1.6 Bi2 S4 O2'
+_cell_volume   235.27313809
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+1/2, x+1/2, z'
+  3  '-x, -y, z'
+  4  'y+1/2, -x+1/2, z'
+  5  'x+1/2, -y+1/2, -z'
+  6  '-y, -x, -z'
+  7  '-x+1/2, y+1/2, -z'
+  8  'y, x, -z'
+  9  '-x+1/2, -y+1/2, -z'
+  10  'y, -x, -z'
+  11  'x+1/2, y+1/2, -z'
+  12  '-y, x, -z'
+  13  '-x, y, z'
+  14  'y+1/2, x+1/2, z'
+  15  'x, -y, z'
+  16  '-y+1/2, -x+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.00000000  0.50000000  0.86615900  0.8
+  Sr  Sr1  2  0.00000000  0.50000000  0.86615900  0.2
+  Bi  Bi2  2  0.00000000  0.50000000  0.41460700  1.0
+  S  S3  2  0.00000000  0.50000000  0.09291000  1.0
+  S  S4  2  0.00000000  0.50000000  0.68438800  1.0
+  O  O5  2  0.00000000  0.00000000  0.50000000  1.0

@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Tb3Ni
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.33576200
+_cell_length_b   6.85324100
+_cell_length_c   9.62766000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb3Ni
+_chemical_formula_sum   'Tb12 Ni4'
+_cell_volume   418.03784862
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.32352500  0.67893400  0.06624800  1
+  Tb  Tb1  1  0.17647500  0.17893400  0.43375200  1
+  Tb  Tb2  1  0.67647500  0.32106600  0.56624800  1
+  Tb  Tb3  1  0.82352500  0.82106600  0.93375200  1
+  Tb  Tb4  1  0.67647500  0.32106600  0.93375200  1
+  Tb  Tb5  1  0.82352500  0.82106600  0.56624800  1
+  Tb  Tb6  1  0.32352500  0.67893400  0.43375200  1
+  Tb  Tb7  1  0.17647500  0.17893400  0.06624800  1
+  Tb  Tb8  1  0.85656900  0.53649800  0.25000000  1
+  Tb  Tb9  1  0.64343100  0.03649800  0.25000000  1
+  Tb  Tb10  1  0.14343100  0.46350200  0.75000000  1
+  Tb  Tb11  1  0.35656900  0.96350200  0.75000000  1
+  Ni  Ni12  1  0.05856600  0.89004300  0.25000000  1
+  Ni  Ni13  1  0.44143400  0.39004300  0.25000000  1
+  Ni  Ni14  1  0.94143400  0.10995700  0.75000000  1
+  Ni  Ni15  1  0.55856600  0.60995700  0.75000000  1

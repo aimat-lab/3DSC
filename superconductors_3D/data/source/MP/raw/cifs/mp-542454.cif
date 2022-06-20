@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mo2As3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.94340828
+_cell_length_b   6.94340828
+_cell_length_c   9.72389095
+_cell_angle_alpha   56.56735771
+_cell_angle_beta   56.56735771
+_cell_angle_gamma   27.20056552
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mo2As3
+_chemical_formula_sum   'Mo4 As6'
+_cell_volume   176.53695625
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  1  0.75196900  0.75196900  0.37167300  1
+  Mo  Mo1  1  0.24803100  0.24803100  0.62832700  1
+  Mo  Mo2  1  0.64947300  0.64947300  0.13481100  1
+  Mo  Mo3  1  0.35052700  0.35052700  0.86518900  1
+  As  As4  1  0.87273200  0.87273200  0.04702500  1
+  As  As5  1  0.12726800  0.12726800  0.95297500  1
+  As  As6  1  0.58539000  0.58539000  0.68559300  1
+  As  As7  1  0.41461000  0.41461000  0.31440700  1
+  As  As8  1  0.89536500  0.89536500  0.62881000  1
+  As  As9  1  0.10463500  0.10463500  0.37119000  1

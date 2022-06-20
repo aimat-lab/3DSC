@@ -1,0 +1,50 @@
+# generated using pymatgen
+data_Ba5BiPb4O15
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   6.14523400
+_cell_length_b   6.22152234
+_cell_length_c   22.13662048
+_cell_angle_alpha   98.05796111
+_cell_angle_beta   97.97855471
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Ba5BiPb4O15
+_chemical_formula_sum   'Ba10 Bi2 Pb8 O30'
+_cell_volume   829.71184061
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, -y, -z'
+  4  '-x+z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.04966700  0.54300300  0.09933400  1.0
+  Ba  Ba1  2  0.14875400  0.65040700  0.29750800  1.0
+  Ba  Ba2  2  0.24993700  0.74832500  0.49987400  1.0
+  Ba  Ba3  2  0.35127900  0.85500000  0.70255800  1.0
+  Ba  Ba4  2  0.45037200  0.94349800  0.90074400  1.0
+  Bi  Bi5  2  0.30002200  0.30117200  0.60004400  1.0
+  Pb  Pb6  2  0.09964200  0.09782100  0.19928400  1.0
+  Pb  Pb7  2  0.19963700  0.20038800  0.39927400  1.0
+  Pb  Pb8  2  0.40055900  0.39902800  0.80111800  1.0
+  Pb  Pb9  1  0.00000000  0.00000000  0.00000000  1.0
+  Pb  Pb10  1  0.50000000  0.50000000  0.00000000  1.0
+  O  O11  4  0.04440300  0.53949900  0.58451900  1.0
+  O  O12  4  0.05776400  0.05973500  0.61185600  1.0
+  O  O13  4  0.14227400  0.14267100  0.78417400  1.0
+  O  O14  4  0.15640600  0.65614800  0.81237400  1.0
+  O  O15  4  0.24224000  0.74205800  0.98438500  1.0
+  O  O16  2  0.05000200  0.98015200  0.10000400  1.0
+  O  O17  2  0.15029700  0.21301400  0.30059400  1.0
+  O  O18  2  0.25024800  0.19044700  0.50049600  1.0
+  O  O19  2  0.34917700  0.41139100  0.69835400  1.0
+  O  O20  2  0.45011600  0.37944500  0.90023200  1.0

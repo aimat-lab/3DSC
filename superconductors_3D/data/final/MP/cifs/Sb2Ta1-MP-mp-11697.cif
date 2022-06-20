@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_TaSb2
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.69243600
+_cell_length_b   5.49406945
+_cell_length_c   7.52604298
+_cell_angle_alpha   78.54036483
+_cell_angle_beta   75.79981096
+_cell_angle_gamma   70.36430851
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   TaSb2
+_chemical_formula_sum   'Ta2 Sb4'
+_cell_volume   138.27044872
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ta  Ta0  2  0.15072700  0.38714900  0.31139700  1.0
+  Sb  Sb1  2  0.14841100  0.73795700  0.96522100  1.0
+  Sb  Sb2  2  0.40523900  0.80199000  0.38753200  1.0

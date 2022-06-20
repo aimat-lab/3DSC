@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sc4Ge19Rh6
+_symmetry_space_group_name_H-M   I23
+_cell_length_a   8.83956113
+_cell_length_b   8.83956113
+_cell_length_c   8.83956113
+_cell_angle_alpha   109.47122063
+_cell_angle_beta   109.47122064
+_cell_angle_gamma   109.47122064
+_symmetry_Int_Tables_number   197
+_chemical_formula_structural   Sc4Ge19Rh6
+_chemical_formula_sum   'Sc4 Ge19 Rh6'
+_cell_volume   531.70435783
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, x-z, -z'
+  3  '-y+z, -y, x-y'
+  4  '-x, -x+z, -x+y'
+  5  '-y, x-y, -y+z'
+  6  '-x+z, -x+y, -x'
+  7  'y, z, x'
+  8  'x-z, -z, y-z'
+  9  '-x+y, -x, -x+z'
+  10  'x-y, -y+z, -y'
+  11  '-z, y-z, x-z'
+  12  'z, x, y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sc  Sc0  4  0.00000000  0.00000000  0.35271100  1.0
+  Ge  Ge1  12  0.00178700  0.22211300  0.66812600  1.0
+  Ge  Ge2  6  0.00000000  0.29997200  0.29997200  1.0
+  Ge  Ge3  1  0.00000000  0.00000000  0.00000000  1.0
+  Rh  Rh4  6  0.14249100  0.50000000  0.64249100  1.0

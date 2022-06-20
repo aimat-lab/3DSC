@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_LiBeH3
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   5.84691400
+_cell_length_b   5.86683167
+_cell_length_c   8.32258400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   119.88775898
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   LiBeH3
+_chemical_formula_sum   'Li6 Be6 H18'
+_cell_volume   247.51939561
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  '-x+y, y, -z'
+  6  'x-y, -y, z'
+  7  'x-y, -y, -z+1/2'
+  8  '-x+y, y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  4  0.17185400  0.34370800  0.00000000  1.0
+  Li  Li1  2  0.50000000  0.00000000  0.00000000  1.0
+  Be  Be2  4  0.16553200  0.75525700  0.25000000  1.0
+  Be  Be3  2  0.08039400  0.00000000  0.75000000  1.0
+  H  H4  8  0.16564000  0.64274900  0.10163000  1.0
+  H  H5  4  0.07921800  0.24354500  0.75000000  1.0
+  H  H6  4  0.19160400  0.00000000  0.59922600  1.0
+  H  H7  2  0.40943100  0.00000000  0.25000000  1.0

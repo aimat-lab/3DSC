@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_PbAu2
+_symmetry_space_group_name_H-M   Pbcn
+_cell_length_a   5.68957400
+_cell_length_b   8.33321700
+_cell_length_c   11.37394800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   60
+_chemical_formula_structural   PbAu2
+_chemical_formula_sum   'Pb8 Au16'
+_cell_volume   539.26679522
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y+1/2, z+1/2'
+  4  'x+1/2, y+1/2, -z+1/2'
+  5  '-x+1/2, y+1/2, -z'
+  6  'x+1/2, -y+1/2, z'
+  7  'x, -y, -z+1/2'
+  8  '-x, y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pb  Pb0  8  0.00785500  0.37298100  0.37403300  1.0
+  Au  Au1  8  0.21355500  0.27230900  0.62521700  1.0
+  Au  Au2  4  0.00000000  0.00000000  0.00000000  1.0
+  Au  Au3  4  0.01668700  0.00000000  0.75000000  1.0

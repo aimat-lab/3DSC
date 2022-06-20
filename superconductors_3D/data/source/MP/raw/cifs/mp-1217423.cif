@@ -1,0 +1,48 @@
+# generated using pymatgen
+data_Ti4Cr2Ge5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19160510
+_cell_length_b   8.33643177
+_cell_length_c   9.22327150
+_cell_angle_alpha   63.41373472
+_cell_angle_beta   74.07321670
+_cell_angle_gamma   90.89153910
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ti4Cr2Ge5
+_chemical_formula_sum   'Ti8 Cr4 Ge10'
+_cell_volume   338.79384372
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.50000000  0.50000000  0.50000000  1
+  Ti  Ti1  1  0.00000000  0.00000000  0.50000000  1
+  Ti  Ti2  1  0.08863200  0.80970100  0.82154700  1
+  Ti  Ti3  1  0.08982200  0.36875200  0.82154700  1
+  Ti  Ti4  1  0.91017800  0.63124800  0.17845300  1
+  Ti  Ti5  1  0.91136800  0.19029900  0.17845300  1
+  Ti  Ti6  1  0.75748100  0.99972700  0.00000000  1
+  Ti  Ti7  1  0.24251900  0.00027300  0.00000000  1
+  Cr  Cr8  1  0.34990200  0.34990200  0.30019600  1
+  Cr  Cr9  1  0.65009800  0.65009800  0.69980400  1
+  Cr  Cr10  1  0.50000000  0.00000000  0.50000000  1
+  Cr  Cr11  1  0.00000000  0.50000000  0.50000000  1
+  Ge  Ge12  1  0.20975000  0.70975000  0.58050000  1
+  Ge  Ge13  1  0.79025000  0.29025000  0.41950000  1
+  Ge  Ge14  1  0.73824600  0.49782800  0.00000000  1
+  Ge  Ge15  1  0.26175400  0.50217200  0.00000000  1
+  Ge  Ge16  1  0.17314800  0.17314800  0.65370400  1
+  Ge  Ge17  1  0.82685200  0.82685200  0.34629600  1
+  Ge  Ge18  1  0.39900200  0.08995900  0.21698600  1
+  Ge  Ge19  1  0.38401200  0.69305500  0.21698600  1
+  Ge  Ge20  1  0.61598800  0.30694500  0.78301400  1
+  Ge  Ge21  1  0.60099800  0.91004100  0.78301400  1

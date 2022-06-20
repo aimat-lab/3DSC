@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_La2Fe2O5
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.08654970
+_cell_length_b   4.08654970
+_cell_length_c   7.53558300
+_cell_angle_alpha   86.44961851
+_cell_angle_beta   86.44961851
+_cell_angle_gamma   91.65262931
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2Fe2O5
+_chemical_formula_sum   'La2 Fe2 O5'
+_cell_volume   125.29335028
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00224500  0.99775500  0.00000000  1
+  La  La1  1  0.93118100  0.06881900  0.50000000  1
+  Fe  Fe2  1  0.47974100  0.48813500  0.23316000  1
+  Fe  Fe3  1  0.51186500  0.52025900  0.76684000  1
+  O  O4  1  0.99722300  0.46229500  0.20609000  1
+  O  O5  1  0.01092500  0.51545300  0.78238400  1
+  O  O6  1  0.55336600  0.44663400  0.50000000  1
+  O  O7  1  0.48454700  0.98907500  0.21761600  1
+  O  O8  1  0.53770500  0.00277700  0.79391000  1

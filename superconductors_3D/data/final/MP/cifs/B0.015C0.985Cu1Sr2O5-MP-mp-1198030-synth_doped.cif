@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Sr8Cu4B0.06C3.94O20
+_symmetry_space_group_name_H-M   I-4
+_cell_length_a   7.87774400
+_cell_length_b   7.87774400
+_cell_length_c   9.46755054
+_cell_angle_alpha   114.58477591
+_cell_angle_beta   114.58477591
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   82
+_chemical_formula_structural   Sr8Cu4B0.06C3.94O20
+_chemical_formula_sum   'Sr8 Cu4 B0.06 C3.94 O20'
+_cell_volume   475.08507623
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y-z, -x, -z'
+  3  '-x+z, -y+z, z'
+  4  '-y, x-z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  2  0.10347400  0.60347400  0.20694800  1.0
+  Sr  Sr1  2  0.11358400  0.11358400  0.22716800  1.0
+  Sr  Sr2  2  0.38632100  0.38632100  0.77264200  1.0
+  Sr  Sr3  2  0.61983000  0.11983000  0.23966000  1.0
+  Cu  Cu4  4  0.24995400  0.74992100  0.00005500  1.0
+  C  C5  4  0.01286400  0.00632200  0.49772700  0.985
+  B  B6  4  0.01286400  0.00632200  0.49772700  0.015
+  O  O7  4  0.02083700  0.18005000  0.51571500  1.0
+  O  O8  4  0.02137100  0.44464000  0.36524000  1.0
+  O  O9  4  0.13718400  0.59582700  0.65817500  1.0
+  O  O10  4  0.23998000  0.49026700  0.98098100  1.0
+  O  O11  4  0.25952600  0.00838600  0.01715200  1.0

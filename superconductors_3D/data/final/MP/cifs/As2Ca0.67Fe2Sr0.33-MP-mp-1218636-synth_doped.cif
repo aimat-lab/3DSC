@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Sr0.99Ca2.01Fe6As6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   5.65299345
+_cell_length_b   6.06030486
+_cell_length_c   8.30695249
+_cell_angle_alpha   104.87522421
+_cell_angle_beta   109.89251794
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Sr0.99Ca2.01Fe6As6
+_chemical_formula_sum   'Sr0.99 Ca2.01 Fe6 As6'
+_cell_volume   257.44058126
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, -y, -z'
+  4  '-x+z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.00000000  0.00000000  0.99
+  Ca  Ca1  1  0.00000000  0.00000000  0.00000000  0.01
+  Ca  Ca2  2  0.33262000  0.66438200  0.66523800  1.0
+  Fe  Fe3  4  0.08286200  0.16618700  0.66450700  1.0
+  Fe  Fe4  2  0.24997300  0.50000000  0.00000000  1.0
+  As  As5  2  0.12009600  0.52343500  0.24019100  1.0
+  As  As6  2  0.21351900  0.14777300  0.42703800  1.0
+  As  As7  2  0.45195100  0.18895400  0.90390100  1.0

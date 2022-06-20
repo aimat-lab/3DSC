@@ -1,0 +1,53 @@
+# generated using pymatgen
+data_U2Pd0.018Pt5.982
+_symmetry_space_group_name_H-M   P6_3/mmc
+_cell_length_a   4.99760300
+_cell_length_b   5.77701000
+_cell_length_c   5.77701050
+_cell_angle_alpha   60.00000289
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   194
+_chemical_formula_structural   U2Pd0.018Pt5.982
+_chemical_formula_sum   'U2 Pd0.018 Pt5.982'
+_cell_volume   144.44372315
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, y+z, -y'
+  4  '-x+1/2, -y-z, y'
+  5  'x, z, -y-z'
+  6  '-x, -z, y+z'
+  7  'x+1/2, -y, -z'
+  8  '-x+1/2, y, z'
+  9  'x, -y-z, y'
+  10  '-x, y+z, -y'
+  11  'x+1/2, -z, y+z'
+  12  '-x+1/2, z, -y-z'
+  13  '-x+1/2, z, y'
+  14  'x+1/2, -z, -y'
+  15  '-x, -y, y+z'
+  16  'x, y, -y-z'
+  17  '-x+1/2, -y-z, z'
+  18  'x+1/2, y+z, -z'
+  19  '-x, -z, -y'
+  20  'x, z, y'
+  21  '-x+1/2, y, -y-z'
+  22  'x+1/2, -y, y+z'
+  23  '-x, y+z, -z'
+  24  'x, -y-z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  U  U0  2  0.25000000  0.66666667  0.66666667  1.0
+  Pt  Pt1  6  0.25000000  0.16485000  0.67029900  0.997
+  Pd  Pd2  6  0.25000000  0.16485000  0.67029900
+  0.0029999999999999996

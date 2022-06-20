@@ -1,0 +1,59 @@
+# generated using pymatgen
+data_C
+_symmetry_space_group_name_H-M   Pa-3
+_cell_length_a   14.29570032
+_cell_length_b   14.29570032
+_cell_length_c   14.29570032
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   205
+_chemical_formula_structural   C
+_chemical_formula_sum   C240
+_cell_volume   2921.57006833
+_cell_formula_units_Z   240
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+1/2, -y, z+1/2'
+  4  'x+1/2, y, -z+1/2'
+  5  'x+1/2, -y+1/2, -z'
+  6  '-x+1/2, y+1/2, z'
+  7  '-x, y+1/2, -z+1/2'
+  8  'x, -y+1/2, z+1/2'
+  9  'z, x, y'
+  10  '-z, -x, -y'
+  11  'z+1/2, -x+1/2, -y'
+  12  '-z+1/2, x+1/2, y'
+  13  '-z, x+1/2, -y+1/2'
+  14  'z, -x+1/2, y+1/2'
+  15  '-z+1/2, -x, y+1/2'
+  16  'z+1/2, x, -y+1/2'
+  17  'y, z, x'
+  18  '-y, -z, -x'
+  19  '-y, z+1/2, -x+1/2'
+  20  'y, -z+1/2, x+1/2'
+  21  '-y+1/2, -z, x+1/2'
+  22  'y+1/2, z, -x+1/2'
+  23  'y+1/2, -z+1/2, -x'
+  24  '-y+1/2, z+1/2, x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  C  C0  24  0.00639031  0.24223304  0.94605175  1.0
+  C  C1  24  0.01925439  0.56382849  0.73969520  1.0
+  C  C2  24  0.01977354  0.14818427  0.80162321  1.0
+  C  C3  24  0.03246599  0.60037050  0.27500714  1.0
+  C  C4  24  0.03481247  0.70311737  0.63839090  1.0
+  C  C5  24  0.03744364  0.71952136  0.38853891  1.0
+  C  C6  24  0.06008712  0.20131068  0.13382494  1.0
+  C  C7  24  0.06313741  0.12783582  0.20406165  1.0
+  C  C8  24  0.09467651  0.65702592  0.33207136  1.0
+  C  C9  24  0.11730358  0.13023913  0.82396626  1.0

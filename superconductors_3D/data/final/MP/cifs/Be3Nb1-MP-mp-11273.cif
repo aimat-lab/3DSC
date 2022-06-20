@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Be3Nb
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   4.56632984
+_cell_length_b   4.56632984
+_cell_length_c   7.50342751
+_cell_angle_alpha   72.28497500
+_cell_angle_beta   72.28497500
+_cell_angle_gamma   60.00000235
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Be3Nb
+_chemical_formula_sum   'Be9 Nb3'
+_cell_volume   126.85659490
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x, x+y+z, -z'
+  8  'x, -x-y-z, z'
+  9  'x+y+z, -y, -z'
+  10  '-x-y-z, y, z'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  6  0.07564700  0.58376900  0.75681500  1.0
+  Be  Be1  2  0.33436300  0.33436300  0.99691000  1.0
+  Be  Be2  1  0.50000000  0.50000000  0.50000000  1.0
+  Nb  Nb3  2  0.14027800  0.14027800  0.57916600  1.0
+  Nb  Nb4  1  0.00000000  0.00000000  0.00000000  1.0

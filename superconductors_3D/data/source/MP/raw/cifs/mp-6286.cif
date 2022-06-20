@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YbNi2B2C
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61425049
+_cell_length_b   5.61425049
+_cell_length_c   5.61425049
+_cell_angle_alpha   142.75743119
+_cell_angle_beta   142.75743119
+_cell_angle_gamma   53.68949001
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbNi2B2C
+_chemical_formula_sum   'Yb1 Ni2 B2 C1'
+_cell_volume   64.39358443
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni1  1  0.75000000  0.25000000  0.50000000  1
+  Ni  Ni2  1  0.25000000  0.75000000  0.50000000  1
+  B  B3  1  0.35397800  0.35397800  0.00000000  1
+  B  B4  1  0.64602200  0.64602200  0.00000000  1
+  C  C5  1  0.50000000  0.50000000  0.00000000  1

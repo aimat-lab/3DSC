@@ -1,0 +1,32 @@
+# generated using pymatgen
+data_YbGePd
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57862894
+_cell_length_b   5.57862894
+_cell_length_c   7.14653991
+_cell_angle_alpha   51.45182839
+_cell_angle_beta   51.45182839
+_cell_angle_gamma   47.65618880
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbGePd
+_chemical_formula_sum   'Yb2 Ge2 Pd2'
+_cell_volume   120.34005555
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.45157600  0.45157600  0.80540700  1
+  Yb  Yb1  1  0.54842400  0.54842400  0.19459300  1
+  Ge  Ge2  1  0.83669000  0.83669000  0.60961900  1
+  Ge  Ge3  1  0.16331000  0.16331000  0.39038100  1
+  Pd  Pd4  1  0.18223200  0.18223200  0.75023000  1
+  Pd  Pd5  1  0.81776800  0.81776800  0.24977000  1

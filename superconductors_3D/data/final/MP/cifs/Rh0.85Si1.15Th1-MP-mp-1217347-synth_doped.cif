@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Th2Si2.3Rh1.7
+_symmetry_space_group_name_H-M   Imma
+_cell_length_a   3.98857200
+_cell_length_b   4.05975900
+_cell_length_c   8.23639387
+_cell_angle_alpha   75.73231077
+_cell_angle_beta   75.98765413
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   74
+_chemical_formula_structural   Th2Si2.3Rh1.7
+_chemical_formula_sum   'Th2 Si2.3 Rh1.7'
+_cell_volume   125.15622620
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+1/4, -y+3/4, -z+1/2'
+  3  '-x-z, -y-z, z'
+  4  'x+z+1/4, y+z+3/4, -z+1/2'
+  5  'x+z+1/4, -y+3/4, -z+1/2'
+  6  '-x-z, y, z'
+  7  '-x+1/4, y+z+3/4, -z+1/2'
+  8  'x, -y-z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  2  0.00256700  0.00256800  0.99486500  1.0
+  Si  Si1  2  0.41473800  0.41473800  0.17052400  1.0
+  Rh  Rh2  2  0.56720900  0.56720900  0.86558200  0.85
+  Si  Si3  2  0.56720900  0.56720900  0.86558200  0.15

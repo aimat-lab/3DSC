@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr2Ca2Ga(CuO3)3
+_symmetry_space_group_name_H-M   Ima2
+_cell_length_a   5.38827800
+_cell_length_b   5.47885200
+_cell_length_c   15.41222772
+_cell_angle_alpha   100.23836277
+_cell_angle_beta   100.06732763
+_cell_angle_gamma   90.00000001
+_symmetry_Int_Tables_number   46
+_chemical_formula_structural   Sr2Ca2Ga(CuO3)3
+_chemical_formula_sum   'Sr4 Ca4 Ga2 Cu6 O18'
+_cell_volume   440.62764396
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-z, -y, -z'
+  3  'x-z+1/2, y-z+1/2, -z'
+  4  'x+1/2, -y+z+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.18897600  0.68723200  0.34521600  1.0
+  Ca  Ca1  4  0.06697900  0.55461900  0.11201900  1.0
+  Ga  Ga2  2  0.31125500  0.32082700  0.50000000  1.0
+  Cu  Cu3  4  0.12603200  0.11405200  0.22764500  1.0
+  Cu  Cu4  2  0.00969300  0.00000000  0.00000000  1.0
+  O  O5  4  0.15301900  0.63986400  0.78297800  1.0
+  O  O6  4  0.15890900  0.14321000  0.78918600  1.0
+  O  O7  4  0.18736400  0.14956200  0.38568600  1.0
+  O  O8  4  0.25803300  0.74977300  0.99834600  1.0
+  O  O9  2  0.16250400  0.63541700  0.50000000  1.0

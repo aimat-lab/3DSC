@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_K3Bi
+_symmetry_space_group_name_H-M   P6_3cm
+_cell_length_a   10.81090000
+_cell_length_b   10.81089997
+_cell_length_c   11.09068700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000010
+_symmetry_Int_Tables_number   185
+_chemical_formula_structural   K3Bi
+_chemical_formula_sum   'K18 Bi6'
+_cell_volume   1122.56831336
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, x, z+1/2'
+  3  '-y, x-y, z'
+  4  '-x, -y, z+1/2'
+  5  '-x+y, -x, z'
+  6  'y, -x+y, z+1/2'
+  7  'y, x, z'
+  8  'x, x-y, z+1/2'
+  9  'x-y, -y, z'
+  10  '-y, -x, z+1/2'
+  11  '-x, -x+y, z'
+  12  '-x+y, y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  6  0.00000000  0.31087200  0.41891000  1.0
+  K  K1  6  0.00000000  0.35361800  0.08018900  1.0
+  K  K2  4  0.33333333  0.66666667  0.26947400  1.0
+  K  K3  2  0.00000000  0.00000000  0.21592800  1.0
+  Bi  Bi4  6  0.00000000  0.33198200  0.74927600  1.0

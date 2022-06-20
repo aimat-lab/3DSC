@@ -1,0 +1,76 @@
+# generated using pymatgen
+data_Mo3.36O8.64
+_symmetry_space_group_name_H-M   Fd-3m
+_cell_length_a   6.43488433
+_cell_length_b   6.43488366
+_cell_length_c   6.43488446
+_cell_angle_alpha   59.99999414
+_cell_angle_beta   59.99999760
+_cell_angle_gamma   59.99999606
+_symmetry_Int_Tables_number   227
+_chemical_formula_structural   Mo3.36O8.64
+_chemical_formula_sum   'Mo3.36 O8.64'
+_cell_volume   188.41139265
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+1/2, -z, x+y+z'
+  3  'z+1/2, -x-y-z, x+1/2'
+  4  'x+y+z+1/2, -x+1/2, -y'
+  5  'y+1/2, x+1/2, -x-y-z'
+  6  '-z+1/2, -y, -x+1/2'
+  7  '-x-y-z+1/2, z, y'
+  8  '-x, x+y+z, -z'
+  9  'z+1/2, x+1/2, y'
+  10  'x+y+z+1/2, -y, -z'
+  11  'x, z, -x-y-z'
+  12  '-y+1/2, x+y+z, -x+1/2'
+  13  '-x-y-z+1/2, y, x+1/2'
+  14  '-x, -z, -y'
+  15  'y+1/2, -x-y-z, z'
+  16  '-z+1/2, -x+1/2, x+y+z'
+  17  'y+1/2, z, x+1/2'
+  18  '-z+1/2, x+y+z, -y'
+  19  '-x-y-z+1/2, x+1/2, z'
+  20  '-x, -y, x+y+z'
+  21  'x, -x-y-z, y'
+  22  '-y+1/2, -x+1/2, -z'
+  23  'z+1/2, y, -x-y-z'
+  24  'x+y+z+1/2, -z, -x+1/2'
+  25  '-x, -y, -z'
+  26  'y+1/2, z, -x-y-z'
+  27  '-z+1/2, x+y+z, -x+1/2'
+  28  '-x-y-z+1/2, x+1/2, y'
+  29  '-y+1/2, -x+1/2, x+y+z'
+  30  'z+1/2, y, x+1/2'
+  31  'x+y+z+1/2, -z, -y'
+  32  'x, -x-y-z, z'
+  33  '-z+1/2, -x+1/2, -y'
+  34  '-x-y-z+1/2, y, z'
+  35  '-x, -z, x+y+z'
+  36  'y+1/2, -x-y-z, x+1/2'
+  37  'x+y+z+1/2, -y, -x+1/2'
+  38  'x, z, y'
+  39  '-y+1/2, x+y+z, -z'
+  40  'z+1/2, x+1/2, -x-y-z'
+  41  '-y+1/2, -z, -x+1/2'
+  42  'z+1/2, -x-y-z, y'
+  43  'x+y+z+1/2, -x+1/2, -z'
+  44  'x, y, -x-y-z'
+  45  '-x, x+y+z, -y'
+  46  'y+1/2, x+1/2, z'
+  47  '-z+1/2, -y, x+y+z'
+  48  '-x-y-z+1/2, z, x+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  4  0.00000019  0.50000143  0.00000000  0.84
+  O  O1  4  0.00000019  0.50000143  0.00000000  0.16
+  O  O2  8  0.18335265  0.27221539  0.27221551  1.0

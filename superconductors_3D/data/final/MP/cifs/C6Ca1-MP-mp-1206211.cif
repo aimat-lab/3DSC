@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_CaC6
+_symmetry_space_group_name_H-M   P-1
+_cell_length_a   3.57941212
+_cell_length_b   5.07345084
+_cell_length_c   7.76714882
+_cell_angle_alpha   86.39180832
+_cell_angle_beta   87.89300334
+_cell_angle_gamma   82.26825427
+_symmetry_Int_Tables_number   2
+_chemical_formula_structural   CaC6
+_chemical_formula_sum   'Ca1 C6'
+_cell_volume   139.43469692
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.00000000  0.00000000  0.00000000  1.0
+  C  C1  2  0.45370700  0.38318500  0.00146800  1.0
+  C  C2  2  0.49888000  0.62439100  0.50073700  1.0
+  C  C3  2  0.49981000  0.87527800  0.50044100  1.0

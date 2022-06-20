@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_La1.998Ce0.002Si2Pt2
+_symmetry_space_group_name_H-M   I4_1md
+_cell_length_a   4.27780800
+_cell_length_b   4.27780800
+_cell_length_c   7.94541446
+_cell_angle_alpha   105.61665598
+_cell_angle_beta   105.61665598
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   109
+_chemical_formula_structural   La1.998Ce0.002Si2Pt2
+_chemical_formula_sum   'La1.998 Ce0.002 Si2 Pt2'
+_cell_volume   134.44918474
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+z+3/4, x+1/4, z+1/2'
+  3  '-x+z, -y+z, z'
+  4  'y+3/4, -x+z+1/4, z+1/2'
+  5  '-x+z, y, z'
+  6  'y+3/4, x+1/4, z+1/2'
+  7  'x, -y+z, z'
+  8  '-y+z+3/4, -x+z+1/4, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.33018700  0.83018700  0.66037400  0.999
+  Ce  Ce1  2  0.33018700  0.83018700  0.66037400  0.001
+  Si  Si2  2  0.74969400  0.24969400  0.49938800  1.0
+  Pt  Pt3  2  0.16711900  0.16711900  0.33423800  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Mo1.68O4.32
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   3.11665000
+_cell_length_b   3.26496330
+_cell_length_c   10.70153200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.50837029
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   Mo1.68O4.32
+_chemical_formula_sum   'Mo1.68 O4.32'
+_cell_volume   95.69215674
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x-y, -y, -z'
+  6  '-x+y, y, z'
+  7  '-x+y, y, -z+1/2'
+  8  'x-y, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  2  0.50000000  0.00000000  0.00000000  0.84
+  O  O1  2  0.50000000  0.00000000  0.00000000  0.16
+  O  O2  4  0.16510500  0.33021000  0.59017400  1.0

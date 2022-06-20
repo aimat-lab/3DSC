@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Ca0.34Dy3.66Cu2O8
+_symmetry_space_group_name_H-M   Cmce
+_cell_length_a   5.49076900
+_cell_length_b   5.49423800
+_cell_length_c   6.53614336
+_cell_angle_alpha   65.14668388
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   64
+_chemical_formula_structural   Ca0.34Dy3.66Cu2O8
+_chemical_formula_sum   'Ca0.34 Dy3.66 Cu2 O8'
+_cell_volume   178.91825439
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+1/2, -y+1/2, -z'
+  4  '-x+1/2, y+1/2, z'
+  5  '-x, -y-z, z'
+  6  'x, y+z, -z'
+  7  '-x+1/2, y+z+1/2, -z'
+  8  'x+1/2, -y-z+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Dy  Dy0  4  0.00000000  0.34642000  0.30716000  0.915
+  Ca  Ca1  4  0.00000000  0.34642000  0.30716000  0.085
+  Cu  Cu2  2  0.00000000  0.00000000  0.00000000  1.0
+  O  O3  4  0.20727100  0.70660600  0.00000000  1.0
+  O  O4  4  0.25000000  0.00916400  0.50000000  1.0

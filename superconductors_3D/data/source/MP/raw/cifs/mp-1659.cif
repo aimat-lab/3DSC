@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_ThRe2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41279031
+_cell_length_b   5.41279031
+_cell_length_c   9.42947200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000375
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   ThRe2
+_chemical_formula_sum   'Th4 Re8'
+_cell_volume   239.25465485
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  1  0.33333300  0.66666700  0.06092700  1
+  Th  Th1  1  0.66666700  0.33333300  0.56092700  1
+  Th  Th2  1  0.66666700  0.33333300  0.93907300  1
+  Th  Th3  1  0.33333300  0.66666700  0.43907300  1
+  Re  Re4  1  0.00000000  0.00000000  0.00000000  1
+  Re  Re5  1  0.00000000  0.00000000  0.50000000  1
+  Re  Re6  1  0.83051400  0.66102900  0.25000000  1
+  Re  Re7  1  0.16948600  0.83051400  0.75000000  1
+  Re  Re8  1  0.66102900  0.83051400  0.75000000  1
+  Re  Re9  1  0.33897100  0.16948600  0.25000000  1
+  Re  Re10  1  0.83051400  0.16948600  0.25000000  1
+  Re  Re11  1  0.16948600  0.33897100  0.75000000  1

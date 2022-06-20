@@ -1,0 +1,74 @@
+# generated using pymatgen
+data_Ce
+_symmetry_space_group_name_H-M   Fm-3m
+_cell_length_a   3.32422000
+_cell_length_b   3.33002514
+_cell_length_c   3.33010640
+_cell_angle_alpha   60.00454699
+_cell_angle_beta   60.05845560
+_cell_angle_gamma   60.05765027
+_symmetry_Int_Tables_number   225
+_chemical_formula_structural   Ce
+_chemical_formula_sum   Ce1
+_cell_volume   26.09010661
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y+1/2, x+y+z+1/2, -x+1/2'
+  4  'y+1/2, -x-y-z+1/2, x+1/2'
+  5  '-x-y-z, z, y'
+  6  'x+y+z, -z, -y'
+  7  '-z+1/2, -x+1/2, x+y+z+1/2'
+  8  'z+1/2, x+1/2, -x-y-z+1/2'
+  9  'y+1/2, x+1/2, -x-y-z+1/2'
+  10  '-y+1/2, -x+1/2, x+y+z+1/2'
+  11  'x+y+z, -y, -z'
+  12  '-x-y-z, y, z'
+  13  'z+1/2, -x-y-z+1/2, x+1/2'
+  14  '-z+1/2, x+y+z+1/2, -x+1/2'
+  15  '-x, -z, -y'
+  16  'x, z, y'
+  17  'z+1/2, y, -x-y-z+1/2'
+  18  '-z+1/2, -y, x+y+z+1/2'
+  19  '-x, x+y+z+1/2, -z'
+  20  'x, -x-y-z+1/2, z'
+  21  'y+1/2, z, x+1/2'
+  22  '-y+1/2, -z, -x+1/2'
+  23  'x+y+z, -x+1/2, -y'
+  24  '-x-y-z, x+1/2, y'
+  25  '-x-y-z, x+1/2, z'
+  26  'x+y+z, -x+1/2, -z'
+  27  '-z+1/2, -y, -x+1/2'
+  28  'z+1/2, y, x+1/2'
+  29  'x, -x-y-z+1/2, y'
+  30  '-x, x+y+z+1/2, -y'
+  31  '-y+1/2, -z, x+y+z+1/2'
+  32  'y+1/2, z, -x-y-z+1/2'
+  33  '-x-y-z, y, x+1/2'
+  34  'x+y+z, -y, -x+1/2'
+  35  '-z+1/2, x+y+z+1/2, -y'
+  36  'z+1/2, -x-y-z+1/2, y'
+  37  'x, z, -x-y-z+1/2'
+  38  '-x, -z, x+y+z+1/2'
+  39  '-y+1/2, -x+1/2, -z'
+  40  'y+1/2, x+1/2, z'
+  41  'z+1/2, x+1/2, y'
+  42  '-z+1/2, -x+1/2, -y'
+  43  '-x, -y, x+y+z+1/2'
+  44  'x, y, -x-y-z+1/2'
+  45  'y+1/2, -x-y-z+1/2, z'
+  46  '-y+1/2, x+y+z+1/2, -z'
+  47  'x+y+z, -z, -x+1/2'
+  48  '-x-y-z, z, x+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.00000000  0.50000000  0.50000000  1.0

@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_In2Te3
+_symmetry_space_group_name_H-M   F-43m
+_cell_length_a   13.41693257
+_cell_length_b   13.41693257
+_cell_length_c   13.41693257
+_cell_angle_alpha   60.00000000
+_cell_angle_beta   60.00000000
+_cell_angle_gamma   60.00000000
+_symmetry_Int_Tables_number   216
+_chemical_formula_structural   In2Te3
+_chemical_formula_sum   'In18 Te27'
+_cell_volume   1707.83029646
+_cell_formula_units_Z   9
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'y, -x-y-z, x'
+  3  '-x-y-z, z, y'
+  4  'z, x, -x-y-z'
+  5  'y, x, -x-y-z'
+  6  '-x-y-z, y, z'
+  7  'z, -x-y-z, x'
+  8  'x, z, y'
+  9  'z, y, -x-y-z'
+  10  'x, -x-y-z, z'
+  11  'y, z, x'
+  12  '-x-y-z, x, y'
+  13  '-x-y-z, x, z'
+  14  'z, y, x'
+  15  'x, -x-y-z, y'
+  16  'y, z, -x-y-z'
+  17  '-x-y-z, y, x'
+  18  'z, -x-y-z, y'
+  19  'x, z, -x-y-z'
+  20  'y, x, z'
+  21  'z, x, y'
+  22  'x, y, -x-y-z'
+  23  'y, -x-y-z, z'
+  24  '-x-y-z, z, x'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  In  In0  12  0.25353800  0.25353800  0.58796300  1.0
+  In  In1  6  0.58139600  0.58139600  0.91860400  1.0
+  Te  Te2  12  0.31945300  0.69748100  0.99153300  1.0
+  Te  Te3  6  0.34774500  0.34774500  0.65225500  1.0
+  Te  Te4  4  0.02249500  0.32583500  0.32583500  1.0
+  Te  Te5  4  0.02932400  0.65689200  0.65689200  1.0
+  Te  Te6  1  0.00000000  0.00000000  0.00000000  1.0

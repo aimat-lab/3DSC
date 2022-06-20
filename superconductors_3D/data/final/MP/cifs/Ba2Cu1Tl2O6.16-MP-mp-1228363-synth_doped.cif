@@ -1,0 +1,35 @@
+# generated using pymatgen
+data_Ba1.94805195Tl1.94805195Cu0.97402597O6
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.90561087
+_cell_length_b   3.90561087
+_cell_length_c   12.25003257
+_cell_angle_alpha   81.02017617
+_cell_angle_beta   81.02017618
+_cell_angle_gamma   89.49216878
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Ba1.94805195Tl1.94805195Cu0.97402597O6
+_chemical_formula_sum   'Ba1.94805195 Tl1.94805195 Cu0.97402597 O6'
+_cell_volume   182.28402719
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-y, -x, -z'
+  4  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.42110900  0.42110900  0.16187400  0.97402597405
+  Tl  Tl1  2  0.18029900  0.18029800  0.59677900  0.97402597405
+  Cu  Cu2  1  0.00000000  0.00000000  0.00000000  0.974025974
+  O  O3  2  0.00000000  0.50000000  0.00000000  1.0
+  O  O4  2  0.12101200  0.12101200  0.76640300  1.0
+  O  O5  2  0.26776100  0.26776200  0.42239100  1.0

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba1Fe1.9Se3
+_symmetry_space_group_name_H-M   I4/m
+_cell_length_a   5.28257200
+_cell_length_b   6.21308832
+_cell_length_c   6.21308832
+_cell_angle_alpha   79.58806705
+_cell_angle_beta   64.84196599
+_cell_angle_gamma   64.84196599
+_symmetry_Int_Tables_number   87
+_chemical_formula_structural   Ba1Fe1.9Se3
+_chemical_formula_sum   'Ba1 Fe1.9 Se3'
+_cell_volume   167.06701693
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y, z, -y'
+  4  '-x-y, -z, y'
+  5  'x+y+z, -y, -z'
+  6  '-x-y-z, y, z'
+  7  'x+z, -z, y'
+  8  '-x-z, z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.50000000  0.00000000  0.00000000  1.0
+  Fe  Fe1  2  0.25000000  0.50000000  0.50000000  0.95
+  Se  Se2  4  0.11997400  0.18045200  0.57960000  0.75

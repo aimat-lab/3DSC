@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_LaAlRh
+_symmetry_space_group_name_H-M   Pnma
+_cell_length_a   4.30849600
+_cell_length_b   7.29818400
+_cell_length_c   16.23958000
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   62
+_chemical_formula_structural   LaAlRh
+_chemical_formula_sum   'La8 Al8 Rh8'
+_cell_volume   510.64054575
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y+1/2, z+1/2'
+  4  'x, y+1/2, -z+1/2'
+  5  '-x+1/2, y+1/2, -z+1/2'
+  6  'x+1/2, -y+1/2, z+1/2'
+  7  'x+1/2, -y, -z'
+  8  '-x+1/2, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  4  0.25000000  0.01051900  0.71856600  1.0
+  La  La1  4  0.25000000  0.15189700  0.93876100  1.0
+  Al  Al2  4  0.25000000  0.00656300  0.44026300  1.0
+  Al  Al3  4  0.25000000  0.15991500  0.14870800  1.0
+  Rh  Rh4  4  0.25000000  0.21551400  0.57251600  1.0
+  Rh  Rh5  4  0.25000000  0.27929200  0.32019400  1.0

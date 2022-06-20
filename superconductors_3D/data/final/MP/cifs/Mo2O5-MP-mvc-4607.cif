@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Mo2O5
+_symmetry_space_group_name_H-M   Pmmn
+_cell_length_a   3.93524500
+_cell_length_b   4.37339700
+_cell_length_c   12.27074201
+_cell_angle_alpha   89.99989900
+_cell_angle_beta   89.99985716
+_cell_angle_gamma   89.99981948
+_symmetry_Int_Tables_number   59
+_chemical_formula_structural   Mo2O5
+_chemical_formula_sum   'Mo4 O10'
+_cell_volume   211.18423935
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+16/431, y, -z'
+  3  'x+1/2, -y, -z+1/2'
+  4  '-x+463/862, -y, z+1/2'
+  5  '-x+463/862, -y, -z+1/2'
+  6  'x+1/2, -y, z+1/2'
+  7  '-x+16/431, y, z'
+  8  'x, y, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mo  Mo0  4  0.01855800  0.89166500  0.15157100  1.0
+  O  O1  4  0.01854597  0.49777200  0.85151500  1.0
+  O  O2  4  0.01855200  0.00511900  0.31762300  1.0
+  O  O3  2  0.01859500  0.00138100  0.99999900  1.0

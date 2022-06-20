@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr4Tb0.1Y1.9Cu6Pb4O16
+_symmetry_space_group_name_H-M   Pmc2_1
+_cell_length_a   5.33629300
+_cell_length_b   5.36017900
+_cell_length_c   15.48541900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   26
+_chemical_formula_structural   Sr4Tb0.1Y1.9Cu6Pb4O16
+_chemical_formula_sum   'Sr4 Tb0.1 Y1.9 Cu6 Pb4 O16'
+_cell_volume   442.93696056
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+1/2, -y, -z'
+  3  'x, y, -z'
+  4  'x+1/2, -y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.49571800  0.25076000  0.22124300  1.0
+  Y  Y1  2  0.49978900  0.24998300  0.00000000  0.95
+  Tb  Tb2  2  0.49978900  0.24998300  0.00000000  0.05
+  Cu  Cu3  4  0.49922700  0.75000500  0.10410100  1.0
+  Cu  Cu4  2  0.47474400  0.27390100  0.50000000  1.0
+  Pb  Pb5  4  0.49611100  0.74885600  0.38931500  1.0
+  O  O6  4  0.24949600  0.49961700  0.09324200  1.0
+  O  O7  4  0.24958700  0.00000600  0.09252600  1.0
+  O  O8  4  0.46062700  0.29549400  0.38118600  1.0
+  O  O9  4  0.49363800  0.75695500  0.24964500  1.0

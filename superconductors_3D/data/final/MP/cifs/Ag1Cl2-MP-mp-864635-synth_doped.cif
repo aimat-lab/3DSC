@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_AgCl2
+_symmetry_space_group_name_H-M   R-3c
+_cell_length_a   6.70290473
+_cell_length_b   6.70290473
+_cell_length_c   7.22932503
+_cell_angle_alpha   62.38091180
+_cell_angle_beta   62.38091180
+_cell_angle_gamma   59.99999282
+_symmetry_Int_Tables_number   167
+_chemical_formula_structural   AgCl2
+_chemical_formula_sum   'Ag3 Cl6'
+_cell_volume   237.59344689
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x-y-z, x, z'
+  4  'x+y+z, -x, -z'
+  5  'y, -x-y-z, z'
+  6  '-y, x+y+z, -z'
+  7  '-x+1/2, x+y+z+1/2, -z+1/2'
+  8  'x+1/2, -x-y-z+1/2, z+1/2'
+  9  'x+y+z+1/2, -y+1/2, -z+1/2'
+  10  '-x-y-z+1/2, y+1/2, z+1/2'
+  11  '-y+1/2, -x+1/2, -z+1/2'
+  12  'y+1/2, x+1/2, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ag  Ag0  4  0.15700000  0.15700000  0.52900000  0.75
+  Cl  Cl1  6  0.06763500  0.43236500  0.75000000  1.0

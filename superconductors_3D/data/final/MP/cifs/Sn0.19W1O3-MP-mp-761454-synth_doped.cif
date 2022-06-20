@@ -1,0 +1,42 @@
+# generated using pymatgen
+data_Sn1.14W6O18
+_symmetry_space_group_name_H-M   P2_1/m
+_cell_length_a   7.59379800
+_cell_length_b   7.71957600
+_cell_length_c   7.60544620
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   60.24729202
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   11
+_chemical_formula_structural   Sn1.14W6O18
+_chemical_formula_sum   'Sn1.14 W6 O18'
+_cell_volume   387.06565951
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, y+1/2, -z'
+  4  'x, -y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sn  Sn0  2  0.05573000  0.75000000  0.00418700  0.5700000000000001
+  W  W1  2  0.00391900  0.25000000  0.49731400  1.0
+  W  W2  2  0.49342300  0.25000000  0.99737600  1.0
+  W  W3  2  0.49743500  0.75000000  0.50273200  1.0
+  O  O4  2  0.00000000  0.00000000  0.50000000  1.0
+  O  O5  2  0.19749600  0.75000000  0.20215100  1.0
+  O  O6  2  0.20175200  0.75000000  0.57995100  1.0
+  O  O7  2  0.20323300  0.25000000  0.58556000  1.0
+  O  O8  2  0.21475900  0.25000000  0.21831200  1.0
+  O  O9  2  0.39423200  0.75000000  0.80844800  1.0
+  O  O10  2  0.42866700  0.25000000  0.79042700  1.0
+  O  O11  2  0.50000000  0.00000000  0.00000000  1.0
+  O  O12  2  0.50000000  0.00000000  0.50000000  1.0

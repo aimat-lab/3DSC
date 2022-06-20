@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Sr3.89105058Ca1.94552529Cu3.89105058Bi3.89105058O16
+_symmetry_space_group_name_H-M   Ccc2
+_cell_length_a   5.41711500
+_cell_length_b   5.47289800
+_cell_length_c   16.11398919
+_cell_angle_alpha   80.22274970
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   37
+_chemical_formula_structural
+Sr3.89105058Ca1.94552529Cu3.89105058Bi3.89105058O16
+_chemical_formula_sum
+'Sr3.89105058 Ca1.94552529 Cu3.89105058 Bi3.89105058 O16'
+_cell_volume   470.79762868
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x, -y, -z'
+  3  'x+1/2, -y-z, z'
+  4  'x+1/2, y+z, -z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  4  0.00566800  0.39301000  0.71153700  0.972762645925
+  Ca  Ca1  2  0.00125500  0.50000000  0.50000000  0.9727626459000001
+  Cu  Cu2  4  0.00244800  0.04889400  0.40238100  0.972762645925
+  Bi  Bi3  4  0.05890900  0.22521300  0.10298500  0.972762645925
+  O  O4  4  0.01605300  0.12535500  0.23110400  1.0
+  O  O5  4  0.25235900  0.30133000  0.39772100  1.0
+  O  O6  4  0.25263700  0.19901900  0.60191600  1.0
+  O  O7  4  0.46329800  0.28156100  0.10682700  1.0

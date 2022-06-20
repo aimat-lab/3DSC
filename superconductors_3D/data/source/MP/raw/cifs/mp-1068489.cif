@@ -1,0 +1,31 @@
+# generated using pymatgen
+data_Pr2Ni2Sn
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61127619
+_cell_length_b   5.61127619
+_cell_length_c   5.61127619
+_cell_angle_alpha   133.76420665
+_cell_angle_beta   118.28715363
+_cell_angle_gamma   80.46890024
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2Ni2Sn
+_chemical_formula_sum   'Pr2 Ni2 Sn1'
+_cell_volume   108.64300582
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.70327300  0.20327300  0.50000000  1
+  Pr  Pr1  1  0.29672700  0.79672700  0.50000000  1
+  Ni  Ni2  1  0.71416100  0.50000000  0.21416100  1
+  Ni  Ni3  1  0.28583900  0.50000000  0.78583900  1
+  Sn  Sn4  1  0.00000000  0.00000000  0.00000000  1

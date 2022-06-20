@@ -1,0 +1,38 @@
+# generated using pymatgen
+data_Tm2Cu2O5
+_symmetry_space_group_name_H-M   Pna2_1
+_cell_length_a   3.45893800
+_cell_length_b   10.81812800
+_cell_length_c   12.43445800
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   33
+_chemical_formula_structural   Tm2Cu2O5
+_chemical_formula_sum   'Tm8 Cu8 O20'
+_cell_volume   465.28789391
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, z+1/2'
+  3  'x+1/2, -y+1/2, z+1/2'
+  4  '-x+1/2, y+1/2, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  4  0.22244500  0.20762600  0.50177900  1.0
+  Tm  Tm1  4  0.22351600  0.04244000  0.82966800  1.0
+  Cu  Cu2  4  0.15518300  0.23839700  0.21896200  1.0
+  Cu  Cu3  4  0.15964500  0.51141900  0.11207600  1.0
+  O  O4  4  0.16586600  0.62462100  0.66563700  1.0
+  O  O5  4  0.21910400  0.17894100  0.06642100  1.0
+  O  O6  4  0.22437800  0.32750100  0.35898700  1.0
+  O  O7  4  0.22443200  0.57073200  0.26427500  1.0
+  O  O8  4  0.22797300  0.42237500  0.97199400  1.0

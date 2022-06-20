@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cd0.9Hg2.1
+_symmetry_space_group_name_H-M   Fmmm
+_cell_length_a   3.29294858
+_cell_length_b   3.29294909
+_cell_length_c   8.76488957
+_cell_angle_alpha   95.70913290
+_cell_angle_beta   95.70913040
+_cell_angle_gamma   118.06249113
+_symmetry_Int_Tables_number   69
+_chemical_formula_structural   Cd0.9Hg2.1
+_chemical_formula_sum   'Cd0.9 Hg2.1'
+_cell_volume   82.28638681
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x+z, -y+z, z'
+  4  'x-z, y-z, -z'
+  5  'y-z, x-z, -z'
+  6  '-y+z, -x+z, z'
+  7  '-y, -x, -z'
+  8  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.00000000  0.00000000  0.00000000  0.9
+  Hg  Hg1  1  0.00000000  0.00000000  0.00000000  0.1
+  Hg  Hg2  2  0.33505700  0.33505700  0.67011500  1.0

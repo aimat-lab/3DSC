@@ -1,0 +1,43 @@
+# generated using pymatgen
+data_Ba4Pb3O10
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.38305700
+_cell_length_b   4.38255108
+_cell_length_c   15.68890080
+_cell_angle_alpha   97.94689718
+_cell_angle_beta   97.95616456
+_cell_angle_gamma   90.01111257
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba4Pb3O10
+_chemical_formula_sum   'Ba4 Pb3 O10'
+_cell_volume   295.54305924
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.70445100  0.70487000  0.40567300  1
+  Ba  Ba1  1  0.57731200  0.55308400  0.13921500  1
+  Ba  Ba2  1  0.29791500  0.29977900  0.59449600  1
+  Ba  Ba3  1  0.45329500  0.43114300  0.86092800  1
+  Pb  Pb4  1  0.00661700  0.99842200  0.00001500  1
+  Pb  Pb5  1  0.86427600  0.85994000  0.71626400  1
+  Pb  Pb6  1  0.14933900  0.14383900  0.28381400  1
+  O  O7  1  0.14569300  0.64504600  0.28177900  1
+  O  O8  1  0.36426000  0.85992200  0.71916900  1
+  O  O9  1  0.89604400  0.93150500  0.85839100  1
+  O  O10  1  0.80413600  0.78996200  0.57463900  1
+  O  O11  1  0.07655600  0.11489100  0.14170000  1
+  O  O12  1  0.50803300  0.00015100  0.00652200  1
+  O  O13  1  0.64870100  0.14458700  0.28137300  1
+  O  O14  1  0.85963900  0.36040400  0.71739600  1
+  O  O15  1  0.99953800  0.49674300  0.99326500  1
+  O  O16  1  0.23239300  0.21791100  0.42536300  1

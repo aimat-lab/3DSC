@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ca0.3La1.7Nd2Cu2O8
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   5.34291800
+_cell_length_b   5.42239428
+_cell_length_c   7.02376353
+_cell_angle_alpha   89.75431193
+_cell_angle_beta   112.35510432
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Ca0.3La1.7Nd2Cu2O8
+_chemical_formula_sum   'Ca0.3 La1.7 Nd2 Cu2 O8'
+_cell_volume   188.19299878
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-z, -y, -z'
+  4  '-x+z, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  2  0.13971200  0.50960500  0.27942400  0.85
+  Ca  Ca1  2  0.13971200  0.50960500  0.27942400  0.15
+  Nd  Nd2  2  0.36289900  0.01356400  0.72579800  1.0
+  Cu  Cu3  1  0.00000000  0.00000000  0.00000000  1.0
+  Cu  Cu4  1  0.50000000  0.50000000  0.00000000  1.0
+  O  O5  4  0.24413400  0.75393200  0.98280200  1.0
+  O  O6  2  0.18643200  0.96153600  0.37286400  1.0
+  O  O7  2  0.31539700  0.45708200  0.63079400  1.0

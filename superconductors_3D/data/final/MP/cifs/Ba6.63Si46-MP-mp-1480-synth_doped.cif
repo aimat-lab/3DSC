@@ -1,0 +1,37 @@
+# generated using pymatgen
+data_Ba1.72956522Si12
+_symmetry_space_group_name_H-M   Cmcm
+_cell_length_a   4.50421800
+_cell_length_b   5.70181207
+_cell_length_c   12.00789500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   113.26480623
+_symmetry_Int_Tables_number   63
+_chemical_formula_structural   Ba1.72956522Si12
+_chemical_formula_sum   'Ba1.72956522 Si12'
+_cell_volume   283.31383285
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-x, -y, z+1/2'
+  4  'x, y, -z+1/2'
+  5  'x-y, -y, -z'
+  6  '-x+y, y, z'
+  7  '-x+y, y, -z+1/2'
+  8  'x-y, -y, z+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  2  0.27953100  0.55906200  0.25000000  0.8647826087
+  Si  Si1  4  0.02147300  0.04294600  0.59776900  1.0
+  Si  Si2  4  0.24534000  0.49068000  0.53696400  1.0
+  Si  Si3  4  0.43758100  0.87516200  0.64698500  1.0

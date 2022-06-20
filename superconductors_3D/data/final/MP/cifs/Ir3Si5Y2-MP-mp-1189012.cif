@@ -1,0 +1,39 @@
+# generated using pymatgen
+data_Y2Si5Ir3
+_symmetry_space_group_name_H-M   Ibam
+_cell_length_a   5.84896000
+_cell_length_b   8.14465683
+_cell_length_c   8.14465683
+_cell_angle_alpha   75.62654014
+_cell_angle_beta   68.95707276
+_cell_angle_gamma   68.95707276
+_symmetry_Int_Tables_number   72
+_chemical_formula_structural   Y2Si5Ir3
+_chemical_formula_sum   'Y4 Si10 Ir6'
+_cell_volume   334.78421989
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x+y+z, -y, -z'
+  4  '-x-y-z, y, z'
+  5  '-x+1/2, -z, -y'
+  6  'x+1/2, z, y'
+  7  '-x-y-z+1/2, z, y'
+  8  'x+y+z+1/2, -z, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  4  0.13073500  0.13930600  0.59922400  1.0
+  Si  Si1  4  0.02392200  0.22607800  0.22607800  1.0
+  Si  Si2  4  0.10637900  0.73834800  0.04889400  1.0
+  Si  Si3  2  0.25000000  0.50000000  0.50000000  1.0
+  Ir  Ir4  4  0.13949200  0.47409000  0.24692600  1.0
+  Ir  Ir5  2  0.25000000  0.00000000  0.00000000  1.0

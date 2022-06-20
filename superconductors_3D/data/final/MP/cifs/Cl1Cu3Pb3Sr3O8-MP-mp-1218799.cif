@@ -1,0 +1,45 @@
+# generated using pymatgen
+data_Sr3Cu3Pb3ClO8
+_symmetry_space_group_name_H-M   Pm
+_cell_length_a   3.87042700
+_cell_length_b   3.90928700
+_cell_length_c   19.93454326
+_cell_angle_alpha   90.88281541
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   6
+_chemical_formula_structural   Sr3Cu3Pb3ClO8
+_chemical_formula_sum   'Sr3 Cu3 Pb3 Cl1 O8'
+_cell_volume   301.58599577
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.00000000  0.48254900  0.71895900  1.0
+  Sr  Sr1  1  0.00000000  0.49814600  0.09751500  1.0
+  Sr  Sr2  1  0.00000000  0.51575700  0.27384600  1.0
+  Cu  Cu3  1  0.00000000  0.50222400  0.50009800  1.0
+  Cu  Cu4  1  0.50000000  0.00487900  0.18515300  1.0
+  Cu  Cu5  1  0.50000000  0.99541100  0.81292100  1.0
+  Pb  Pb6  1  0.00000000  0.50427000  0.89669700  1.0
+  Pb  Pb7  1  0.50000000  0.00219300  0.40952400  1.0
+  Pb  Pb8  1  0.50000000  0.99909100  0.58651500  1.0
+  Cl  Cl9  1  0.50000000  0.99562500  0.01765800  1.0
+  O  O10  1  0.00000000  0.00340500  0.17516500  1.0
+  O  O11  1  0.00000000  0.39929600  0.59156100  1.0
+  O  O12  1  0.00000000  0.60444600  0.40906700  1.0
+  O  O13  1  0.00000000  0.99724900  0.82653400  1.0
+  O  O14  1  0.50000000  0.01953900  0.30076300  1.0
+  O  O15  1  0.50000000  0.49617300  0.82459300  1.0
+  O  O16  1  0.50000000  0.50430900  0.17650300  1.0
+  O  O17  1  0.50000000  0.97543800  0.69692700  1.0

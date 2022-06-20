@@ -1,0 +1,33 @@
+# generated using pymatgen
+data_Y2C2Br0.25Cl1.75
+_symmetry_space_group_name_H-M   C2/m
+_cell_length_a   3.77589600
+_cell_length_b   3.92916620
+_cell_length_c   9.62221594
+_cell_angle_alpha   95.00162290
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.71779088
+_symmetry_Int_Tables_number   12
+_chemical_formula_structural   Y2C2Br0.25Cl1.75
+_chemical_formula_sum   'Y2 C2 Br0.25 Cl1.75'
+_cell_volume   124.57673708
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'x-y, -y, -z'
+  4  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Y  Y0  2  0.14432500  0.28865000  0.15489900  1.0
+  C  C1  2  0.42666400  0.85332800  0.04017900  1.0
+  Cl  Cl2  2  0.17714800  0.35429600  0.66755600  0.875
+  Br  Br3  2  0.17714800  0.35429600  0.66755600  0.125

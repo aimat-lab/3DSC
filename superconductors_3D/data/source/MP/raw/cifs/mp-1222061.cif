@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_MgAlCr3FeO8
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.91113704
+_cell_length_b   5.91113704
+_cell_length_c   5.91113796
+_cell_angle_alpha   61.04345699
+_cell_angle_beta   61.04345699
+_cell_angle_gamma   61.04345433
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgAlCr3FeO8
+_chemical_formula_sum   'Mg1 Al1 Cr3 Fe1 O8'
+_cell_volume   149.48053407
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.12419100  0.12419100  0.12419100  1
+  Al  Al1  1  0.49941100  0.49941100  0.49941100  1
+  Cr  Cr2  1  0.00069500  0.50000300  0.50000300  1
+  Cr  Cr3  1  0.50000300  0.50000300  0.00069500  1
+  Cr  Cr4  1  0.50000300  0.00069500  0.50000300  1
+  Fe  Fe5  1  0.87600400  0.87600400  0.87600400  1
+  O  O6  1  0.29073100  0.72893900  0.72893900  1
+  O  O7  1  0.72893900  0.72893900  0.29073100  1
+  O  O8  1  0.72893900  0.29073100  0.72893900  1
+  O  O9  1  0.73977400  0.73977400  0.73977400  1
+  O  O10  1  0.71359400  0.26816400  0.26816400  1
+  O  O11  1  0.26816400  0.26816400  0.71359400  1
+  O  O12  1  0.26816400  0.71359400  0.26816400  1
+  O  O13  1  0.26138800  0.26138800  0.26138800  1

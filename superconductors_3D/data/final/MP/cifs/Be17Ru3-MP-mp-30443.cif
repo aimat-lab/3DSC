@@ -1,0 +1,56 @@
+# generated using pymatgen
+data_Be17Ru3
+_symmetry_space_group_name_H-M   Im-3
+_cell_length_a   9.80586882
+_cell_length_b   9.80586882
+_cell_length_c   9.80586882
+_cell_angle_alpha   109.47122063
+_cell_angle_beta   109.47122064
+_cell_angle_gamma   109.47122064
+_symmetry_Int_Tables_number   204
+_chemical_formula_structural   Be17Ru3
+_chemical_formula_sum   'Be68 Ru12'
+_cell_volume   725.83239325
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'y-z, x-z, -z'
+  4  '-y+z, -x+z, z'
+  5  '-y+z, -y, x-y'
+  6  'y-z, y, -x+y'
+  7  '-x, -x+z, -x+y'
+  8  'x, x-z, x-y'
+  9  '-y, x-y, -y+z'
+  10  'y, -x+y, y-z'
+  11  '-x+z, -x+y, -x'
+  12  'x-z, x-y, x'
+  13  'y, z, x'
+  14  '-y, -z, -x'
+  15  'x-z, -z, y-z'
+  16  '-x+z, z, -y+z'
+  17  '-x+y, -x, -x+z'
+  18  'x-y, x, x-z'
+  19  'x-y, -y+z, -y'
+  20  '-x+y, y-z, y'
+  21  '-z, y-z, x-z'
+  22  'z, -y+z, -x+z'
+  23  'z, x, y'
+  24  '-z, -x, -y'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Be  Be0  24  0.08718800  0.54271600  0.22785300  1.0
+  Be  Be1  12  0.05573700  0.40474200  0.65099500  1.0
+  Be  Be2  12  0.09348800  0.32482200  0.23133400  1.0
+  Be  Be3  8  0.00000000  0.00000000  0.33014100  1.0
+  Be  Be4  6  0.00000000  0.40300400  0.40300400  1.0
+  Be  Be5  6  0.19463900  0.69463900  0.50000000  1.0
+  Ru  Ru6  12  0.11319400  0.81193200  0.30126200  1.0

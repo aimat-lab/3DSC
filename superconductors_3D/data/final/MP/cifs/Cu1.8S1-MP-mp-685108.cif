@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Cu9S5
+_symmetry_space_group_name_H-M   P1
+_cell_length_a   5.79163200
+_cell_length_b   6.50973005
+_cell_length_c   6.52245544
+_cell_angle_alpha   79.57179134
+_cell_angle_beta   64.26873212
+_cell_angle_gamma   64.02577950
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cu9S5
+_chemical_formula_sum   'Cu9 S5'
+_cell_volume   199.13637927
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cu  Cu0  1  0.00043400  0.02260800  0.32486300  1.0
+  Cu  Cu1  1  0.13554100  0.58075800  0.47592900  1.0
+  Cu  Cu2  1  0.14675500  0.18322700  0.57760800  1.0
+  Cu  Cu3  1  0.27689300  0.62523800  0.78074000  1.0
+  Cu  Cu4  1  0.48200600  0.97428300  0.01219700  1.0
+  Cu  Cu5  1  0.59131400  0.87277100  0.61147100  1.0
+  Cu  Cu6  1  0.64938100  0.30208300  0.90389400  1.0
+  Cu  Cu7  1  0.69930300  0.41566700  0.23587700  1.0
+  Cu  Cu8  1  0.88031800  0.72619100  0.16947700  1.0
+  S  S9  1  0.03649700  0.99696400  0.95946800  1.0
+  S  S10  1  0.20326400  0.36030400  0.20279900  1.0
+  S  S11  1  0.40162200  0.79763900  0.39670300  1.0
+  S  S12  1  0.57240200  0.23755300  0.59591200  1.0
+  S  S13  1  0.78955000  0.60749600  0.83676400  1.0

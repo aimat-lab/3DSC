@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Ca0.15La0.85Nd1Cu1O4
+_symmetry_space_group_name_H-M   I4mm
+_cell_length_a   3.79051800
+_cell_length_b   3.79051800
+_cell_length_c   7.05219292
+_cell_angle_alpha   105.58974758
+_cell_angle_beta   105.58974757
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   107
+_chemical_formula_structural   Ca0.15La0.85Nd1Cu1O4
+_chemical_formula_sum   'Ca0.15 La0.85 Nd1 Cu1 O4'
+_cell_volume   93.72250894
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-y+z, x, z'
+  3  '-x+z, -y+z, z'
+  4  'y, -x+z, z'
+  5  '-x+z, y, z'
+  6  'y, x, z'
+  7  'x, -y+z, z'
+  8  '-y+z, -x+z, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.35962300  0.35962300  0.71924600  0.85
+  Ca  Ca1  1  0.35962300  0.35962300  0.71924600  0.15
+  Nd  Nd2  1  0.63629300  0.63629300  0.27258600  1.0
+  Cu  Cu3  1  0.00027600  0.00027600  0.00055200  1.0
+  O  O4  2  0.00319300  0.50319300  0.00638600  1.0
+  O  O5  1  0.18378300  0.18378300  0.36756600  1.0
+  O  O6  1  0.81363900  0.81363900  0.62727800  1.0

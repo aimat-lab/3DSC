@@ -1,0 +1,51 @@
+# generated using pymatgen
+data_CdSnAs2
+_symmetry_space_group_name_H-M   Cm
+_cell_length_a   4.41568000
+_cell_length_b   4.67930200
+_cell_length_c   39.89633979
+_cell_angle_alpha   90.54441551
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   118.15322009
+_symmetry_Int_Tables_number   8
+_chemical_formula_structural   CdSnAs2
+_chemical_formula_sum   'Cd6 Sn6 As12'
+_cell_volume   726.77823675
+_cell_formula_units_Z   6
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x+y, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.32754500  0.65509000  0.32901000  1.0
+  Cd  Cd1  1  0.32991700  0.65983400  0.08339400  1.0
+  Cd  Cd2  1  0.66071200  0.32142400  0.41200000  1.0
+  Cd  Cd3  1  0.66177300  0.32354600  0.16465400  1.0
+  Cd  Cd4  1  0.99318800  0.98637600  0.48769100  1.0
+  Cd  Cd5  1  0.99383900  0.98767800  0.24657500  1.0
+  Sn  Sn6  1  0.32864700  0.65729400  0.83034600  1.0
+  Sn  Sn7  1  0.32916300  0.65832600  0.58208600  1.0
+  Sn  Sn8  1  0.66087200  0.32174400  0.91216900  1.0
+  Sn  Sn9  1  0.66191900  0.32383800  0.66474400  1.0
+  Sn  Sn10  1  0.99611100  0.99222200  0.74710300  1.0
+  Sn  Sn11  1  0.99856000  0.99712000  0.00442000  1.0
+  As  As12  1  0.00142100  0.00284200  0.55937700  1.0
+  As  As13  1  0.00498800  0.00997600  0.31514900  1.0
+  As  As14  1  0.00551300  0.01102600  0.06986000  1.0
+  As  As15  1  0.00570700  0.01141400  0.81553200  1.0
+  As  As16  1  0.33800100  0.67600200  0.39720400  1.0
+  As  As17  1  0.33887600  0.67775200  0.89848300  1.0
+  As  As18  1  0.33901900  0.67803800  0.15142000  1.0
+  As  As19  1  0.33907400  0.67814800  0.65089600  1.0
+  As  As20  1  0.66920200  0.33840400  0.98039900  1.0
+  As  As21  1  0.67118500  0.34237000  0.23366400  1.0
+  As  As22  1  0.67203400  0.34406800  0.48073800  1.0
+  As  As23  1  0.67288700  0.34577400  0.73308300  1.0

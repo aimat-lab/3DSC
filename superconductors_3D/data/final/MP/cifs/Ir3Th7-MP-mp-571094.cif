@@ -1,0 +1,41 @@
+# generated using pymatgen
+data_Th7Ir3
+_symmetry_space_group_name_H-M   P6_3mc
+_cell_length_a   6.31211100
+_cell_length_b   10.08842999
+_cell_length_c   10.08842942
+_cell_angle_alpha   120.00000189
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   186
+_chemical_formula_structural   Th7Ir3
+_chemical_formula_sum   'Th14 Ir6'
+_cell_volume   556.35551228
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x+1/2, y-z, y'
+  3  'x, -z, y-z'
+  4  'x+1/2, -y, -z'
+  5  'x, -y+z, -y'
+  6  'x+1/2, z, -y+z'
+  7  'x+1/2, y-z, -z'
+  8  'x, -z, -y'
+  9  'x+1/2, -y, -y+z'
+  10  'x, -y+z, z'
+  11  'x+1/2, z, y'
+  12  'x, y, y-z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Th  Th0  6  0.00113200  0.25685200  0.12842600  1.0
+  Th  Th1  6  0.20694900  0.08463900  0.54231900  1.0
+  Th  Th2  2  0.19420600  0.66666667  0.33333333  1.0
+  Ir  Ir3  6  0.44651700  0.37417400  0.18708700  1.0

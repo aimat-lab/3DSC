@@ -1,0 +1,52 @@
+# generated using pymatgen
+data_Tl2O3
+_symmetry_space_group_name_H-M   Ia-3
+_cell_length_a   9.33077767
+_cell_length_b   9.33077767
+_cell_length_c   9.33077767
+_cell_angle_alpha   109.47122063
+_cell_angle_beta   109.47122064
+_cell_angle_gamma   109.47122064
+_symmetry_Int_Tables_number   206
+_chemical_formula_structural   Tl2O3
+_chemical_formula_sum   'Tl16 O24'
+_cell_volume   625.36220937
+_cell_formula_units_Z   8
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  'y-z+1/2, x-z, -z+1/2'
+  4  '-y+z+1/2, -x+z, z+1/2'
+  5  '-y+z, -y+1/2, x-y+1/2'
+  6  'y-z, y+1/2, -x+y+1/2'
+  7  '-x+1/2, -x+z+1/2, -x+y'
+  8  'x+1/2, x-z+1/2, x-y'
+  9  '-y+1/2, x-y, -y+z+1/2'
+  10  'y+1/2, -x+y, y-z+1/2'
+  11  '-x+z+1/2, -x+y+1/2, -x'
+  12  'x-z+1/2, x-y+1/2, x'
+  13  'y, z+1/2, x+1/2'
+  14  '-y, -z+1/2, -x+1/2'
+  15  'x-z, -z, y-z'
+  16  '-x+z, z, -y+z'
+  17  '-x+y+1/2, -x+1/2, -x+z'
+  18  'x-y+1/2, x+1/2, x-z'
+  19  'x-y, -y+z, -y'
+  20  '-x+y, y-z, y'
+  21  '-z, y-z+1/2, x-z+1/2'
+  22  'z, -y+z+1/2, -x+z+1/2'
+  23  'z+1/2, x, y+1/2'
+  24  '-z+1/2, -x, -y+1/2'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  12  0.03407500  0.78407500  0.25000000  1.0
+  Tl  Tl1  4  0.00000000  0.00000000  0.00000000  1.0
+  O  O2  24  0.00331600  0.27036100  0.54218100  1.0

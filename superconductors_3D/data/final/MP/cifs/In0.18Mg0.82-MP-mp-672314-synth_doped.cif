@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_Mg6.56In1.44
+_symmetry_space_group_name_H-M   R-3m
+_cell_length_a   5.90676643
+_cell_length_b   5.90676697
+_cell_length_c   5.90676697
+_cell_angle_alpha   90.05680495
+_cell_angle_beta   90.05681007
+_cell_angle_gamma   89.94318993
+_symmetry_Int_Tables_number   166
+_chemical_formula_structural   Mg6.56In1.44
+_chemical_formula_sum   'Mg6.56 In1.44'
+_cell_volume   206.08616297
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  '-x, -y, -z'
+  3  '-z, x, -y'
+  4  'z, -x, y'
+  5  'y, -z, -x'
+  6  '-y, z, x'
+  7  '-x, z, y'
+  8  'x, -z, -y'
+  9  'z, -y, x'
+  10  '-z, y, -x'
+  11  '-y, -x, -z'
+  12  'y, x, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  6  0.13293800  0.74847950  0.25152050  1.0
+  In  In1  2  0.35735300  0.35735300  0.64264700  0.72
+  Mg  Mg2  2  0.35735300  0.35735300  0.64264700  0.28
