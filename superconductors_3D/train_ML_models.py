@@ -163,14 +163,14 @@ def main(args_from_fn, database, n_cpus, n_reps=3, start_train_frac=0.1, end_tra
     
 if __name__ == '__main__':
     
-    database = 'ICSD'
+    database = 'MP'
     n_cpus = 2
     
     args = parse_input_parameters()
     database = args.database if not args.database is None else database
     n_cpus = args.n_cpus if not args.n_cpus is None else n_cpus
     
-    n_reps = 5
+    n_reps = 100 if database == 'MP' else 25
     start_train_frac = 0.1
     end_train_frac = 0.8
     n_train_fracs = 10
