@@ -80,7 +80,7 @@ python superconductors_3D/train_ML_models.py
 ```
 
 #### The 3DSC<sub>ICSD</sub>
-Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`.
+Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.
 
 If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
 
