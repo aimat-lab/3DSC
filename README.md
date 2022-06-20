@@ -65,19 +65,21 @@ To generate the 3DSC dataset, run the command
 python superconductors_3D/generate_3DSC.py -d MP -n N_CPUS
 ```
 The script `generate_3DSC.py` automatically runs through all stages of the matching and adaptation algorithm described in the paper: In step 0-2, the cif files, the Materials Project database and the SuperCon database are cleaned. In step 3, the SuperCon entries and the crystal structures are matched based on their chemical composition. In step 4, artificial doping is performed for all matches where the relative chemical formula doesn't match perfectly. In step 5, the chemical composition and the three-dimensional crystal structure are featurized using the MAGPIE and the Disordered SOAP algorithm. The latter is an extension of the SOAP algorithm which is described in the SI of our paper. Finally, matches are ranked and only the best matches are kept. Note that in general multiple matches can be ranked equally and will all end up in the final 3DSC dataset.
+The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`.
 
 #### Statistical plots
 To generate the statistical plots shown in the paper please run the command
 ```sh
 python superconductors_3D/plot_dataset_statistics.py -d MP
 ```
-The plots will be saved in the directory `../results/dataset_statistics/SC_MP_matches`.
+The results will be saved under `results/dataset_statistics/SC_MP_matches`.
 
 #### Machine learning results
 To reproduce the most important machine learning results shown in the paper please run the command
 ```sh
 python superconductors_3D/train_ML_models.py
 ```
+The results will be saved under `results/machine_learning`.
 
 #### The 3DSC<sub>ICSD</sub>
 Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.

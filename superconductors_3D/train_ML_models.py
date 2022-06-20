@@ -80,7 +80,7 @@ def plot_learning_curve(runs, xticks, save_dir):
         all_scores.to_csv(df_save_path)
         img_save_path = os.path.join(save_dir, f'learning_curve_{score_name}_{CV}.png')
         plt.savefig(img_save_path, dpi=400)
-        plt.show()
+        # plt.show()
         
     return                
     

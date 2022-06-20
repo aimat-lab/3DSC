@@ -115,7 +115,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('group_non_sc_3D_structs_hist')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     
     # =============================================================================
@@ -135,7 +135,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('group_non_sc_superconductors_hist')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     
 # =============================================================================
@@ -182,7 +182,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
 #             plt.tight_layout()
 #             savefile = get_filename(f'{emb}_{name}_scatterplot')
 #             plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-#             plt.show()
+#             # plt.show()
 # =============================================================================
     
     # =============================================================================
@@ -197,7 +197,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('totreldiff_hist')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     
     # =============================================================================
@@ -217,7 +217,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     ax1.axis('equal')
     savefile = get_filename('pie_yield_datapoints')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     # =============================================================================
     # Pie diagram of how many data points per classes.
@@ -232,7 +232,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     ax1.axis('equal')
     savefile = get_filename('pie_sc_classes')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     
     # =============================================================================
@@ -250,7 +250,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('num_diff_crystal_structures')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     # =============================================================================
     # Make histogram of how many space groups there are per SuperCon entry
@@ -267,7 +267,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     savefile = get_filename('num_diff_spgs')
     plt.tight_layout()
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     # =============================================================================
     # Make histogram of how many space groups there are per SuperCon entry inclduing for room temp.
@@ -292,7 +292,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
         savefile = get_filename('num_diff_spgs_with_room_temp')
         plt.tight_layout()
         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-        plt.show()
+        # plt.show()
     
     # =============================================================================
     # Histogramm of critical temperature for 1-,2- and 3-layer systems of Cuprates
@@ -322,7 +322,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
             savefile = get_filename(f'Cuprates_hist_{name}_{layer}_layer')
             plt.tight_layout()
             plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-            plt.show()
+            # plt.show()
             
     
     # =============================================================================
@@ -345,7 +345,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('chem_formulas_factors_hist')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     
     
@@ -375,7 +375,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('elemental_prevalence_hist')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=1000)
-    plt.show()
+    # plt.show()
     
     
     # =============================================================================
@@ -395,7 +395,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
         plt.tight_layout()
         savefile = get_filename('crystal_temp_hist')
         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-        plt.show()
+        # plt.show()
     else:
         print('Dataset has no crystal temperature.')
     
@@ -415,7 +415,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
         plt.yscale('log')
         savefile = get_filename('diff_spgs_room_temp')
         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-        plt.show()
+        # plt.show()
     
     
     # =============================================================================
@@ -434,7 +434,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
         plt.yscale('log')
         savefile = get_filename('num_diff_spgs_certainly_room_temp')
         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-        plt.show()
+        # plt.show()
     
     # =============================================================================
     # Scatterplot tc over crystal_temp
@@ -449,7 +449,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
         plt.tight_layout()
         savefile = get_filename('scatter_tc_over_tcell')
         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-        plt.show()
+        # plt.show()
     
     
     
@@ -465,7 +465,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
     plt.tight_layout()
     savefile = get_filename('corr_tc_and_totreldiff')
     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-    plt.show()
+    # plt.show()
     
     # =============================================================================
     # Histogram of tc for total and each group for all 3D structures and only SuperCon entries.
@@ -519,7 +519,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
             plt.tight_layout()
             savefile = get_filename(f'tc_hist_{name}_{group}')
             plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-            plt.show()
+            # plt.show()
             
             
         
@@ -546,7 +546,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
 #     plt.tight_layout()
 #     savefile = get_filename('cor_density_tc_over_totreldiff')
 #     plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-#     plt.show()
+#     # plt.show()
 #     
 #     
 #     # =============================================================================
@@ -571,7 +571,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
 #         plt.tight_layout()
 #         savefile = get_filename('normal_density_tc_over_tcell')
 #         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-#         plt.show()
+#         # plt.show()
 #     
 #     
 #     # =============================================================================
@@ -595,7 +595,7 @@ def make_3DSC_statistics_plots(dataset_csv, save_plot_dir, database):
 #         plt.tight_layout()
 #         savefile = get_filename('cold_density_tc_over_tcell')
 #         plt.savefig(os.path.join(save_plot_dir, savefile), dpi=300)
-#         plt.show()
+#         # plt.show()
 # =============================================================================
 
 def main(database):
