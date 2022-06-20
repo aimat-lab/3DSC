@@ -9,10 +9,10 @@ The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final
 - `tc`: The critical temperature in Kelvin. Non-superconductors have a *T*<sub>c</sub> of 0.
 - `cif`: The path to the cif file from the directory `superconductors_3D/superconductors_3D/` on. If the name contains `synth_doped` this means that this structure was artificially doped.
 
-Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, there are a lot of columns which were important in the matching and adaptation algorithm, which are from the original Materials Project database or which were important for the anaylsis in our paper. These columns are less important if you just want to use the 3DSC<sub>MP</sub>, but they might be interesting for everyone looking to improve the 3DSC<sub>MP</sub> or reproduce the results in our paper:
+Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, there are a lot of columns which were important in the matching and adaptation algorithm, which are from the original Materials Project database or which were important for the anaylsis in our paper. These columns are less important if you just want to use the 3DSC<sub>MP</sub>, but they might be interesting for everyone looking to improve the 3DSC<sub>MP</sub> or reproduce the results in our paper.
 
-- `MAGPIE.*`: MAGPIE feature vectors of the chemical formula of this material.
-- `SOAP.*`: DSOAP feature vectors of the structure.
+- `MAGPIE.*`: MAGPIE feature vectors of the chemical formula of this material. Missing in the github version (see note below).
+- `SOAP.*`: DSOAP feature vectors of the structure. Missing in the github version (see note below).
 - `.*_2`: All columns ending with `_2` are the columns from the original structure from the Materials Project or columns added in the process of cleaning the initial Materials Project database.
 `totreldiff`: The $\Delta_\mathrm{totrel}$ from the paper, a measure of the difference between the original chemical formula of the SuperCon and of the Materials Project.
 - `formula_frac`: The normalization factor of the chemical formulas.
@@ -22,6 +22,8 @@ Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, the
 - `crystal_temp_2`: The crystal temperature. Non-zero only for the 3DSC<sub>ICSD</sub>.
 - `no_crystal_temp_given_2`: If the crystal temperature was not explicitly given. Always True in the 3DSC<sub>MP</sub>. In the 3DSC<sub>ICSD</sub>, this is True if no crystal temperature was given and 293K was assumed.
 `cubic`, `hexagonal`, `monoclinic`, `orthorhombic`, `tetragonal`, `triclinic`, `trigonal`, `primitive`, `base-centered`, `body-centered`, `face-centered`: The symmetry features as described in the appendix of our paper.
+
+Note that in the github version of this dataset, we have removed the `SOAP.*` and the `MAGPIE.*` columns due to memory constraints. You can get these columns by executing the matching and adaptation algorithm as described below.
 
 
 <!-- GETTING STARTED -->
