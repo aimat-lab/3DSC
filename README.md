@@ -1,8 +1,6 @@
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## The 3DSC database
 This repository contains the code and data used to create the 3DSC database. We describe the algorithm and the database in our paper [1].
 
-## The 3DSC database
 The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final/MP`. The file `3DSC_MP.csv` contains the 3DSC<sub>MP</sub> in tabular form. The three most important columns are the following:
 
 - `formula_sc`: The chemical formula of the material, which is exactly the original chemical formula of the SuperCon entry. Note that due to the normalization of chemical formulas in the matching algorithm, this chemical formula might deviate by a constant factor from the chemical formula of the primitive unit cell of the structure.
@@ -81,7 +79,9 @@ python superconductors_3D/train_ML_models.py
 ```
 
 #### The 3DSC<sub>ICSD</sub>
-Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_IDs.csv`. If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself.
+Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`.
+
+If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
 
 
 
