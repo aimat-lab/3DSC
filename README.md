@@ -46,6 +46,7 @@ This code was developed and tested with and for Linux. Most likely it will throw
    ```sh
    conda env create -f ./environment.yaml --name superconductors_3D
    ```
+   Note: It is important that this is done once for each directory in which this repo will be installed. If you clone the repo into another local directory, do this step again, don't skip it. The conda environment will be linked to the path to the cloned version of this repo.
 4. Activate the conda environment:
    ```sh
    conda activate superconductors_3D
