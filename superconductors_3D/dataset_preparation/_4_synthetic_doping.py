@@ -309,7 +309,7 @@ def check_spacegroup(symm_analyzer, spg_2):
     spg_struct = normalise_pymatgen_spacegroups(symm_analyzer.get_space_group_symbol())
     spg_struct = get_normalised_spg(gemmi.find_spacegroup_by_name(spg_struct)).hm
     if spg_struct != spg_2:
-        print(f"Spacegroup of structure not spacegroup 2: {spg_struct} vs {spg_2}.")
+        # print(f"Spacegroup of structure not spacegroup 2: {spg_struct} vs {spg_2}.")
         return(False)
     else:
         return(True)
