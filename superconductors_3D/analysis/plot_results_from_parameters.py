@@ -15,7 +15,7 @@ exp_dir = projectpath('..', 'analysis', 'results', '220210_phys_groups_compariso
 
 
 score = 'MSLE'
-ylim = None#(0.9, 1.5)
+ylim = (1e-6, 1)
 xlim = None#(100, 1.5e4)
 
 sep_feature = ['add_params__database']
@@ -27,12 +27,12 @@ max_or_min_of_feature = False#{'r2': 'max', 'MSLE': 'min'}    # False or dict
 plot_only_top = False#{'top': 5}
 
 
-plot_CVs = ['test']
+plot_CVs = ['train']
 
 average_type = 'mean'
 error_type = 'sem'
 
-yscale = 'linear'
+yscale = 'log'
 
 # # Build up dictionary with directories and their parameter values.
 # result_dirs = {}
