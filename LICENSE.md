@@ -1,6 +1,6 @@
 The 3DSC database is subject to the Creative Commons Attribution 4.0 License, implying that the content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from the repository owner, provided proper attribution is given to the repository owner.
 
-All software in this repository is subject to the MIT license:
+All software in this repository is subject to the MIT License:
 
 MIT License
 
