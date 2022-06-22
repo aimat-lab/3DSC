@@ -1,10 +1,6 @@
 # The 3DSC database
 This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper [1].
 
-### Table of Contents
-- **[Using the 3DSC database](#using-the-3dsc-database)**<br>
-    * **[How to cite the 3DSC](#how-to-cite-the-3dsc)**<br>
-
 
 ## Using the 3DSC database
 
@@ -35,7 +31,6 @@ Note that in the github version of this dataset, we have removed the `SOAP.*` an
 Please cite our paper [1].
 
 
-<!-- GETTING STARTED -->
 ## Reproducing the paper
 
 
@@ -109,12 +104,10 @@ Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structu
 If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
 
 
-<!-- USAGE EXAMPLES -->
 ## Bibliography
 [1] TODO: Link to our paper
 
 
-<!-- LICENSE -->
 ## License
 The 3DSC database is subject to the Creative Commons Attribution 4.0 License, while all software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
 
