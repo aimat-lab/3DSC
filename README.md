@@ -31,7 +31,7 @@ Note that in the github version of this dataset, we have removed the `SOAP.*` an
 Please cite our paper [1].
 
 
-## Reproducing the paper
+## Reproducing the 3DSC paper
 
 
 ### Prerequisites
