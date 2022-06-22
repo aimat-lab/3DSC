@@ -1,5 +1,12 @@
-## The 3DSC database
-This repository contains the code and data used to create the 3DSC database. We describe the algorithm and the database in our paper [1].
+# The 3DSC database
+This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper [1].
+
+### Table of Contents
+**[Using the 3DSC database](## Using the 3DSC database)**<br>
+***[How to cite the 3DSC](### How to cite the 3DSC)**<br>
+
+
+## Using the 3DSC database
 
 The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final/MP`. The file `3DSC_MP.csv` contains the 3DSC<sub>MP</sub> in tabular form. The three most important columns are the following:
 
@@ -24,12 +31,18 @@ Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, the
 Note that in the github version of this dataset, we have removed the `SOAP.*` and the `MAGPIE.*` columns due to memory constraints. You can get these columns by executing the matching and adaptation algorithm as described below.
 
 
+### How to cite the 3DSC
+Please cite our paper [1].
+
+
 <!-- GETTING STARTED -->
 ## Reproducing the paper
+
 
 ### Prerequisites
 
 This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we use conda 4.11.0.
+
 
 ### Installation
 
@@ -52,6 +65,7 @@ This code was developed and tested with and for Linux. Most likely it will throw
    conda activate superconductors_3D
    ```
 
+   
 ### Reproduction
 In the following we will describe the exact steps to reproduce most of the paper: The generation of the 3DSC<sub>MP</sub>, most of the statistical plots shown in the paper and the most important machine learning results. If you want to automatically perform all of these steps please run
 ```sh
@@ -61,6 +75,7 @@ Please replace N_CPUS with the number of cores that you want to use in parallel,
 
 If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see the section later.
 
+
 #### Generating the 3DSC dataset
 To generate the 3DSC dataset, run the command
 ```sh
@@ -69,12 +84,14 @@ python superconductors_3D/generate_3DSC.py -d MP -n N_CPUS
 The script `generate_3DSC.py` automatically runs through all stages of the matching and adaptation algorithm described in the paper: In step 0-2, the cif files, the Materials Project database and the SuperCon database are cleaned. In step 3, the SuperCon entries and the crystal structures are matched based on their chemical composition. In step 4, artificial doping is performed for all matches where the relative chemical formula doesn't match perfectly. In step 5, the chemical composition and the three-dimensional crystal structure are featurized using the MAGPIE and the Disordered SOAP algorithm. The latter is an extension of the SOAP algorithm which is described in the SI of our paper. Finally, matches are ranked and only the best matches are kept. Note that in general multiple matches can be ranked equally and will all end up in the final 3DSC dataset.
 The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`. Running this command with 1 core needs about 0.5h.
 
+
 #### Statistical plots
 To generate the statistical plots shown in the paper please run the command
 ```sh
 python superconductors_3D/plot_dataset_statistics.py -d MP
 ```
 The results will be saved under `results/dataset_statistics/SC_MP_matches`. Running this command with 1 core needs few minutes.
+
 
 #### Machine learning results
 To reproduce the most important machine learning results shown in the paper please run the command
@@ -85,30 +102,22 @@ The results will be saved under `results/machine_learning`.
 
 Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reprodude the results of the paper. If you want to reduce these numbers you should be able to quickly identify them in the source code.
 
+
 #### The 3DSC<sub>ICSD</sub>
 Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.
 
 If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
 
 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Bibliography
 [1] TODO: Link to our paper
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
-????????     TODO     ????????
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-????????????
-<p align="right">(<a href="#top">back to top</a>)</p>
+The 3DSC database is subject to the Creative Commons Attribution 4.0 License, while all software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
+
 
 
 
