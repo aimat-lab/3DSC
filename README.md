@@ -48,7 +48,7 @@ This code was developed and tested with and for Linux. Most likely it will throw
 
 1. Download the 3DSC repository into the current directory
    ```sh
-   git clone git@github.com:TimoSommer/3DSC.git
+   git clone git@github.com:aimat-lab/3DSC.git
    ```
 2. Change into this directory
    ```sh
