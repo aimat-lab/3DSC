@@ -1,5 +1,7 @@
+![](resources/3DSC_logo_small.png)
+
 # The 3DSC database
-This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper [1].
+This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper TODO INSERT_LINK[1].
 
 
 ## Using the 3DSC database
@@ -15,7 +17,7 @@ Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, the
 - `MAGPIE.*`: MAGPIE feature vectors of the chemical formula of this material. Missing in the github version (see note below).
 - `SOAP.*`: DSOAP feature vectors of the structure. Missing in the github version (see note below).
 - `.*_2`: All columns ending with `_2` are the columns from the original structure from the Materials Project or columns added in the process of cleaning the initial Materials Project database.
-`totreldiff`: The $\Delta_\mathrm{totrel}$ from the paper, a measure of the difference between the original chemical formula of the SuperCon and of the Materials Project.
+- `totreldiff`: The $\Delta_\mathrm{totrel}$ from the paper, a measure of the difference between the original chemical formula of the SuperCon and of the Materials Project.
 - `formula_frac`: The normalization factor of the chemical formulas.
 - `sc_class`: The superconductor group (either 'Other', 'Heavy_fermion', 'Chevrel', 'Oxide', 'Cuprate', 'Ferrite', 'Carbon'). Some of the entries also have 'OxideHeavy_fermion' or 'Heavy_fermionChevrel', which means that the algorithm could not uniquely attribute this material into one group.
 - `weight`: The sample weight which was used for the XGB model and the calculcation of the scores. This is just the inverse of the number of crystal structures per SuperCon entry.
@@ -28,7 +30,7 @@ Note that in the github version of this dataset, we have removed the `SOAP.*` an
 
 
 ### How to cite the 3DSC
-Please cite our paper [1].
+Please cite our paper TODO INSERT_LINK[1].
 
 
 ## Reproducing the 3DSC paper
@@ -36,7 +38,7 @@ Please cite our paper [1].
 
 ### Prerequisites
 
-This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we use conda 4.11.0.
+This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.11.0.
 
 
 ### Installation
@@ -95,7 +97,7 @@ python superconductors_3D/train_ML_models.py
 ```
 The results will be saved under `results/machine_learning`.
 
-Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reprodude the results of the paper. If you want to reduce these numbers you should be able to quickly identify them in the source code.
+Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reprodude the results of the paper. If you want to modify these numbers you should be able to quickly identify them in the source code.
 
 
 #### The 3DSC<sub>ICSD</sub>
@@ -104,13 +106,14 @@ Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structu
 If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
 
 
-## Bibliography
-[1] TODO: Link to our paper
-
-
 ## License
-The 3DSC database is subject to the Creative Commons Attribution 4.0 License, while all software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
+The 3DSC database is subject to the Creative Commons Attribution 4.0 License, as are it's sources, the superconductor data provided by Stanev et al.[2] which is a subset of the SuperCon[3] and the Materials Project database[4]. All the software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
 
 
+## References
+[1] TODO: Link to our paper
+[2] Stanev, V. et al. Machine learning modeling of superconducting critical temperature. npj Comput. Mater. 4, 29, 10.1038/s41524-018-0085-8 (2018). ArXiv: 1709.02727
+[3] SuperCon, http://supercon.nims.go.jp/indexen.html (2020).
+[4] Materials Project, https://materialsproject.org/.
 
 
