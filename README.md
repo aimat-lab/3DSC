@@ -1,5 +1,6 @@
-<img src="resources/3DSC_logo_small.png" />
-
+<p align="center">
+  <img src="resources/3DSC_logo_small.png">
+</p>
 
 # The 3DSC database
 This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper TODO INSERT_LINK[1].
