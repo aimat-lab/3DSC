@@ -3,7 +3,7 @@
 </p>
 
 # The 3DSC database
-This repository contains the code and data used to create the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the  database and the algorithm to generate it in our paper TODO INSERT_LINK[1].
+This repository contains data and code of the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the database and the algorithm to generate it in our paper TODO INSERT_LINK[1].
 
 
 ## Using the 3DSC database
@@ -12,21 +12,21 @@ The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final
 
 - `formula_sc`: The chemical formula of the material, which is exactly the original chemical formula of the SuperCon entry. Note that due to the normalization of chemical formulas in the matching algorithm, this chemical formula might deviate by a constant factor from the chemical formula of the primitive unit cell of the structure.
 - `tc`: The critical temperature in Kelvin. Non-superconductors have a *T*<sub>c</sub> of 0.
-- `cif`: The path to the cif file from the directory `superconductors_3D/superconductors_3D/` on. If the name contains `synth_doped` this means that this structure was artificially doped.
+- `cif`: The path to the cif file of the 3DSC<sub>MP</sub> crystal structure relative to the directory `3DSC/superconductors_3D/`. If the name contains `synth_doped` this means that this structure was artificially doped.
 
 Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, there are a lot of columns which were important in the matching and adaptation algorithm, which are from the original Materials Project database or which were important for the anaylsis in our paper. These columns are less important if you just want to use the 3DSC<sub>MP</sub>, but they might be interesting for everyone looking to improve the 3DSC<sub>MP</sub> or reproduce the results in our paper.
 
 - `MAGPIE.*`: MAGPIE feature vectors of the chemical formula of this material. Missing in the github version (see note below).
 - `SOAP.*`: DSOAP feature vectors of the structure. Missing in the github version (see note below).
 - `.*_2`: All columns ending with `_2` are the columns from the original structure from the Materials Project or columns added in the process of cleaning the initial Materials Project database.
-- `totreldiff`: The $\Delta_\mathrm{totrel}$ from the paper, a measure of the difference between the original chemical formula of the SuperCon and of the Materials Project.
+- `totreldiff`: The $\Delta_\mathrm{totrel}$ from our paper[1], a measure of the difference between the original chemical formula of the SuperCon and of the Materials Project.
 - `formula_frac`: The normalization factor of the chemical formulas.
 - `sc_class`: The superconductor group (either 'Other', 'Heavy_fermion', 'Chevrel', 'Oxide', 'Cuprate', 'Ferrite', 'Carbon'). Some of the entries also have 'OxideHeavy_fermion' or 'Heavy_fermionChevrel', which means that the algorithm could not uniquely attribute this material into one group.
-- `weight`: The sample weight which was used for the XGB model and the calculcation of the scores. This is just the inverse of the number of crystal structures per SuperCon entry.
-- `cif_before_synthetic_doping`: The path to the original cif file of the Materials Project.
+- `weight`: The sample weight which was used for the XGB model and the calculcation of the scores. This is just the inverse of the number of crystal structures per SuperCon entry in the database.
+- `cif_before_synthetic_doping`: The path to the original cif file of the Materials Project before artificial doping.
 - `crystal_temp_2`: The crystal temperature. Non-zero only for the 3DSC<sub>ICSD</sub>.
 - `no_crystal_temp_given_2`: If the crystal temperature was not explicitly given. Always True in the 3DSC<sub>MP</sub>. In the 3DSC<sub>ICSD</sub>, this is True if no crystal temperature was given and 293K was assumed.
-- `cubic`, `hexagonal`, `monoclinic`, `orthorhombic`, `tetragonal`, `triclinic`, `trigonal`, `primitive`, `base-centered`, `body-centered`, `face-centered`: The symmetry features as described in the appendix of our paper.
+- `cubic`, `hexagonal`, `monoclinic`, `orthorhombic`, `tetragonal`, `triclinic`, `trigonal`, `primitive`, `base-centered`, `body-centered`, `face-centered`: The symmetry features as described in the supporting information of our paper.
 
 Note that in the github version of this dataset, we have removed the `SOAP.*` and the `MAGPIE.*` columns due to memory constraints. You can get these columns by executing the matching and adaptation algorithm as described below.
 
@@ -48,20 +48,20 @@ This code was developed and tested with and for Linux. Most likely it will throw
 
 1. Download the 3DSC repository into the current directory
    ```sh
-   git clone git@github.com:TimoSommer/superconductors_3D.git
+   git clone git@github.com:TimoSommer/3DSC.git
    ```
 2. Change into this directory
    ```sh
-   cd superconductors_3D
+   cd 3DSC
    ```
-3. Setup the conda environment with the name superconductors_3D
+3. Setup the conda environment with the name 3DSC
    ```sh
-   conda env create -f ./environment.yaml --name superconductors_3D
+   conda env create -f ./environment.yaml --name 3DSC
    ```
    Note: It is important that this is done once for each directory in which this repo will be installed. If you clone the repo into another local directory, do this step again, don't skip it. The conda environment will be linked to the path to the cloned version of this repo.
 4. Activate the conda environment:
    ```sh
-   conda activate superconductors_3D
+   conda activate 3DSC
    ```
 
    
@@ -103,19 +103,30 @@ Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns fro
 
 
 #### The 3DSC<sub>ICSD</sub>
-Above we have focused on the 3DSC<sub>MP</sub> which is based on crystal structures from the Materials Project. We have also created another 3DSC, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the matched crystal structures. This file can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.
+Above we have focused on the 3DSC<sub>MP</sub> which is based on freely accessible crystal structures from the Materials Project database[4]. We have also created another 3DSC database, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the original matched crystal structures. *Note that many of the crystal structures in the 3DSC<sub>ICSD</sub> are artificially doped by our algorithm and therefore differ from the original ICSD structure with this ID.*
 
-If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself. We do not recommend to somehow try to match the IDs to the crystal structures since many of the structures are artificially doped.
+The original ICSD IDs can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.
+
+If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself.
 
 
 ## License
-The 3DSC database is subject to the Creative Commons Attribution 4.0 License, as are it's sources, the superconductor data provided by Stanev et al.[2] which is a subset of the SuperCon[3] and the Materials Project database[4]. All the software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
+The 3DSC<sub>MP</sub> database is subject to the Creative Commons Attribution 4.0 License, implying that the content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from the repository owner, provided proper attribution is given to the repository owner. All software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
+
+
+## Origin of data
+
+We are grateful to the provider of different databases which have made the 3DSC possible:
+
+- The superconductor data is freely accessible and provided by Stanev et al.[2]. This data is a subset of the SuperCon database[3], which is currently unaccessible.
+- The crystal structures as input for the 3DSC<sub>MP</sub> are freely accessible and provided by the Materials Project database[4].
+- The crystal structures as input for the 3DSC<sub>ICSD</sub> are provided by the Inorganic Crystal Structure Database (ICSD)[5], which is a proprietary database. Access to the ICSD is possible by buying a license.
 
 
 ## References
-[1] TODO: Link to our paper
-[2] Stanev, V. et al. Machine learning modeling of superconducting critical temperature. npj Comput. Mater. 4, 29, 10.1038/s41524-018-0085-8 (2018). ArXiv: 1709.02727
-[3] SuperCon, http://supercon.nims.go.jp/indexen.html (2020).
-[4] Materials Project, https://materialsproject.org/.
-
+1. TODO: Link to our paper
+2. Stanev, V. et al. Machine learning modeling of superconducting critical temperature. npj Comput. Mater. 4, 29, 10.1038/s41524-018-0085-8 (2018). ArXiv: 1709.02727
+3. SuperCon, http://supercon.nims.go.jp/indexen.html (2020).
+4. Materials Project, https://materialsproject.org/.
+5. ICSD, https://icsd.products.fiz-karlsruhe.de/.
 
