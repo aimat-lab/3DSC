@@ -72,7 +72,7 @@ python superconductors_3D/run_everything.py -d MP -n N_CPUS
 ```
 Please replace N_CPUS with the number of cores that you want to use in parallel, e.g. `1`. The flag `-d MP` means that we create the 3DSC using crystal structures from the Materials Project.
 
-If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see the section later.
+If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see section [The 3DSC<sub>ICSD</sub>](#the-3dscicsd).
 
 
 #### Generating the 3DSC dataset
