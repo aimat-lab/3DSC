@@ -11,7 +11,6 @@ from megnet.models import MEGNetModel
 import os
 import pickle
 import io
-import torch
 
 def get_modelpath(outdir, modelname, repetition):
     """Returns path without extension where a specific model would be saved. Used internally and externally. Outdir is the  directory of the whole run with a subdirectory 'models'.
@@ -114,6 +113,7 @@ class Models():
             outpath = filename + '.pt'
             try:
                 model = regressor_from_pipeline(regr)
+                import torch
                 torch.save(model.trainer.state_dict(), outpath)
             except AttributeError:
                 pass

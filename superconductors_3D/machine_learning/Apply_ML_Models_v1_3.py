@@ -9,10 +9,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 import seaborn as sns
 import tensorflow as tf
-import gpflow
+# import gpflow
 import pandas as pd
-import torch
-import torch.nn as nn
+# import torch
+# import torch.nn as nn
 import sklearn
 from sklearn.preprocessing import StandardScaler, FunctionTransformer
 from sklearn.model_selection import RepeatedKFold, ShuffleSplit, LeaveOneGroupOut, GroupKFold, GroupShuffleSplit
@@ -30,21 +30,21 @@ import yaml
 import datetime
 import argparse
 import superconductors_3D.machine_learning.Custom_Machine_Learning_v1_3 as ML
-from superconductors_3D.machine_learning.RGM_own import RGM_sklearn
+# from superconductors_3D.machine_learning.RGM_own import RGM_sklearn
 import csv
 from collections import namedtuple
 import json
 from copy import deepcopy
 import time
-import mlflow
+# import mlflow
 from superconductors_3D.machine_learning.own_libraries.analysis.Experiments.Run import MLRun, get_hparams
-from superconductors_3D.machine_learning.own_libraries.models.GNN.MEGNet_tf import MEGNet_tf, read_json_file
-from contextlib import redirect_stdout
-from superconductors_3D.machine_learning.own_libraries.utils import Refactoring
-from superconductors_3D.machine_learning.own_libraries.models.GPflow_GP import GPflow_GP
-from superconductors_3D.machine_learning.own_libraries.own_functions import movecol
+# from superconductors_3D.machine_learning.own_libraries.models.GNN.MEGNet_tf import MEGNet_tf, read_json_file
+# from contextlib import redirect_stdout
+# from superconductors_3D.machine_learning.own_libraries.utils import Refactoring
+# from superconductors_3D.machine_learning.own_libraries.models.GPflow_GP import GPflow_GP
+# from superconductors_3D.machine_learning.own_libraries.own_functions import movecol
 from superconductors_3D.utils.projectpaths import projectpath
-from superconductors_3D.machine_learning.own_libraries.models.NN import MLP_Lightning
+# from superconductors_3D.machine_learning.own_libraries.models.NN import MLP_Lightning
 from superconductors_3D.machine_learning.own_libraries.utils.Scalers import restricted_arcsinh, restricted_sinh, restricted_exp, restricted_log
 
 
@@ -209,14 +209,14 @@ def get_train_test_data(df_data, CV, n_folds, domain_colname, trainfrac=None, ra
     
     return(df_data)
 
-class Sin(nn.Module):
-    """Sin activation function."""
-    def __init__(self):
-        super().__init__()
-
-    def forward(self, input):
-        result = torch.Sin(input)
-        return(result)
+# class Sin(nn.Module):
+#     """Sin activation function."""
+#     def __init__(self):
+#         super().__init__()
+#
+#     def forward(self, input):
+#         result = torch.Sin(input)
+#         return(result)
 
 # class Multiple_Acts(nn.Module):
 #     """Layer with multiple different activation functions.
@@ -235,79 +235,79 @@ class Sin(nn.Module):
 #             result[i] = self.acts[i](input[i])
 #         result = torch.Sin(input)
 #         return(result)
-
-def get_activation_fn(activation: str):
-    """Returns torch activation function based on string activation.
-    """
-    if activation == 'relu':
-        activation_fn = nn.ReLU()
-    elif activation == 'logistic':
-        activation_fn = nn.Sigmoid()
-    elif activation == 'tanh':
-        activation_fn = nn.Tanh()
-    elif activation == 'sin':
-        activation_fn = Sin()
-    else:
-        raise ValueError(f'Activation function {activation} not recognized. Activation functions are lowercase always.')
-    return(activation_fn)
-
-
-def get_sequential_NN(input_layer_size: int, hidden_layer_sizes: list, activation: str, output_layers: str):
-    """Returns a sequential (Feed Forward) NN. `last_linear` means if the last layer should be linear or with activation function."""        
-    activation_fn = get_activation_fn(activation)
-    out_act_fn = output_layers
-    layers = []
-    num_layers = len(hidden_layer_sizes)
-    for i in range(num_layers):
-        if i == 0:
-            in_size = input_layer_size
-        else:
-            in_size = hidden_layer_sizes[i-1]
-        out_size = hidden_layer_sizes[i]
-        layers.append(nn.Linear(in_size, out_size))
-        last_layer = i == num_layers - 1
-        if not last_layer:
-            layers.append(activation_fn)
-        elif out_act_fn != None:
-            out_activation_fn = get_activation_fn(out_act_fn)
-            layers.append(out_activation_fn)
-            
-    layers = tuple(layers)
-    network = nn.Sequential(*layers)
-    return(network)
-
-
-def get_featurizer(input_layer_size, hparams, mode):
-    """Returns the first part of the RGM, the featurizer or representation NN.
-    """
-    hidden_layer_sizes = ML.net_pattern(
-                                        hparams['nn_layers'],
-                                        hparams['nn_base_dim'],
-                                        hparams['nn_end_dim']
-                                        )
-    activation = hparams['nn_act']
-    # last_linear = False     # if last layer linear or with activation fn
-    output_layers = hparams['nn_act']
-    if mode == 'FeedForward':
-        featurizer = get_sequential_NN(input_layer_size, hidden_layer_sizes, activation, output_layers)
-    else:
-        raise ValueError('mode of Featurizer not recognized.')
-    return(featurizer)
-
-
-def get_classifier(output_layer_size, hparams, output_layers=None):
-    """Returns a torch sequential NN with specific layers and output_layer_size.
-    """
-    if hparams['RGM_classifier_layers'] < 1:
-        raise ValueError('Invalid "RGM_classifier_layers": {hparams["RGM_classifier_layers"]}')
-        
-    num_hidden_layers = hparams['RGM_classifier_layers'] - 1
-    activation = hparams['nn_act']
-    classifier_layers = [hparams['nn_end_dim'] for _ in range(num_hidden_layers)]
-    classifier_layers.append(output_layer_size)
-    
-    classifier = get_sequential_NN(hparams['nn_end_dim'], classifier_layers, activation, output_layers)
-    return(classifier)
+#
+# def get_activation_fn(activation: str):
+#     """Returns torch activation function based on string activation.
+#     """
+#     if activation == 'relu':
+#         activation_fn = nn.ReLU()
+#     elif activation == 'logistic':
+#         activation_fn = nn.Sigmoid()
+#     elif activation == 'tanh':
+#         activation_fn = nn.Tanh()
+#     elif activation == 'sin':
+#         activation_fn = Sin()
+#     else:
+#         raise ValueError(f'Activation function {activation} not recognized. Activation functions are lowercase always.')
+#     return(activation_fn)
+#
+#
+# def get_sequential_NN(input_layer_size: int, hidden_layer_sizes: list, activation: str, output_layers: str):
+#     """Returns a sequential (Feed Forward) NN. `last_linear` means if the last layer should be linear or with activation function."""
+#     activation_fn = get_activation_fn(activation)
+#     out_act_fn = output_layers
+#     layers = []
+#     num_layers = len(hidden_layer_sizes)
+#     for i in range(num_layers):
+#         if i == 0:
+#             in_size = input_layer_size
+#         else:
+#             in_size = hidden_layer_sizes[i-1]
+#         out_size = hidden_layer_sizes[i]
+#         layers.append(nn.Linear(in_size, out_size))
+#         last_layer = i == num_layers - 1
+#         if not last_layer:
+#             layers.append(activation_fn)
+#         elif out_act_fn != None:
+#             out_activation_fn = get_activation_fn(out_act_fn)
+#             layers.append(out_activation_fn)
+#
+#     layers = tuple(layers)
+#     network = nn.Sequential(*layers)
+#     return(network)
+#
+#
+# def get_featurizer(input_layer_size, hparams, mode):
+#     """Returns the first part of the RGM, the featurizer or representation NN.
+#     """
+#     hidden_layer_sizes = ML.net_pattern(
+#                                         hparams['nn_layers'],
+#                                         hparams['nn_base_dim'],
+#                                         hparams['nn_end_dim']
+#                                         )
+#     activation = hparams['nn_act']
+#     # last_linear = False     # if last layer linear or with activation fn
+#     output_layers = hparams['nn_act']
+#     if mode == 'FeedForward':
+#         featurizer = get_sequential_NN(input_layer_size, hidden_layer_sizes, activation, output_layers)
+#     else:
+#         raise ValueError('mode of Featurizer not recognized.')
+#     return(featurizer)
+#
+#
+# def get_classifier(output_layer_size, hparams, output_layers=None):
+#     """Returns a torch sequential NN with specific layers and output_layer_size.
+#     """
+#     if hparams['RGM_classifier_layers'] < 1:
+#         raise ValueError('Invalid "RGM_classifier_layers": {hparams["RGM_classifier_layers"]}')
+#
+#     num_hidden_layers = hparams['RGM_classifier_layers'] - 1
+#     activation = hparams['nn_act']
+#     classifier_layers = [hparams['nn_end_dim'] for _ in range(num_hidden_layers)]
+#     classifier_layers.append(output_layer_size)
+#
+#     classifier = get_sequential_NN(hparams['nn_end_dim'], classifier_layers, activation, output_layers)
+#     return(classifier)
 
 def get_validation_columns(df_data, args, domain_colname):
     """Adds validation columns to a df based on the current CV columns, so that only the train rows are split again in test and train. The old CV columns will be renamed to 'test_`CV_col`' and the new validation columns will be named from 0 to nfolds*nfolds-1.
@@ -396,22 +396,22 @@ def get_all_models(hparams, n_features, n_targets, use_models, n_domains=1, doma
         all_models['NNsk'] = NNsk
 
         
-    ###############
-    # Lightning MLP
-    ###############
-    if 'NNL' in use_models:
-        NNL = MLP_Lightning.MLP(
-                            hidden_layer_sizes=net_dims,
-                            activation=hparams['nn_act'],
-                            solver='adam',
-                            n_epochs=hparams["n_epochs"],
-                            validation_fraction=0.2,
-                            alpha=hparams["nn_l2"],
-                            batch_size=hparams['nn_batch_size'],
-                            learning_rate=hparams["learning_rate"],
-                            patience=hparams["nn_patience"]
-                            )
-        all_models['NNL'] = NNL
+    # ###############
+    # # Lightning MLP
+    # ###############
+    # if 'NNL' in use_models:
+    #     NNL = MLP_Lightning.MLP(
+    #                         hidden_layer_sizes=net_dims,
+    #                         activation=hparams['nn_act'],
+    #                         solver='adam',
+    #                         n_epochs=hparams["n_epochs"],
+    #                         validation_fraction=0.2,
+    #                         alpha=hparams["nn_l2"],
+    #                         batch_size=hparams['nn_batch_size'],
+    #                         learning_rate=hparams["learning_rate"],
+    #                         patience=hparams["nn_patience"]
+    #                         )
+    #     all_models['NNL'] = NNL
 
     ###############
     # Random Forest
@@ -453,171 +453,171 @@ def get_all_models(hparams, n_features, n_targets, use_models, n_domains=1, doma
         Gaussian_Process = GaussianProcessRegressor(kernel=kernel, alpha=noise**2, normalize_y=True)
         all_models['GPsk'] = Gaussian_Process
     
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'GPR' in use_models:
-        model = gpflow.models.GPR
-        GPR = GPflow_GP(model, kernel, alpha=noise)
-        all_models['GPR'] = GPR
-
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SGPR' in use_models:
-        model = gpflow.models.SGPR
-        SGPR = GPflow_GP(model, kernel, alpha=noise, n_inducing_points=n_inducing_points, standard_scale=True)
-        all_models['SGPR'] = SGPR
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'VGP' in use_models:
-        model = gpflow.models.VGP
-        VGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate)
-        all_models['VGP'] = VGP
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP' in use_models:
-        model = gpflow.models.SVGP
-        SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
-        all_models['SVGP'] = SVGP
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP_single' in use_models:
-        model = gpflow.models.SVGP
-        SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
-        all_models['SVGP_single'] = SVGP
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP_sc_non-sc' in use_models:
-        model = gpflow.models.SVGP
-        SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=True, natgrad=False, train_noise_scale=False, predict_y=False)
-        all_models['SVGP_sc_non-sc'] = SVGP
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP_features' in use_models:
-        model = gpflow.models.SVGP
-        SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=False, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=True, predict_y=True)
-        all_models['SVGP_features'] = SVGP
-    
-        kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales) + gpflow.kernels.WhiteKernel(variance=noise**2)
-    if 'SVGP_white' in use_models:
-        model = gpflow.models.SVGP
-        SVGP = GPflow_GP(model, kernel, alpha=0.0011, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
-        all_models['SVGP_white'] = SVGP
-        
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP_RGM' in use_models:
-        model = gpflow.models.SVGP
-        NN_path = 'RGM'
-        SVGP_RGM = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, NN_path=NN_path)
-        all_models['SVGP_RGM'] = SVGP_RGM
-    
-    kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
-    if 'SVGP_NN' in use_models:
-        model = gpflow.models.SVGP
-        NN_path = 'NN'
-        SVGP_NN = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, NN_path=NN_path)
-        all_models['SVGP_NN'] = SVGP_NN
-        
-    
-    # For all pytorch models:
-    input_layer_size = n_features
-    featurizer = get_featurizer(input_layer_size, hparams, mode='FeedForward')
-    classifier = get_classifier(output_layer_size=n_targets, hparams=hparams, output_layers=output_layers)
-    
-    
-    ############################
-    # Regret Minimization Network
-    ############################
-    if 'RGM' in use_models:
-        RGM = RGM_sklearn(
-                            solver=hparams['nn_solver'],
-                            max_iter=hparams["n_epochs"],
-                            batch_size=hparams['nn_batch_size'],
-                            learning_rate_init=hparams["learning_rate"],
-                            featurizer=deepcopy(featurizer),
-                            classifier=deepcopy(classifier),
-                            batch_mode=hparams['RGM_batch_mode'],
-                            weight_decay=hparams["nn_l2"],
-                            rgm_e=hparams['RGM_rgm_e'],
-                            erm_e=hparams['RGM_erm_e'],
-                            holdout_e=hparams['RGM_holdout_e'],
-                            detach_classifier=hparams['RGM_detach_classifier'],
-                            oracle=hparams['RGM_oracle'],
-                            ensemble_pred=hparams['RGM_ensemble_pred'],
-                            validation_fraction=0.2,
-                            early_stopping=hparams['RGM_early_stopping'],    # 'False', 'valid', 'extrapol', ...
-                            n_iter_no_change=hparams["nn_patience"],
-                            clip_grad=hparams['NN_clip_grad'],
-                            num_train_domains=hparams['RGM_num_train_domains'],
-                            max_n_classifiers=10,
-                            if_log_metrics=False,
-                            coeff_lr_classifier=hparams['coeff_lr_classifier'],
-                            reduce_lr_factor=hparams['NN_reduce_lr_factor'],
-                            use_tensorboard=False
-                        )
-        RGM.domain_col = domain_col
-        all_models['RGM'] = RGM
-
-    
-    ############################
-    # Regret Minimization Network without domains
-    ############################
-    if 'NN' in use_models:
-        NN = RGM_sklearn(
-                            solver=hparams['nn_solver'],
-                            max_iter=hparams["n_epochs"],
-                            batch_size=hparams['nn_batch_size'],
-                            learning_rate_init=hparams["learning_rate"],
-                            featurizer=deepcopy(featurizer),
-                            classifier=deepcopy(classifier),
-                            batch_mode='Conserve_ratio',
-                            weight_decay=hparams["nn_l2"],
-                            rgm_e=1,
-                            erm_e=1,
-                            holdout_e=1,
-                            detach_classifier=False,
-                            oracle=False,
-                            ensemble_pred=False,
-                            validation_fraction=0.2,
-                            early_stopping='valid',
-                            n_iter_no_change=hparams["nn_patience"],
-                            clip_grad=hparams['NN_clip_grad'],
-                            num_train_domains=1,
-                            if_log_metrics=False,
-                            reduce_lr_factor=hparams['NN_reduce_lr_factor'],
-                            use_tensorboard=False
-                        )
-        all_models['NN'] = NN
-            
-    #################
-    # Original MEGNet
-    #################
-    if 'MEGNet' in use_models:
-        validation_frac = 0.2        
-        # transfer_model = None if args.add_params['prev_model'] is None else projectpath(args.add_params['prev_model'])
-        MEGNet0 = MEGNet_tf(
-                            use_learnt_elemental_embedding=False,
-                            epochs=hparams['n_epochs'],
-                            lr=args.add_params['lr'],#hparams['learning_rate'],
-                            batch_size=args.add_params['batch_size'],#hparams['nn_batch_size'],
-                            patience=hparams['nn_patience'],
-                            l2_coef=args.add_params['l2'],#None,
-                            dropout=args.add_params['dropout'],
-                            r_cutoff=4,
-                            early_stopping=args.add_params['early_stopping'],
-                            validation_frac=validation_frac,
-                            loss='mse',
-                            domain_col=domain_col,
-                            optimizer_kwargs={'clipnorm': args.add_params['clipnorm']},
-                            tensorboard=False,
-                            nblocks=args.add_params['nblocks'],
-                            n1=args.add_params['n1'],
-                            n2=args.add_params['n2'],
-                            n3=args.add_params['n3'],
-                            lr_exp_decay=args.add_params['lr_exp_decay'],#0.997,
-                            prev_model=None,
-                            act=args.add_params['act'],
-                            npass=args.add_params['npass'],
-                            n_feat_bond=args.add_params['n_feat_bond']
-                            )
-        all_models['MEGNet'] = MEGNet0
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'GPR' in use_models:
+    #     model = gpflow.models.GPR
+    #     GPR = GPflow_GP(model, kernel, alpha=noise)
+    #     all_models['GPR'] = GPR
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SGPR' in use_models:
+    #     model = gpflow.models.SGPR
+    #     SGPR = GPflow_GP(model, kernel, alpha=noise, n_inducing_points=n_inducing_points, standard_scale=True)
+    #     all_models['SGPR'] = SGPR
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'VGP' in use_models:
+    #     model = gpflow.models.VGP
+    #     VGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate)
+    #     all_models['VGP'] = VGP
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP' in use_models:
+    #     model = gpflow.models.SVGP
+    #     SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
+    #     all_models['SVGP'] = SVGP
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP_single' in use_models:
+    #     model = gpflow.models.SVGP
+    #     SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
+    #     all_models['SVGP_single'] = SVGP
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP_sc_non-sc' in use_models:
+    #     model = gpflow.models.SVGP
+    #     SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=True, natgrad=False, train_noise_scale=False, predict_y=False)
+    #     all_models['SVGP_sc_non-sc'] = SVGP
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP_features' in use_models:
+    #     model = gpflow.models.SVGP
+    #     SVGP = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=False, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=True, predict_y=True)
+    #     all_models['SVGP_features'] = SVGP
+    #
+    #     kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales) + gpflow.kernels.WhiteKernel(variance=noise**2)
+    # if 'SVGP_white' in use_models:
+    #     model = gpflow.models.SVGP
+    #     SVGP = GPflow_GP(model, kernel, alpha=0.0011, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, train_noise=True, diff_std_for_sc_and_non_sc=False, natgrad=False, train_noise_scale=False, predict_y=False)
+    #     all_models['SVGP_white'] = SVGP
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP_RGM' in use_models:
+    #     model = gpflow.models.SVGP
+    #     NN_path = 'RGM'
+    #     SVGP_RGM = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, NN_path=NN_path)
+    #     all_models['SVGP_RGM'] = SVGP_RGM
+    #
+    # kernel = gpflow.kernels.Constant() * gpflow.kernels.RBF(lengthscales=lengthscales)
+    # if 'SVGP_NN' in use_models:
+    #     model = gpflow.models.SVGP
+    #     NN_path = 'NN'
+    #     SVGP_NN = GPflow_GP(model, kernel, alpha=noise, batch_size=batch_size, epochs=epochs, learning_rate=learning_rate, n_inducing_points=n_inducing_points, standard_scale=True, NN_path=NN_path)
+    #     all_models['SVGP_NN'] = SVGP_NN
+    #
+    #
+    # # For all pytorch models:
+    # input_layer_size = n_features
+    # featurizer = get_featurizer(input_layer_size, hparams, mode='FeedForward')
+    # classifier = get_classifier(output_layer_size=n_targets, hparams=hparams, output_layers=output_layers)
+    #
+    #
+    # ############################
+    # # Regret Minimization Network
+    # ############################
+    # if 'RGM' in use_models:
+    #     RGM = RGM_sklearn(
+    #                         solver=hparams['nn_solver'],
+    #                         max_iter=hparams["n_epochs"],
+    #                         batch_size=hparams['nn_batch_size'],
+    #                         learning_rate_init=hparams["learning_rate"],
+    #                         featurizer=deepcopy(featurizer),
+    #                         classifier=deepcopy(classifier),
+    #                         batch_mode=hparams['RGM_batch_mode'],
+    #                         weight_decay=hparams["nn_l2"],
+    #                         rgm_e=hparams['RGM_rgm_e'],
+    #                         erm_e=hparams['RGM_erm_e'],
+    #                         holdout_e=hparams['RGM_holdout_e'],
+    #                         detach_classifier=hparams['RGM_detach_classifier'],
+    #                         oracle=hparams['RGM_oracle'],
+    #                         ensemble_pred=hparams['RGM_ensemble_pred'],
+    #                         validation_fraction=0.2,
+    #                         early_stopping=hparams['RGM_early_stopping'],    # 'False', 'valid', 'extrapol', ...
+    #                         n_iter_no_change=hparams["nn_patience"],
+    #                         clip_grad=hparams['NN_clip_grad'],
+    #                         num_train_domains=hparams['RGM_num_train_domains'],
+    #                         max_n_classifiers=10,
+    #                         if_log_metrics=False,
+    #                         coeff_lr_classifier=hparams['coeff_lr_classifier'],
+    #                         reduce_lr_factor=hparams['NN_reduce_lr_factor'],
+    #                         use_tensorboard=False
+    #                     )
+    #     RGM.domain_col = domain_col
+    #     all_models['RGM'] = RGM
+    #
+    #
+    # ############################
+    # # Regret Minimization Network without domains
+    # ############################
+    # if 'NN' in use_models:
+    #     NN = RGM_sklearn(
+    #                         solver=hparams['nn_solver'],
+    #                         max_iter=hparams["n_epochs"],
+    #                         batch_size=hparams['nn_batch_size'],
+    #                         learning_rate_init=hparams["learning_rate"],
+    #                         featurizer=deepcopy(featurizer),
+    #                         classifier=deepcopy(classifier),
+    #                         batch_mode='Conserve_ratio',
+    #                         weight_decay=hparams["nn_l2"],
+    #                         rgm_e=1,
+    #                         erm_e=1,
+    #                         holdout_e=1,
+    #                         detach_classifier=False,
+    #                         oracle=False,
+    #                         ensemble_pred=False,
+    #                         validation_fraction=0.2,
+    #                         early_stopping='valid',
+    #                         n_iter_no_change=hparams["nn_patience"],
+    #                         clip_grad=hparams['NN_clip_grad'],
+    #                         num_train_domains=1,
+    #                         if_log_metrics=False,
+    #                         reduce_lr_factor=hparams['NN_reduce_lr_factor'],
+    #                         use_tensorboard=False
+    #                     )
+    #     all_models['NN'] = NN
+    #
+    # #################
+    # # Original MEGNet
+    # #################
+    # if 'MEGNet' in use_models:
+    #     validation_frac = 0.2
+    #     # transfer_model = None if args.add_params['prev_model'] is None else projectpath(args.add_params['prev_model'])
+    #     MEGNet0 = MEGNet_tf(
+    #                         use_learnt_elemental_embedding=False,
+    #                         epochs=hparams['n_epochs'],
+    #                         lr=args.add_params['lr'],#hparams['learning_rate'],
+    #                         batch_size=args.add_params['batch_size'],#hparams['nn_batch_size'],
+    #                         patience=hparams['nn_patience'],
+    #                         l2_coef=args.add_params['l2'],#None,
+    #                         dropout=args.add_params['dropout'],
+    #                         r_cutoff=4,
+    #                         early_stopping=args.add_params['early_stopping'],
+    #                         validation_frac=validation_frac,
+    #                         loss='mse',
+    #                         domain_col=domain_col,
+    #                         optimizer_kwargs={'clipnorm': args.add_params['clipnorm']},
+    #                         tensorboard=False,
+    #                         nblocks=args.add_params['nblocks'],
+    #                         n1=args.add_params['n1'],
+    #                         n2=args.add_params['n2'],
+    #                         n3=args.add_params['n3'],
+    #                         lr_exp_decay=args.add_params['lr_exp_decay'],#0.997,
+    #                         prev_model=None,
+    #                         act=args.add_params['act'],
+    #                         npass=args.add_params['npass'],
+    #                         n_feat_bond=args.add_params['n_feat_bond']
+    #                         )
+    #     all_models['MEGNet'] = MEGNet0
     
     return(all_models)
 
@@ -644,7 +644,7 @@ def train_with_args(args):
         
     np.random.seed(args.random_seed)
     random.seed(args.random_seed)
-    torch.manual_seed(args.random_seed)
+    # torch.manual_seed(args.random_seed)
     tf.random.set_seed(args.random_seed)
             
     

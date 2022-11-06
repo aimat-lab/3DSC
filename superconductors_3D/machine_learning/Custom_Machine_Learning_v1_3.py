@@ -14,7 +14,7 @@ import os
 import numpy as np
 import tensorflow as tf
 from matplotlib import pyplot as plt
-import torch
+# import torch
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.utils.validation import check_is_fitted
@@ -28,7 +28,7 @@ import yaml
 import datetime
 from shutil import copyfile
 from superconductors_3D.machine_learning.own_libraries.own_functions import movecol, isfloat
-import torch.optim
+# import torch.optim
 import itertools
 import superconductors_3D.machine_learning.own_libraries.data.All_Data as All_Data
 import superconductors_3D.machine_learning.own_libraries.data.All_scores as All_Scores
@@ -341,7 +341,7 @@ class Machine_Learning():
         self.random_seed = random_seed   # "None" for randomization.
         np.random.seed(self.random_seed)
         random.seed(self.random_seed)
-        torch.manual_seed(self.random_seed)
+        # torch.manual_seed(self.random_seed)
         tf.random.set_seed(self.random_seed)
         
         df_data = copy.deepcopy(data.reset_index(drop=True))  # Important for make_result_df()

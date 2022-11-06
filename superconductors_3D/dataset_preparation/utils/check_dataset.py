@@ -8,7 +8,6 @@ This is a helper script that includes a lot of functions particulary useful for 
 """
 import pandas as pd
 pd.options.mode.chained_assignment = None
-import pymatgen
 import numpy as np
 import re
 import hashlib
@@ -16,8 +15,9 @@ from copy import deepcopy
 import gemmi
 import warnings
 from collections import Counter
-from pymatgen.core.composition import CompositionError
+from pymatgen.core.composition import CompositionError, Composition
 from superconductors_3D.machine_learning.own_libraries.own_functions import isfloat
+
 
 
 O_PATTERN = "O[\-\+\.\=A-Za-rt-z0-9]*$"
@@ -28,7 +28,7 @@ ALL_ELEMENTS = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg"
     
 def chem_dict_from_pymatgen(string):
     '''Get dictionary with chemical composition from pymatgen. Ignore weird behaviour of pymatgen when dealing with non existing elements.'''
-    chem_dict = dict(pymatgen.Composition(string, strict=True).as_dict())
+    chem_dict = dict(Composition(string, strict=True).as_dict())
     # Fix weird behaviour of pymatgen
     for el in list(chem_dict.keys()):
         if "0+" in el:
