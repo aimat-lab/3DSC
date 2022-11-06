@@ -40,7 +40,7 @@ Please cite our paper TODO INSERT_LINK[1].
 
 ### Prerequisites
 
-This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.11.0.
+This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.11.0 and git 2.27.0. Please ensure conda and git are installed on your system.
 
 
 ### Installation
