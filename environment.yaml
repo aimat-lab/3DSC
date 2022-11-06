@@ -1,4 +1,4 @@
-name: sc3d_works_apparently_without_pip_megnet
+name: 3DSC
 channels:
   - conda-forge
   - defaults
@@ -311,4 +311,3 @@ dependencies:
   - pip:
     - megnet==1.3.1
     - -e .
-prefix: /home/timo/anaconda3/envs/sc3d_works_apparently_without_pip_megnet
