@@ -14,7 +14,7 @@ The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final
 - `tc`: The critical temperature in Kelvin. Non-superconductors have a *T*<sub>c</sub> of 0.
 - `cif`: The path to the cif file of the 3DSC<sub>MP</sub> crystal structure relative to the directory `3DSC/superconductors_3D/`. If the name contains `synth_doped` this means that this structure was artificially doped.
 
-Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, there are a lot of columns which were important in the matching and adaptation algorithm, which are from the original Materials Project database or which were important for the anaylsis in our paper. These columns are less important if you just want to use the 3DSC<sub>MP</sub>, but they might be interesting for everyone looking to improve the 3DSC<sub>MP</sub> or reproduce the results in our paper.
+Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, there are a lot of columns which were important in the matching and adaptation algorithm, which are from the original Materials Project database or which were important for the analysis in our paper. These columns are less important if you just want to use the 3DSC<sub>MP</sub>, but they might be interesting for everyone looking to improve the 3DSC<sub>MP</sub> or reproduce the results in our paper.
 
 - `MAGPIE.*`: MAGPIE feature vectors of the chemical formula of this material. Missing in the github version (see note below).
 - `SOAP.*`: DSOAP feature vectors of the structure. Missing in the github version (see note below).
