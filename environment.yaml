@@ -1,4 +1,4 @@
-name: superconductors_3D
+name: 3DSC
 channels:
   - arturo.mendoza.quispe
   - conda-forge
@@ -515,4 +515,3 @@ dependencies:
     - xarray==0.17.0
     - yamldataclassconfig==1.5.0
     - -e .
-prefix: /home/kit/stud/uoeci/conda/envs/superconductors_3D
