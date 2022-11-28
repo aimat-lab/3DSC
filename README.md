@@ -40,7 +40,7 @@ Please cite our paper TODO INSERT_LINK[1].
 
 ### Prerequisites
 
-This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.11.0 and git 2.27.0. Please ensure conda and git are installed on your system.
+This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.13.0 and git 2.38.1. Please ensure conda and git are installed on your system.
 
 
 ### Installation
@@ -54,12 +54,17 @@ This code was developed and tested with and for Linux. Most likely it will throw
    ```sh
    cd 3DSC
    ```
-3. Setup the conda environment with the name 3DSC
+3. Setup the conda environment with name 3DSC. First, check your ~.condarc file and set
+   ```sh
+   channel_priority: false
+   ```
+   If you have a very old conda version < 4.6.0, this parameter might throw errors for you, in this case try to leave it out. 
+4. Now read in the provided conda environment file to generate the correct conda environment:
    ```sh
    conda env create -f ./environment.yaml --name 3DSC
    ```
-   Note: It is important that this is done once for each directory in which this repo will be installed. If you clone the repo into another local directory, do this step again, don't skip it. The conda environment will be linked to the path to the cloned version of this repo.
-4. Activate the conda environment:
+   Note: It is important that this is done once for each directory in which this repo will be installed. If you clone the repo into another local directory, do this step again, don't skip it. The conda environment will be linked to the absolute path to the cloned version of this repo.
+5. Activate the conda environment:
    ```sh
    conda activate 3DSC
    ```
