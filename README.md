@@ -54,11 +54,12 @@ This code was developed and tested with and for Linux. Most likely it will throw
    ```sh
    cd 3DSC
    ```
-3. Setup the conda environment with name 3DSC. First, check your ~.condarc file and set
+3. Setup the conda environment with name 3DSC. First, check your ~.condarc file and temporarily set
    ```sh
    channel_priority: false
    ```
-   If you have a very old conda version < 4.6.0, this parameter might throw errors for you, in this case try to leave it out. 
+   After installing the conda environment you can set this parameter back to its previous value. 
+   Note: If you have a very old conda version < 4.6.0, this parameter might throw errors for you, in this case try to leave it out. 
 4. Now read in the provided conda environment file to generate the correct conda environment:
    ```sh
    conda env create -f ./environment.yaml --name 3DSC
@@ -104,7 +105,7 @@ python superconductors_3D/train_ML_models.py
 ```
 The results will be saved under `results/machine_learning`.
 
-Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reprodude the results of the paper. If you want to modify these numbers you should be able to quickly identify them in the source code.
+Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reproduce the results of the paper. If you want to modify these numbers you should be able to quickly identify them in the source code.
 
 
 #### The 3DSC<sub>ICSD</sub>
