@@ -3,7 +3,7 @@
 </p>
 
 # The 3DSC database
-This repository contains data and code of the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the database and the algorithm to generate it in our paper TODO INSERT_LINK[1].
+This repository contains data and code of the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the database and the algorithm to generate it in our paper https://arxiv.org/abs/2212.06071.
 
 
 ## Using the 3DSC database
@@ -32,7 +32,7 @@ Note that in the github version of this dataset, we have removed the `SOAP.*` an
 
 
 ### How to cite the 3DSC
-Please cite our paper TODO INSERT_LINK[1].
+Please cite our paper as given in [1].
 
 
 ## Reproducing the 3DSC paper
@@ -130,7 +130,7 @@ We are grateful to the provider of different databases which have made the 3DSC 
 
 
 ## References
-1. TODO: Link to our paper
+1. Sommer, T., Willa, R., Schmalian, J. & Friederich, P. 3DSC -- A New Dataset of Superconductors Including Crystal Structures. Preprint at https://doi.org/10.48550/arXiv.2212.06071 (2022).
 2. Stanev, V. et al. Machine learning modeling of superconducting critical temperature. npj Comput. Mater. 4, 29, 10.1038/s41524-018-0085-8 (2018). ArXiv: 1709.02727
 3. SuperCon, http://supercon.nims.go.jp/indexen.html (2020).
 4. Materials Project, https://materialsproject.org/.
