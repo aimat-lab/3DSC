@@ -16,5 +16,5 @@ Figure 2 (3DSC<sub>ICSD</sub>) and 3 (3DSC<sub>MP</sub>) show histograms of the 
 
 <p align="center">
   <img src="resources/SC_MP_groups_tc_hist.png">
-  <em> Figure 2: The number of SuperCon entries with given critical temperature T<sub>c</sub> for the full 3DSC<sub>MP</sub> (a) and for each superconductor group ((b) to (h)): cuprates (b), ferrites (c), other (d), oxide (e), heavy fermion materials (f), Chevrel phases (g), carbon based materials (h). The non-superconductors are shown in orange. The left-most blue bar includes only superconductors with T<sub>c</sub> > 0 K.</em>
+  <em> Figure 3: The number of SuperCon entries with given critical temperature T<sub>c</sub> for the full 3DSC<sub>MP</sub> (a) and for each superconductor group ((b) to (h)): cuprates (b), ferrites (c), other (d), oxide (e), heavy fermion materials (f), Chevrel phases (g), carbon based materials (h). The non-superconductors are shown in orange. The left-most blue bar includes only superconductors with T<sub>c</sub> > 0 K.</em>
 </p>
