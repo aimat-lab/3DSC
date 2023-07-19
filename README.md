@@ -124,7 +124,7 @@ The 3DSC<sub>MP</sub> database is subject to the Creative Commons Attribution 4.
 
 We are grateful to the provider of different databases which have made the 3DSC possible:
 
-- The superconductor data is freely accessible provided by Stanev et al.[2] under a CC BY 4.0 license. This data is a subset of the SuperCon database, which originally was accessible at [3] and has recently been moved to [6].
+- The superconductor data is freely accessible provided by Stanev et al.[2] under a CC BY 4.0 license. This data is a subset of the SuperCon database, which originally was accessible at [3] and has recently been moved to [6] under a CC BY 4.0 license.
 - The crystal structures as input for the 3DSC<sub>MP</sub> are freely accessible and provided by the Materials Project database[4] under a CC BY 4.0 license.
 - The crystal structures as input for the 3DSC<sub>ICSD</sub> are provided by the Inorganic Crystal Structure Database (ICSD)[5], which is a commercial database. Access to the ICSD is possible by buying a license.
 
