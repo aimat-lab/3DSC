@@ -80,6 +80,11 @@ Please replace N_CPUS with the number of cores that you want to use in parallel,
 
 If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see section [The 3DSC<sub>ICSD</sub>](#the-3dscicsd).
 
+If you want to see the github repo in the state that it was for publication, please use 
+```sh
+git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
+```
+
 
 #### Generating the 3DSC dataset
 To generate the 3DSC dataset, run the command
