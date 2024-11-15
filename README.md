@@ -8,7 +8,9 @@ This repository contains data and code of the 3DSC database, the first extensive
 
 ## Using the 3DSC database
 
-The 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final/MP`. The file `3DSC_MP.csv` contains the 3DSC<sub>MP</sub> in tabular form. The three most important columns are the following:
+The 3DSC database can be found on figshare under https://doi.org/10.6084/m9.figshare.c.6914407.v1. The zip file can be extracted via the command `tar -xzvf 3DSC_MP.tar.gz`.
+
+Alternatively, the 3DSC<sub>MP</sub> database can be found under `superconductors_3D/data/final/MP`. The file `3DSC_MP.csv` contains the 3DSC<sub>MP</sub> in tabular form. The three most important columns are the following:
 
 - `formula_sc`: The chemical formula of the material, which is exactly the original chemical formula of the SuperCon entry. Note that due to the normalization of chemical formulas in the matching algorithm, this chemical formula might deviate by a constant factor from the chemical formula of the primitive unit cell of the structure.
 - `tc`: The critical temperature in Kelvin. Non-superconductors have a *T*<sub>c</sub> of 0.
