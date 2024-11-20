@@ -17,9 +17,6 @@ import numpy as np
 from superconductors_3D.dataset_preparation.utils.check_dataset import get_chem_dict, ALL_ELEMENTS, find_doping_pairs
 from copy import deepcopy
 from superconductors_3D.machine_learning.own_libraries.own_functions import movecol
-from sklearn.cluster import KMeans
-from sklearn.model_selection import GroupKFold
-import chemml.chem.magpie_python as magpie
 import itertools
 from superconductors_3D.dataset_preparation.utils.calc_similarities import similarity_chem_formula
 from superconductors_3D.dataset_preparation.utils.lib_generate_datasets import MAGPIE_features
@@ -47,6 +44,8 @@ def cluster_by_n_elements(formulas, min_n_el=-np.inf, max_n_el=np.inf):
 def cluster_by_kmeans_with_MAGPIE(formulas, k):
     """Clusters formulas by kmeans clustering using MAGPIE as the features of the formulas.
     """
+    from sklearn.cluster import KMeans
+    from sklearn.model_selection import GroupKFold
     magpie_features = MAGPIE_features(formulas)
     clustering = KMeans(n_clusters=k)
     clusters = clustering.fit_predict(magpie_features.to_numpy())

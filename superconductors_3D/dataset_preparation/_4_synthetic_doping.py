@@ -28,6 +28,9 @@ from pymatgen.core.composition import Composition
 from pymatgen.transformations.site_transformations import ReplaceSiteSpeciesTransformation
 from pymatgen.transformations.standard_transformations import AutoOxiStateDecorationTransformation
 from superconductors_3D.dataset_preparation.utils.check_dataset import find_doping_pairs, get_chem_dict, standardise_chem_formula, normalise_chemdict, chemdict_to_formula, get_normalised_spg, exclude_row, normalise_pymatgen_spacegroups
+import warnings
+warnings.filterwarnings("ignore", message="Issues encountered while parsing CIF:")
+
 
 def quantity_fracs(dict_to_normalise, dict_normalise, elements):
     """Calculates the fraction of the quantities of two chemdict of the provided elements.
@@ -546,7 +549,8 @@ def perform_synthetic_doping(input_file, output_cif_dir, output_file, output_fil
         
 if __name__ == '__main__':
     
-    database = 'ICSD'         # change this or parse from cmd
+    database = 'MP'         # change this or parse from cmd
+    datadir = 'data2'
 
     n_cpus = 1             # change this or parse from cmd
     
@@ -564,13 +568,13 @@ if __name__ == '__main__':
     
     symprec = 0.1 if database == 'MP' else 0.01     # for symmetry recognition
     
-    input_file = projectpath('data', 'intermediate', database, f'3_SC_{database}_matches.csv')
+    input_file = projectpath(datadir, 'intermediate', database, f'3_SC_{database}_matches.csv')
     
-    output_cif_dir = os.path.join('data', 'final', database, 'cifs')
+    output_cif_dir = os.path.join(datadir, 'final', database, 'cifs')
     
-    output_file = projectpath('data', 'intermediate', database, f'4_SC_{database}_synthetically_doped.csv')
-    output_file_excluded = projectpath('data', 'intermediate', database, f'excluded_4_SC_{database}_synthetically_doped.csv')
+    output_file = projectpath(datadir, 'intermediate', database, f'4_SC_{database}_synthetically_doped.csv')
+    output_file_excluded = projectpath(datadir, 'intermediate', database, f'excluded_4_SC_{database}_synthetically_doped.csv')
     
-    synthetic_doping(input_file, output_cif_dir, output_file, output_file_excluded, n_cpus, symprec)
+    perform_synthetic_doping(input_file, output_cif_dir, output_file, output_file_excluded, database, n_cpus, symprec)
             
             

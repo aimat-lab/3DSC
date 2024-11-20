@@ -23,6 +23,7 @@ tests/
 *.egg-info/
 train.py
 
+/superconductors_3D/data2/
 superconductors_3D/data/final/ICSD/cifs/
 superconductors_3D/data/final/ICSD/graphs/
 superconductors_3D/data/final/ICSD/3DSC_ICSD.csv

@@ -13,10 +13,8 @@ import pandas as pd
 from superconductors_3D.machine_learning.own_libraries.own_functions import write_to_csv, movecol
 from superconductors_3D.dataset_preparation.utils.check_dataset import get_chem_dict
 from copy import deepcopy
-from sklearn.model_selection import GroupKFold
 import numpy as np
-from superconductors_3D.machine_learning.own_libraries.models.GNN.GNN_utils import graph_features
-import os 
+import os
 import shutil
 import itertools
 from superconductors_3D.dataset_preparation.utils.crystal_utils import all_crys_sys, One_Hot_crystal_system_and_point_group, point_group_from_space_group, all_bravais_centrings, One_Hot_bravais_centring, state_features
@@ -111,23 +109,28 @@ def keep_only_best_matches(df, criteria, n_exclude_if_more_structures, output_gr
     df[all_bravais_centrings] = df.apply(lambda row: One_Hot_bravais_centring(row['spacegroup_2']), axis=1)
     
     # Determine features of atoms and state for the graphs.
-    print('Determine graph features.')
-    if not output_graph_dir is None:      
-        if os.path.exists(projectpath(output_graph_dir)):
-            shutil.rmtree(projectpath(output_graph_dir))
-        os.mkdir(projectpath(output_graph_dir))
-    df['graph'] = df.apply(lambda row: \
-                    graph_features(row=row,
-                                   state_features=state_features,
-                                   graph_dir=output_graph_dir
-                                   ),
-                            axis=1)
-    
-    # Exclude bad graphs
-    good_graphs = df['graph'].notna()
-    df = df[good_graphs]
-    print(f'Excluded {sum(~good_graphs)} graphs.')
-    print(f'After filtering graphs: {df["formula_sc"].nunique()} superconductors.')
+    try:
+        from superconductors_3D.machine_learning.own_libraries.models.GNN.GNN_utils import graph_features
+        if not output_graph_dir is None:
+            if os.path.exists(projectpath(output_graph_dir)):
+                shutil.rmtree(projectpath(output_graph_dir))
+            os.mkdir(projectpath(output_graph_dir))
+        print('Exclude structures where graph features cannot be calculated.')
+        df['graph'] = df.apply(lambda row: \
+                        graph_features(row=row,
+                                       state_features=state_features,
+                                       graph_dir=output_graph_dir
+                                       ),
+                                axis=1)
+
+        # Exclude bad graphs where graph features could not be calculated.
+        good_graphs = df['graph'].notna()
+        df = df[good_graphs]
+        print(f'Excluded {sum(~good_graphs)} graphs.')
+        print(f'After filtering graphs: {df["formula_sc"].nunique()} superconductors.')
+    except ModuleNotFoundError:
+        # Megnet package not found, ignore graphs.
+        pass
 
     lower_is_better_dict = {'no_crystal_temp_given_2': True, 'totreldiff': True, 'correct_formula_frac': False, 'e_above_hull_2': True}
     # Selects the best matches according to some criteria.
@@ -189,7 +192,8 @@ if __name__ == '__main__':
     
     
     
-    database = 'ICSD'     # change this
+    database = 'MP'     # change this
+    datadir = 'data2'
 
     # The best matches will be chosen based on these columns and in this order.
     # Criteria were selected by hyperparameter optimization.
@@ -201,9 +205,9 @@ if __name__ == '__main__':
     # Exclude all Supercon entries that have more than this structures.
     n_exclude_if_more_structures = 10000
     
-    input_csv_data = projectpath('data', 'intermediate', database, f'5_features_SC_{database}.csv')
-    output_graph_dir = os.path.join('data', 'final', database, 'graphs')
-    output_csv_data = projectpath('data', 'final', database, f'SC_{database}_matches.csv')
+    input_csv_data = projectpath(datadir, 'intermediate', database, f'5_features_SC_{database}.csv')
+    output_graph_dir = os.path.join(datadir, 'final', database, 'graphs')
+    output_csv_data = projectpath(datadir, 'final', database, f'3DSC_{database}.csv')
     
     select_best_matches_and_prepare_df(input_csv_data, output_graph_dir, output_csv_data, criteria, n_exclude_if_more_structures)
     

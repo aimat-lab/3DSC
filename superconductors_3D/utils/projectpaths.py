@@ -19,17 +19,17 @@ def projectpath(*relpaths):
 
 class Data_Paths():
     
-    def __init__(self, crystal_db_name):
+    def __init__(self, crystal_db_name, datadir='data'):
         self.database = crystal_db_name
-        self.dir = projectpath('data')
+        self.dir = projectpath(datadir)
         self.supercon_csv = os.path.join(self.dir, 'source', 'SuperCon', 'raw', 'Supercon_data_by_2018_Stanev.csv')
         self.crystal_db_csv = os.path.join(self.dir,  'source', self.database, 'raw', f'{self.database}_subset.csv')
-        self.crystal_db_cifs_dir = projectpath('data', 'source', self.database, 'raw', 'cifs')        
+        self.crystal_db_cifs_dir = projectpath(self.dir, 'source', self.database, 'raw', 'cifs')
         
         # Step 1: Output of cleaning cifs.
         self.cifs_normalized = os.path.join(self.dir, 'source', self.database, 'cleaned', f'1_all_data_{self.database}_cifs_normalized.csv')
         self.cifs_normalized_excluded = os.path.join(self.dir, 'source', self.database, 'cleaned', f'excluded_1_all_data_{self.database}_cifs_normalized.csv')
-        self.output_dir_cleaned_cifs = os.path.join('data', 'source', self.database, 'cleaned', 'cifs')
+        self.output_dir_cleaned_cifs = os.path.join(self.dir, 'source', self.database, 'cleaned', 'cifs')
         self.cifs_normalized_comment = f"All the data from {self.crystal_db_csv}, but the cif files are cleaned/normalised by reading them in a pymatgen structure and writing them in a cif file again. Additionally chemical formula, spacegroup and crystal system are calculated by pymatgen and written in own columns. If a cif file has too bad errors the entry is excluded."
         self.cifs_normalized_comment_excluded = f"All the data that was not included in {self.cifs_normalized} because the cif file was too bad."
 
@@ -52,17 +52,17 @@ class Data_Paths():
         self.merged_sc_crystal_db_comment = f'The merged dataset of the Supercon and the {self.database} based on the chemical formula.'
         
         # Step 4: Artificial (or synthetic) doping.
-        self.artificially_doped_cif_dir = os.path.join('data', 'final', self.database, 'cifs')    
+        self.artificially_doped_cif_dir = os.path.join(self.dir, 'final', self.database, 'cifs')
         self.artificially_doped_db = os.path.join(self.dir, 'intermediate', self.database, f'4_SC_{self.database}_synthetically_doped.csv')
         self.artificially_doped_db_excluded = os.path.join(self.dir, 'intermediate', self.database, f'excluded_4_SC_{self.database}_synthetically_doped.csv')    
         
         # Step 5: Generate SOAP and MAGPIE features and graphs.
-        self.db_graph_dir = os.path.join('data', 'intermediate', self.database, 'graphs')
+        self.db_graph_dir = os.path.join(self.dir, 'intermediate', self.database, 'graphs')
         self.db_with_features = os.path.join(self.dir, 'intermediate', self.database, f'5_features_SC_{self.database}.csv')
         self.db_with_features_excluded = os.path.join(self.dir, 'intermediate', self.database, f'excluded_5_features_SC_{self.database}.csv')
         
         # Step 6: Select best matches and prepare database
-        self.final_graph_dir = os.path.join('data', 'final', self.database, 'graphs')
+        self.final_graph_dir = os.path.join(self.dir, 'final', self.database, 'graphs')
         self.final_3DSC = os.path.join(self.dir, 'final', self.database, f'3DSC_{self.database}.csv')
     
     def create_directories(self):

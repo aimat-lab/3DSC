@@ -9,6 +9,7 @@ This is a collection of useful little self written functions.
 
 import pandas as pd
 import os
+from pathlib import Path
 from collections.abc import Iterable
 import os
 from datetime import datetime
@@ -19,11 +20,13 @@ DATE = datetime.now()
 
 def write_to_csv(df, output_path, comment):
     """Write df to csv with a comment in the first line."""
+    output_path = Path(output_path)
     # Get comment with execution date and filename of original script.
     caller_filename = os.path.basename(inspect.stack()[1].filename)
     date_comment=f" Generated on {DATE} by the script {caller_filename}."
     comment = comment + date_comment
-    
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     if os.path.exists(output_path):
         os.remove(output_path)
     with open(output_path, "a") as file:

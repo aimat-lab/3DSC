@@ -71,10 +71,11 @@ def clean_MP(in_filename, out_filename, out_excluded_filename, comment, comment_
 
 
 if __name__ == '__main__':
-    
-    in_filename = projectpath('data', 'source', 'MP', 'cleaned', '1_all_data_MP_cifs_normalized.csv')
-    out_filename = projectpath('data', 'source', 'MP', 'cleaned', '2.1_all_data_MP_cleaned.csv')
-    out_excluded_filename = projectpath('data', 'source', 'MP', 'cleaned', 'excluded_2.1_all_data_MP_cleaned.csv')
+    datadir = 'data2'
+
+    in_filename = projectpath(datadir, 'source', 'MP', 'cleaned', '1_all_data_MP_cifs_normalized.csv')
+    out_filename = projectpath(datadir, 'source', 'MP', 'cleaned', '2.1_all_data_MP_cleaned.csv')
+    out_excluded_filename = projectpath(datadir, 'source', 'MP', 'cleaned', 'excluded_2.1_all_data_MP_cleaned.csv')
     comment = 'All the data from {in_filename}, but the important columns are cleaned.'
     comment_excluded = 'All the data that was not included in {out_filename} because it was filtered out.'
 

@@ -132,7 +132,7 @@ def doublecheck_dataset_shape(data):
     else:
         warnings.warn(f'Problem: The expected shape for the df is {paper_dataset_shape}, but the actual shape of the df is {df.shape}.')
         
-def main(crystal_database, n_cpus):
+def main(crystal_database, n_cpus, datadir):
         
     random_seed = 58
     
@@ -190,7 +190,7 @@ def main(crystal_database, n_cpus):
     
     starttime = datetime.datetime.now()
     print(f'Start generating the 3DSC database using the {crystal_database}.')
-    data = Data_Paths(crystal_db_name=crystal_database)
+    data = Data_Paths(crystal_db_name=crystal_database, datadir=datadir)
     print(f'The SuperCon database is read in from {data.supercon_csv}.')
     print(f'The {crystal_database} database is read in from {data.crystal_db_csv}.')
     data.create_directories()
@@ -309,12 +309,13 @@ def main(crystal_database, n_cpus):
 
 if __name__ == '__main__':
     
-    database = 'ICSD'
+    database = 'MP'
     n_cpus = 1
+    datadir = 'data2'
     
     args = parse_input_parameters()
     database = args.database if not args.database is None else database
     n_cpus = args.n_cpus if not args.n_cpus is None else n_cpus
     
-    main(database, n_cpus)
+    main(database, n_cpus, datadir)
                     

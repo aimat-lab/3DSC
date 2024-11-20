@@ -56,7 +56,7 @@ This code was developed and tested with and for Linux. Most likely it will throw
    ```sh
    cd 3DSC
    ```
-3. Setup the conda environment with name 3DSC. First, check your ~.condarc file and temporarily set
+3. Setup the conda environment with name 3DSC. First, check your ~/.condarc file and temporarily set
    ```sh
    channel_priority: false
    ```

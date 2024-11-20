@@ -127,7 +127,7 @@ def check_cif_structure(input_cif_path, verbose):
             reason = "cif took too long"
             output = invalid_cif_output(reason)
             return(output)
-        except:
+        except Exception as e:
             # Sometimes the cif cannot be read in after being written by pymatgen even if it was good before. Still this is unhelpful, therefore this file will be excluded.
             if verbose:
                 print("pymatgen cif file still has errors")
@@ -247,12 +247,13 @@ def clean_cifs(input_raw_csv_data, output_csv_cleaned_with_pymatgen, output_excl
 
 if __name__ == "__main__":    
     
-    database = 'ICSD'     # Only for simple change of input paths.
+    database = 'MP'     # Only for simple change of input paths.
+    datadir = 'data2'
 
-    input_raw_csv_data = projectpath('data', 'source', database, 'raw', f'0_all_data_{database}.csv')
-    output_csv_cleaned_with_pymatgen = projectpath('data', 'source', database, 'cleaned', f'1_all_data_{database}_cifs_normalized.csv')
-    output_excluded = projectpath('data', 'source', database, 'cleaned', f'excluded_1_all_data_{database}_cifs_normalized.csv')
-    output_dir_cleaned_cifs = os.path.join('data', 'source', database, 'cleaned', 'cifs')
+    input_raw_csv_data = projectpath(datadir, 'source', database, 'raw', f'0_all_data_{database}.csv')
+    output_csv_cleaned_with_pymatgen = projectpath(datadir, 'source', database, 'cleaned', f'1_all_data_{database}_cifs_normalized.csv')
+    output_excluded = projectpath(datadir, 'source', database, 'cleaned', f'excluded_1_all_data_{database}_cifs_normalized.csv')
+    output_dir_cleaned_cifs = os.path.join(datadir, 'source', database, 'cleaned', 'cifs')
     
     comment = f"All the data from {input_raw_csv_data}, but the cif files are cleaned/normalised by reading them in a pymatgen structure and writing them in a cif file again. Additionally chemical formula, spacegroup and crystal system are calculated by pymatgen and written in own columns. If a cif file has too bad errors the entry is excluded."
     comment_excluded = f"All the data that was not included in {output_csv_cleaned_with_pymatgen} because the cif file was too bad."
