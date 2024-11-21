@@ -1,0 +1,83 @@
+(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_107744-ICSD
+_database_code_ICSD 107744
+_audit_creation_date 2006-10-01
+_audit_update_record 2018-08-01
+_chemical_name_common 'Zinc silver (0.955/0.045)'
+_chemical_formula_structural 'Ag0.045 Zn0.955'
+_chemical_formula_sum 'Ag0.045 Zn0.955'
+_chemical_name_structure_type Mg
+_exptl_crystal_density_diffrn 7.39
+_diffrn_ambient_temperature 291.
+_citation_title
+'An X-ray investigation on the solid solutions of certain elements in zinc'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'British Journal of Applied Physics' 1964 15 1309 1314 BJAPAJ
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Davies, D.A.'
+primary 'Owen, E.A.'
+_cell_length_a 2.7075
+_cell_length_b 2.7075
+_cell_length_c 4.7627
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 120.
+_cell_volume 30.24
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'P 63/m m c'
+_space_group_IT_number 194
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'x, x-y, -z+1/2'
+2 '-x+y, y, -z+1/2'
+3 '-y, -x, -z+1/2'
+4 '-x+y, -x, -z+1/2'
+5 '-y, x-y, -z+1/2'
+6 'x, y, -z+1/2'
+7 '-x, -x+y, z+1/2'
+8 'x-y, -y, z+1/2'
+9 'y, x, z+1/2'
+10 'x-y, x, z+1/2'
+11 'y, -x+y, z+1/2'
+12 '-x, -y, z+1/2'
+13 '-x, -x+y, -z'
+14 'x-y, -y, -z'
+15 'y, x, -z'
+16 'x-y, x, -z'
+17 'y, -x+y, -z'
+18 '-x, -y, -z'
+19 'x, x-y, z'
+20 '-x+y, y, z'
+21 '-y, -x, z'
+22 '-x+y, -x, z'
+23 '-y, x-y, z'
+24 'x, y, z'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Ag0+ 0
+Zn0+ 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_B_iso_or_equiv
+_atom_site_occupancy
+Ag1 Ag0+ 2 c 0.3333 0.6667 0.25 . 0.045
+Zn1 Zn0+ 2 c 0.3333 0.6667 0.25 . 0.955
+#End of TTdata_107744-ICSD
+#

@@ -1,0 +1,15 @@
+# Enriched CIF data with additional properties extracted,,,,,,,,,,,,,,,,,,
+_database_code_icsd,_chemical_formula_sum,_cell_measurement_temperature,_diffrn_ambient_temperature,_chemical_name_structure_type,_exptl_crystal_density_diffrn,_chemical_formula_weight,_cell_length_a,_cell_length_b,_cell_length_c,_cell_angle_alpha,_cell_angle_beta,_cell_angle_gamma,_cell_volume,_cell_formula_units_z,_symmetry_space_group_name_H-M,_space_group_IT_number,_diffrn_ambient_pressure,type
+602228,Ba1 Si2,,,SrSi2,4.25,,6.715(3),6.715(3),6.715(3),90,90,90,302.79,,P 43 3 2,212,,experimental
+165985,Ge2 Pd2 Sr1,,,ThCr2Si2,7.52,,4.4088(2),4.4088(2),10.1270(8),90,90,90,196.84,,I 4/m m m,139,,experimental
+977902,Fe0.96 Se1,,773,NiAs,6.04,,3.7565(1),3.7565(1),5.9621(1),90,90,120,72.86,,P 63/m m c,194,,experimental
+19128,Ag0.05 Sn0.98 Te1,,,NaCl,6.61,,6.304,6.304,6.304,90,90,90,250.52,,F m -3 m,225,,experimental
+604645,Ag0.05 Al0.95,,,Cu,3.11,,4.0447,4.0447,4.0447,90,90,90,66.17,,F m -3 m,225,,experimental
+977901,Fe1 Se1,,673,FeSe,5.47,,3.8280(2),3.8280(2),5.5821(3),90,90,90,81.8,,P 4/n m m Z,129,,experimental
+107744,Ag0.045 Zn0.955,,291,Mg,7.39,,2.7075,2.7075,4.7627,90,90,120,30.24,,P 63/m m c,194,,experimental
+652741,Sn1 Te1,,300,NaCl,6.48,,6.319,6.319,6.319,90,90,90,252.32,,F m -3 m,225,,experimental
+977903,Fe1 Se1,,293,FeSe,5.7,,3.7719(1),3.7719(1),5.5237(3),90,90,90,78.59,,P 4/n m m Z,129,,experimental
+202497,Ba2 Cu3 O6.83 Y1,,,YBa2Cu3O7-x(tet),6.35,,3.8259(2),3.8864(3),11.669(1),90,90,90,173.51,,P m m m,47,,experimental
+202498,Ba2 Cu3 O6.92 Y1,,,YBa2Cu3O7-x(tet),6.37,,3.8243(2),3.8862(3),11.667(1),90,90,90,173.39,,P m m m,47,,experimental
+1237,Ba1 Si2,,,BaSi2,4.25,,4.047(3),4.047(3),5.330(5),90,90,120,75.6,,P -3 m 1,164,,experimental
+640614,In1 Te1,,296,NaCl,6.9,,6.158,6.158,6.158,90,90,90,233.52,,F m -3 m,225,,experimental

@@ -1,0 +1,91 @@
+(C) 2022 by FIZ Karlsruhe - Leibniz Institute for Information Infrastructure.  All rights reserved.
+data_165985-ICSD
+_database_code_ICSD 165985
+_audit_creation_date 2010-08-01
+_chemical_name_common 'Strontium palladium germanide (1/2/2)'
+_chemical_formula_structural 'Sr Pd2 Ge2'
+_chemical_formula_sum 'Ge2 Pd2 Sr1'
+_chemical_name_structure_type ThCr2Si2
+_exptl_crystal_density_diffrn 7.52
+_citation_title 'Superconductivity in Sr Pd2 Ge2'
+loop_
+_citation_id
+_citation_journal_full
+_citation_year
+_citation_journal_volume
+_citation_page_first
+_citation_page_last
+_citation_journal_id_ASTM
+primary 'Physical Review B: Condensed Matter and Materials Physics' 2009 79 1 5
+PRBMDO
+loop_
+_citation_author_citation_id
+_citation_author_name
+primary 'Fujii, H.'
+primary 'Sato, A.'
+_cell_length_a 4.4088(2)
+_cell_length_b 4.4088(2)
+_cell_length_c 10.1270(8)
+_cell_angle_alpha 90.
+_cell_angle_beta 90.
+_cell_angle_gamma 90.
+_cell_volume 196.84
+_cell_formula_units_Z 2
+_space_group_name_H-M_alt 'I 4/m m m'
+_space_group_IT_number 139
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 'y, x, -z'
+2 '-y, -x, -z'
+3 '-y, x, -z'
+4 'y, -x, -z'
+5 '-x, y, -z'
+6 'x, -y, -z'
+7 'x, y, -z'
+8 '-x, -y, -z'
+9 '-y, -x, z'
+10 'y, x, z'
+11 'y, -x, z'
+12 '-y, x, z'
+13 'x, -y, z'
+14 '-x, y, z'
+15 '-x, -y, z'
+16 'x, y, z'
+17 'y+1/2, x+1/2, -z+1/2'
+18 '-y+1/2, -x+1/2, -z+1/2'
+19 '-y+1/2, x+1/2, -z+1/2'
+20 'y+1/2, -x+1/2, -z+1/2'
+21 '-x+1/2, y+1/2, -z+1/2'
+22 'x+1/2, -y+1/2, -z+1/2'
+23 'x+1/2, y+1/2, -z+1/2'
+24 '-x+1/2, -y+1/2, -z+1/2'
+25 '-y+1/2, -x+1/2, z+1/2'
+26 'y+1/2, x+1/2, z+1/2'
+27 'y+1/2, -x+1/2, z+1/2'
+28 '-y+1/2, x+1/2, z+1/2'
+29 'x+1/2, -y+1/2, z+1/2'
+30 '-x+1/2, y+1/2, z+1/2'
+31 '-x+1/2, -y+1/2, z+1/2'
+32 'x+1/2, y+1/2, z+1/2'
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+Sr0+ 0
+Pd0+ 0
+Ge0+ 0
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_occupancy
+Sr1 Sr0+ 2 a 0 0 0 0.0146(1) 1.
+Pd1 Pd0+ 4 d 0 0.5 0.25 0.0188(1) 1.
+Ge1 Ge0+ 4 e 0 0 0.37034(5) 0.0168(1) 1.
+#End of TTdata_165985-ICSD
+#

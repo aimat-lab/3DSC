@@ -94,7 +94,7 @@ Additionally, you can optionally add a column `type` which can specify each stru
 
 It is up to you if and how you want to make use of this option. In the original 3DSC<sub>ICSD</sub> dataset, all structures that were marked in the ICSD to be theoretical were excluded. If you would like to reproduce the 3DSC<sub>ICSD</sub> from the paper but you can't find this information, you can simply include only IDs which are listed in the file `3DSC_ICSD_only_IDs.csv`. However, please note that you cannot simply match the ICSD IDs from this file with their ICSD structures since many of them have not undergone artificial doping. Also please note that the ICSD IDs differ between the API and the website and the ICSD IDs specified in this file are the one from the API.
 
-After downloading the cifs and saving the properties in `ICSD_subset.csv`, you can simply put them into a folder structure identical to the one in `superconductors_3D/data/` and run the `make_3DSC` command, providing the path to the new data directory.
+After downloading the cifs and saving the properties in `ICSD_subset.csv`, you can simply put them into a folder structure identical to the one in `superconductors_3D/data/` and run the `make_3DSC` command, providing the path to the new data directory. Note that the output are 1035 structures encompassing 544 superconductors, even though we only provide 13 structures in this repository. This is due to the artificial doping that is performed.
 
 ## Reproducing the results from the 3DSC paper
 
