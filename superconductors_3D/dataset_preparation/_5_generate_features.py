@@ -97,7 +97,6 @@ def calculate_SOAP_features(df, rcut, nmax, lmax, sigma, crossover, n_pca_compon
     """
     from superconductors_3D.dataset_preparation.utils.DisorderedSOAP.DisorderedSOAP import DisorderedSOAP, \
         get_all_elements, distance
-    from sklearn.decomposition import PCA, TruncatedSVD
 
     print(f'Start generating SOAP features with {n_cpus} cpus.')
 
@@ -123,9 +122,6 @@ def calculate_SOAP_features(df, rcut, nmax, lmax, sigma, crossover, n_pca_compon
     print('Size of soap_features in sparse:', soap_features.data.nbytes)
     print('Shape of soap_features:', soap_features.shape)
 
-
-    # Reduce dimension with SVD and PCA.
-
     # TruncatedSVD takes only csr and csc sparse format.
     soap_features = soap_features.tocsc()
 
@@ -135,6 +131,7 @@ def calculate_SOAP_features(df, rcut, nmax, lmax, sigma, crossover, n_pca_compon
 
     # Make PCA of SOAP features.
     if n_pca_components > 0:
+        from sklearn.decomposition import PCA
 
         n_data_points = len(df)
         if n_pca_components > n_data_points:
@@ -146,6 +143,7 @@ def calculate_SOAP_features(df, rcut, nmax, lmax, sigma, crossover, n_pca_compon
         print(f'Reduce number of features using PCA to {n_pca_components}.')
         soap_features = soap_features.todense()
         pca = PCA(n_components=n_pca_components, copy=False)
+        soap_features = np.asarray(soap_features)
         pca_features = pca.fit_transform(soap_features)
 
         explained_variance = pca.explained_variance_ratio_
@@ -198,7 +196,7 @@ def generate_features(input_csv_data, output_graph_dir, output_csv_data, exclude
 
 if __name__ == '__main__':
         
-    database = 'MP'         # change this or parse from cmd
+    database = 'ICSD'         # change this or parse from cmd
     n_cpus = 1             # change this or parse from cmd
     
     
@@ -208,7 +206,7 @@ if __name__ == '__main__':
     parser.add_argument('--database', '-d', type=str)
     parser.add_argument('--n-cpus', '-n', dest='n_cpus', type=int)
     args = parser.parse_args()
-    datadir = 'data2'
+    datadir = '/Users/timosommer/Downloads/test_3DSC/data2'
     database = args.database if not args.database is None else database
     n_cpus = args.n_cpus if not args.n_cpus is None else n_cpus
     
@@ -221,7 +219,7 @@ if __name__ == '__main__':
     excluded_output_csv_data = projectpath(datadir, 'intermediate', database, f'excluded_5_features_SC_{database}.csv')
     
     
-    n_pca_components = 100
+    n_pca_components = 0 # If 0, no PCA of DSOAP features is done. Otherwise, sklearn needs to be installed.
     
     # Hyperparameters for SOAP from 2021 Fung
     rcut = 4.270

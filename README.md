@@ -96,9 +96,17 @@ It is up to you if and how you want to make use of this option. In the original 
 
 After downloading the cifs and saving the properties in `ICSD_subset.csv`, you can simply put them into a folder structure identical to the one in `superconductors_3D/data/` and run the `make_3DSC` command, providing the path to the new data directory. Note that the output are 1035 structures encompassing 544 superconductors, even though we only provide 13 structures in this repository. This is due to the artificial doping that is performed.
 
+### Adding ML features
+
+Usually, the ML features (DSOAP, MAGPIE and graphs for GNNs) are not calculated for the dataset, since they are not necessary for the generation of the 3DSC. For calculating the ML features, all you need to do is installing the corresponding python packages before running `make_3DSC`. The necessary packages are:
+- DSOAP: Install `dscribe<=1.0`
+- MAGPIE: Install `chemml`
+- Graphs: Install `megnet` & `tensorflow`
+Installing `dscribe` and generating the DSOAP features should be no issue. However, for `chemml` and `megnet`, you need to install `tensorflow`, which can often be a bit of a challenge and give strange error messages.
+
 ## Reproducing the results from the 3DSC paper
 
-First of all, let's reproduce the exact versions of the conda environment. The exact conda environment was generated and tested using Linux with conda 4.13.0 and git 2.38.1. For Mac and Windows, we have not been able to reproduce the exact conda environment because of several difficult to install packages (such as chemml), that are necessary for the machine learning part. However, you can still generate the 3DSC, which should work on all systems, as explained  in [Generating the 3DSC database](#generating-the-3dsc-database).
+To exactly reproduce the paper, first of all let's reproduce the exact version of the conda environment. The exact conda environment was generated and tested using Linux with conda 4.13.0 and git 2.38.1. For Mac and Windows, we have not been able to reproduce the exact conda environment because of several difficult to install packages (such as chemml), that are necessary for the machine learning part. However, you can still generate the 3DSC, which should work on all systems, as explained  in [Generating the 3DSC database](#generating-the-3dsc-database).
 
 In the cloned directory, run the following commands:
 1. Setup the conda environment with name 3DSC. First, check your ~/.condarc file and temporarily set

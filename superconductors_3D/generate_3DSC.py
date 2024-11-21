@@ -165,7 +165,7 @@ def main(crystal_database, n_cpus, datadir):
 #     generate_graphs = False     # If generating graphs for GNNs is wished. Not included in paper.
 # =============================================================================
     # Reduce high-dimensional SOAP features using PCA and add them as additional features, next to the original SOAP features.
-    n_pca_components = 0    # no PCA at all
+    n_pca_components = 0    # no PCA at all. For using PCA, sklearn needs to be installed.
     # Hyperparameters for Disordered SOAP (here the same as from 2021 Fung: Benchmarking graph neural networks for materials chemistry) --> Around 8000-dimensional SOAP features
     rcut = 4.270
     nmax = 6

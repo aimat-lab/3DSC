@@ -7,8 +7,8 @@ pymatgen>=2020.0.0,<2021.0.0     # Later versions incompatible at the moment due
 ruamel.yaml<0.18.0  # Later versions incompatible with pymatgen due to removal of yaml.save_load().
 tqdm
 # Optional dependencies for calculating machine learning features in file `_5_generate_features.py`
-#dscribe<=1.0      # For DSOAP features. Later versions renamed the variables rcut, nmax, lmax to r_cut, n_max, l_max.
-#scikit-learn     # For PCA of DSOAP features
+#dscribe<=1.0     # For DSOAP features. Later versions renamed the variables rcut, nmax, lmax to r_cut, n_max, l_max.
 #chemml           # For MAGPIE features
 #megnet           # For generating graphs for graph neural networks
+#tensorflow       # Required together with megnet, even though it's not specified in the megnet requirements
 
