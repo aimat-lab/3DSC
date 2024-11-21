@@ -38,7 +38,7 @@ Please cite our paper as given in [1].
 
 ### Installation
 
-The following installation instructions have been tested on Mac, but they should work also for Linux and Windows. If you have any problem with this, please write us an issue.
+The following installation instructions have been tested on Mac, but they should work also for Linux and Windows. If you have any problem with this, please open an issue.
 1. Clone the 3DSC repository
 ```sh
 git clone https://github.com/aimat-lab/3DSC.git
