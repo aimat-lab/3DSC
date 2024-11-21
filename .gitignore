@@ -16,6 +16,7 @@ __pycache__/
 /tmp_cluster_output/
 /test_MEGNet/
 tests/
+build/
 /test_MEGNet
 /superconductors_3D/machine_learning/callback/
 /superconductors_3D/machine_learning/checkpoints/

@@ -30,6 +30,8 @@ from pymatgen.transformations.standard_transformations import AutoOxiStateDecora
 from superconductors_3D.dataset_preparation.utils.check_dataset import find_doping_pairs, get_chem_dict, standardise_chem_formula, normalise_chemdict, chemdict_to_formula, get_normalised_spg, exclude_row, normalise_pymatgen_spacegroups
 import warnings
 warnings.filterwarnings("ignore", message="Issues encountered while parsing CIF:")
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 
 
 def quantity_fracs(dict_to_normalise, dict_normalise, elements):

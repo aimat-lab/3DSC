@@ -7,17 +7,6 @@ Created on Sat Jan  9 10:55:21 2021
 This script is for cleaning the data csv from the ICSD database. The output is one csv file with the cleaned data and one csv file with the excluded data.
 """
 from superconductors_3D.utils.projectpaths import projectpath
-
-
-
-
-
-
-
-# =============================================================================
-#                                   MAIN
-# =============================================================================
-
 from datetime import datetime
 import os
 import pandas as pd
@@ -63,7 +52,7 @@ def normalise_spacegroups(spg_string):
         spg_string = get_normalised_spg(spg).hm
         return(spg_string)
 
-def clean_ICSD(in_filename, in_type_filename, out_filename, out_excluded_filename, comment, comment_excluded):
+def clean_ICSD(in_filename, out_filename, out_excluded_filename, comment, comment_excluded):
     
     important_cols = ['_database_code_icsd', '_chemical_formula_sum', 'formula_pymatgen', '_cell_measurement_temperature', '_diffrn_ambient_temperature', 'spacegroup_pymatgen',
        'crystal_system_pymatgen', 'lata_pymatgen', 'latb_pymatgen',
@@ -73,7 +62,7 @@ def clean_ICSD(in_filename, in_type_filename, out_filename, out_excluded_filenam
        '_cell_length_c', '_cell_angle_alpha', '_cell_angle_beta',
        '_cell_angle_gamma', '_cell_volume', '_cell_formula_units_z',
        '_symmetry_space_group_name_H-M', '_space_group_IT_number',
-       '_diffrn_ambient_pressure', 'file_id', 'database_id', 'cif',
+       '_diffrn_ambient_pressure', 'type', 'file_id', 'database_id', 'cif',
        'valid_cif']
 
     print("Read in file.")
@@ -148,15 +137,6 @@ def clean_ICSD(in_filename, in_type_filename, out_filename, out_excluded_filenam
     # Get column with normalised quantities.
     df_correct["norm_formula"] = df_correct["formula_pymatgen"].apply(standardise_chem_formula, args=(True,))
     
-    # Import info if crystal structure is experimental or theoretical.
-    df_type = pd.read_csv(in_type_filename, header=1)
-    df_correct['file_id'] = df_correct['file_id'].str.split('/').str[-1].str.split('.cif').str[0].astype(int)
-    is_experimental = df_correct['file_id'].isin(df_type['EXPERIMENTAL_INORGANIC']) | df_correct['file_id'].isin(df_type['EXPERIMENTAL_METALORGANIC'])
-    is_theoretical = df_correct['file_id'].isin(df_type['THERORETICAL_STRUCTURES'])
-    assert all(is_experimental | is_theoretical) and not any(is_experimental & is_theoretical)
-    df_correct.loc[is_experimental, 'type'] = 'experimental'
-    df_correct.loc[is_theoretical, 'type'] = 'theoretical'
-    
     # Make temperature column consistent.
     # Unify both columns.
     df_correct.loc[df_correct['_cell_measurement_temperature'].isna(), '_cell_measurement_temperature'] = df_correct['_diffrn_ambient_temperature']
@@ -194,15 +174,17 @@ def clean_ICSD(in_filename, in_type_filename, out_filename, out_excluded_filenam
     
     
 if __name__ == '__main__':
-    
-    in_filename = projectpath('data', 'source', 'ICSD', 'cleaned', '1_all_data_ICSD_cifs_normalized.csv')
-    out_filename = projectpath('data', 'source', 'ICSD', 'cleaned', '2.1_all_data_ICSD_cleaned.csv')
-    out_excluded_filename = projectpath('data', 'source', 'ICSD', 'cleaned', 'excluded_2.1_all_data_ICSD_cleaned.csv')
-    in_type_filename = projectpath('data', 'source', 'ICSD', 'raw', 'ICSD_content_type.csv')    
+
+    datadir = 'data2'
+
+
+    in_filename = projectpath(datadir, 'source', 'ICSD', 'cleaned', '1_all_data_ICSD_cifs_normalized.csv')
+    out_filename = projectpath(datadir, 'source', 'ICSD', 'cleaned', '2.1_all_data_ICSD_cleaned.csv')
+    out_excluded_filename = projectpath(datadir, 'source', 'ICSD', 'cleaned', 'excluded_2.1_all_data_ICSD_cleaned.csv')
     comment = f'All the data from {in_filename}, but the important columns are cleaned.'
     comment_excluded = f'All the data that was not included in {out_filename} because it was filtered out.'
         
-    clean_ICSD(in_filename, in_type_filename, out_filename, out_excluded_filename, comment, comment_excluded)
+    clean_ICSD(in_filename, out_filename, out_excluded_filename, comment, comment_excluded)
     
     
     

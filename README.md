@@ -33,94 +33,98 @@ Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, the
 Note that in the github version of this dataset, we have removed the `SOAP.*` and the `MAGPIE.*` columns due to memory constraints. You can get these columns by executing the matching and adaptation algorithm as described below.
 
 
-### How to cite the 3DSC
+## How to cite the 3DSC
 Please cite our paper as given in [1].
 
-
-## Reproducing the 3DSC paper
-
-
-### Prerequisites
-
-This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.13.0 and git 2.38.1. Please ensure conda and git are installed on your system.
-
+## Generating the 3DSC database
 
 ### Installation
 
+1. Clone the 3DSC repository
+```sh
+git clone https://github.com/aimat-lab/3DSC.git
+```
+2. Change into the cloned directory
+```sh
+cd 3DSC
+```
+3. Install the package `superconductors_3D` into the current environment via
+ ```sh
+pip install .
+ ```
+Sometimes, this can throw an error because of an issue with `setuptools>58.0.0`. In this case, install `setupools=58` before installing the package:
+```sh
+conda create --name 3DSC python=3.9 setuptools=58 pip
+conda activate 3DSC
+pip install .
+```
 
-1. Download the 3DSC repository into the current directory
-   ```sh
-   git clone https://github.com/aimat-lab/3DSC.git
-   ```
-2. Change into this directory
-   ```sh
-   cd 3DSC
-   ```
-3. Setup the conda environment with name 3DSC. First, check your ~/.condarc file and temporarily set
+### Generate the 3DSC<sub>MP</sub> database
+You can run the code to reproduce the 3DSC database, based on structures either from the Materials Project (MP) or the ICSD. The following command will generate the 3DSC<sub>MP</sub> using one core with data stored at `superconductors_3D/data`, i.e. this command works if you are in the cloned directory. 
+```sh
+make_3DSC -d MP -n 1 -dd superconductors_3D/data
+```
+The command `make_3DSC` automatically runs through all stages of the matching and adaptation algorithm described in the paper: In step 0-2, the cif files, the Materials Project database and the SuperCon database provided under `superconductors_3D/data/source/MP` are cleaned. In step 3, the SuperCon entries and the crystal structures are matched based on their chemical composition. In step 4, artificial doping is performed for all matches where the relative chemical formula doesn't match perfectly. In step 5, the chemical composition and the three-dimensional crystal structure are featurized using the MAGPIE and the Disordered SOAP algorithm. The latter is an extension of the SOAP algorithm which is described in the SI of our paper. Finally, matches are ranked and only the best matches are kept. Note that in general multiple matches can be ranked equally and will all end up in the final 3DSC dataset. Also note that step 5 (featurization) is usually skipped, except if you manually install the needed python packages(see requirements.txt).
+
+The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`. Running this command with 1 core needs about 0.5h.
+
+#### The 3DSC<sub>ICSD</sub>
+The 3DSC<sub>ICSD</sub> is generated in the same way as the 3DSC<sub>MP</sub>, but with the flag `-d ICSD`. However, due to licensing reasons, the full data of the ICSD is not provided in this directory. Instead, we provide 13 ICSD structures in this repository to show the general structure of the data. Also, we provide the ICSD IDs of all structures in the final big 3DSC<sub>ICSD</sub> dataset from the paper under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. Thus, it should be easy for you to recreate the dataset and check if you get the same data.
+
+If you have access to the ICSD, your first step is to download all the cif files. Then, you need to extract the following properties from the cif file and save them in a file called `ICSD_subset.csv`: 
+- `_database_code_icsd`
+- `_chemical_formula_sum`
+- `_cell_measurement_temperature`
+- `_diffrn_ambient_temperature`
+- `_chemical_name_structure_type`
+- `_exptl_crystal_density_diffrn`
+- `_chemical_formula_weight`
+- `_cell_length_a`
+- `_cell_length_b`
+- `_cell_length_c`
+- `_cell_angle_alpha`
+- `_cell_angle_beta`
+- `_cell_angle_gamma`
+- `_cell_volume`
+- `_cell_formula_units_z`
+- `_symmetry_space_group_name_H-M`
+- `_space_group_IT_number`
+- `_diffrn_ambient_pressure`
+
+Additionally, you can optionally add a column `type` which can specify each structure to be either 'experimental' or 'theoretical'. Structures marked as theoretical will simpy be excluded by the code.
+
+It is up to you if and how you want to make use of this option. In the original 3DSC<sub>ICSD</sub> dataset, all structures that were marked in the ICSD to be theoretical were excluded. If you would like to reproduce the 3DSC<sub>ICSD</sub> from the paper but you can't find this information, you can simply include only IDs which are listed in the file `3DSC_ICSD_only_IDs.csv`. However, please note that you cannot simply match the ICSD IDs from this file with their ICSD structures since many of them have not undergone artificial doping. Also please note that the ICSD IDs differ between the API and the website and the ICSD IDs specified in this file are the one from the API.
+
+After downloading the cifs and saving the properties in `ICSD_subset.csv`, you can simply put them into a folder structure identical to the one in `superconductors_3D/data/` and run the `make_3DSC` command, providing the path to the new data directory.
+
+### Reproducing the results from  the 3DSC paper
+
+This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.13.0 and git 2.38.1. Please ensure conda and git are installed on your system. 
+If you want to see the github repo in the state that it was for publication, please use 
+```sh
+git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
+```
+First of all, let's reproduce the exact versions of the conda environment. In the cloned directory, run the following commands:
+1. Setup the conda environment with name 3DSC. First, check your ~/.condarc file and temporarily set
    ```sh
    channel_priority: false
    ```
    After installing the conda environment you can set this parameter back to its previous value. 
    Note: If you have a very old conda version < 4.6.0, this parameter might throw errors for you, in this case try to leave it out. 
-4. Now read in the provided conda environment file to generate the correct conda environment:
+2. Now read in the provided conda environment file to generate the correct conda environment:
    ```sh
    conda env create -f ./environment.yaml --name 3DSC
    ```
    Note: It is important that this is done once for each directory in which this repo will be installed. If you clone the repo into another local directory, do this step again, don't skip it. The conda environment will be linked to the absolute path to the cloned version of this repo.
-5. Activate the conda environment:
+3. Activate the conda environment:
    ```sh
    conda activate 3DSC
    ```
-
-   
-### Reproduction
-In the following we will describe the exact steps to reproduce most of the paper: The generation of the 3DSC<sub>MP</sub>, most of the statistical plots shown in the paper and the most important machine learning results. If you want to automatically perform all of these steps please run
+Now, we can run the exact steps to reproduce most of the paper: The generation of the 3DSC<sub>MP</sub>, most of the statistical plots shown in the paper and the most important machine learning results: 
 ```sh
 python superconductors_3D/run_everything.py -d MP -n N_CPUS
 ```
-Please replace N_CPUS with the number of cores that you want to use in parallel, e.g. `1`. The flag `-d MP` means that we create the 3DSC using crystal structures from the Materials Project. For memory reasons it is recommended to use only one core on a laptop.
-
-If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see section [The 3DSC<sub>ICSD</sub>](#the-3dscicsd).
-
-If you want to see the github repo in the state that it was for publication, please use 
-```sh
-git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
-```
-
-
-#### Generating the 3DSC dataset
-To generate the 3DSC dataset, run the command
-```sh
-python superconductors_3D/generate_3DSC.py -d MP -n N_CPUS
-```
-The script `generate_3DSC.py` automatically runs through all stages of the matching and adaptation algorithm described in the paper: In step 0-2, the cif files, the Materials Project database and the SuperCon database are cleaned. In step 3, the SuperCon entries and the crystal structures are matched based on their chemical composition. In step 4, artificial doping is performed for all matches where the relative chemical formula doesn't match perfectly. In step 5, the chemical composition and the three-dimensional crystal structure are featurized using the MAGPIE and the Disordered SOAP algorithm. The latter is an extension of the SOAP algorithm which is described in the SI of our paper. Finally, matches are ranked and only the best matches are kept. Note that in general multiple matches can be ranked equally and will all end up in the final 3DSC dataset.
-The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`. Running this command with 1 core needs about 0.5h.
-
-
-#### Statistical plots
-To generate the statistical plots shown in the paper please run the command
-```sh
-python superconductors_3D/plot_dataset_statistics.py -d MP
-```
-The results will be saved under `results/dataset_statistics/SC_MP_matches`. Running this command with 1 core needs few minutes.
-
-
-#### Machine learning results
-To reproduce the most important machine learning results shown in the paper please run the command
-```sh
-python superconductors_3D/train_ML_models.py
-```
-The results will be saved under `results/machine_learning`.
-
-Warning: Please note that because we removed the `SOAP` and `MAGPIE` columns from the github version of the 3DSC<sub>MP</sub>, you need to first run the command above to generate the 3DSC<sub>MP</sub> before running this command. Additionally, please note that this command needs a couple of hours and several GB of disc space to run, because per default it trains 100 models (and 25 for the 3DSC<sub>ICSD</sub>) for 10 different train fractions in order to reproduce the results of the paper. If you want to modify these numbers you should be able to quickly identify them in the source code.
-
-
-#### The 3DSC<sub>ICSD</sub>
-Above we have focused on the 3DSC<sub>MP</sub> which is based on freely accessible crystal structures from the Materials Project database[4]. We have also created another 3DSC database, based on crystal structures from the ICSD, the 3DSC<sub>ICSD</sub>. However, because the crystal structures from the ICSD are not available freely, we cannot provide the source files here. Instead, we provide the 3DSC<sub>ICSD</sub> only with the ICSD IDs of the original matched crystal structures. *Note that many of the crystal structures in the 3DSC<sub>ICSD</sub> are artificially doped by our algorithm and therefore differ from the original ICSD structure with this ID.*
-
-The original ICSD IDs can be found under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. The ICSD ID can be found in the column `database_id_2` and is prepended by 'ICSD-'. Note that this is the ICSD ID from the API, not from the website, therefore you cannot find the corresponding structure by searching for the ID on the ICSD website.
-
-If you have access to the ICSD, you can download it and run it through the matching and adaptation algorithm yourself.
+Please replace N_CPUS with the number of cores that you want to use in parallel, e.g. `1`. The flag `-d MP` means that we create the 3DSC using crystal structures from the Materials Project. For memory reasons it is recommended to use only one core on a laptop. If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see section [The 3DSC<sub>ICSD</sub>](#the-3dscicsd).
 
 
 ## License

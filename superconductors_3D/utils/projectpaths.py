@@ -10,6 +10,7 @@ Contains the path to the source directory of this paper.
 import os 
 import inspect
 import superconductors_3D
+from pathlib import Path
 
 source_dir = os.path.dirname(inspect.getfile(superconductors_3D))
 
@@ -19,12 +20,12 @@ def projectpath(*relpaths):
 
 class Data_Paths():
     
-    def __init__(self, crystal_db_name, datadir='data'):
+    def __init__(self, crystal_db_name, datadir=None):
         self.database = crystal_db_name
-        self.dir = projectpath(datadir)
+        self.dir = Path(datadir).resolve() or projectpath('data')
         self.supercon_csv = os.path.join(self.dir, 'source', 'SuperCon', 'raw', 'Supercon_data_by_2018_Stanev.csv')
         self.crystal_db_csv = os.path.join(self.dir,  'source', self.database, 'raw', f'{self.database}_subset.csv')
-        self.crystal_db_cifs_dir = projectpath(self.dir, 'source', self.database, 'raw', 'cifs')
+        self.crystal_db_cifs_dir = os.path.join(self.dir, 'source', self.database, 'raw', 'cifs')
         
         # Step 1: Output of cleaning cifs.
         self.cifs_normalized = os.path.join(self.dir, 'source', self.database, 'cleaned', f'1_all_data_{self.database}_cifs_normalized.csv')
@@ -44,8 +45,6 @@ class Data_Paths():
         self.crystal_db_cleaned_excluded = os.path.join(self.dir, 'source', self.database, 'cleaned', f'excluded_2.1_all_data_{self.database}_cleaned.csv')
         self.crystal_db_cleaned_comment = f'All the data from {self.cifs_normalized}, but the important columns are cleaned.'
         self.crystal_db_cleaned_comment_excluded = f'All the data that was not included in {self.crystal_db_cleaned} because it was filtered out.'
-        # Only for the ICSD:
-        self.icsd_type_filename = os.path.join(self.dir, 'source', 'ICSD', 'raw', 'ICSD_content_type.csv')  
         
         # Step 3: Match SuperCon and 3D crystal structure entries by chemical formula
         self.merged_sc_crystal_db = os.path.join(self.dir, 'intermediate', self.database, f'3_SC_{self.database}_matches.csv')

@@ -1,0 +1,14 @@
+ase
+gemmi
+joblib
+numpy<1.24        # Later versions incompatible with pymatgen due to call of np.int which was removed in numpy 1.24
+pandas<2          # Incompatible with pandas >=2.0 because of deprecated function pd.Dataframe.append()
+pymatgen>=2020.0.0,<2021.0.0     # Later versions incompatible at the moment due to various changes in pymatgen
+ruamel.yaml<0.18.0  # Later versions incompatible with pymatgen due to removal of yaml.save_load().
+tqdm
+# Optional dependencies for calculating machine learning features in file `_5_generate_features.py`
+#dscribe<=1.0      # For DSOAP features. Later versions renamed the variables rcut, nmax, lmax to r_cut, n_max, l_max.
+#scikit-learn     # For PCA of DSOAP features
+#chemml           # For MAGPIE features
+#megnet           # For generating graphs for graph neural networks
+

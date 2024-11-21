@@ -178,7 +178,8 @@ if __name__ == '__main__':
     
     print('Step 1: Clean cifs.')
     clean_cifs(
-                input_raw_csv_data=data.crystal_db_csv, 
+                input_raw_csv_data=data.crystal_db_csv,
+                input_cifs_dir=data.crystal_db_cifs_dir,
                 output_csv_cleaned_with_pymatgen=data.cifs_normalized,
                 output_excluded=data.cifs_normalized_excluded,
                 output_dir_cleaned_cifs=data.output_dir_cleaned_cifs, 
@@ -214,7 +215,6 @@ if __name__ == '__main__':
     elif crystal_database == 'ICSD':
         clean_ICSD(
                     in_filename=data.cifs_normalized,
-                    in_type_filename=data.icsd_type_filename,
                     out_filename=data.crystal_db_cleaned,
                     out_excluded_filename=data.crystal_db_cleaned_excluded,
                     comment=data.crystal_db_cleaned_comment,

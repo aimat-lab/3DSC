@@ -202,7 +202,7 @@ def round_up_int(x):
     result = int(np.ceil(x))
     return(result)
 
-def clean_cifs(input_raw_csv_data, output_csv_cleaned_with_pymatgen, output_excluded, output_dir_cleaned_cifs, comment, comment_excluded, database, n_cpus, timeout_min, crystal_db_frac=1, verbose=True):
+def clean_cifs(input_raw_csv_data, input_cifs_dir, output_csv_cleaned_with_pymatgen, output_excluded, output_dir_cleaned_cifs, comment, comment_excluded, database, n_cpus, timeout_min, crystal_db_frac=1, verbose=True):
         
     df = pd.read_csv(input_raw_csv_data, header=1)
     
@@ -211,15 +211,16 @@ def clean_cifs(input_raw_csv_data, output_csv_cleaned_with_pymatgen, output_excl
         print(f'Downsampling crystal database for debugging to a fraction of {crystal_db_frac}.')
         df = df.sample(frac=crystal_db_frac)
     
-    # My raw ICSD dataframe is not yet perfectly formatted.
+    # The raw ICSD dataframe is not yet perfectly formatted.
     if database == 'ICSD':
         # Doesn't have database_id in the raw data yet.
         df['database_id'] = database + '-' + df['_database_code_icsd'].astype(str)
-        assert not any(df.duplicated('database_id'))
-        # In the raw data the cifs have an absolute path.
-        cif_dir = os.path.join('data', 'source', 'ICSD', 'raw', 'cifs')
-        cif_names = df['file_id'].str.split('/').str[-1].astype(str)
-        df['cif'] = cif_names.apply(lambda cifname: os.path.join(cif_dir, cifname))
+        df['file_id'] = df['_database_code_icsd']   # standardized name for the ID column between all databases
+        assert not any(df.duplicated('file_id'))
+        df['cif'] = df['file_id'].apply(lambda dbid: os.path.join(input_cifs_dir, f'{database.lower()}_{dbid:>06}.cif'))
+        # type can be specified as 'experimental' or 'theoretical' or left empty
+        if not 'type' in df.columns:
+            df['type'] = 'experimental'
     
     print(f'Number of cpus: {n_cpus}')
     print(f'Number of lines in csv: {len(df)}')
@@ -251,6 +252,7 @@ if __name__ == "__main__":
     datadir = 'data2'
 
     input_raw_csv_data = projectpath(datadir, 'source', database, 'raw', f'0_all_data_{database}.csv')
+    input_cifs_dir = projectpath(datadir, 'source', database, 'raw', 'cifs')
     output_csv_cleaned_with_pymatgen = projectpath(datadir, 'source', database, 'cleaned', f'1_all_data_{database}_cifs_normalized.csv')
     output_excluded = projectpath(datadir, 'source', database, 'cleaned', f'excluded_1_all_data_{database}_cifs_normalized.csv')
     output_dir_cleaned_cifs = os.path.join(datadir, 'source', database, 'cleaned', 'cifs')
@@ -262,7 +264,7 @@ if __name__ == "__main__":
     timeout_min = 2        # timeout per structure (in minutes)
     
     print(f'Database: {database}')
-    clean_cifs(input_raw_csv_data, output_csv_cleaned_with_pymatgen, output_excluded, output_dir_cleaned_cifs, comment, comment_excluded, database, n_cpus, timeout_min)
+    clean_cifs(input_raw_csv_data, input_cifs_dir, output_csv_cleaned_with_pymatgen, output_excluded, output_dir_cleaned_cifs, comment, comment_excluded, database, n_cpus, timeout_min)
 
     
     

@@ -9,6 +9,7 @@ Generate the 3DSC by running the whole matching and artificial doping pipeline, 
 """
 from superconductors_3D.utils.projectpaths import projectpath, Data_Paths
 import pandas as pd
+from pathlib import Path
 import argparse
 import os
 import warnings
@@ -120,6 +121,7 @@ def parse_input_parameters():
     parser = argparse.ArgumentParser()
     parser.add_argument('--database', '-d', dest='database', type=str)
     parser.add_argument('--n-cpus', '-n', dest='n_cpus', type=int)
+    parser.add_argument('--datadir', '-dd', dest='datadir', type=str)
     args = parser.parse_args()
     return args
 
@@ -184,7 +186,7 @@ def main(crystal_database, n_cpus, datadir):
     
     # For debugging: use only a fraction of each database
     sc_frac = 1
-    crystal_db_frac = 1     # TODO
+    crystal_db_frac = 1
     
 
     
@@ -199,7 +201,8 @@ def main(crystal_database, n_cpus, datadir):
     
     print_title('Step 1: Clean cifs.')
     clean_cifs(
-                input_raw_csv_data=data.crystal_db_csv, 
+                input_raw_csv_data=data.crystal_db_csv,
+                input_cifs_dir=data.crystal_db_cifs_dir,
                 output_csv_cleaned_with_pymatgen=data.cifs_normalized,
                 output_excluded=data.cifs_normalized_excluded,
                 output_dir_cleaned_cifs=data.output_dir_cleaned_cifs, 
@@ -235,7 +238,6 @@ def main(crystal_database, n_cpus, datadir):
     elif crystal_database == 'ICSD':
         clean_ICSD(
                     in_filename=data.cifs_normalized,
-                    in_type_filename=data.icsd_type_filename,
                     out_filename=data.crystal_db_cleaned,
                     out_excluded_filename=data.crystal_db_cleaned_excluded,
                     comment=data.crystal_db_cleaned_comment,
@@ -309,13 +311,14 @@ def main(crystal_database, n_cpus, datadir):
 
 if __name__ == '__main__':
     
-    database = 'MP'
-    n_cpus = 1
-    datadir = 'data2'
+    database = 'MP'                                               # 'MP' or 'ICSD'
+    n_cpus = 1                                                      # Number of CPUs to use for parallelization
+    datadir = Path('/Users/timosommer/Downloads/test_3DSC/data2')   # Path to the data directory
     
     args = parse_input_parameters()
     database = args.database if not args.database is None else database
     n_cpus = args.n_cpus if not args.n_cpus is None else n_cpus
+    datadir = args.datadir if not args.datadir is None else datadir
     
     main(database, n_cpus, datadir)
                     
