@@ -40,6 +40,7 @@ Please cite our paper as given in [1].
 
 ### Installation
 
+The following installation instructions have been tested on Mac, but they should work also for Linux and Windows. If you have any problem with this, please write us an issue.
 1. Clone the 3DSC repository
 ```sh
 git clone https://github.com/aimat-lab/3DSC.git
@@ -52,7 +53,7 @@ cd 3DSC
  ```sh
 pip install .
  ```
-Sometimes, this can throw an error because of an issue with `setuptools>58.0.0`. In this case, install `setupools=58` before installing the package:
+Sometimes, this can throw an error because of an issue with `setuptools>58.0.0`. In this case, install `setuptools=58` before installing the package, for example like this:
 ```sh
 conda create --name 3DSC python=3.9 setuptools=58 pip
 conda activate 3DSC
@@ -66,7 +67,7 @@ make_3DSC -d MP -n 1 -dd superconductors_3D/data
 ```
 The command `make_3DSC` automatically runs through all stages of the matching and adaptation algorithm described in the paper: In step 0-2, the cif files, the Materials Project database and the SuperCon database provided under `superconductors_3D/data/source/MP` are cleaned. In step 3, the SuperCon entries and the crystal structures are matched based on their chemical composition. In step 4, artificial doping is performed for all matches where the relative chemical formula doesn't match perfectly. In step 5, the chemical composition and the three-dimensional crystal structure are featurized using the MAGPIE and the Disordered SOAP algorithm. The latter is an extension of the SOAP algorithm which is described in the SI of our paper. Finally, matches are ranked and only the best matches are kept. Note that in general multiple matches can be ranked equally and will all end up in the final 3DSC dataset. Also note that step 5 (featurization) is usually skipped, except if you manually install the needed python packages(see requirements.txt).
 
-The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`. Running this command with 1 core needs about 0.5h.
+The intermediate data will be saved under `superconductors_3D/data/intermediate/MP` and the final data will be saved under `superconductors_3D/data/final/MP`.
 
 #### The 3DSC<sub>ICSD</sub>
 The 3DSC<sub>ICSD</sub> is generated in the same way as the 3DSC<sub>MP</sub>, but with the flag `-d ICSD`. However, due to licensing reasons, the full data of the ICSD is not provided in this directory. Instead, we provide 13 ICSD structures in this repository to show the general structure of the data. Also, we provide the ICSD IDs of all structures in the final big 3DSC<sub>ICSD</sub> dataset from the paper under `superconductors_3D/data/final/ICSD/3DSC_ICSD_only_IDs.csv`. Thus, it should be easy for you to recreate the dataset and check if you get the same data.
@@ -97,14 +98,11 @@ It is up to you if and how you want to make use of this option. In the original 
 
 After downloading the cifs and saving the properties in `ICSD_subset.csv`, you can simply put them into a folder structure identical to the one in `superconductors_3D/data/` and run the `make_3DSC` command, providing the path to the new data directory.
 
-### Reproducing the results from  the 3DSC paper
+## Reproducing the results from the 3DSC paper
 
-This code was developed and tested with and for Linux. Most likely it will throw errors for other OS. To install the Python packages we used conda 4.13.0 and git 2.38.1. Please ensure conda and git are installed on your system. 
-If you want to see the github repo in the state that it was for publication, please use 
-```sh
-git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
-```
-First of all, let's reproduce the exact versions of the conda environment. In the cloned directory, run the following commands:
+First of all, let's reproduce the exact versions of the conda environment. The exact conda environment was generated and tested using Linux with conda 4.13.0 and git 2.38.1. For Mac and Windows, we have not been able to reproduce the exact conda environment because of several difficult to install packages (such as chemml), that are necessary for the machine learning part. However, you can still generate the 3DSC, which should work on all systems, as explained  in [Generating the 3DSC database](#generating-the-3dsc-database).
+
+In the cloned directory, run the following commands:
 1. Setup the conda environment with name 3DSC. First, check your ~/.condarc file and temporarily set
    ```sh
    channel_priority: false
@@ -124,8 +122,12 @@ Now, we can run the exact steps to reproduce most of the paper: The generation o
 ```sh
 python superconductors_3D/run_everything.py -d MP -n N_CPUS
 ```
-Please replace N_CPUS with the number of cores that you want to use in parallel, e.g. `1`. The flag `-d MP` means that we create the 3DSC using crystal structures from the Materials Project. For memory reasons it is recommended to use only one core on a laptop. If you want to use the crystal structures from the ICSD you need to change this flag to `-d ICSD`. For how to deal with the 3DSC<sub>ICSD</sub>, please see section [The 3DSC<sub>ICSD</sub>](#the-3dscicsd).
+For the 3DSC<sub>ICSD</sub>, see above.
 
+By the way: If you want to see the github repo in the state that it was for publication, please use 
+```sh
+git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
+```
 
 ## License
 The 3DSC<sub>MP</sub> database is subject to the Creative Commons Attribution 4.0 License, implying that the content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from the repository owner, provided proper attribution is given to the repository owner. All software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
