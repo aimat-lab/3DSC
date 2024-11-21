@@ -5,7 +5,6 @@
 # The 3DSC database
 This repository contains data and code of the 3DSC database, the first extensive database of superconductors with their critical temperature *T*<sub>c</sub> and their three-dimensional crystal structure. We describe the database and the algorithm to generate it in our paper https://www.nature.com/articles/s41597-023-02721-y.
 
-
 ## Using the 3DSC database
 
 The 3DSC database can be found on figshare under https://doi.org/10.6084/m9.figshare.c.6914407.v1. The zip file can be extracted via the command `tar -xzvf 3DSC_MP.tar.gz`.
@@ -31,7 +30,6 @@ Additionally to these three basic columns of the 3DSC<sub>MP</sub> database, the
 - `cubic`, `hexagonal`, `monoclinic`, `orthorhombic`, `tetragonal`, `triclinic`, `trigonal`, `primitive`, `base-centered`, `body-centered`, `face-centered`: The symmetry features as described in the supporting information of our paper.
 
 Note that in the github version of this dataset, we have removed the `SOAP.*` and the `MAGPIE.*` columns due to memory constraints. You can get these columns by executing the matching and adaptation algorithm as described below.
-
 
 ## How to cite the 3DSC
 Please cite our paper as given in [1].
@@ -132,7 +130,6 @@ git checkout 2471dd51a298a854cb4f365ebd39e72c7cbf3634
 ## License
 The 3DSC<sub>MP</sub> database is subject to the Creative Commons Attribution 4.0 License, implying that the content may be copied, distributed, transmitted, and adapted, without obtaining specific permission from the repository owner, provided proper attribution is given to the repository owner. All software in this repository is subject to the MIT license. See `LICENSE.md` for more information.
 
-
 ## Origin of data
 
 We are grateful to the provider of different databases which have made the 3DSC possible:
@@ -141,7 +138,6 @@ We are grateful to the provider of different databases which have made the 3DSC 
 - The crystal structures as input for the 3DSC<sub>MP</sub> are freely accessible and provided by the Materials Project database[4] under a CC BY 4.0 license.
 - The crystal structures as input for the 3DSC<sub>ICSD</sub> are provided by the Inorganic Crystal Structure Database (ICSD)[5], which is a commercial database. Access to the ICSD is possible by buying a license.
 
-
 ## References
 1. Sommer, T., Willa, R., Schmalian, J. et al. 3DSC - a dataset of superconductors including crystal structures. Sci Data 10, 816 (2023). https://doi.org/10.1038/s41597-023-02721-y
 2. Stanev, V. et al. Machine learning modeling of superconducting critical temperature. npj Comput. Mater. 4, 29, 10.1038/s41524-018-0085-8 (2018). ArXiv: 1709.02727
@@ -149,4 +145,3 @@ We are grateful to the provider of different databases which have made the 3DSC 
 4. Materials Project, https://materialsproject.org/.
 5. ICSD, https://icsd.products.fiz-karlsruhe.de/.
 6. SuperCon, https://doi.org/10.48505/nims.3739
-
