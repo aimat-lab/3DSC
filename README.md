@@ -102,6 +102,7 @@ Usually, the ML features (DSOAP, MAGPIE and graphs for GNNs) are not calculated 
 - DSOAP: Install `dscribe<=1.0`
 - MAGPIE: Install `chemml`
 - Graphs: Install `megnet` & `tensorflow`
+
 Installing `dscribe` and generating the DSOAP features should be no issue. However, for `chemml` and `megnet`, you need to install `tensorflow`, which can often be a bit of a challenge and give strange error messages.
 
 ## Reproducing the results from the 3DSC paper
