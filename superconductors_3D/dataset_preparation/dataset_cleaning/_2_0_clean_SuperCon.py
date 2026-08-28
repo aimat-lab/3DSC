@@ -101,10 +101,27 @@ def clean_SuperCon(in_filename, out_filename, out_excluded_filename, comment, co
     assert not any(df_correct['tc'].isna())
     
     
-    # # Make new column with median tc of all entries with same chemical formula and rename this to tc and the old tc to tc_old.
-    print("Get median of tc.")
-    df_correct = df_correct.join(df_correct.groupby("norm_formula")["tc"].mean(), on="norm_formula", rsuffix="_mean")
-    df_correct = df_correct.join(df_correct.groupby("norm_formula")["tc"].std(), on="norm_formula", rsuffix="_std")
+    # Make new column with the mean tc of all entries with the same chemical formula and
+    # rename this to tc and the old tc to tc_old.
+    #
+    # Entries with tc == 0 do not encode a measured transition at 0 K; they encode
+    # "tested, no superconductivity observed" (Stanev et al. 2018 assign tc = 0 to
+    # materials with no reported Tc). Averaging such an entry together with a measured
+    # value produces a temperature that was never measured, and it inflates tc_std so
+    # that the max_std_tc filter below discards the material entirely.
+    #
+    # Therefore aggregate over measured values only. Formulas for which every entry is a
+    # non-observation keep tc = 0, so the non-superconductor class is preserved.
+    print("Get mean of tc over measured entries.")
+    measured = df_correct["tc"] > 0
+    grouped = df_correct.loc[measured].groupby("norm_formula")["tc"]
+    tc_mean = grouped.mean().rename("tc_mean")
+    tc_std = grouped.std().rename("tc_std")
+    df_correct = df_correct.join(tc_mean, on="norm_formula")
+    df_correct = df_correct.join(tc_std, on="norm_formula")
+    # Formulas without any measured entry: keep tc = 0, std = 0.
+    df_correct["tc_mean"] = df_correct["tc_mean"].fillna(0.0)
+    df_correct["tc_std"] = df_correct["tc_std"].fillna(0.0)
     df_correct = df_correct.rename({"tc": "tc_old", "tc_mean": "tc"}, axis="columns")
     # Exclude duplicates and exclude whole datapoint if std of duplicates is too high. Done exactly like in 2018 Stanev.
     excl_condition = df_correct.duplicated(subset=['norm_formula'])
@@ -152,29 +169,31 @@ if __name__ == '__main__':
 
     clean_SuperCon(in_filename, out_filename, out_excluded_filename, comment, comment_excluded)
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
